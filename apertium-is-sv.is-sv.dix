@@ -1,0 +1,104 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="vaux"    c="Auxilliary verb"/>
+    <sdef n="vbser"   c="Verb 'to be'"/>
+    <sdef n="vbhaver" c="Verb 'to have'"/>
+    <sdef n="vbmod"   c="modal verb"/>
+    <sdef n="pref"    c="Prefix"/>
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="cnjcoo"  c="Coordinator"/>
+    <sdef n="cnjsub"  c="Subordinator"/>
+    <sdef n="part"    c="Particle"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="abbr"    c="Abbreviations"/>
+
+<!--nouns-->
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="f"       c="Feminine"/>
+
+    <sdef n="nt"      c="Neutrum"/>
+    <sdef n="ut"      c="Utrum"/>
+
+    <sdef n="mf"      c="Masculine / feminine"/>
+
+    <sdef n="mfn"     c="Masculine / feminine / neuter"/>
+    <sdef n="ma"      c="Masculine animate"/>
+
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="ct"      c="Count"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="sp"      c="Singular / Plural"/>
+
+
+<!--verbs-->
+	<sdef n="tv"       c="Transitive"/>
+	<sdef n="iv"      c="Intansitive"/>
+	<sdef n="perf"       c="Perfective aspect"/>
+	<sdef n="imperf"      c="Imperfective aspect"/>
+
+
+<!--proper nouns-->
+    <sdef n="top"     c="Toponym"/>
+    <sdef n="ant"     c="Anthroponym"/>
+    <sdef n="cog"     c="Cognomen"/>
+    <sdef n="al"      c="Altres"/>
+
+<!--pronouns-->
+
+	<sdef n="pers"     c="Personal"/>
+	<sdef n="pos"      c="Possessive"/>
+	<sdef n="ref"     c="Reflexive"/>
+	<sdef n="dem"      c="Demonstrative Unmarked"/>
+	<sdef n="prx"      c="Proximal (demonstrative)"/>
+	<sdef n="dst"      c="Distal (demonstrative)"/>
+	<sdef n="itg"      c="Interrogative"/>
+	<sdef n="rel"      c="Relative"/>
+	<sdef n="neg"      c="Negative"/>
+	<sdef n="ind"      c="Indefinite"/>
+	<sdef n="tot"      c="Totalising"/>
+	<sdef n="clt"       c="Clitic"/>
+     
+
+<!--punctuation-->
+    <sdef n="sent"    c="End of sentence"/>
+    <sdef n="cm"      c="Comma"/>
+    <sdef n="guio"    c="Hyphen"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+
+    <sdef n="GD"      c="Gender to be determined"/>
+    <sdef n="ND"      c="Number to be determined"/>
+  </sdefs>
+ 
+
+
+ <pardefs>
+ 
+ </pardefs>
+ 
+
+
+ <section id="main" type="standard">
+	
+	<e>       <p><l>vera<s n="vbser"/></l>                 <r>vara<s n="vbser"/></r></p></e>
+	<e>       <p><l>hafa<s n="vbhaver"/></l>               <r>ha<s n="vbhaver"/></r></p></e>
+	<e>       <p><l>kunna<s n="vbmod"/></l>                <r>kunna<s n="vbmod"/></r></p></e>
+	
+	<e>       <p><l>grænn<s n="adj"/></l>                  <r>grön<s n="adj"/></r></p></e>
+
+	<e>       <p><l>vindur<s n="n"/><s n="m"/></l>         <r>vind<s n="n"/><s n="ut"/></e>
+
+	<e>       <p><l>ná<s n="vblex"/></l>                   <r>nå<s n="vblex"/></r></p></e>
+	<e>       <p><l>fá<s n="vblex"/></l>                   <r>få<s n="vblex"/></r></p></e> 
+
+ </section>
+</dictionary>

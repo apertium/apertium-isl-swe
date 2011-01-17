@@ -4,5 +4,6 @@
 /ChangeLog -text
 /NEWS -text
 /README -text
+/apertium-is-sv.is-sv.dix -text
 dev/sv.europarl.freq -text
 dev/sv.top10000.txt -text
