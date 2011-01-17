@@ -8,5 +8,6 @@
 /apertium-is-sv.is-sv.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/interwiki.top.txt -text
 dev/sv.europarl.freq -text
 dev/sv.top10000.txt -text
