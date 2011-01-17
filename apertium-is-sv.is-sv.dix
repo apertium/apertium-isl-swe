@@ -93,6 +93,9 @@
         <!-- SECTION: Nouns -->
 	<e>       <p><l>vindur<s n="n"/><s n="m"/></l>         <r>vind<s n="n"/><s n="ut"/></r></p></e>
 
+        <!-- SECTION: Proper names -->
+	<e>       <p><l>Afganistan<s n="np"/><s n="top"/><s n="nt"/></l><r>Afghanistan<s n="np"/><s n="top"/></r></p></e>
+
         <!-- SECTION: Adjectives -->
 	<e>       <p><l>grænn<s n="adj"/></l>                  <r>grön<s n="adj"/></r></p></e>
 	
