@@ -81,24 +81,27 @@
  
 
 
+<!--
  <pardefs>
  
  </pardefs>
- 
+--> 
 
 
  <section id="main" type="standard">
+ 
+        <!-- SECTION: Nouns -->
+	<e>       <p><l>vindur<s n="n"/><s n="m"/></l>         <r>vind<s n="n"/><s n="ut"/></r></p></e>
+
+        <!-- SECTION: Adjectives -->
+	<e>       <p><l>grænn<s n="adj"/></l>                  <r>grön<s n="adj"/></r></p></e>
 	
+        <!-- SECTION: Verbs -->
 	<e>       <p><l>vera<s n="vbser"/></l>                 <r>vara<s n="vbser"/></r></p></e>
 	<e>       <p><l>hafa<s n="vbhaver"/></l>               <r>ha<s n="vbhaver"/></r></p></e>
 	<e>       <p><l>kunna<s n="vbmod"/></l>                <r>kunna<s n="vbmod"/></r></p></e>
-	
-	<e>       <p><l>grænn<s n="adj"/></l>                  <r>grön<s n="adj"/></r></p></e>
-
-	<e>       <p><l>vindur<s n="n"/><s n="m"/></l>         <r>vind<s n="n"/><s n="ut"/></e>
 
 	<e>       <p><l>ná<s n="vblex"/></l>                   <r>nå<s n="vblex"/></r></p></e>
 	<e>       <p><l>fá<s n="vblex"/></l>                   <r>få<s n="vblex"/></r></p></e> 
-
  </section>
 </dictionary>
