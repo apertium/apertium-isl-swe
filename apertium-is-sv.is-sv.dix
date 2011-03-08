@@ -822,7 +822,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>á<b/>sínum<b/>tíma<s n="adv"/></l><r>i<b/>sinom<b/>tid<s n="adv"/></r></p></e>
 	<e><p><l>ábyggilega<s n="adv"/></l><r>troligtvis<s n="adv"/></r></p></e>
 	<e><p><l>áfram<s n="adv"/></l><r>framåt<s n="adv"/></r></p></e>
-	<e><p><l>án<b>tillits<b/>til<s n="adv"/></l><r>oavsett<s n="adv"/></r></p></e>
+	<e><p><l>án<b/>tillits<b/>til<s n="adv"/></l><r>oavsett<s n="adv"/></r></p></e>
 	<e><p><l>áreiðanlega<s n="adv"/></l><r>visserligen<s n="adv"/></r></p></e>
 	<e><p><l>árlega<s n="adv"/></l><r>årligen<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>burtu<s n="adv"/></l><r>borta<s n="adv"/></r></p></e>
@@ -4717,8 +4717,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>hagræða<s n="vblex"/></l><r>rationalisera<s n="vblex"/></r></p></e>
 	<e><p><l>halda<b/>jafnvægi<s n="vblex"/></l><r>balansera<s n="vblex"/></r></p></e>
 	<e><p><l>halda<g><b/>aftur<b/>af</g><s n="vblex"/></l><r>förvägra<s n="vblex"/></r></p></e>
-	<e r="RL" c="v1"><p><l>halda<g><b/>áfram<g><s n="vblex"/></l><r>fortgå<s n="vblex"/></r></p></e>
-	<e c="v0"><p><l>halda<g><b/>áfram<g><s n="vblex"/></l><r>fortsätta<s n="vblex"/></r></p></e>
+	<e r="RL" c="v1"><p><l>halda<g><b/>áfram</g><s n="vblex"/></l><r>fortgå<s n="vblex"/></r></p></e>
+	<e c="v0"><p><l>halda<g><b/>áfram</g><s n="vblex"/></l><r>fortsätta<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>halda<s n="vblex"/></l><r>hålla<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>halda<s n="vblex"/></l><r>tycka<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>haldast<s n="vblex"/></l><r>förbli<s n="vblex"/></r></p></e>
@@ -4786,7 +4786,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>klofna<s n="vblex"/></l><r>splittra<s n="vblex"/></r></p></e>
 	<e><p><l>klyfja<s n="vblex"/></l><r>belasta<s n="vblex"/></r></p></e>
 	<e><p><l>klára<s n="vblex"/></l><r>fullfölja<s n="vblex"/></r></p></e>
-	<e><p><l>koma<g/><b/>á<b/>óvart</g><s n="vblex"/></l><r>överraska<s n="vblex"/></r></p></e>
+	<e><p><l>koma<g><b/>á<b/>óvart</g><s n="vblex"/></l><r>överraska<s n="vblex"/></r></p></e>
 	<e r="RL" c="v3"><p><l>koma<g><b/>fram</g><s n="vblex"/></l><r>framgå<s n="vblex"/></r></p></e>
 	<e r="RL" c="v2"><p><l>koma<g><b/>fram</g><s n="vblex"/></l><r>framträda<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>koma<g><b/>fram</g><s n="vblex"/></l><r>förekomma<s n="vblex"/></r></p></e>
@@ -4870,7 +4870,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>missa<s n="vblex"/></l><r>missa<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>missa<s n="vblex"/></l><r>tappa<s n="vblex"/></r></p></e>
 	<e><p><l>mistakast<s n="vblex"/></l><r>misslyckas<s n="vblex"/></r></p></e>
-	<e><p><l>miða<g><b/>áfram<g><s n="vblex"/></l><r>fortskrida<s n="vblex"/></r></p></e>
+	<e><p><l>miða<g><b/>áfram</g><s n="vblex"/></l><r>fortskrida<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>miða<s n="vblex"/></l><r>syfta<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>miða<s n="vblex"/></l><r>ämna<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>miðla<s n="vblex"/></l><r>förmedla<s n="vblex"/></r></p></e>
