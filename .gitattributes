@@ -6,6 +6,8 @@
 /NEWS -text
 /README -text
 /apertium-is-sv.is-sv.dix -text
+/apertium-is-sv.is.dix -text
+/apertium-is-sv.sv.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/interwiki.top.txt -text
