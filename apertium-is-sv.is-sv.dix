@@ -923,7 +923,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>andvígur<s n="adj"/></l><r>motstridig<s n="adj"/></r></p></e>
 	<e><p><l>ansi<s n="adj"/></l><r>väldigt<s n="adj"/></r></p></e>
 	<e><p><l>arabískur<s n="adj"/></l><r>arabisk<s n="adj"/></r></p></e>
-	<e><p><l>armenskur<s n="adj"/></l><r>armeniskur<s n="adj"/></r></p></e>
+	<e><p><l>armenskur<s n="adj"/></l><r>armenisk<s n="adj"/></r></p></e>
 	<e><p><l>arðbær<s n="adj"/></l><r>lönsam<s n="adj"/></r></p></e>
 	<e><p><l>asískur<s n="adj"/></l><r>asiatisk<s n="adj"/></r></p></e>
 	<e><p><l>athugull<s n="adj"/></l><r>uppmärksam<s n="adj"/></r></p></e>
@@ -947,7 +947,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>aðlaðandi<s n="adj"/></l><r>attraktiv<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>aðskilinn<s n="adj"/></l><r>separat<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>aðskilinn<s n="adj"/></l><r>skild<s n="adj"/></r></p></e>
-	<e><p><l>baltneskur<s n="adj"/></l><r>baltiska<s n="adj"/></r></p></e>
+	<e><p><l>baltneskur<s n="adj"/></l><r>baltisk<s n="adj"/></r></p></e>
 	<e><p><l>bandalags<s n="adj"/></l><r>allierad<s n="adj"/></r></p></e>
 	<e><p><l>bannaður<s n="adj"/></l><r>förbjuden<s n="adj"/></r></p></e>
 	<e><p><l>banvænn<s n="adj"/></l><r>ödesdiger<s n="adj"/></r></p></e>
@@ -992,7 +992,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>efnahagslegur<s n="adj"/></l><r>ekonomisk<s n="adj"/></r></p></e>
 	<e><p><l>efnaður<s n="adj"/></l><r>välmående<s n="adj"/></r></p></e>
 	<e><p><l>efnislegur<s n="adj"/></l><r>materiell<s n="adj"/></r></p></e>
-	<e><p><l>eftir<b/>því<s n="adj"/></l><r>beroende<b/>på<s n="adj"/></r></p></e>
+	<e><p><l>eftir<b/>því<s n="adj"/></l><r>beroende<g><b/>på</g><s n="adj"/></r></p></e>
 	<e c="v0"><p><l>eftirfarandi<s n="adj"/></l><r>efterföljande<s n="adj"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v1"><p><l>eftirfarandi<s n="adj"/></l><r>följande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>eftirgangsharður<s n="adj"/></l><r>enträgen<s n="adj"/></r></p></e>
@@ -1200,7 +1200,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>jafnmikill<s n="adj"/></l><r>identisk<s n="adj"/></r></p></e>
 	<e><p><l>japanskur<s n="adj"/></l><r>japansk<s n="adj"/></r></p></e>
 	<e><p><l>jákvæður<s n="adj"/></l><r>positiv<s n="adj"/></r></p></e>
-	<e><p><l>júgóslavneskur<s n="adj"/></l><r>jugoslaviska<s n="adj"/></r></p></e>
+	<e><p><l>júgóslavneskur<s n="adj"/></l><r>jugoslavisk<s n="adj"/></r></p></e>
 	<e><p><l>kaldhæðnislegur<s n="adj"/></l><r>ironisk<s n="adj"/></r></p></e>
 	<e><p><l>karlmannalegur<s n="adj"/></l><r>manlig<s n="adj"/></r></p></e>
 	<e><p><l>kaþólskur<s n="adj"/></l><r>katolsk<s n="adj"/></r></p></e>
@@ -1286,7 +1286,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>nauðsynlegur<s n="adj"/></l><r>erforderlig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>nauðsynlegur<s n="adj"/></l><r>nödvändig<s n="adj"/></r></p></e>
 	<e><p><l>neikvæður<s n="adj"/></l><r>negativ<s n="adj"/></r></p></e>
-	<e><p><l>niðurlægja<s n="adj"/></l><r>förnedra<s n="adj"/></r></p></e>
+	<e><p><l>niðurlægja<s n="vblex"/></l><r>förnedra<s n="vblex"/></r></p></e>
 	<e><p><l>norrænn<s n="adj"/></l><r>nordisk<s n="adj"/></r></p></e>
 	<e><p><l>norðanverður<s n="adj"/></l><r>nordlig<s n="adj"/></r></p></e>
 	<e><p><l>norður<s n="adj"/></l><r>norra<s n="adj"/></r></p></e>
@@ -1450,7 +1450,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>sveigjanlegur<s n="adj"/></l><r>flexibel<s n="adj"/></r></p></e>
 	<e><p><l>svipaður<s n="adj"/></l><r>liknande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>svissneskur<s n="adj"/></l><r>schweizisk<s n="adj"/></r></p></e>
-	<e><p><l>svæfandi<s n="adj"/></l><r>lulling<s n="adj"/></r></p></e>
+	<e><p><l>svæfandi<s n="adj"/></l><r>sömngivande<s n="adj"/></r></p></e>
 	<e><p><l>svæðisbundinn<s n="adj"/></l><r>territoriell<s n="adj"/></r></p></e>
 	<e><p><l>sálfræðilegur<s n="adj"/></l><r>psykologisk<s n="adj"/></r></p></e>
 	<e><p><l>sársaukafullur<s n="adj"/></l><r>smärtsam<s n="adj"/></r></p></e>
