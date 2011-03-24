@@ -1461,42 +1461,59 @@
 
     <!-- Proper nouns -->
 
-<pardef n="Schweiz__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
-</pardef>
 
-<pardef n="Eva__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
+	    <!-- Proper nouns -->
 
-<pardef n="Jonas__np">
-  <e>       <p><l>'</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-</pardef>
+	<pardef n="Schweiz__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+	</pardef>
 
-<pardef n="Trond__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
+	<pardef n="Eva__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
 
-<pardef n="Magnusson__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
+	<pardef n="Jonas__np">
+	  <e>       <p><l>'</l>         <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+	</pardef>
+
+	<pardef n="Trond__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+
+	<pardef n="Magnusson__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+
+	<pardef n="Putin__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+
+	<pardef n="Abbas__np">
+	  <e>       <p><l>'</l>         <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/><s n="nom"/></r></p></e>
+	</pardef>
 
 
-<pardef n="Afrika__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
+	<pardef n="Afrika__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+	<pardef n="Zeeland__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
 
-<pardef n="Paris__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
-</pardef>
+	<pardef n="Paris__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+	</pardef>
 
-<pardef n="Wikipedia__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
-
+	<pardef n="Wikipedia__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+	<pardef n="Europol__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
     <!-- Numerals -->
 
 <pardef n="arton__num">
@@ -6700,6 +6717,543 @@
 <e lm="subvention"><i>subvention</i><par n="accent__n"/></e>
 <e lm="äventyr"><i>äventyr</i><par n="ackord__n"/></e>
 <!--END NOUNS-->
+
+
+<!--PROPER NOUNS-->
+<e lm="Abbas"><i>Abbas</i><par n="Abbas__np"/></e>
+<e lm="Abchazien"><i>Abchazien</i><par n="Afrika__np"/></e>
+<e lm="Afrika"><i>Afrika</i><par n="Afrika__np"/></e>
+<e lm="Airbus"><i>Airbus</i><par n="Wikipedia__np"/></e>
+<e lm="Alavanos"><i>Alavanos</i><par n="Abbas__np"/></e>
+<e lm="Alexander"><i>Alexander</i><par n="Trond__np"/></e>
+<e lm="Alperna"><i>Alperna</i><par n="Afrika__np"/></e>
+<e lm="Världsbanken"><i>Världsbanken</i><par n="Wikipedia__np"/></e>
+<e lm="Världshälsoorganisation"><i>Världshälsoorganisation</i><par n="Wikipedia__np"/></e>
+<e lm="Världshandelsorganisation"><i>Världshandelsorganisation</i><par n="Wikipedia__np"/></e>
+<e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
+<e lm="Amsterdamfördraget"><i>Amsterdamfördraget</i><par n="Europol__np"/></e>
+<e lm="Amsterdam"><i>Amsterdam</i><par n="Afrika__np"/></e>
+<e lm="Andersson"><i>Andersson</i><par n="Magnusson__np"/></e>
+<e lm="Angela"><i>Angela</i><par n="Eva__np"/></e>
+<e lm="Ankara"><i>Ankara</i><par n="Afrika__np"/></e>
+<e lm="Anna"><i>Anna</i><par n="Eva__np"/></e>
+<e lm="Anne"><i>Anne</i><par n="Eva__np"/></e>
+<e lm="Antonio"><i>Antonio</i><par n="Trond__np"/></e>
+<e lm="Arafat"><i>Arafat</i><par n="Magnusson__np"/></e>
+<e lm="Azorerna"><i>Azorerna</i><par n="Afrika__np"/></e>
+<e lm="Aung"><i>Aung</i><par n="Magnusson__np"/></e>
+<e lm="Östeuropa"><i>Östeuropa</i><par n="Afrika__np"/></e>
+<e lm="Östtimor"><i>Östtimor</i><par n="Afrika__np"/></e>
+<e lm="Österrike"><i>Österrike</i><par n="Afrika__np"/></e>
+<e lm="Avril"><i>Avril</i><par n="Eva__np"/></e>
+<e lm="Aznar"><i>Aznar</i><par n="Magnusson__np"/></e>
+<e lm="Aten"><i>Aten</i><par n="Afrika__np"/></e>
+<e lm="Bali"><i>Bali</i><par n="Afrika__np"/></e>
+<e lm="Balkan"><i>Balkan</i><par n="Afrika__np"/></e>
+<e lm="USA"><i>USA</i><par n="Afrika__np"/></e>
+<e lm="Bangemann"><i>Bangemann</i><par n="Magnusson__np"/></e>
+<e lm="Baringdorf"><i>Baringdorf</i><par n="Magnusson__np"/></e>
+<e lm="Barnier"><i>Barnier</i><par n="Magnusson__np"/></e>
+<e lm="Barroso"><i>Barroso</i><par n="Magnusson__np"/></e>
+<e lm="Barcelona"><i>Barcelona</i><par n="Afrika__np"/></e>
+<e lm="Barcelonaprocess"><i>Barcelonaprocess</i><par n="Wikipedia__np"/></e>
+<e lm="Basel"><i>Basel</i><par n="Afrika__np"/></e>
+<e lm="Baskien"><i>Baskien</i><par n="Afrika__np"/></e>
+<e lm="Belgrad"><i>Belgrad</i><par n="Afrika__np"/></e>
+<e lm="Benita"><i>Benita</i><par n="Eva__np"/></e>
+<e lm="Berlusconi"><i>Berlusconi</i><par n="Magnusson__np"/></e>
+<e lm="Berlin"><i>Berlin</i><par n="Afrika__np"/></e>
+<e lm="Bernd"><i>Bernd</i><par n="Magnusson__np"/></e>
+<e lm="Bertens"><i>Bertens</i><par n="Abbas__np"/></e>
+<e lm="Blokland"><i>Blokland</i><par n="Magnusson__np"/></e>
+<e lm="Bolkestein"><i>Bolkestein</i><par n="Magnusson__np"/></e>
+<e lm="Bonino"><i>Bonino</i><par n="Magnusson__np"/></e>
+<e lm="Bosnien"><i>Bosnien</i><par n="Afrika__np"/></e>
+<e lm="Storbritannien"><i>Storbritannien</i><par n="Afrika__np"/></e>
+<e lm="Breyer"><i>Breyer</i><par n="Magnusson__np"/></e>
+<e lm="Brian"><i>Brian</i><par n="Trond__np"/></e>
+<e lm="Bryssel"><i>Bryssel</i><par n="Afrika__np"/></e>
+<e lm="Buitenweg"><i>Buitenweg</i><par n="Magnusson__np"/></e>
+<e lm="Busquin"><i>Busquin</i><par n="Magnusson__np"/></e>
+<e lm="Byrne"><i>Byrne</i><par n="Magnusson__np"/></e>
+<e lm="Carlos"><i>Carlos</i><par n="Trond__np"/></e>
+<e lm="Cashman"><i>Cashman</i><par n="Magnusson__np"/></e>
+<e lm="Castro"><i>Castro</i><par n="Magnusson__np"/></e>
+<e lm="Catherine"><i>Catherine</i><par n="Eva__np"/></e>
+<e lm="Charles"><i>Charles</i><par n="Trond__np"/></e>
+<e lm="Charlie"><i>Charlie</i><par n="Trond__np"/></e>
+<e lm="Tjernobyl"><i>Tjernobyl</i><par n="Afrika__np"/></e>
+<e lm="Chirac"><i>Chirac</i><par n="Magnusson__np"/></e>
+<e lm="Chris"><i>Chris</i><par n="Trond__np"/></e>
+<e lm="Christa"><i>Christa</i><par n="Eva__np"/></e>
+<e lm="Claude"><i>Claude</i><par n="Trond__np"/></e>
+<e lm="Coelho"><i>Coelho</i><par n="Magnusson__np"/></e>
+<e lm="Cohnbendit"><i>Cohnbendit</i><par n="Magnusson__np"/></e>
+<e lm="Collins"><i>Collins</i><par n="Abbas__np"/></e>
+<e lm="Corbett"><i>Corbett</i><par n="Magnusson__np"/></e>
+<e lm="Coreper"><i>Coreper</i><par n="Magnusson__np"/></e>
+<e lm="Cotonouavtal"><i>Cotonouavtal</i><par n="Europol__np"/></e>
+<e lm="Cox"><i>Cox</i><par n="Magnusson__np"/></e>
+<e lm="Crespo"><i>Crespo</i><par n="Magnusson__np"/></e>
+<e lm="Crowley"><i>Crowley</i><par n="Magnusson__np"/></e>
+<e lm="Dalai"><i>Dalai</i><par n="Trond__np"/></e>
+<e lm="Daniel"><i>Daniel</i><par n="Trond__np"/></e>
+<e lm="Daphne"><i>Daphne</i><par n="Eva__np"/></e>
+<e lm="Darfur"><i>Darfur</i><par n="Afrika__np"/></e>
+<e lm="Daul"><i>Daul</i><par n="Magnusson__np"/></e>
+<e lm="Davies"><i>Davies</i><par n="Abbas__np"/></e>
+<e lm="David"><i>David</i><par n="Trond__np"/></e>
+<e lm="Deprez"><i>Deprez</i><par n="Magnusson__np"/></e>
+<e lm="Diamantopoulou"><i>Diamantopoulou</i><par n="Magnusson__np"/></e>
+<e lm="Dimas"><i>Dimas</i><par n="Trond__np"/></e>
+<e lm="Doha"><i>Doha</i><par n="Afrika__np"/></e>
+<e lm="Doris"><i>Doris</i><par n="Eva__np"/></e>
+<e lm="Doyle"><i>Doyle</i><par n="Magnusson__np"/></e>
+<e lm="Duisenberg"><i>Duisenberg</i><par n="Magnusson__np"/></e>
+<e lm="Dublin"><i>Dublin</i><par n="Afrika__np"/></e>
+<e lm="Diana"><i>Diana</i><par n="Eva__np"/></e>
+<e lm="Dührkop"><i>Dührkop</i><par n="Magnusson__np"/></e>
+<e lm="Echelon"><i>Echelon</i><par n="Magnusson__np"/></e>
+<e lm="Ekofin"><i>Ekofin</i><par n="Wikipedia__np"/></e>
+<e lm="Elmar"><i>Elmar</i><par n="Trond__np"/></e>
+<e lm="England"><i>England</i><par n="Afrika__np"/></e>
+<e lm="Erasmus"><i>Erasmus</i><par n="Abbas__np"/></e>
+<e lm="Erika"><i>Erika</i><par n="Eva__np"/></e>
+<e lm="Eritrea"><i>Eritrea</i><par n="Afrika__np"/></e>
+<e lm="Europol"><i>Europol</i><par n="Europol__np"/></e>
+<e lm="Europa"><i>Europa</i><par n="Afrika__np"/></e>
+<e lm="Europeiska<b/>unionen"><i>Europeiska<b/>unionen</i><par n="Afrika__np"/></e>
+<e lm="Östersjön"><i>Östersjön</i><par n="Afrika__np"/></e>
+<e lm="Etiopien"><i>Etiopien</i><par n="Afrika__np"/></e>
+<e lm="Fatuzzo"><i>Fatuzzo</i><par n="Magnusson__np"/></e>
+<e lm="Feira"><i>Feira</i><par n="Magnusson__np"/></e>
+<e lm="Ferber"><i>Ferber</i><par n="Magnusson__np"/></e>
+<e lm="Flynn"><i>Flynn</i><par n="Magnusson__np"/></e>
+<e lm="Flandern"><i>Flandern</i><par n="Afrika__np"/></e>
+<e lm="Florenz"><i>Florenz</i><par n="Afrika__np"/></e>
+<e lm="Ford"><i>Ford</i><par n="Europol__np"/></e>
+<e lm="Forum"><i>Forum</i><par n="Europol__np"/></e>
+<e lm="Frankrike"><i>Frankrike</i><par n="Afrika__np"/></e>
+<e lm="Frontex"><i>Frontex</i><par n="Europol__np"/></e>
+<e lm="Efenbenskusten"><i>Efenbenskusten</i><par n="Afrika__np"/></e>
+<e lm="Galeote"><i>Galeote</i><par n="Magnusson__np"/></e>
+<e lm="Galileo"><i>Galileo</i><par n="Trond__np"/></e>
+<e lm="Galicien"><i>Galicien</i><par n="Afrika__np"/></e>
+<e lm="Gaza"><i>Gaza</i><par n="Afrika__np"/></e>
+<e lm="Gazaremsan"><i>Gazaremsan</i><par n="Afrika__np"/></e>
+<e lm="Göteborg"><i>Göteborg</i><par n="Afrika__np"/></e>
+<e lm="Genèvekonventionen"><i>Genèvekonventionen</i><par n="Wikipedia__np"/></e>
+<e lm="Genua"><i>Genua</i><par n="Afrika__np"/></e>
+<e lm="George"><i>George</i><par n="Trond__np"/></e>
+<e lm="Georgien"><i>Georgien</i><par n="Afrika__np"/></e>
+<e lm="Giuseppe"><i>Giuseppe</i><par n="Trond__np"/></e>
+<e lm="Goebbels"><i>Goebbels</i><par n="Abbas__np"/></e>
+<e lm="Graham"><i>Graham</i><par n="Trond__np"/></e>
+<e lm="Grekland"><i>Grekland</i><par n="Afrika__np"/></e>
+<e lm="Guido"><i>Guido</i><par n="Trond__np"/></e>
+<e lm="Gibraltar"><i>Gibraltar</i><par n="Zeeland__np"/></e>
+<e lm="Guinea"><i>Guinea</i><par n="Afrika__np"/></e>
+<e lm="Haag"><i>Haag</i><par n="Afrika__np"/></e>
+<e lm="Haarder"><i>Haarder</i><par n="Magnusson__np"/></e>
+<e lm="Hamas"><i>Hamas</i><par n="Europol__np"/></e>
+<e lm="Hannes"><i>Hannes</i><par n="Trond__np"/></e>
+<e lm="Hatzidakis"><i>Hatzidakis</i><par n="Abbas__np"/></e>
+<e lm="Haug"><i>Haug</i><par n="Magnusson__np"/></e>
+<e lm="Hautala"><i>Hautala</i><par n="Magnusson__np"/></e>
+<e lm="Helsingfors"><i>Helsingfors</i><par n="Afrika__np"/></e>
+<e lm="Herman"><i>Herman</i><par n="Trond__np"/></e>
+<e lm="Hercegovina"><i>Hercegovina</i><par n="Afrika__np"/></e>
+<e lm="Hizbollah"><i>Hizbollah</i><par n="Europol__np"/></e>
+<e lm="Nederländerna"><i>Nederländerna</i><par n="Afrika__np"/></e>
+<e lm="Howitt"><i>Howitt</i><par n="Magnusson__np"/></e>
+<e lm="Hughes"><i>Hughes</i><par n="Abbas__np"/></e>
+<e lm="Hussein"><i>Hussein</i><par n="Magnusson__np"/></e>
+<e lm="Istanbul"><i>Istanbul</i><par n="Afrika__np"/></e>
+<e lm="Jackson"><i>Jackson</i><par n="Magnusson__np"/></e>
+<e lm="Jacques"><i>Jacques</i><par n="Trond__np"/></e>
+<e lm="James"><i>James</i><par n="Trond__np"/></e>
+<e lm="Jarzembowski"><i>Jarzembowski</i><par n="Magnusson__np"/></e>
+<e lm="Javier"><i>Javier</i><par n="Trond__np"/></e>
+<e lm="Jerusalem"><i>Jerusalem</i><par n="Afrika__np"/></e>
+<e lm="John"><i>John</i><par n="Trond__np"/></e>
+<e lm="Joseph"><i>Joseph</i><par n="Trond__np"/></e>
+<e lm="José"><i>José</i><par n="Trond__np"/></e>
+<e lm="Juncker"><i>Juncker</i><par n="Magnusson__np"/></e>
+<e lm="Johannes"><i>Johannes</i><par n="Trond__np"/></e>
+<e lm="Johannesburg"><i>Johannesburg</i><par n="Afrika__np"/></e>
+<e lm="York"><i>York</i><par n="Afrika__np"/></e>
+<e lm="Jugoslavien"><i>Jugoslavien</i><par n="Afrika__np"/></e>
+<e lm="Kaliningrad"><i>Kaliningrad</i><par n="Afrika__np"/></e>
+<e lm="Kambodja"><i>Kambodja</i><par n="Afrika__np"/></e>
+<e lm="Kanada"><i>Kanada</i><par n="Afrika__np"/></e>
+<e lm="Kanarieöarna"><i>Kanarieöarna</i><par n="Afrika__np"/></e>
+<e lm="Karas"><i>Karas</i><par n="Abbas__np"/></e>
+<e lm="Karlheinz"><i>Karlheinz</i><par n="Magnusson__np"/></e>
+<e lm="Kazakstan"><i>Kazakstan</i><par n="Afrika__np"/></e>
+<e lm="Katiforis"><i>Katiforis</i><par n="Abbas__np"/></e>
+<e lm="Köpenhamn"><i>Köpenhamn</i><par n="Afrika__np"/></e>
+<e lm="Kairo"><i>Kairo</i><par n="Afrika__np"/></e>
+<e lm="Klaus"><i>Klaus</i><par n="Trond__np"/></e>
+<e lm="Kofi"><i>Kofi</i><par n="Trond__np"/></e>
+<e lm="Kongo"><i>Kongo</i><par n="Afrika__np"/></e>
+<e lm="Kosovo"><i>Kosovo</i><par n="Afrika__np"/></e>
+<e lm="Kaukasien"><i>Kaukasien</i><par n="Afrika__np"/></e>
+<e lm="Kina"><i>Kina</i><par n="Afrika__np"/></e>
+<e lm="Colombia"><i>Colombia</i><par n="Afrika__np"/></e>
+<e lm="Korea"><i>Korea</i><par n="Afrika__np"/></e>
+<e lm="Köln"><i>Köln</i><par n="Afrika__np"/></e>
+<e lm="Kyoto"><i>Kyoto</i><par n="Afrika__np"/></e>
+<e lm="Lagendijk"><i>Lagendijk</i><par n="Magnusson__np"/></e>
+<e lm="Lambert"><i>Lambert</i><par n="Magnusson__np"/></e>
+<e lm="Lampedusa"><i>Lampedusa</i><par n="Afrika__np"/></e>
+<e lm="Lamy"><i>Lamy</i><par n="Magnusson__np"/></e>
+<e lm="Lancker"><i>Lancker</i><par n="Magnusson__np"/></e>
+<e lm="Lange"><i>Lange</i><par n="Magnusson__np"/></e>
+<e lm="Lanka"><i>Lanka</i><par n="Afrika__np"/></e>
+<e lm="Lannoye"><i>Lannoye</i><par n="Magnusson__np"/></e>
+<e lm="Lehne"><i>Lehne</i><par n="Magnusson__np"/></e>
+<e lm="Leinen"><i>Leinen</i><par n="Magnusson__np"/></e>
+<e lm="Leon"><i>Leon</i><par n="Trond__np"/></e>
+<e lm="Leonardo"><i>Leonardo</i><par n="Trond__np"/></e>
+<e lm="Leone"><i>Leone</i><par n="Afrika__np"/></e>
+<e lm="Liese"><i>Liese</i><par n="Magnusson__np"/></e>
+<e lm="Lissabon"><i>Lissabon</i><par n="Afrika__np"/></e>
+<e lm="London"><i>London</i><par n="Afrika__np"/></e>
+<e lm="Louis"><i>Louis</i><par n="Trond__np"/></e>
+<e lm="Lucas"><i>Lucas</i><par n="Trond__np"/></e>
+<e lm="Ludford"><i>Ludford</i><par n="Magnusson__np"/></e>
+<e lm="Luis"><i>Luis</i><par n="Trond__np"/></e>
+<e lm="Lukasjenko"><i>Lukasjenko</i><par n="Magnusson__np"/></e>
+<e lm="Luxemburg"><i>Luxemburg</i><par n="Afrika__np"/></e>
+<e lm="Maastricht"><i>Maastricht</i><par n="Afrika__np"/></e>
+<e lm="Macao"><i>Macao</i><par n="Zeeland__np"/></e>
+<e lm="Madeira"><i>Madeira</i><par n="Afrika__np"/></e>
+<e lm="Mahmoud"><i>Mahmoud</i><par n="Trond__np"/></e>
+<e lm="Malcolm"><i>Malcolm</i><par n="Trond__np"/></e>
+<e lm="Mandelson"><i>Mandelson</i><par n="Magnusson__np"/></e>
+<e lm="Mann"><i>Mann</i><par n="Afrika__np"/></e>
+<e lm="Manuel"><i>Manuel</i><par n="Trond__np"/></e>
+<e lm="Marco"><i>Marco</i><par n="Trond__np"/></e>
+<e lm="Margot"><i>Margot</i><par n="Eva__np"/></e>
+<e lm="Marie"><i>Marie</i><par n="Eva__np"/></e>
+<e lm="Mario"><i>Mario</i><par n="Trond__np"/></e>
+<e lm="Martens"><i>Martens</i><par n="Abbas__np"/></e>
+<e lm="Martin"><i>Martin</i><par n="Trond__np"/></e>
+<e lm="Maria"><i>Maria</i><par n="Eva__np"/></e>
+<e lm="Marina"><i>Marina</i><par n="Eva__np"/></e>
+<e lm="Mccarthy"><i>Mccarthy</i><par n="Magnusson__np"/></e>
+<e lm="Mccreevy"><i>Mccreevy</i><par n="Magnusson__np"/></e>
+<e lm="Mckenna"><i>Mckenna</i><par n="Magnusson__np"/></e>
+<e lm="Meda"><i>Meda</i><par n="Wikipedia__np"/></e>
+<e lm="Medina"><i>Medina</i><par n="Afrika__np"/></e>
+<e lm="Mercosur"><i>Mercosur</i><par n="Europol__np"/></e>
+<e lm="Merkel"><i>Merkel</i><par n="Magnusson__np"/></e>
+<e lm="Michael"><i>Michael</i><par n="Trond__np"/></e>
+<e lm="Michel"><i>Michel</i><par n="Trond__np"/></e>
+<e lm="Miguélez"><i>Miguélez</i><par n="Magnusson__np"/></e>
+<e lm="Milosevic"><i>Milosevic</i><par n="Magnusson__np"/></e>
+<e lm="Centralamerika"><i>Centralamerika</i><par n="Afrika__np"/></e>
+<e lm="Centralasien"><i>Centralasien</i><par n="Afrika__np"/></e>
+<e lm="Centraleuropa"><i>Centraleuropa</i><par n="Afrika__np"/></e>
+<e lm="Medelhavet"><i>Medelhavet</i><par n="Zeeland__np"/></e>
+<e lm="Myanmar"><i>Myanmar</i><par n="Afrika__np"/></e>
+<e lm="Moldavien"><i>Moldavien</i><par n="Afrika__np"/></e>
+<e lm="Monti"><i>Monti</i><par n="Trond__np"/></e>
+<e lm="Morgan"><i>Morgan</i><par n="Trond__np"/></e>
+<e lm="Morillon"><i>Morillon</i><par n="Magnusson__np"/></e>
+<e lm="Moskva"><i>Moskva</i><par n="Afrika__np"/></e>
+<e lm="Mugabe"><i>Mugabe</i><par n="Magnusson__np"/></e>
+<e lm="EMU"><i>EMU</i><par n="Europol__np"/></e>
+<e lm="Nassauer"><i>Nassauer</i><par n="Magnusson__np"/></e>
+<e lm="Neil"><i>Neil</i><par n="Trond__np"/></e>
+<e lm="Nicholson"><i>Nicholson</i><par n="Magnusson__np"/></e>
+<e lm="Nicolas"><i>Nicolas</i><par n="Trond__np"/></e>
+<e lm="Nielson"><i>Nielson</i><par n="Magnusson__np"/></e>
+<e lm="Norge"><i>Norge</i><par n="Afrika__np"/></e>
+<e lm="Nordirland"><i>Nordirland</i><par n="Zeeland__np"/></e>
+<e lm="Nordsjön"><i>Nordsjön</i><par n="Afrika__np"/></e>
+<e lm="Oostlander"><i>Oostlander</i><par n="Magnusson__np"/></e>
+<e lm="Ortega"><i>Ortega</i><par n="Magnusson__np"/></e>
+<e lm="Paasilinna"><i>Paasilinna</i><par n="Magnusson__np"/></e>
+<e lm="Palestina"><i>Palestina</i><par n="Afrika__np"/></e>
+<e lm="Paolo"><i>Paolo</i><par n="Trond__np"/></e>
+<e lm="Papayannakis"><i>Papayannakis</i><par n="Abbas__np"/></e>
+<e lm="Paris"><i>Paris</i><par n="Paris__np"/></e>
+<e lm="Peking"><i>Peking</i><par n="Afrika__np"/></e>
+<e lm="Perry"><i>Perry</i><par n="Magnusson__np"/></e>
+<e lm="Philip"><i>Philip</i><par n="Trond__np"/></e>
+<e lm="Philippe"><i>Philippe</i><par n="Trond__np"/></e>
+<e lm="Piebalgs"><i>Piebalgs</i><par n="Abbas__np"/></e>
+<e lm="Pierre"><i>Pierre</i><par n="Trond__np"/></e>
+<e lm="Pirker"><i>Pirker</i><par n="Magnusson__np"/></e>
+<e lm="Poettering"><i>Poettering</i><par n="Magnusson__np"/></e>
+<e lm="Portugal"><i>Portugal</i><par n="Afrika__np"/></e>
+<e lm="Posselt"><i>Posselt</i><par n="Magnusson__np"/></e>
+<e lm="Prag"><i>Prag</i><par n="Afrika__np"/></e>
+<e lm="Prodi"><i>Prodi</i><par n="Magnusson__np"/></e>
+<e lm="Purvis"><i>Purvis</i><par n="Abbas__np"/></e>
+<e lm="Paul"><i>Paul</i><par n="Trond__np"/></e>
+<e lm="Peter"><i>Peter</i><par n="Trond__np"/></e>
+<e lm="Polen"><i>Polen</i><par n="Afrika__np"/></e>
+<e lm="Putin"><i>Putin</i><par n="Putin__np"/></e>
+<e lm="Ramos"><i>Ramos</i><par n="Abbas__np"/></e>
+<e lm="Reding"><i>Reding</i><par n="Magnusson__np"/></e>
+<e lm="Rehn"><i>Rehn</i><par n="Magnusson__np"/></e>
+<e lm="Reimer"><i>Reimer</i><par n="Magnusson__np"/></e>
+<e lm="Ribeiro"><i>Ribeiro</i><par n="Magnusson__np"/></e>
+<e lm="Richard"><i>Richard</i><par n="Trond__np"/></e>
+<e lm="Rio"><i>Rio</i><par n="Afrika__np"/></e>
+<e lm="Robert"><i>Robert</i><par n="Trond__np"/></e>
+<e lm="Rocard"><i>Rocard</i><par n="Magnusson__np"/></e>
+<e lm="Romano"><i>Romano</i><par n="Magnusson__np"/></e>
+<e lm="Rothbehrendt"><i>Rothbehrendt</i><par n="Magnusson__np"/></e>
+<e lm="Rothley"><i>Rothley</i><par n="Magnusson__np"/></e>
+<e lm="Rom"><i>Rom</i><par n="Afrika__np"/></e>
+<e lm="Saddam"><i>Saddam</i><par n="Trond__np"/></e>
+<e lm="Sahara"><i>Sahara</i><par n="Afrika__np"/></e>
+<e lm="Sacharovpriset"><i>Sacharovpriset</i><par n="Europol__np"/></e>
+<e lm="Salafranca"><i>Salafranca</i><par n="Magnusson__np"/></e>
+<e lm="Salvador"><i>Salvador</i><par n="Afrika__np"/></e>
+<e lm="Sarkozy"><i>Sarkozy</i><par n="Magnusson__np"/></e>
+<e lm="Schengen"><i>Schengen</i><par n="Afrika__np"/></e>
+<e lm="Schreyer"><i>Schreyer</i><par n="Magnusson__np"/></e>
+<e lm="Schröder"><i>Schröder</i><par n="Magnusson__np"/></e>
+<e lm="Schulz"><i>Schulz</i><par n="Magnusson__np"/></e>
+<e lm="Seattle"><i>Seattle</i><par n="Afrika__np"/></e>
+<e lm="Sellafield"><i>Sellafield</i><par n="Magnusson__np"/></e>
+<e lm="Seppänen"><i>Seppänen</i><par n="Magnusson__np"/></e>
+<e lm="Sevilla"><i>Sevilla</i><par n="Afrika__np"/></e>
+<e lm="Sharon"><i>Sharon</i><par n="Magnusson__np"/></e>
+<e lm="Sierra"><i>Sierra</i><par n="Afrika__np"/></e>
+<e lm="Zimbabwe"><i>Zimbabwe</i><par n="Afrika__np"/></e>
+<e lm="Zeeland"><i>Zeeland</i><par n="Zeeland__np"/></e>
+<e lm="Sjöstedt"><i>Sjöstedt</i><par n="Magnusson__np"/></e>
+<e lm="Skottland"><i>Skottland</i><par n="Zeeland__np"/></e>
+<e lm="Slovenien"><i>Slovenien</i><par n="Afrika__np"/></e>
+<e lm="Solana"><i>Solana</i><par n="Magnusson__np"/></e>
+<e lm="Sovjetunionen"><i>Sovjetunionen</i><par n="Afrika__np"/></e>
+<e lm="Spanien"><i>Spanien</i><par n="Afrika__np"/></e>
+<e lm="Stavros"><i>Stavros</i><par n="Trond__np"/></e>
+<e lm="Sterckx"><i>Sterckx</i><par n="Magnusson__np"/></e>
+<e lm="Stockholm"><i>Stockholm</i><par n="Afrika__np"/></e>
+<e lm="Strasbourg"><i>Strasbourg</i><par n="Afrika__np"/></e>
+<e lm="Stabilitetspakten"><i>Stabilitetspakten</i><par n="Wikipedia__np"/></e>
+<e lm="Sydostasien"><i>Sydostasien</i><par n="Afrika__np"/></e>
+<e lm="Sydafrika"><i>Sydafrika</i><par n="Afrika__np"/></e>
+<e lm="Sydamerika"><i>Sydamerika</i><par n="Afrika__np"/></e>
+<e lm="Sydkorea"><i>Sydkorea</i><par n="Afrika__np"/></e>
+<e lm="Sydossetien"><i>Sydossetien</i><par n="Afrika__np"/></e>
+<e lm="Montenegro"><i>Montenegro</i><par n="Afrika__np"/></e>
+<e lm="Swoboda"><i>Swoboda</i><par n="Magnusson__np"/></e>
+<e lm="Tammerfors"><i>Tammerfors</i><par n="Afrika__np"/></e>
+<e lm="Thailand"><i>Thailand</i><par n="Afrika__np"/></e>
+<e lm="Taiwan"><i>Taiwan</i><par n="Zeeland__np"/></e>
+<e lm="Thessaloniki"><i>Thessaloniki</i><par n="Afrika__np"/></e>
+<e lm="Thomas"><i>Thomas</i><par n="Trond__np"/></e>
+<e lm="Titley"><i>Titley</i><par n="Magnusson__np"/></e>
+<e lm="Tony"><i>Tony</i><par n="Trond__np"/></e>
+<e lm="Trakatellis"><i>Trakatellis</i><par n="Abbas__np"/></e>
+<e lm="Transnistrien"><i>Transnistrien</i><par n="Afrika__np"/></e>
+<e lm="Trichet"><i>Trichet</i><par n="Magnusson__np"/></e>
+<e lm="Turmes"><i>Turmes</i><par n="Abbas__np"/></e>
+<e lm="Tjetjenien"><i>Tjetjenien</i><par n="Afrika__np"/></e>
+<e lm="Tibet"><i>Tibet</i><par n="Zeeland__np"/></e>
+<e lm="Valencia"><i>Valencia</i><par n="Afrika__np"/></e>
+<e lm="Verheugen"><i>Verheugen</i><par n="Magnusson__np"/></e>
+<e lm="Västeuropa"><i>Västeuropa</i><par n="Afrika__np"/></e>
+<e lm="Västindien"><i>Västindien</i><par n="Afrika__np"/></e>
+<e lm="Västsahara"><i>Västsahara</i><par n="Afrika__np"/></e>
+<e lm="Västbanken"><i>Västbanken</i><par n="Afrika__np"/></e>
+<e lm="Vigo"><i>Vigo</i><par n="Trond__np"/></e>
+<e lm="Vitorino"><i>Vitorino</i><par n="Trond__np"/></e>
+<e lm="Vladimir"><i>Vladimir</i><par n="Trond__np"/></e>
+<e lm="Wien"><i>Wien</i><par n="Afrika__np"/></e>
+<e lm="Wales"><i>Wales</i><par n="Zeeland__np"/></e>
+<e lm="Wallis"><i>Wallis</i><par n="Afrika__np"/></e>
+<e lm="Wallström"><i>Wallström</i><par n="Magnusson__np"/></e>
+<e lm="Washington"><i>Washington</i><par n="Afrika__np"/></e>
+<e lm="Watson"><i>Watson</i><par n="Magnusson__np"/></e>
+<e lm="Whitehead"><i>Whitehead</i><par n="Magnusson__np"/></e>
+<e lm="Wogau"><i>Wogau</i><par n="Magnusson__np"/></e>
+<e lm="Wurtz"><i>Wurtz</i><par n="Magnusson__np"/></e>
+<e lm="Wynn"><i>Wynn</i><par n="Magnusson__np"/></e>
+<e lm="Zana"><i>Zana</i><par n="Eva__np"/></e>
+<e lm="Irland"><i>Irland</i><par n="Afrika__np"/></e>
+<e lm="Italien"><i>Italien</i><par n="Afrika__np"/></e>
+<e lm="Olaf"><i>Olaf</i><par n="Trond__np"/></e>
+<e lm="Thor"><i>Thor</i><par n="Trond__np"/></e>
+<e lm="Tyskland"><i>Tyskland</i><par n="Afrika__np"/></e>
+<e lm="Madrid"><i>Madrid</i><par n="Afrika__np"/></e>
+<e lm="Edinburgh"><i>Edinburgh</i><par n="Afrika__np"/></e>
+<e lm="Afghanistan"><i>Afghanistan</i><par n="Afrika__np"/></e>
+<e lm="Albanien"><i>Albanien</i><par n="Afrika__np"/></e>
+<e lm="Algeriet"><i>Algeriet</i><par n="Afrika__np"/></e>
+<e lm="Azerbajdzjan"><i>Azerbajdzjan</i><par n="Afrika__np"/></e>
+<e lm="Argentina"><i>Argentina</i><par n="Afrika__np"/></e>
+<e lm="Australien"><i>Australien</i><par n="Afrika__np"/></e>
+<e lm="Bahamas"><i>Bahamas</i><par n="Paris__np"/></e>
+<e lm="Bahrain"><i>Bahrain</i><par n="Afrika__np"/></e>
+<e lm="Bangladesh"><i>Bangladesh</i><par n="Afrika__np"/></e>
+<e lm="Armenien"><i>Armenien</i><par n="Afrika__np"/></e>
+<e lm="Barbados"><i>Barbados</i><par n="Paris__np"/></e>
+<e lm="Bermuda"><i>Bermuda</i><par n="Afrika__np"/></e>
+<e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
+<e lm="Botswana"><i>Botswana</i><par n="Afrika__np"/></e>
+<e lm="Brasilien"><i>Brasilien</i><par n="Afrika__np"/></e>
+<e lm="Belize"><i>Belize</i><par n="Afrika__np"/></e>
+<e lm="Brunei"><i>Brunei</i><par n="Afrika__np"/></e>
+<e lm="Burma"><i>Burma</i><par n="Afrika__np"/></e>
+<e lm="Myanmar"><i>Myanmar</i><par n="Afrika__np"/></e>
+<e lm="Burundi"><i>Burundi</i><par n="Afrika__np"/></e>
+<e lm="Kambodja"><i>Kambodja</i><par n="Afrika__np"/></e>
+<e lm="Kanada"><i>Kanada</i><par n="Afrika__np"/></e>
+<e lm="Kap<b/>Verde"><i>Kap<b/>Verde</i><par n="Afrika__np"/></e>
+<e lm="Caymanöarna"><i>Caymanöarna</i><par n="Afrika__np"/></e>
+<e lm="Sri<b/>Lanka"><i>Sri<b/>Lanka</i><par n="Afrika__np"/></e>
+<e lm="Chile"><i>Chile</i><par n="Afrika__np"/></e>
+<e lm="Kina"><i>Kina</i><par n="Afrika__np"/></e>
+<e lm="Colombia"><i>Colombia</i><par n="Afrika__np"/></e>
+<e lm="Komorerna"><i>Komorerna</i><par n="Afrika__np"/></e>
+<e lm="Costa<b/>Rica"><i>Costa<b/>Rica</i><par n="Afrika__np"/></e>
+<e lm="Kroatien"><i>Kroatien</i><par n="Afrika__np"/></e>
+<e lm="Kuba"><i>Kuba</i><par n="Afrika__np"/></e>
+<e lm="Cypern"><i>Cypern</i><par n="Afrika__np"/></e>
+<e lm="Tjeckien"><i>Tjeckien</i><par n="Afrika__np"/></e>
+<e lm="Danmark"><i>Danmark</i><par n="Afrika__np"/></e>
+<e lm="Dominikanska<b/>republiken"><i>Dominikanska<b/>republiken</i><par n="Afrika__np"/></e>
+<e lm="El<b/>Salvador"><i>El<b/>Salvador</i><par n="Afrika__np"/></e>
+<e lm="Ekvatorialguinea"><i>Ekvatorialguinea</i><par n="Afrika__np"/></e>
+<e lm="Estland"><i>Estland</i><par n="Afrika__np"/></e>
+<e lm="Falklandsöarna"><i>Falklandsöarna</i><par n="Afrika__np"/></e>
+<e lm="Fiji"><i>Fiji</i><par n="Afrika__np"/></e>
+<e lm="Djibouti"><i>Djibouti</i><par n="Afrika__np"/></e>
+<e lm="Gambia"><i>Gambia</i><par n="Afrika__np"/></e>
+<e lm="Ghana"><i>Ghana</i><par n="Afrika__np"/></e>
+<e lm="Gibraltar"><i>Gibraltar</i><par n="Afrika__np"/></e>
+<e lm="Guatemala"><i>Guatemala</i><par n="Afrika__np"/></e>
+<e lm="Guinea"><i>Guinea</i><par n="Afrika__np"/></e>
+<e lm="Guyana"><i>Guyana</i><par n="Afrika__np"/></e>
+<e lm="Haiti"><i>Haiti</i><par n="Afrika__np"/></e>
+<e lm="Honduras"><i>Honduras</i><par n="Paris__np"/></e>
+<e lm="Hong<b/>Kong"><i>Hong<b/>Kong</i><par n="Afrika__np"/></e>
+<e lm="Ungern"><i>Ungern</i><par n="Afrika__np"/></e>
+<e lm="Island"><i>Island</i><par n="Afrika__np"/></e>
+<e lm="Indien"><i>Indien</i><par n="Afrika__np"/></e>
+<e lm="Indonesien"><i>Indonesien</i><par n="Afrika__np"/></e>
+<e lm="Iran"><i>Iran</i><par n="Afrika__np"/></e>
+<e lm="Irak"><i>Irak</i><par n="Afrika__np"/></e>
+<e lm="Israel"><i>Israel</i><par n="Afrika__np"/></e>
+<e lm="Jamaica"><i>Jamaica</i><par n="Afrika__np"/></e>
+<e lm="Japan"><i>Japan</i><par n="Afrika__np"/></e>
+<e lm="Kazakstan"><i>Kazakstan</i><par n="Afrika__np"/></e>
+<e lm="Jordan"><i>Jordan</i><par n="Afrika__np"/></e>
+<e lm="Kenya"><i>Kenya</i><par n="Afrika__np"/></e>
+<e lm="Nord-Korea"><i>Nord-Korea</i><par n="Afrika__np"/></e>
+<e lm="Kuwait"><i>Kuwait</i><par n="Afrika__np"/></e>
+<e lm="Kirgizistan"><i>Kirgizistan</i><par n="Afrika__np"/></e>
+<e lm="Laos"><i>Laos</i><par n="Afrika__np"/></e>
+<e lm="Libanon"><i>Libanon</i><par n="Afrika__np"/></e>
+<e lm="Lesotho"><i>Lesotho</i><par n="Afrika__np"/></e>
+<e lm="Lettland"><i>Lettland</i><par n="Afrika__np"/></e>
+<e lm="Liberia"><i>Liberia</i><par n="Afrika__np"/></e>
+<e lm="Libyen"><i>Libyen</i><par n="Afrika__np"/></e>
+<e lm="Litauen"><i>Litauen</i><par n="Afrika__np"/></e>
+<e lm="Macau"><i>Macau</i><par n="Afrika__np"/></e>
+<e lm="Madagaskar"><i>Madagaskar</i><par n="Afrika__np"/></e>
+<e lm="Malawi"><i>Malawi</i><par n="Afrika__np"/></e>
+<e lm="Malaysia"><i>Malaysia</i><par n="Afrika__np"/></e>
+<e lm="Maldiverna"><i>Maldiverna</i><par n="Afrika__np"/></e>
+<e lm="Malta"><i>Malta</i><par n="Afrika__np"/></e>
+<e lm="Mauretanien"><i>Mauretanien</i><par n="Afrika__np"/></e>
+<e lm="Mauritius"><i>Mauritius</i><par n="Paris__np"/></e>
+<e lm="Mexiko"><i>Mexiko</i><par n="Afrika__np"/></e>
+<e lm="Mongoliet"><i>Mongoliet</i><par n="Afrika__np"/></e>
+<e lm="Moldavien"><i>Moldavien</i><par n="Afrika__np"/></e>
+<e lm="Marocko"><i>Marocko</i><par n="Afrika__np"/></e>
+<e lm="Oman"><i>Oman</i><par n="Afrika__np"/></e>
+<e lm="Namibia"><i>Namibia</i><par n="Afrika__np"/></e>
+<e lm="Nepal"><i>Nepal</i><par n="Afrika__np"/></e>
+<e lm="Aruba"><i>Aruba</i><par n="Afrika__np"/></e>
+<e lm="Vanuatu"><i>Vanuatu</i><par n="Afrika__np"/></e>
+<e lm="Cooköarna"><i>Cooköarna</i><par n="Afrika__np"/></e>
+<e lm="Nicaragua"><i>Nicaragua</i><par n="Afrika__np"/></e>
+<e lm="Nicaragua"><i>Nicaragua</i><par n="Afrika__np"/></e>
+<e lm="Nigeria"><i>Nigeria</i><par n="Afrika__np"/></e>
+<e lm="Bouvetön"><i>Bouvetön</i><par n="Afrika__np"/></e>
+<e lm="Pakistan"><i>Pakistan</i><par n="Afrika__np"/></e>
+<e lm="Papua"><i>Papua</i><par n="Afrika__np"/></e>
+<e lm="Paraguay"><i>Paraguay</i><par n="Afrika__np"/></e>
+<e lm="Peru"><i>Peru</i><par n="Afrika__np"/></e>
+<e lm="Filippinerna"><i>Filippinerna</i><par n="Afrika__np"/></e>
+<e lm="Guinea-Bissau"><i>Guinea-Bissau</i><par n="Afrika__np"/></e>
+<e lm="Öst-Timor"><i>Öst-Timor</i><par n="Afrika__np"/></e>
+<e lm="Qatar"><i>Qatar</i><par n="Afrika__np"/></e>
+<e lm="Rumänien"><i>Rumänien</i><par n="Afrika__np"/></e>
+<e lm="Ryssland"><i>Ryssland</i><par n="Afrika__np"/></e>
+<e lm="Rwanda"><i>Rwanda</i><par n="Afrika__np"/></e>
+<e lm="Saint<b/>Helena"><i>Saint<b/>Helena</i><par n="Afrika__np"/></e>
+<e lm="Sao<b/>Tomé<b/>och<b/>Principe"><i>Sao<b/>Tomé<b/>och<b/>Principe</i><par n="Afrika__np"/></e>
+<e lm="Saudi-Arabien"><i>Saudi-Arabien</i><par n="Afrika__np"/></e>
+<e lm="Seychellerna"><i>Seychellerna</i><par n="Afrika__np"/></e>
+<e lm="Sierre<b/>Leone"><i>Sierre<b/>Leone</i><par n="Afrika__np"/></e>
+<e lm="Singapore"><i>Singapore</i><par n="Afrika__np"/></e>
+<e lm="Slovakien"><i>Slovakien</i><par n="Afrika__np"/></e>
+<e lm="Vietnam"><i>Vietnam</i><par n="Afrika__np"/></e>
+<e lm="Slovenien"><i>Slovenien</i><par n="Afrika__np"/></e>
+<e lm="Somalia"><i>Somalia</i><par n="Afrika__np"/></e>
+<e lm="Zimbabwe"><i>Zimbabwe</i><par n="Afrika__np"/></e>
+<e lm="Sudan"><i>Sudan</i><par n="Afrika__np"/></e>
+<e lm="Surinam"><i>Surinam</i><par n="Afrika__np"/></e>
+<e lm="Swaziland"><i>Swaziland</i><par n="Afrika__np"/></e>
+<e lm="Sverige"><i>Sverige</i><par n="Afrika__np"/></e>
+<e lm="Schweiz"><i>Schweiz</i><par n="Schweiz__np"/></e>
+<e lm="Syrien"><i>Syrien</i><par n="Afrika__np"/></e>
+<e lm="Thailand"><i>Thailand</i><par n="Afrika__np"/></e>
+<e lm="Tonga"><i>Tonga</i><par n="Afrika__np"/></e>
+<e lm="Trinidad<b/>och<b/>Tobago"><i>Trinidad<b/>och<b/>Tobago</i><par n="Afrika__np"/></e>
+<e lm="Förenade<b/>Arabemiraten"><i>Förenade<b/>Arabemiraten</i><par n="Afrika__np"/></e>
+<e lm="Tunisien"><i>Tunisien</i><par n="Afrika__np"/></e>
+<e lm="Turkmenistan"><i>Turkmenistan</i><par n="Afrika__np"/></e>
+<e lm="Uganda"><i>Uganda</i><par n="Afrika__np"/></e>
+<e lm="Makedonien"><i>Makedonien</i><par n="Afrika__np"/></e>
+<e lm="Egypten"><i>Egypten</i><par n="Afrika__np"/></e>
+<e lm="Storbritannien"><i>Storbritannien</i><par n="Afrika__np"/></e>
+<e lm="Tanzania"><i>Tanzania</i><par n="Afrika__np"/></e>
+<e lm="USA"><i>USA</i><par n="Afrika__np"/></e>
+<e lm="Uruguay"><i>Uruguay</i><par n="Afrika__np"/></e>
+<e lm="Uzbekistan"><i>Uzbekistan</i><par n="Afrika__np"/></e>
+<e lm="Venezuela"><i>Venezuela</i><par n="Afrika__np"/></e>
+<e lm="Samoa"><i>Samoa</i><par n="Afrika__np"/></e>
+<e lm="Zambia"><i>Zambia</i><par n="Afrika__np"/></e>
+<e lm="Taiwan"><i>Taiwan</i><par n="Afrika__np"/></e>
+<e lm="Serbien"><i>Serbien</i><par n="Afrika__np"/></e>
+<e lm="Moçambique"><i>Moçambique</i><par n="Afrika__np"/></e>
+<e lm="Turkiet"><i>Turkiet</i><par n="Afrika__np"/></e>
+<e lm="Angola"><i>Angola</i><par n="Afrika__np"/></e>
+<e lm="Vitryssland"><i>Vitryssland</i><par n="Afrika__np"/></e>
+<e lm="Bulgarien"><i>Bulgarien</i><par n="Afrika__np"/></e>
+<e lm="Ukraina"><i>Ukraina</i><par n="Afrika__np"/></e>
+<e lm="Polen"><i>Polen</i><par n="Afrika__np"/></e>
+<e lm="Gabon"><i>Gabon</i><par n="Afrika__np"/></e>
+<e lm="Hraungerði"><i>Hraungerði</i><par n="Afrika__np"/></e>
+<e lm="Skefilsstaðahreppur"><i>Skefilsstaðahreppur</i><par n="Afrika__np"/></e>
+<e lm="Sauðárkrókskaupstaður"><i>Sauðárkrókskaupstaður</i><par n="Afrika__np"/></e>
+<e lm="Skarðshreppur"><i>Skarðshreppur</i><par n="Afrika__np"/></e>
+<e lm="Staðarhreppur"><i>Staðarhreppur</i><par n="Afrika__np"/></e>
+<e lm="Seyluhreppur"><i>Seyluhreppur</i><par n="Afrika__np"/></e>
+<e lm="Lýtingsstaðahreppur"><i>Lýtingsstaðahreppur</i><par n="Afrika__np"/></e>
+<e lm="Rípurhreppur"><i>Rípurhreppur</i><par n="Afrika__np"/></e>
+<e lm="Viðvíkurhreppur"><i>Viðvíkurhreppur</i><par n="Afrika__np"/></e>
+<e lm="Hólahreppur"><i>Hólahreppur</i><par n="Afrika__np"/></e>
+<e lm="Hofshreppur"><i>Hofshreppur</i><par n="Afrika__np"/></e>
+<e lm="Fljótahreppur"><i>Fljótahreppur</i><par n="Afrika__np"/></e>
+<e lm="Akrahreppur"><i>Akrahreppur</i><par n="Afrika__np"/></e>
+<e lm="Kópavogur"><i>Kópavogur</i><par n="Afrika__np"/></e>
+<e lm="Stilla<b/>havet"><i>Stilla<b/>havet</i><par n="Wikipedia__np"/></e>
+<e lm="Atlanten"><i>Atlanten</i><par n="Wikipedia__np"/></e>
+<!--END PROPER NOUNS-->
+
+
 
 <!-- END NEW -->
 

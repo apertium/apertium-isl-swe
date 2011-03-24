@@ -3961,7 +3961,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Barroso<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Barroso<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Barselóna<s n="np"/><s n="top"/><s n="f"/></l><r>Barcelona<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-	<e><p><l>Barselónaferli<s n="np"/><s n="al"/><s n="nt"/></l><r>Barcelonaprocess<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>Barselónaferlið<s n="np"/><s n="al"/><s n="nt"/></l><r>Barcelonaprocess<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Basel<s n="np"/><s n="top"/><s n="f"/></l><r>Basel<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Baskaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Baskien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Belgrad<s n="np"/><s n="top"/><s n="f"/></l><r>Belgrad<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -4286,8 +4286,8 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>Zana<s n="np"/><s n="ant"/><s n="f"/></l><r>Zana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Írland<s n="np"/><s n="top"/><s n="nt"/></l><r>Irland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Italía<s n="np"/><s n="top"/><s n="f"/></l><r>Italien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Ólafur<s n="np"/><s n="ant"/><s n="m"/></l><r>Olaf<s n="np"/><s n="ant"/><s n="ut"/></r></p></e>
-	<e><p><l>Þór<s n="np"/><s n="ant"/><s n="m"/></l><r>Thor<s n="np"/><s n="ant"/><s n="ut"/></r></p></e>
+	<e><p><l>Ólafur<s n="np"/><s n="ant"/><s n="m"/></l><r>Olaf<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+	<e><p><l>Þór<s n="np"/><s n="ant"/><s n="m"/></l><r>Thor<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Þýskaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Tyskland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Madrid<s n="np"/><s n="top"/><s n="f"/></l><r>Madrid<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Edinborg<s n="np"/><s n="top"/><s n="f"/></l><r>Edinburgh<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
