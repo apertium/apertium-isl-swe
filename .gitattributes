@@ -6,10 +6,12 @@
 /NEWS -text
 /README -text
 /apertium-is-sv.is-sv.dix -text
+/apertium-is-sv.is-sv.rlx -text
 /apertium-is-sv.is-sv.t1x -text
 /apertium-is-sv.is-sv.t2x -text
 /apertium-is-sv.is-sv.t3x -text
 /apertium-is-sv.is.dix -text
+/apertium-is-sv.sv-is.rlx -text
 /apertium-is-sv.sv.dix -text
 /autogen.sh -text
 /configure.ac -text
