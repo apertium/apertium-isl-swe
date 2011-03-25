@@ -338,7 +338,6 @@
     <e><p><l>þúsund<s n="num"/></l><r>tusen<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>tugir<s n="num"/></l><r>tiotals<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>milljónir<s n="num"/></l><r>miljontals<s n="num"/><s n="sp"/></r></p></e>
-    <e><p><l>fáir<s n="num"/></l><r>fåtal<s n="num"/></r></p></e>
     <!-- END Numbers -->
 
 
@@ -558,7 +557,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	    <e><p><l>kl.<s n="abbr"/></l><r>kl.<s n="abbr"/></r></p></e>
 	    <e><p><l>klst.<s n="abbr"/></l><r>timmar<s n="abbr"/></r></p></e>
 	    <e><p><l>kr.<s n="abbr"/></l><r>ISK<s n="abbr"/></r></p></e>
-	    <e><p><l>SEK.<s n="abbr"/></l><r>kr.<s n="abbr"/></r></p></e>
+	    <e><p><l>SEK<s n="abbr"/></l><r>kr.<s n="abbr"/></r></p></e>
 	    <e><p><l>m.a.<s n="abbr"/></l><r>bl.a.<s n="abbr"/></r></p></e>
 	    <e r="LR" c="v1"><p><l>m.fl.<s n="abbr"/></l><r>o.fl.<s n="abbr"/></r></p></e>
 	    <e c="v0"><p><l>o.fl.<s n="abbr"/></l><r>o.fl.<s n="abbr"/></r></p></e>
@@ -620,7 +619,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 
 
 
-<!-- SECTION: Averbs -->
+<!-- SECTION: Adverbs -->
 	<e><p><l>enn<s n="adv"/></l><r>än<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>síðan<s n="adv"/></l><r>sedan<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>síðan<s n="adv"/></l><r>sen<s n="adv"/></r></p></e>
@@ -870,7 +869,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
     <e><p><l>þriðji<s n="adj"/><s n="ord"/></l><r>tredje<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>fjórði<s n="adj"/><s n="ord"/></l><r>fjärde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>fimmti<s n="adj"/><s n="ord"/></l><r>femte<s n="adj"/><s n="ord"/></r></p></e>
-    <e><p><l>sjötti<s n="adj"/><s n="ord"/></l><r>sjette<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>sjötti<s n="adj"/><s n="ord"/></l><r>sjätte<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>sjöundi<s n="adj"/><s n="ord"/></l><r>sjunde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>áttundi<s n="adj"/><s n="ord"/></l><r>åttonde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>níundi<s n="adj"/><s n="ord"/></l><r>nionde<s n="adj"/><s n="ord"/></r></p></e>
@@ -890,8 +889,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
     <e><p><l>fimmtugasti<s n="adj"/><s n="ord"/></l><r>femtionde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>sextugasti<s n="adj"/><s n="ord"/></l><r>sextionde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>sjötugasti<s n="adj"/><s n="ord"/></l><r>sjuttionde<s n="adj"/><s n="ord"/></r></p></e>
-    <e><p><l>áttræðasti<s n="adj"/><s n="ord"/></l><r>åttionde<s n="adj"/><s n="ord"/></r></p></e>
-    <e><p><l>níræðasti<s n="adj"/><s n="ord"/></l><r>nittionde<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>áttugasti<s n="adj"/><s n="ord"/></l><r>åttionde<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>nítugasti<s n="adj"/><s n="ord"/></l><r>nittionde<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>hundraðasti<s n="adj"/><s n="ord"/></l><r>hundrade<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>þúsundasti<s n="adj"/><s n="ord"/></l><r>tusende<s n="adj"/><s n="ord"/></r></p></e>
 <!-- END: Ordinal numerals -->
