@@ -2051,7 +2051,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>forgangsröðun<s n="n"/><s n="f"/></l><r>prioritering<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>forgangur<s n="n"/><s n="m"/></l><r>prioritet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>forgrunnur<s n="n"/><s n="m"/></l><r>förgrund<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>formaður<s n="n"/><s n="m"/></l><r>ordförande<s n="n"/><s n="ут"/></r></p></e>
+<e><p><l>formaður<s n="n"/><s n="m"/></l><r>ordförande<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>formgerð<s n="n"/><s n="f"/></l><r>struktur<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>forseti<s n="n"/><s n="m"/></l><r>president<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>forstjóri<s n="n"/><s n="m"/></l><r>chef<s n="n"/><s n="ut"/></r></p></e>
@@ -2508,7 +2508,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>minnihluti<s n="n"/><s n="m"/></l><r>minoritet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>minnkun<s n="n"/><s n="f"/></l><r>minskning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>mismunur<s n="n"/><s n="m"/></l><r>meningsskiljaktighet<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>mismunur<s n="n"/><s n="v0"/></l><r>olikhet<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>mismunur<s n="n"/><s n="m"/></l><r>olikhet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>misþyrming<s n="n"/><s n="f"/></l><r>misshandel<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>miðja<s n="n"/><s n="f"/></l><r>center<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>miðja<s n="n"/><s n="f"/></l><r>mitt<s n="n"/><s n="ut"/></r></p></e>
@@ -2755,7 +2755,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>sjónarmið<s n="n"/><s n="nt"/></l><r>synpunkt<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>sjónvarp<s n="n"/><s n="nt"/></l><r>television<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>sjónvarp<s n="n"/><s n="nt"/></l><r>tv<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>sjór<s n="n"/><s n="v0"/></l><r>sjö<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>sjór<s n="n"/><s n="m"/></l><r>sjö<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>sjóður<s n="n"/><s n="m"/></l><r>fond<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>sjúkdómur<s n="n"/><s n="m"/></l><r>sjukdom<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>sjúklingur<s n="n"/><s n="m"/></l><r>patient<s n="n"/><s n="ut"/></r></p></e>
@@ -2781,7 +2781,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>skoska<s n="n"/><s n="f"/></l><r>skotska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>skotfæri<s n="n"/><s n="nt"/></l><r>ammunition<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v3"><p><l>skoðun<s n="n"/><s n="f"/></l><r>inspektion<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>skoðun<s n="n"/><s n="v0"/></l><r>opinion<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>skoðun<s n="n"/><s n="f"/></l><r>opinion<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>skoðun<s n="n"/><s n="f"/></l><r>uppfattning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>skoðun<s n="n"/><s n="f"/></l><r>åsikt<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>skrifræði<s n="n"/><s n="f"/></l><r>byråkrati<s n="n"/><s n="ut"/></r></p></e>
@@ -3390,7 +3390,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>eignaupptaka<s n="n"/><s n="f"/></l><r>beslag<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>einkaleyfi<s n="n"/><s n="nt"/></l><r>patent<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>einkalíf<s n="n"/><s n="nt"/></l><r>privatliv<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>einkunnarorð<s n="n"/><s n="h"/></l><r>motto<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>einkunnarorð<s n="n"/><s n="nt"/></l><r>motto<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>einokun<s n="n"/><s n="f"/></l><r>monopol<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>eiturlyfjaneysla<s n="n"/><s n="f"/></l><r>narkotikamissbruk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>eldsneyti<s n="n"/><s n="nt"/></l><r>bränsle<s n="n"/><s n="nt"/></r></p></e>
@@ -3579,7 +3579,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>mannamál<s n="n"/><s n="nt"/></l><r>klarspråk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>mannorð<s n="n"/><s n="nt"/></l><r>rykte<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>mark<s n="n"/><s n="nt"/></l><r>mål<s n="n"/><s n="nt"/></r></p></e>
-	<e c="v0"><p><l>markmið<s n="n"/><s n="v0"/></l><r>syfte<s n="n"/><s n="nt"/></r></p></e>
+	<e c="v0"><p><l>markmið<s n="n"/><s n="nt"/></l><r>syfte<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>matvara<s n="n"/><s n="f"/></l><r>livsmedel<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>matvöruverð<s n="n"/><s n="nt"/></l><r>livsmedelspris<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>meirihluti<s n="n"/><s n="m"/></l><r>flertal<s n="n"/><s n="nt"/></r></p></e>
