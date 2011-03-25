@@ -48,6 +48,18 @@ $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t3x $@
 
 
+#
+#	Modes
+#
+
+$(PREFIX1).mode: modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
+$(PREFIX2).mode: modes.xml
+	apertium-gen-modes modes.xml
+	cp *.mode modes/
+
 
 apertium_is_svdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 apertium_is_modesdir=$(prefix)/share/apertium/modes/
@@ -62,5 +74,7 @@ apertium_is_sv_DATA=$(PREFIX1).autobil.bin \
 		    $(PREFIX1).t2x.bin \
 		    $(PREFIX1).t3x.bin \
 		    $(PREFIX1).prob \
-		    $(PREFIX2).prob 
+		    $(PREFIX2).prob \
+		    $(PREFIX1).mode \
+		    $(PREFIX2).mode
 
