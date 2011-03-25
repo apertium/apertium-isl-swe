@@ -4,10 +4,14 @@ SETS
 
 LIST N = (n) ;
 LIST A = (adj) ;
+LIST Num = (num) ;
+LIST Prop = (np) ;
 LIST CS = (cnjsub) ;
+LIST CC = (cnjcoo) ;
 LIST Adv = (adv) ;
+LIST Det = (det) ;
 LIST V = (vblex) (vbser) (vbmod) ;
-LIST PREP = (pr) ;
+LIST Pr = (pr) ;
 LIST Interj = (ij) ;
 LIST Pron = (prn) ;
 LIST Pcle = (part) ;
@@ -40,10 +44,14 @@ LIST Gen = (gen) ;
 LIST Dat = (dat) ;
 LIST Voc = (voc) ;
 
+LIST Fem = (f) ;
+LIST Msc = (m) ;
+LIST Neu = (nt) ;
+
 LIST NUMBER = sg pl ;
 LIST GENDER = m f nt mfn ;
 LIST PERSON = (p1 sg) (p2 sg) (p3 sg) (p1 pl) (p2 pl) (p3 pl) ;
-LIST NAGDV = nom acc dat gen voc ;
+LIST NAGD = nom acc dat gen ;
 
 SET V-IND-FIN = Prs OR Aor OR Pii ;
 SET V-COP = Copula ;
@@ -51,8 +59,39 @@ SET SG2-OR-SG3 = Sg2 OR Sg3 ;
 SET REL-OR-ITG = (prn rel) OR (prn itg) ;
 SET S-BOUNDARY  = (prn itg) OR (prn rel) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
 
+SET NounMscFem = (n m) OR (n f) OR (n mfn) ;
+SET NounMscNeu = (n m) OR (n nt) OR (n mfn) ;
+SET NounFemNeu = (n f) OR (n nt) OR (n mfn) ;
+
+
+# Boundary sets 
+
+SET WORD = N | V | A | Pr | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+
+SET PRE-N =  A | Det | Num | (n gen) | (prn gen) | CC ; # Det???
+
+LIST COMMA = (",") (cm) ;
+
+SET MARK =  COMMA | ("\\") | ("\;") ; #"
+
+SET WORDMARK = WORD | MARK ;
+
+SET NPNH = WORDMARK - PRE-N ;
+SET NPNHA = WORDMARK - PRE-N - Adv ;
+SET NOT-ADV = WORDMARK - Adv ;
+
+SET NP-MEMBER = PRE-N | N | Pron ;
+
+SET NP-HEAD = N | Pron | Prop ;
+
+
 ###############################################################################
 #  Morphological disambiguation
 #
 
 SECTION
+
+
+REMOVE:ufc_f  A + Fem IF (0  $$NAGD) (*1 NounMscNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Fem);
+REMOVE:ufc_m  A + Msc IF (0  $$NAGD) (*1 NounFemNeu + $$NAGD BARRIER NPNHA LINK NOT 0 Msc);
+REMOVE:ufc_nt A + Neu IF (0  $$NAGD) (*1 NounMscFem + $$NAGD BARRIER NPNHA LINK NOT 0 Neu);
