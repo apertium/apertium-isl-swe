@@ -60,5 +60,7 @@ apertium_is_sv_DATA=$(PREFIX1).autobil.bin \
 		    $(PREFIX2).autogen.bin \
 		    $(PREFIX1).t1x.bin \
 		    $(PREFIX1).t2x.bin \
-		    $(PREFIX1).t3x.bin 
+		    $(PREFIX1).t3x.bin \
+		    $(PREFIX1).prob \
+		    $(PREFIX2).prob 
 

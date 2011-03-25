@@ -16,3 +16,5 @@
 dev/interwiki.top.txt -text
 dev/sv.europarl.freq -text
 dev/sv.top10000.txt -text
+/is-sv.prob -text svneol=unset#unset
+/sv-is.prob -text
