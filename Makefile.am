@@ -47,6 +47,27 @@ $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
 	apertium-validate-postchunk $(BASENAME).$(PREFIX1).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t3x $@
 
+$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
+
+$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
+	apertium-validate-interchunk $(BASENAME).$(PREFIX2).t2x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t2x $@
+
+$(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
+	apertium-validate-postchunk $(BASENAME).$(PREFIX2).t3x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
+
+#
+#	Constraint grammar
+#
+
+$(PREFIX1).rlx.bin: $(BASENAME).$(PREFIX1).rlx
+	cg-comp $(BASENAME).$(PREFIX1).rlx $@
+
+$(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
+	cg-comp $(BASENAME).$(PREFIX2).rlx $@
 
 #
 #	Modes
@@ -73,6 +94,11 @@ apertium_is_sv_DATA=$(PREFIX1).autobil.bin \
 		    $(PREFIX1).t1x.bin \
 		    $(PREFIX1).t2x.bin \
 		    $(PREFIX1).t3x.bin \
+		    $(PREFIX2).t1x.bin \
+		    $(PREFIX2).t2x.bin \
+		    $(PREFIX2).t3x.bin \
+		    $(PREFIX1).rlx.bin \
+		    $(PREFIX2).rlx.bin \
 		    $(PREFIX1).prob \
 		    $(PREFIX2).prob \
 		    $(PREFIX1).mode \

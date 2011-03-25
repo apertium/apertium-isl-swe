@@ -5,6 +5,9 @@
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
       </program>
@@ -41,6 +44,9 @@
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
       </program>
@@ -51,6 +57,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
@@ -63,6 +72,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
@@ -80,6 +92,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
@@ -101,6 +116,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
@@ -126,6 +144,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="is-sv.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="is-sv.prob"/>
@@ -156,6 +177,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
@@ -193,6 +217,9 @@
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
       </program>
@@ -203,6 +230,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
@@ -215,6 +245,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
@@ -232,6 +265,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
@@ -253,6 +289,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
@@ -278,6 +317,9 @@
     <pipeline>
       <program name="lt-proc">
         <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="sv-is.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="sv-is.prob"/>
