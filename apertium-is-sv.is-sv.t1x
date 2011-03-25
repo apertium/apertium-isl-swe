@@ -15,6 +15,11 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
+      <attr-item tags="np.al"/>
+      <attr-item tags="np.ant"/>
+      <attr-item tags="np.top"/>
+      <attr-item tags="np.org"/>
+      <attr-item tags="np.cog"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
