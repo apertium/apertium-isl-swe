@@ -1798,7 +1798,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>aukning<s n="n"/><s n="f"/></l><r>utökning<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>aukning<s n="n"/><s n="f"/></l><r>ökning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aumingi<s n="n"/><s n="m"/></l><r>förlorare<s n="n"/><s n="ut"/></r></p></e>
-UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>auðkenni<s n="n"/><s n="nt"/></l><r>identifiering<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>auðkenni<s n="n"/><s n="nt"/></l><r>symbol<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>auðlind<s n="n"/><s n="f"/></l><r>resurs<s n="n"/><s n="ut"/></r></p></e>
