@@ -3,6 +3,7 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="num"     c="Numeral"/>
+    <sdef n="ord"     c="Ordinal"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="adv"     c="Adverb"/>
@@ -47,6 +48,7 @@
 	<sdef n="iv"      c="Intansitive"/>
 	<sdef n="perf"       c="Perfective aspect"/>
 	<sdef n="imperf"      c="Imperfective aspect"/>
+	<sdef n="p3"      c="3. person"/>
 
 
 <!--proper nouns-->
@@ -72,6 +74,7 @@
 	<sdef n="ind"      c="Indefinite"/>
 	<sdef n="tot"      c="Totalising"/>
 	<sdef n="clt"       c="Clitic"/>
+    <sdef n="qnt"      c="Quantifier"/>
      
 
 <!--punctuation-->
@@ -81,6 +84,7 @@
     <sdef n="lpar"    c="Left parenthesis"/>
     <sdef n="rpar"    c="Right parenthesis"/>
 
+    <sdef n="PD"      c="???"/>
     <sdef n="GD"      c="Gender to be determined"/>
     <sdef n="ND"      c="Number to be determined"/>
   </sdefs>
@@ -2336,7 +2340,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e r="RL" c="v1"><p><l>kennsla<s n="n"/><s n="f"/></l><r>undervisning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>keppandi<s n="n"/><s n="m"/></l><r>konkurrent<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>kirkja<s n="n"/><s n="f"/></l><r>kyrka<s n="n"/><s n="ut"/></r></p></e>
-<e r="LR" c="v1"><p><l>kjarkur<s n="n"/><s n="LRv1"/></l><r>mod<s n="n"/><s n="ut"/></r></p></e>
+<e r="LR" c="v1"><p><l>kjarkur<s n="n"/><s n="m"/></l><r>mod<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>kjarnaofn<s n="n"/><s n="m"/></l><r>reaktor<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>kjarni<s n="n"/><s n="m"/></l><r>kärna<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>kjarnorka<s n="n"/><s n="f"/></l><r>kärnenergi<s n="n"/><s n="ut"/></r></p></e>
@@ -2479,7 +2483,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>massi<s n="n"/><s n="f"/></l><r>massa<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>mat<s n="n"/><s n="nt"/></l><r>bedömning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>mat<s n="n"/><s n="nt"/></l><r>utvärdering<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v2"><p><l>mat<s n="n"/><s n="RLv2"/></l><r>värdering<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v2"><p><l>mat<s n="n"/><s n="nt"/></l><r>värdering<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>matur<s n="n"/><s n="m"/></l><r>mat<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>maður<s n="n"/><s n="m"/></l><r>man<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>meginatriði<s n="n"/><s n="nt"/></l><r>huvudsak<s n="n"/><s n="ut"/></r></p></e>
@@ -2625,7 +2629,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e><p><l>reglugerð<s n="n"/><s n="f"/></l><r>föreskrift<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>regluleysi<s n="n"/><s n="nt"/></l><r>oegentlighet<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>reikistjarna<s n="n"/><s n="f"/></l><r>planet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>reikningsskil<s n="n"/><s n="xxx"/></l><r>ansvarighet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>reikningsskil<s n="n"/><s n="nt"/></l><r>ansvarighet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>reikningur<s n="n"/><s n="m"/></l><r>räkning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>rekjanleiki<s n="n"/><s n="m"/></l><r>spårbarhet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>reykingar<s n="n"/><s n="f"/></l><r>rökning<s n="n"/><s n="ut"/></r></p></e>
@@ -2835,7 +2839,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 <e c="v0"><p><l>staðfesting<s n="n"/><s n="f"/></l><r>bekräftelse<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>staðfesting<s n="n"/><s n="f"/></l><r>ratificering<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>staðfestingarferli<s n="n"/><s n="nt"/></l><r>ratificeringsprocess<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>staður<s n="n"/><s n="RLv1"/></l><r>ort<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>staður<s n="n"/><s n="m"/></l><r>ort<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>stefna<s n="n"/><s n="f"/></l><r>politik<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>stefna<s n="n"/><s n="f"/></l><r>strategi<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>stefna<s n="n"/><s n="f"/></l><r>trend<s n="n"/><s n="ut"/></r></p></e>
@@ -3426,7 +3430,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>fjöldi<s n="n"/><s n="m"/></l><r>antal<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjölskyldulíf<s n="n"/><s n="nt"/></l><r>familjeliv<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>flug<s n="n"/><s n="nt"/></l><r>flyg<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>flugfélag<s n="n"/><s n="nts"/></l><r>flygbolag<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>flugfélag<s n="n"/><s n="nt"/></l><r>flygbolag<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>flugvél<s n="n"/><s n="f"/></l><r>flygplan<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>flutningakerfi<s n="n"/><s n="nt"/></l><r>transportsystem<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fordæmi<s n="n"/><s n="nt"/></l><r>prejudikat<s n="n"/><s n="nt"/></r></p></e>
@@ -3500,7 +3504,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e r="RL" c="v1"><p><l>hlutur<s n="n"/><s n="m"/></l><r>föremål<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v2"><p><l>hlutur<s n="n"/><s n="m"/></l><r>ting<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hringrás<s n="n"/><s n="f"/></l><r>omlopp<s n="n"/><s n="nt"/></r></p></e>
-	<e r="RL" c="v2"><p><l>hrun<s n="n"/><s n="RLv2"/></l><r>sammanbrott<s n="n"/><s n="nt"/></r></p></e>
+	<e r="RL" c="v2"><p><l>hrun<s n="n"/><s n="nt"/></l><r>sammanbrott<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>hráefni<s n="n"/><s n="nt"/></l><r>råmaterial<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hrísgrjón<s n="n"/><s n="nt"/></l><r>ris<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hrós<s n="n"/><s n="nt"/></l><r>beröm<s n="n"/><s n="nt"/></r></p></e>
@@ -3513,7 +3517,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e><p><l>hálft<b/>ár<s n="n"/><s n="nt"/></l><r>halvår<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>háskóli<s n="n"/><s n="m"/></l><r>universitet<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>háttur<s n="n"/><s n="m"/></l><r>sätt<s n="n"/><s n="nt"/></r></p></e>
-	<e r="RL" c="v1"><p><l>háttur<s n="n"/><s n="RLv1"/></l><r>vis<s n="n"/><s n="nt"/></r></p></e>
+	<e r="RL" c="v1"><p><l>háttur<s n="n"/><s n="m"/></l><r>vis<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hávaði<s n="n"/><s n="m"/></l><r>buller<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hæfnisvið<s n="n"/><s n="nt"/></l><r>behörighetsområde<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hælisleitandi<s n="n"/><s n="m"/></l><r>asylsökande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
@@ -3562,7 +3566,7 @@ UT <!--these are adverbs??-->	<e><p><l>austur<s n="n"/><s n="m"/></l><r>öst<s n
 	<e c="v0"><p><l>loforð<s n="n"/><s n="nt"/></l><r>löfte<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>lofthelgi<s n="n"/><s n="f"/></l><r>luftrum<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>losun<s n="n"/><s n="f"/></l><r>utsläpp<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>lyf<s n="n"/><s n="nnpl"/></l><r>läkemedel<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>lyf<s n="n"/><s n="nt"/></l><r>läkemedel<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>lyfseðill<s n="n"/><s n="m"/></l><r>recept<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>lyfta<s n="n"/><s n="f"/></l><r>lyft<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>lágmark<s n="n"/><s n="nt"/></l><r>minimum<s n="n"/><s n="nt"/></r></p></e>
