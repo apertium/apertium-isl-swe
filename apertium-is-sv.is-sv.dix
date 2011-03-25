@@ -38,6 +38,9 @@
     <sdef n="pl"      c="Plural"/>
     <sdef n="sp"      c="Singular / Plural"/>
 
+    <sdef n="p1"      c="First person"/>
+    <sdef n="p2"      c="Second person"/>
+    <sdef n="p3"      c="Third person"/>
 
 <!--verbs-->
 	<sdef n="tv"       c="Transitive"/>
@@ -51,6 +54,7 @@
     <sdef n="ant"     c="Anthroponym"/>
     <sdef n="cog"     c="Cognomen"/>
     <sdef n="al"      c="Altres"/>
+    <sdef n="org"      c="Organisation"/>
 
 <!--pronouns-->
 
@@ -62,6 +66,8 @@
 	<sdef n="dst"      c="Distal (demonstrative)"/>
 	<sdef n="itg"      c="Interrogative"/>
 	<sdef n="rel"      c="Relative"/>
+	<sdef n="qnt"      c="Quantifier"/>
+	<sdef n="ord"      c="Ordinal"/>
 	<sdef n="neg"      c="Negative"/>
 	<sdef n="ind"      c="Indefinite"/>
 	<sdef n="tot"      c="Totalising"/>
