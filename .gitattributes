@@ -26,4 +26,5 @@ dev/testvoc-summary.is-sv.txt -text
 dev/testvoc-summary.sv-is.txt -text
 dev/testvoc.sh -text
 /is-sv.prob -text svneol=unset#unset
+/modes.xml -text
 /sv-is.prob -text

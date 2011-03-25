@@ -9,6 +9,10 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.*.inf.*"/>
+      <cat-item tags="vblex.*.inf"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -20,6 +24,13 @@
       <attr-item tags="np.top"/>
       <attr-item tags="np.org"/>
       <attr-item tags="np.cog"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vbmod"/>
+      <attr-item tags="vaux"/>
+      <attr-item tags="vbser"/>
+      <attr-item tags="vbhaver"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="num"/>
@@ -38,6 +49,10 @@
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
     </def-attr>
+    <def-attr n="voz">
+      <attr-item tags="actv"/>
+      <attr-item tags="pasv"/>
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -46,6 +61,10 @@
     <def-attr n="defnes">
       <attr-item tags="ind"/>
       <attr-item tags="def"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="inf"/>
+      <attr-item tags="pri"/>
     </def-attr>
   </section-def-attrs>
 
@@ -111,6 +130,31 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="regla: inf">
+      <pattern>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.INF"/></tag>
+              <tag><clip pos="1" side="tl" part="voz"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="voz" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </transfer>
