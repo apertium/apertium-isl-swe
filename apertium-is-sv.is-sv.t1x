@@ -73,6 +73,25 @@
     <def-var n="genere"/>
   </section-def-vars>
 
+  <section-def-macros>
+    <def-macro n="conv_case1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="dat"/></equal>
+            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="cas"/>
+            <lit-tag v="nom"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+
   <section-rules>
 
     <!-- Sintagmas nominales -->
@@ -108,6 +127,9 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>

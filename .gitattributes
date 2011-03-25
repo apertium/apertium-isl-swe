@@ -30,4 +30,7 @@ dev/testvoc-summary.sv-is.txt -text
 dev/testvoc.sh -text
 /is-sv.prob -text svneol=unset#unset
 /modes.xml -text
+/pending-tests.sh -text
+/regression-tests.sh -text
 /sv-is.prob -text
+/wiki-tests.sh -text
