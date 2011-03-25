@@ -12,6 +12,9 @@
 /apertium-is-sv.is-sv.t3x -text
 /apertium-is-sv.is.dix -text
 /apertium-is-sv.sv-is.rlx -text
+/apertium-is-sv.sv-is.t1x -text
+/apertium-is-sv.sv-is.t2x -text
+/apertium-is-sv.sv-is.t3x -text
 /apertium-is-sv.sv.dix -text
 /autogen.sh -text
 /configure.ac -text
