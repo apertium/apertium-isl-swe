@@ -3,7 +3,6 @@
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="num"     c="Numeral"/>
-    <sdef n="ord"     c="Ordinal"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="adv"     c="Adverb"/>
@@ -48,7 +47,6 @@
 	<sdef n="iv"      c="Intansitive"/>
 	<sdef n="perf"       c="Perfective aspect"/>
 	<sdef n="imperf"      c="Imperfective aspect"/>
-	<sdef n="p3"      c="3. person"/>
 
 
 <!--proper nouns-->
@@ -74,7 +72,6 @@
 	<sdef n="ind"      c="Indefinite"/>
 	<sdef n="tot"      c="Totalising"/>
 	<sdef n="clt"       c="Clitic"/>
-    <sdef n="qnt"      c="Quantifier"/>
      
 
 <!--punctuation-->
