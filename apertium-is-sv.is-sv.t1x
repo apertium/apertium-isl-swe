@@ -96,6 +96,11 @@
     <def-var n="genere"/>
   </section-def-vars>
 
+
+
+<!--
+	MACRO
+-->
   <section-def-macros>
     <def-macro n="conv_case1" npar="1" >
       <choose>
@@ -162,6 +167,7 @@
       </action>
     </rule>
 
+
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -173,7 +179,7 @@
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SN"/></tag> <!--sintagma nominal = noun phrase     <spectei> but i prefer "nominal segment" -->
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="cas"/></tag>

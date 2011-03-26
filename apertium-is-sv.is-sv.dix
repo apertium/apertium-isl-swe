@@ -197,39 +197,29 @@
 		
 		
 		
-		<e><p><l>ég<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e><p><l>þú<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e r="LR"><p><l>þér<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e><p><l>hann<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e><p><l>hún<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e><p><l>það<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
-	    <e r="LR"><p><l>vér<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+		<e><p><l>ég<s n="prn"/></l><r>jag<s n="prn"/></r></p></e>
+	    <e><p><l>þú<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
+	    <e><p><l>hann<s n="prn"/></l><r>han<s n="prn"/></r></p></e>
+	    <e r="LR"><p><l>vér<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
+		<e><p><l>sig<s n="prn"/></l><r>sig<s n="prn"/></r></p></e>
 
 
 <!--CHECK THIS!-->
-	    <e><p><l>minn<s n="prn"/><s n="pos"/></l><r>min<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>þinn<s n="prn"/><s n="pos"/></l><r>din<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>hans<s n="prn"/><s n="pos"/></l><r>hans<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>hennar<s n="prn"/><s n="pos"/></l><r>hennes<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>þess<s n="prn"/><s n="pos"/></l><r>dess<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>sinn<s n="prn"/><s n="pos"/></l><r>sin<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>okkar<s n="prn"/><s n="pos"/></l><r>vår<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>ykkar<s n="prn"/><s n="pos"/></l><r>er<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
-	    <e><p><l>þeirra<s n="prn"/><s n="pos"/></l><r>deras<s n="prn"/><s n="pos"/></r></p><par n="minn_mine__prn"/></e>
+	    <e><p><l>minn<s n="prn"/><s n="pos"/></l><r>min<s n="prn"/><s n="pos"/></r></p></e>
+	    <e><p><l>þinn<s n="prn"/><s n="pos"/></l><r>din<s n="prn"/><s n="pos"/></r></p></e>
+	    <e><p><l>hans<s n="prn"/><s n="pos"/></l><r>hans<s n="prn"/><s n="pos"/></r></p></e>
+	    <e><p><l>sinn<s n="prn"/><s n="pos"/></l><r>sin<s n="prn"/><s n="pos"/></r></p></e>
 
-	    <e><p><l>sá<s n="prn"/><s n="dem"/><s n="m"/></l><r>denna<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>sú<s n="prn"/><s n="dem"/><s n="f"/></l><r>denna<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>það<s n="prn"/><s n="dem"/><s n="nt"/></l><r>detta<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
+	    <e><p><l>okkar<s n="prn"/><s n="pos"/></l><r>vår<s n="prn"/><s n="pos"/></r></p></e>
+	    <e><p><l>ykkar<s n="prn"/><s n="pos"/></l><r>er<s n="prn"/><s n="pos"/></r></p></e>
+	    <e><p><l>þeirra<s n="prn"/><s n="pos"/></l><r>deras<s n="prn"/><s n="pos"/></r></p></e>
 
-	    <e r="LR"><p><l>þessi<s n="prn"/><s n="dem"/><s n="m"/></l><r>den<b/>här<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>þessi<s n="prn"/><s n="dem"/><s n="f"/></l><r>den<b/>här<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>þetta<s n="prn"/><s n="dem"/><s n="nt"/></l><r>det<b/>här<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="RL"><p><l>þessir<s n="prn"/><s n="dem"/><s n="GD"/></l><r>this<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
 
-	    <e r="LR"><p><l>hinn<s n="prn"/><s n="dem"/><s n="m"/></l><r>den<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>hinn<s n="prn"/><s n="dem"/><s n="f"/></l><r>that<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="LR"><p><l>hinn<s n="prn"/><s n="dem"/><s n="nt"/></l><r>that<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
-<!--PROBLEM-->	    <e r="RL"><p><l>hinn<s n="prn"/><s n="dem"/><s n="GD"/></l><r>that<s n="prn"/><s n="dem"/><s n="mf"/></r></p></e>
+	    <e><p><l>sá<s n="prn"/><s n="dem"/></l><r>denna<s n="prn"/><s n="dem"/></r></p></e>
+	    <e><p><l>þessi<s n="prn"/><s n="dem"/></l><r>den<b/>här<s n="prn"/><s n="dem"/></r></p></e>
+	    <e><p><l>hinn<s n="prn"/><s n="dem"/></l><r>den<s n="prn"/><s n="dem"/></r></p></e>
+
+
 		<e r="RL" c="v1"><p><l>sami<s n="prn"/><s n="dem"/></l><r>densamma<s n="prn"/><s n="dem"/></r></p></e>
 		<e c="v0"><p><l>sami<s n="prn"/><s n="dem"/></l><r>samma<s n="prn"/><s n="dem"/></r></p></e>
 		<e><p><l>slíkur<s n="prn"/><s n="dem"/></l><r>sådan<s n="prn"/><s n="dem"/></r></p></e>
@@ -345,6 +335,7 @@
     <e><p><l>níutíu<s n="num"/></l><r>nittio<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>hundrað<s n="num"/></l><r>hundra<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>þúsund<s n="num"/></l><r>tusen<s n="num"/><s n="sp"/></r></p></e>
+    <e><p><l>milljón<s n="num"/></l><r>miljon<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>tugir<s n="num"/></l><r>tiotals<s n="num"/><s n="sp"/></r></p></e>
     <e><p><l>milljónir<s n="num"/></l><r>miljontals<s n="num"/><s n="sp"/></r></p></e>
     <!-- END Numbers -->
@@ -500,7 +491,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 		<e><p><l>bakvið<s n="pr"/></l><r>bakom<s n="pr"/></r></p></e>
 		<e><p><l>eftir<s n="pr"/></l><r>efter<s n="pr"/></r></p></e>
 		<e><p><l>fram<b/>yfir<s n="pr"/></l><r>framöver<s n="pr"/></r></p></e>
-		<e><p><l>frá<s n="pr"/></l><r>från<s n="pr"/></r></p></e>
+		<e c="v0"><p><l>frá<s n="pr"/></l><r>från<s n="pr"/></r></p></e>
+		<e r="RL" c="v1"><p><l>frá<s n="pr"/></l><r>ifrån<s n="pr"/></r></p></e>
 		<e><p><l>fyrir<b/>utan<s n="pr"/></l><r>utanför<s n="pr"/></r></p></e>
 		<e c="v0"><p><l>fyrir<s n="pr"/></l><r>för<s n="pr"/></r></p></e>
 		<e r="RL" c="v1"><p><l>fyrir<s n="pr"/></l><r>inför<s n="pr"/></r></p></e>
@@ -692,7 +684,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>framhjá<s n="adv"/></l><r>förbi<s n="adv"/></r></p></e>
 	<e><p><l>frekar<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
 	<e><p><l>fremur<s n="adv"/></l><r>hellre<s n="adv"/></r></p></e>
-	<e><p><l>frá<s n="adv"/></l><r>ifrån<s n="adv"/></r></p></e>
 	<e><p><l>fullkomlega<s n="adv"/></l><r>fullkomligt<s n="adv"/></r></p></e>
 	<e r="RL" c="v2"><p><l>fyrirfram<s n="adv"/></l><r>förhand<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fyrirfram<s n="adv"/></l><r>förut<s n="adv"/></r></p></e>
@@ -732,7 +723,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>lengi<s n="adv"/></l><r>länge<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>loksins<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>loksins<s n="adv"/></l><r>äntligen<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>líka<s n="adv"/></l><r>också<s n="adv"/></r></p></e>
+	<e><p><l>líka<s n="adv"/></l><r>också<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>lítið<s n="adv"/></l><r>föga<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>lítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>meira<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
