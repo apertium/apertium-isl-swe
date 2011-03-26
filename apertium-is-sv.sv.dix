@@ -82,6 +82,8 @@
 
 <pardef n="numeros">
   <e>       <re>[0-9]+([.,][0-9]+)?(%)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e>       <re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>mm</l><r><b/>mm<s n="num"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>cm</l><r><b/>cm<s n="num"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><b/>km</l><r><b/>km<s n="num"/></r></p></e>
@@ -2144,7 +2146,7 @@
 <pardef n="följ/a__vblex">
   <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>er</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>de</l>        <r>a<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
@@ -2158,7 +2160,7 @@
 <pardef n="gäll/a__vblex">
   <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>er</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>de</l>        <r>a<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>          <r>a<s n="vblex"/><s n="imp"/></r></p></e>

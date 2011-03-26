@@ -16,6 +16,12 @@
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.inf"/>
     </def-cat>
+    <def-cat n="vfin">
+      <cat-item tags="vblex.*.pri.*"/>
+      <cat-item tags="vblex.*.past.*"/>
+      <cat-item tags="vblex.*.prs.*"/>
+      <cat-item tags="vblex.*.pss.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -63,6 +69,7 @@
     <def-attr n="voz">
       <attr-item tags="actv"/>
       <attr-item tags="pasv"/>
+      <attr-item tags="midv"/>
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
@@ -76,6 +83,11 @@
     <def-attr n="temps">
       <attr-item tags="inf"/>
       <attr-item tags="pri"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="prs"/>
+      <attr-item tags="pss"/>
+      <attr-item tags="pp"/>
     </def-attr>
   </section-def-attrs>
 
@@ -85,7 +97,7 @@
   </section-def-vars>
 
   <section-def-macros>
-    <def-macro n="conv_case1" npar="1">
+    <def-macro n="conv_case1" npar="1" >
       <choose>
         <when>
           <test>
@@ -101,6 +113,24 @@
         </when>
       </choose>
     </def-macro>
+
+    <def-macro n="conv_temps1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="prs"/></equal>
+              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="pri"/></equal>
+            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="pres"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
 
   </section-def-macros>
 
@@ -205,6 +235,7 @@
       </action>
     </rule>
 
+    <!-- Sintagmas verbales: Verbal segments -->
 
     <rule comment="regla: inf">
       <pattern>
@@ -229,6 +260,34 @@
       </action>
     </rule>
 
+    <rule comment="regla: vfin">
+      <pattern>
+        <pattern-item n="vfin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_temps1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="vfin" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.FIN"/></tag>
+              <tag><clip pos="1" side="tl" part="voz"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="voz" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
   </section-rules>
 </transfer>
