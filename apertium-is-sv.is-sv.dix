@@ -214,56 +214,41 @@
 	    <e><p><l>ykkar<s n="prn"/><s n="pos"/></l><r>er<s n="prn"/><s n="pos"/></r></p></e>
 	    <e><p><l>þeirra<s n="prn"/><s n="pos"/></l><r>deras<s n="prn"/><s n="pos"/></r></p></e>
 
-
 	    <e><p><l>sá<s n="prn"/><s n="dem"/></l><r>denna<s n="prn"/><s n="dem"/></r></p></e>
-	    <e><p><l>þessi<s n="prn"/><s n="dem"/></l><r>den<b/>här<s n="prn"/><s n="dem"/></r></p></e>
+	    <e><p><l>þessi<s n="prn"/><s n="dem"/></l><r>den<g><b/>här</g><s n="prn"/><s n="dem"/></r></p></e>
 	    <e><p><l>hinn<s n="prn"/><s n="dem"/></l><r>den<s n="prn"/><s n="dem"/></r></p></e>
-
-
-		<e r="RL" c="v1"><p><l>sami<s n="prn"/><s n="dem"/></l><r>densamma<s n="prn"/><s n="dem"/></r></p></e>
-		<e c="v0"><p><l>sami<s n="prn"/><s n="dem"/></l><r>samma<s n="prn"/><s n="dem"/></r></p></e>
+		<e r="RL" c="v1"><p><l>sama<s n="prn"/><s n="dem"/></l><r>densamma<s n="prn"/><s n="dem"/></r></p></e>
+		<e c="v0"><p><l>sama<s n="prn"/><s n="dem"/></l><r>samma<s n="prn"/><s n="dem"/></r></p></e>
 		<e><p><l>slíkur<s n="prn"/><s n="dem"/></l><r>sådan<s n="prn"/><s n="dem"/></r></p></e>
-
-	    <e><p><l>ýmis<s n="prn"/><s n="qnt"/></l><r>olik<s n="prn"/><s n="qnt"/></r></p><par n="nokkur_some__prn"/></e>
-	    <e><p><l>neinn<s n="prn"/><s n="qnt"/></l><r>någon<s n="prn"/><s n="qnt"/></r></p><par n="allur_all__prn"/></e>
-	    <e><p><l>enginn<s n="prn"/><s n="qnt"/></l><r>ingen<s n="prn"/><s n="qnt"/></r></p><par n="annar_another__prn"/></e>
-		<e><p><l>ekkert<s n="prn"/><s n="qnt"/></l><r>ingenting<s n="prn"/><s n="qnt"/></r></p></e>
-	    <e><p><l>allur<s n="prn"/><s n="qnt"/></l><r>all<s n="prn"/><s n="qnt"/></r></p><par n="allur_all__prn"/></e>
-		<e><p><l>allir<s n="prn"/><s n="qnt"/></l><r>allihop<s n="prn"/><s n="qnt"/></r></p></e>
-		<e><p><l>allt<s n="prn"/><s n="qnt"/></l><r>allting<s n="prn"/><s n="qnt"/></r></p></e>
-<!--PROBLEM-->		<e><p><l>allur<s n="prn"/><s n="qnt"/></l><r>all<s n="prn"/><s n="qnt"/></r></p></e>
-		<e><p><l>alla<s n="prn"/><s n="qnt"/></l><r>samtliga<s n="prn"/><s n="qnt"/></r></p></e>
-
-
-
-	    <e><p><l>nokkur<s n="prn"/><s n="qnt"/></l><r>någon<s n="prn"/><s n="ind"/></r></p><par n="nokkur_some__prn"/></e>
-<!--PROBLEM-->	    <e><p><l>sumur<s n="prn"/><s n="qnt"/></l><r>någon<s n="prn"/><s n="ind"/></r></p><par n="nokkur_some__prn"/></e>
-
-	    <e><p><l>annar<s n="prn"/><s n="ind"/></l><r>annan<s n="prn"/><s n="ind"/></r></p><par n="annar_another__prn"/></e>
+	    <e><p><l>ýmis<s n="prn"/><s n="qnt"/></l><r>olik<s n="prn"/><s n="qnt"/></r></p></e>
+	    <e><p><l>enginn<s n="prn"/><s n="qnt"/></l><r>ingen<s n="prn"/><s n="qnt"/></r></p></e>
+	    <e><p><l>allur<s n="prn"/><s n="qnt"/></l><r>all<s n="prn"/><s n="qnt"/></r></p></e>
+		<e><p><l>allir<s n="prn"/><s n="qnt"/></l><r>samtliga<s n="prn"/><s n="qnt"/></r></p></e>
+	    <e r="LR" c="v3"><p><l>neinn<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
+	    <e r="LR" c="v1"><p><l>nokkur<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
+		<e r="LR" c="v2"><p><l>sumur<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
+	    <e c="v0"><p><l>einhver<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
+	    <e><p><l>annar<s n="prn"/><s n="ind"/></l><r>annan<s n="prn"/><s n="ind"/></r></p></e>
 		<e r="RL" c="v1"><p><l>báðir<s n="prn"/><s n="ind"/></l><r>bägge<s n="prn"/><s n="ind"/></r></p></e>
 		<e c="v0"><p><l>báðir<s n="prn"/><s n="ind"/></l><r>båda<s n="prn"/><s n="ind"/></r></p></e>
-	    <e c="v0"><p><l>hver<s n="prn"/><s n="ind"/></l><r>varje<s n="prn"/><s n="ind"/></r></p><par n="annar_another__prn"/></e>
-	    <e r="LR" c="v1"><p><l>hvor<s n="prn"/><s n="ind"/></l><r>varje<s n="prn"/><s n="ind"/></r></p><par n="annar_another__prn"/></e>
-	    <e><p><l>sérhver<s n="prn"/><s n="ind"/></l><r>varenda<s n="prn"/><s n="ind"/></r></p><par n="annar_another__prn"/></e>
-	    <e><p><l>einhver<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p><par n="nokkur_some__prn"/></e>
-		<e><p><l>eitthvað<s n="prn"/><s n="qnt"/></l><r>någonting<s n="prn"/><s n="qnt"/></r></p></e>
-	    <e><p><l>hvor<s n="prn"/><s n="ind"/></l><r>varje<s n="prn"/><s n="ind"/></r></p><par n="annar_another__prn"/></e>
-
-<!--	    <e r="RL" c="srl=1"><p><l>hver<s n="prn"/><s n="itg"/></l><r>vilken<s n="prn"/><s n="itg"/></r></p><par n="allur_all__prn"/></e>
-	    <e c="slr=0 srl=0"><p><l>hver<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p><par n="allur_all__prn"/></e>
-	    <e r="LR" c="slr=1"><p><l>hvor<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p><par n="allur_all__prn"/></e>
--->	
-	    <e><p><l>hvaða<s n="prn"/><s n="itg"/></l><r>vilken<s n="prn"/><s n="itg"/></r></p><par n="hvaða_which__prn"/></e>
-	    <e c="v0"><p><l>hver<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p><par n="allur_all__prn"/></e>
-	    <e r="LR" c="v1"><p><l>hvor<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p><par n="allur_all__prn"/></e>
+	    <e c="v0"><p><l>hver<s n="prn"/><s n="ind"/></l><r>varje<s n="prn"/><s n="ind"/></r></p></e>
+	    <e r="LR" c="v1"><p><l>hvor<s n="prn"/><s n="ind"/></l><r>varje<s n="prn"/><s n="ind"/></r></p></e>
+	    <e><p><l>sérhver<s n="prn"/><s n="ind"/></l><r>varenda<s n="prn"/><s n="ind"/></r></p></e>
+		
+	    <e><p><l>hvaða<s n="prn"/><s n="itg"/></l><r>vilken<s n="prn"/><s n="itg"/></r></p></e>
+	    <e c="v0"><p><l>hver<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p></e>
+	    <e r="LR" c="v1"><p><l>hvor<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/><s n="itg"/></r></p></e>
 		<e><p><l>hvaðan<s n="prn"/><s n="itg"/></l><r>varifrån<s n="prn"/><s n="itg"/></r></p></e>
-		<e><p><l>hvað<s n="prn"/><s n="itg"/></l><r>vad<s n="prn"/><s n="itg"/></r></p></e>
 		<e c="v0"><p><l>af<b/>hverju<s n="prn"/><s n="itg"/></l><r>varför<s n="prn"/><s n="itg"/></r></p></e>
 		<e r="LR" c="v1"><p><l>hvers<b/>vegna<s n="prn"/><s n="itg"/></l><r>varför<s n="prn"/><s n="itg"/></r></p></e>
+	    <e><p><l>sjálfur<s n="prn"/><s n="ref"/></l><r>själv<s n="prn"/><s n="ref"/></r></p></e>
+		
+		
 
-	    <e><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="GD"/><s n="ND"/></r></p></e>
-	    <e><p><l>sjálfur<s n="prn"/><s n="ref"/></l><r>själv<s n="prn"/><s n="ref"/><s n="PD"/><s n="GD"/><s n="ND"/></r></p></e>
-		<e><p><l>hvor<b/>annan<s n="prn"/><s n="ref"/></l><r>varandra<s n="prn"/><s n="ref"/></r></p></e>
+
+
+
+		<e><p><l>hver<b/>annan<s n="prn"/><s n="ref"/></l><r>varandra<s n="prn"/><s n="ref"/></r></p></e>
 
 	<!-- END SECTION: Pronouns -->
 
