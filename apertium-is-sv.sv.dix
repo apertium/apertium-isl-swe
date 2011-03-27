@@ -336,7 +336,7 @@
 
 <pardef n="varan/dra__prn">
   <e>       <p><l>dra</l>       <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e r="LR"><p><l>n</l>         <r>dan<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e r="LR"><p><l>n</l>         <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="var/annan__prn">
@@ -1481,8 +1481,8 @@
 	    <!-- Proper nouns -->
 
 	<pardef n="Schweiz__np">
-	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
-	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
 	</pardef>
 
 	<pardef n="Eva__np">
@@ -1520,8 +1520,8 @@
 	</pardef>
 
 	<pardef n="Paris__np">
-	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="gen"/></r></p></e>
-	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/><s n="nom"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
 	</pardef>
 
 	<pardef n="Wikipedia__np">
@@ -2896,6 +2896,8 @@
 
 
 <!--PREPOSITIONS-->
+<e lm="ifrån"><i>ifrån</i><par n="på__pr"/></e>
+<e lm="angående"><i>angående</i><par n="på__pr"/></e>
 <e lm="av"><i>av</i><par n="på__pr"/></e>
 <e lm="åt"><i>åt</i><par n="på__pr"/></e>
 <e lm="bakom"><i>bakom</i><par n="på__pr"/></e>
@@ -2998,6 +3000,7 @@
 <e lm="fan"><i>fan</i><par n="hejsan__ij"/></e>
 
 <!--ADJECTIVES-->
+<e lm="vuxen"><i>vux</i><par n="nak/en__adj"/></e>
 <e lm="oförenlig"><i>oförenlig</i><par n="aktiv__adj"/></e>
 <e lm="afghansk"><i>afghansk</i><par n="afrikansk__adj"/></e>
 <e lm="effektiv"><i>effektiv</i><par n="aktiv__adj"/></e>
@@ -3035,6 +3038,9 @@
 <e lm="östlig"><i>östlig</i><par n="aktiv__adj"/></e>
 <e lm="östeuropeisk"><i>östeuropeisk</i><par n="afrikansk__adj"/></e>
 <e lm="öster"><i>öst</i><par n="hög/er__adj"/></e>
+<e lm="väster"><i>väst</i><par n="hög/er__adj"/></e>
+<e lm="södra"><i>södra</i><par n="extra__adj"/></e>
+<e lm="norra"><i>norra</i><par n="extra__adj"/></e>
 <e lm="österrikisk"><i>österrikisk</i><par n="afrikansk__adj"/></e>
 <e lm="blygsam"><i>blygsam</i><par n="blygsam__adj"/></e>
 <e lm="överskådlig"><i>överskådlig</i><par n="aktiv__adj"/></e>
@@ -3201,9 +3207,9 @@
 <e lm="oerhörd"><i>oerhör</i><par n="blin/d__adj"/></e>
 <e lm="grov"><i>grov</i><par n="aktiv__adj"/></e>
 <e lm="gyllene"><i>gyllene</i><par n="extra__adj"/></e>
+<e lm="bra"><i>bra</i><par n="extra__adj"/></e>
 <e lm="judisk"><i>judisk</i><par n="afrikansk__adj"/></e>
 <e lm="enorm"><i>enorm</i><par n="aktiv__adj"/></e>
-<e lm="bra"><i>bra</i><par n="var__adv"/></e>
 <e lm="god"><i></i><par n="/god__adj"/></e>
 <e lm="livskraftig"><i>livskraftig</i><par n="aktiv__adj"/></e>
 <e lm="pragmatisk"><i>pragmatisk</i><par n="aktiv__adj"/></e>
@@ -3375,7 +3381,6 @@
 <e lm="negativ"><i>negativ</i><par n="aktiv__adj"/></e>
 <e lm="nordisk"><i>nordisk</i><par n="afrikansk__adj"/></e>
 <e lm="nordlig"><i>nordlig</i><par n="aktiv__adj"/></e>
-<e lm="norra"><i>norra</i><par n="extra__adj"/></e>
 <e lm="exakt"><i>exakt</i><par n="diskret__adj"/></e>
 <e lm="detaljerad"><i>detaljera</i><par n="beväpna/d__adj"/></e>
 <e lm="precis"><i>precis</i><par n="var__adv"/></e>
@@ -3385,12 +3390,12 @@
 <e lm="naturlig"><i>naturlig</i><par n="aktiv__adj"/></e>
 <e lm="tillräcklig"><i>tillräcklig</i><par n="afrikansk__adj"/></e>
 <e lm="näst"><i>näst</i><par n="diskret__adj"/></e>
-<e lm="nog"><i>nog</i><par n="var__adv"/></e>
 <e lm="modern"><i>modern</i><par n="aktiv__adj"/></e>
 <e lm="aktuell"><i>aktuell</i><par n="afrikansk__adj"/></e>
 <e lm="befintlig"><i>befintlig</i><par n="afrikansk__adj"/></e>
 <e lm="innevarande"><i>innevarande</i><par n="extra__adj"/></e>
 <e lm="nuvarande"><i>nuvarande</i><par n="extra__adj"/></e>
+<e lm="nog"><i>nog</i><par n="extra__adj"/></e>
 <e lm="rådande"><i>rådande</i><par n="extra__adj"/></e>
 <e lm="ny"><i>ny</i><par n="fri__adj"/></e>
 <e lm="nyskapande"><i>nyskapande</i><par n="extra__adj"/></e>
@@ -3605,7 +3610,6 @@
 <e lm="varaktig"><i>varaktig</i><par n="aktiv__adj"/></e>
 <e lm="försiktig"><i>försiktig</i><par n="aktiv__adj"/></e>
 <e lm="sårbar"><i>sårbar</i><par n="aktiv__adj"/></e>
-<e lm="angående"><i>angående</i><par n="på__pr"/></e>
 <e lm="tilltagande"><i>tilltagande</i><par n="extra__adj"/></e>
 <e lm="växande"><i>växande</i><par n="extra__adj"/></e>
 <e lm="sjuk"><i>sjuk</i><par n="aktiv__adj"/></e>
@@ -3803,7 +3807,7 @@
 <e lm="långsiktig"><i>långsiktig</i><par n="aktiv__adj"/></e>
 <e lm="statlig"><i>statlig</i><par n="aktiv__adj"/></e>
 <e lm="utrikes"><i>utrikes</i><par n="extra__adj"/></e>
-<e lm="ytterligare"><i>ytterligare</i><par n="var__adv"/></e>
+<e lm="ytterligare"><i>ytterligare</i><par n="extra__adj"/></e>
 <e lm="reproduktiv"><i>reproduktiv</i><par n="afrikansk__adj"/></e>
 <e lm="medel"><i>medel</i><par n="extra__adj"/></e>
 <e lm="minimal"><i>minimal</i><par n="afrikansk__adj"/></e>
@@ -5131,7 +5135,6 @@
 <e lm="frihandel"><i>frihandel</i><par n="adel__n"/></e>
 <e lm="fru"><i>fru</i><par n="bro__n"/></e>
 <e lm="fågel"><i>fåg</i><par n="cyk/el__n"/></e>
-<e lm="vuxen"><i>vux</i><par n="nak/en__adj"/></e>
 <e lm="företrädare"><i>företrädar</i><par n="apotekar/e__n"/></e>
 <e lm="representant"><i>representant</i><par n="accent__n"/></e>
 <e lm="suveränitet"><i>suveränitet</i><par n="accent__n"/></e>
@@ -5384,6 +5387,7 @@
 <e lm="sätt"><i>sätt</i><par n="ackord__n"/></e>
 <e lm="vis"><i>vis</i><par n="badhus__n"/></e>
 <e lm="buller"><i>bull</i><par n="bull/er__n"/></e>
+<e lm="väder"><i>väd</i><par n="bull/er__n"/></e>
 <e lm="behörighet"><i>behörighet</i><par n="mat__n"/></e>
 <e lm="förmåga"><i>förmåg</i><par n="frug/a__n"/></e>
 <e lm="kompetens"><i>kompetens</i><par n="mat__n"/></e>
@@ -5428,7 +5432,7 @@
 <e lm="intrång"><i>intrång</i><par n="ackord__n"/></e>
 <e lm="insikt"><i>insikt</i><par n="accent__n"/></e>
 <e lm="insyn"><i>insyn</i><par n="mat__n"/></e>
-<e lm="internet"><i>internet</i><par n="Afrika__np"/></e>
+<e lm="internet"><i>internet</i><par n="mat__n"/></e>
 <e lm="bransch"><i>bransch</i><par n="accent__n"/></e>
 <e lm="industri"><i>industri</i><par n="geometri__n"/></e>
 <e lm="industriland"><i>industril</i><par n="l/and__n"/></e>
@@ -6856,7 +6860,7 @@
 <e lm="Aung"><i>Aung</i><par n="Magnusson__np"/></e>
 <e lm="Östeuropa"><i>Östeuropa</i><par n="Afrika__np"/></e>
 <e lm="Östtimor"><i>Östtimor</i><par n="Afrika__np"/></e>
-<e lm="Österrike"><i>Österrike</i><par n="Afrika__np"/></e>
+<e lm="Österrike"><i>Österrike</i><par n="Zeeland__np"/></e>
 <e lm="Avril"><i>Avril</i><par n="Eva__np"/></e>
 <e lm="Aznar"><i>Aznar</i><par n="Magnusson__np"/></e>
 <e lm="Aten"><i>Aten</i><par n="Afrika__np"/></e>
@@ -6928,7 +6932,7 @@
 <e lm="Echelon"><i>Echelon</i><par n="Magnusson__np"/></e>
 <e lm="Ekofin"><i>Ekofin</i><par n="Wikipedia__np"/></e>
 <e lm="Elmar"><i>Elmar</i><par n="Trond__np"/></e>
-<e lm="England"><i>England</i><par n="Afrika__np"/></e>
+<e lm="England"><i>England</i><par n="Zeeland__np"/></e>
 <e lm="Erasmus"><i>Erasmus</i><par n="Abbas__np"/></e>
 <e lm="Erika"><i>Erika</i><par n="Eva__np"/></e>
 <e lm="Eritrea"><i>Eritrea</i><par n="Afrika__np"/></e>
@@ -6945,7 +6949,7 @@
 <e lm="Florenz"><i>Florenz</i><par n="Afrika__np"/></e>
 <e lm="Ford"><i>Ford</i><par n="Europol__np"/></e>
 <e lm="Forum"><i>Forum</i><par n="Europol__np"/></e>
-<e lm="Frankrike"><i>Frankrike</i><par n="Afrika__np"/></e>
+<e lm="Frankrike"><i>Frankrike</i><par n="Zeeland__np"/></e>
 <e lm="Frontex"><i>Frontex</i><par n="Europol__np"/></e>
 <e lm="Efenbenskusten"><i>Efenbenskusten</i><par n="Afrika__np"/></e>
 <e lm="Galeote"><i>Galeote</i><par n="Magnusson__np"/></e>
@@ -6961,7 +6965,7 @@
 <e lm="Giuseppe"><i>Giuseppe</i><par n="Trond__np"/></e>
 <e lm="Goebbels"><i>Goebbels</i><par n="Abbas__np"/></e>
 <e lm="Graham"><i>Graham</i><par n="Trond__np"/></e>
-<e lm="Grekland"><i>Grekland</i><par n="Afrika__np"/></e>
+<e lm="Grekland"><i>Grekland</i><par n="Zeeland__np"/></e>
 <e lm="Guido"><i>Guido</i><par n="Trond__np"/></e>
 <e lm="Gibraltar"><i>Gibraltar</i><par n="Zeeland__np"/></e>
 <e lm="Guinea"><i>Guinea</i><par n="Afrika__np"/></e>
@@ -6994,6 +6998,7 @@
 <e lm="Johannes"><i>Johannes</i><par n="Trond__np"/></e>
 <e lm="Johannesburg"><i>Johannesburg</i><par n="Afrika__np"/></e>
 <e lm="York"><i>York</i><par n="Afrika__np"/></e>
+<e lm="Reykjavik"><i>Reykjavik</i><par n="Afrika__np"/></e>
 <e lm="Jugoslavien"><i>Jugoslavien</i><par n="Afrika__np"/></e>
 <e lm="Kaliningrad"><i>Kaliningrad</i><par n="Afrika__np"/></e>
 <e lm="Kambodja"><i>Kambodja</i><par n="Afrika__np"/></e>
@@ -7007,8 +7012,8 @@
 <e lm="Kairo"><i>Kairo</i><par n="Afrika__np"/></e>
 <e lm="Klaus"><i>Klaus</i><par n="Trond__np"/></e>
 <e lm="Kofi"><i>Kofi</i><par n="Trond__np"/></e>
-<e lm="Kongo"><i>Kongo</i><par n="Afrika__np"/></e>
-<e lm="Kosovo"><i>Kosovo</i><par n="Afrika__np"/></e>
+<e lm="Kongo"><i>Kongo</i><par n="Zeeland__np"/></e>
+<e lm="Kosovo"><i>Kosovo</i><par n="Zeeland__np"/></e>
 <e lm="Kaukasien"><i>Kaukasien</i><par n="Afrika__np"/></e>
 <e lm="Kina"><i>Kina</i><par n="Afrika__np"/></e>
 <e lm="Colombia"><i>Colombia</i><par n="Afrika__np"/></e>
@@ -7081,7 +7086,7 @@
 <e lm="Nicholson"><i>Nicholson</i><par n="Magnusson__np"/></e>
 <e lm="Nicolas"><i>Nicolas</i><par n="Trond__np"/></e>
 <e lm="Nielson"><i>Nielson</i><par n="Magnusson__np"/></e>
-<e lm="Norge"><i>Norge</i><par n="Afrika__np"/></e>
+<e lm="Norge"><i>Norge</i><par n="Zeeland__np"/></e>
 <e lm="Nordirland"><i>Nordirland</i><par n="Zeeland__np"/></e>
 <e lm="Nordsjön"><i>Nordsjön</i><par n="Afrika__np"/></e>
 <e lm="Oostlander"><i>Oostlander</i><par n="Magnusson__np"/></e>
@@ -7155,7 +7160,7 @@
 <e lm="Sydamerika"><i>Sydamerika</i><par n="Afrika__np"/></e>
 <e lm="Sydkorea"><i>Sydkorea</i><par n="Afrika__np"/></e>
 <e lm="Sydossetien"><i>Sydossetien</i><par n="Afrika__np"/></e>
-<e lm="Montenegro"><i>Montenegro</i><par n="Afrika__np"/></e>
+<e lm="Montenegro"><i>Montenegro</i><par n="Zeeland__np"/></e>
 <e lm="Swoboda"><i>Swoboda</i><par n="Magnusson__np"/></e>
 <e lm="Tammerfors"><i>Tammerfors</i><par n="Afrika__np"/></e>
 <e lm="Thailand"><i>Thailand</i><par n="Afrika__np"/></e>
@@ -7190,11 +7195,11 @@
 <e lm="Wurtz"><i>Wurtz</i><par n="Magnusson__np"/></e>
 <e lm="Wynn"><i>Wynn</i><par n="Magnusson__np"/></e>
 <e lm="Zana"><i>Zana</i><par n="Eva__np"/></e>
-<e lm="Irland"><i>Irland</i><par n="Afrika__np"/></e>
+<e lm="Irland"><i>Irland</i><par n="Zeeland__np"/></e>
 <e lm="Italien"><i>Italien</i><par n="Afrika__np"/></e>
 <e lm="Olaf"><i>Olaf</i><par n="Trond__np"/></e>
 <e lm="Thor"><i>Thor</i><par n="Trond__np"/></e>
-<e lm="Tyskland"><i>Tyskland</i><par n="Afrika__np"/></e>
+<e lm="Tyskland"><i>Tyskland</i><par n="Zeeland__np"/></e>
 <e lm="Madrid"><i>Madrid</i><par n="Afrika__np"/></e>
 <e lm="Edinburgh"><i>Edinburgh</i><par n="Afrika__np"/></e>
 <e lm="Afghanistan"><i>Afghanistan</i><par n="Afrika__np"/></e>
@@ -7375,39 +7380,29 @@
 
 <e lm="förutom">         <i>förutom</i><par n="på__pr"/></e>
 <e lm="via">             <i>via</i><par n="på__pr"/></e>
-<e lm="trots">           <i>trots</i><par n="på__pr"/></e>
 <e lm="av">              <i>av</i><par n="på__pr"/></e>
 <e lm="kring">           <i>kring</i><par n="på__pr"/></e>
 <e lm="omkring">         <i>omkring</i><par n="på__pr"/></e>
 <e lm="utanför">         <i>utanför</i><par n="på__pr"/></e>
 <e lm="genom">           <i>genom</i><par n="på__pr"/></e>
-<e lm="ovan">            <i>ovan</i><par n="på__pr"/></e>
 <e lm="för">             <i>för</i><par n="på__pr"/></e>
 <e lm="inför">           <i>inför</i><par n="på__pr"/></e>
-<e lm="for">             <i>for</i><par n="på__pr"/></e>
 <e lm="hos">             <i>hos</i><par n="på__pr"/></e>
 <e lm="i">               <i>i</i><par n="på__pr"/></e>
 <e lm="om">              <i>om</i><par n="på__pr"/></e>
-<e lm="före">            <i>före</i><par n="på__pr"/></e>
 <e lm="efter">           <i>efter</i><par n="på__pr"/></e>
 <e lm="över">            <i>över</i><par n="på__pr"/></e>
 <e lm="med">             <i>med</i><par n="på__pr"/></e>
-<e lm="innan">           <i>innan</i><par n="på__pr"/></e>
 <e lm="på">              <i>på</i><par n="på__pr"/></e>
 <e lm="under">           <i>under</i><par n="på__pr"/></e>
-<e lm="ut">              <i>ut</i><par n="på__pr"/></e>
 <e lm="vid">             <i>vid</i><par n="på__pr"/></e>
 <e lm="från">            <i>från</i><par n="på__pr"/></e>
-<e lm="inifrån">         <i>inifrån</i><par n="på__pr"/></e>
-<e lm="sedan">           <i>sedan</i><par n="på__pr"/></e>
 <e lm="till">            <i>till</i><par n="på__pr"/></e>
 <e lm="åt">              <i>åt</i><par n="på__pr"/></e>
 <e lm="ur">              <i>ur</i><par n="på__pr"/></e>
 <e lm="per">             <i>per</i><par n="på__pr"/></e>
 <e lm="ovanpå">          <i>ovanpå</i><par n="på__pr"/></e>
 <e lm="ovanför">         <i>ovanför</i><par n="på__pr"/></e>
-<e lm="ner">             <i>ner</i><par n="på__pr"/></e>
-<e lm="ned">             <i>ned</i><par n="på__pr"/></e>
 <e lm="mot">             <i>mot</i><par n="på__pr"/></e>
 <e lm="mellan">          <i>mellan</i><par n="på__pr"/></e>
 <e lm="emellan">         <i>emellan</i><par n="på__pr"/></e>
@@ -7415,16 +7410,11 @@
 <e lm="inom">            <i>inom</i><par n="på__pr"/></e>
 <e lm="enligt">          <i>enligt</i><par n="på__pr"/></e>
 <e lm="bland">           <i>bland</i><par n="på__pr"/></e>
-<e lm="angående">        <i>angående</i><par n="på__pr"/></e>
 <e lm="utan">            <i>utan</i><par n="på__pr"/></e>
 <e lm="ifrån">           <i>ifrån</i><par n="på__pr"/></e>
-<e lm="nära">            <i>nära</i><par n="på__pr"/></e>
 <e lm="emot">            <i>emot</i><par n="på__pr"/></e>
 <e lm="igenom">          <i>igenom</i><par n="på__pr"/></e>
-<e lm="tills">           <i>tills</i><par n="på__pr"/></e>
 <e lm="framför">         <i>framför</i><par n="på__pr"/></e>
-<e lm="upp till">        <i>upp<b/>till</i><par n="på__pr"/></e>
-<e lm="även om">         <i>även<b/>om</i><par n="på__pr"/></e>
 
 
 <!--ABBREVIATIONS-->
@@ -7568,7 +7558,6 @@
 <e lm="miljon"><i>miljon</i><par n="arton__num"/></e>
 <e lm="tiotals"><i>tiotals</i><par n="arton__num"/></e>
 <e lm="miljontals"><i>miljontals</i><par n="arton__num"/></e>
-<e lm="fåtal"><i>fåtal</i><par n="arton__num"/></e>
 
 
 <e lm="etta">            <i>ett</i><par n="frug/a__n"/></e>
@@ -7586,6 +7575,7 @@
 
     <!-- Adverbs -->
 
+	<e lm="inifrån">         <i>inifrån</i><par n="var__adv"/></e>
 	<e lm="i går"><i>i<b/>går</i><par n="var__adv"/></e>
 	<e lm="i går morse"><i>i<b/>går<b/>morse</i><par n="var__adv"/></e>
 	<e lm="i går morgon"><i>i<b/>går<b/>morgon</i><par n="var__adv"/></e>
@@ -7709,14 +7699,12 @@
 	<e lm="förbi"><i>förbi</i><par n="var__adv"/></e>
 	<e lm="ganska"><i>ganska</i><par n="var__adv"/></e>
 	<e lm="hellre"><i>hellre</i><par n="var__adv"/></e>
-	<e lm="ifrån"><i>ifrån</i><par n="var__adv"/></e>
 	<e lm="fullkomligt"><i>fullkomligt</i><par n="var__adv"/></e>
 	<e lm="förhand"><i>förhand</i><par n="var__adv"/></e>
 	<e lm="förut"><i>förut</i><par n="var__adv"/></e>
 	<e lm="i förväg"><i>i<b/>förväg</i><par n="var__adv"/></e>
 	<e lm="före"><i>före</i><par n="var__adv"/></e>
 	<e lm="förr"><i>förr</i><par n="var__adv"/></e>
-	<e lm="igenom"><i>igenom</i><par n="var__adv"/></e>
 	<e lm="synnerligen"><i>synnerligen</i><par n="var__adv"/></e>
 	<e lm="nåväl"><i>nåväl</i><par n="var__adv"/></e>
 	<e lm="tydligen"><i>tydligen</i><par n="var__adv"/></e>
@@ -7731,7 +7719,6 @@
 	<e lm="emellertid"><i>emellertid</i><par n="var__adv"/></e>
 	<e lm="respektive"><i>respektive</i><par n="var__adv"/></e>
 	<e lm="ingenstans"><i>ingenstans</i><par n="var__adv"/></e>
-	<e lm="hur"><i>hur</i><par n="var__adv"/></e>
 	<e lm="sakta"><i>sakta</i><par n="var__adv"/></e>
 	<e lm="härigenom"><i>härigenom</i><par n="var__adv"/></e>
 	<e lm="härmed"><i>härmed</i><par n="var__adv"/></e>
@@ -7761,7 +7748,6 @@
 	<e lm="mycket"><i>mycket</i><par n="var__adv"/></e>
 	<e lm="nämligen"><i>nämligen</i><par n="var__adv"/></e>
 	<e lm="nej"><i>nej</i><par n="var__adv"/></e>
-	<e lm="förutom"><i>förutom</i><par n="var__adv"/></e>
 	<e lm="nere"><i>nere</i><par n="var__adv"/></e>
 	<e lm="ned"><i>ned</i><par n="var__adv"/></e>
 	<e lm="ner"><i>ner</i><par n="var__adv"/></e>
@@ -7852,7 +7838,6 @@
 	<e lm="årligen"><i>årligen</i><par n="var__adv"/></e>
 	<e lm="borta"><i>borta</i><par n="var__adv"/></e>
 	<e lm="i slutändan"><i>i<b/>slutändan</i><par n="var__adv"/></e>
-	<e lm="omkring"><i>omkring</i><par n="var__adv"/></e>
 	<e lm="rentav"><i>rentav</i><par n="var__adv"/></e>
 	<e lm="egentligen"><i>egentligen</i><par n="var__adv"/></e>
 	<e lm="istället"><i>istället</i><par n="var__adv"/></e>
@@ -7889,21 +7874,13 @@
 
 <e lm="lite">            <i></i><par n="/lite__adv"/></e>
 
-<e lm="få">              <i>f</i><par n="f/å__adv"/></e>
 
 <e lm="ofta">            <i>ofta</i><par n="ofta__adv"/></e>
 
 <e lm="väl">             <i></i><par n="/väl__adv"/></e>
 <e lm="mycket">          <i>m</i><par n="m/ycket__adv"/></e>
 
-<!--
-<e lm="rätt">            <i>rä</i><par n="rä/tt__adv"/></e>
-<e lm="rätt">            <i>rät</i><par n="rät/t__adv"/></e>
--->
-<e lm="rätt">            <i>rätt</i><par n="rätt__adv"/></e>
 
-<e lm="hur">             <i>hur</i><par n="hur__adv"/></e>
-<e lm="vad">             <i>vad</i><par n="hur__adv"/></e>  <!-- Jacob: ="what". Hope wordclass is OK, Francis? -->
 
 
     <!-- Pronouns -->
@@ -7942,6 +7919,8 @@
 <e lm="vem">        	 <i>v</i><par n="v/em__prn"/></e>
 <e lm="varifrån">        <i>varifrån</i><par n="varifrån__prn"/></e>
 <e lm="varför">          <i>varför</i><par n="varifrån__prn"/></e>
+<e lm="hur">             <i>hur</i><par n="varifrån__prn"/></e>
+
 <e lm="själv"> 			 <i>själv</i><par n="själv__prn"/></e>
 <e lm="varandra">        <i>varan</i><par n="varan/dra__prn"/></e>
 
