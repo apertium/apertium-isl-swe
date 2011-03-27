@@ -1558,10 +1558,10 @@
 </pardef>
 
 <pardef n="/vara__vbser">
-  <e>       <p><l>vara</l>      <r>vara<s n="vbser"/><s n="inf"/><s n="actv"/></r></p></e>
-  <e>       <p><l>är</l>        <r>vara<s n="vbser"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>var</l>       <r>vara<s n="vbser"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>varit</l>     <r>vara<s n="vbser"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>vara</l>      <r>vara<s n="vbser"/><s n="inf"/></r></p></e>
+  <e>       <p><l>är</l>        <r>vara<s n="vbser"/><s n="pres"/></r></p></e>
+  <e>       <p><l>var</l>       <r>vara<s n="vbser"/><s n="past"/></r></p></e>
+  <e>       <p><l>varit</l>     <r>vara<s n="vbser"/><s n="supn"/></r></p></e>
   <e>       <p><l>vara</l>      <r>vara<s n="vbser"/><s n="imp"/></r></p></e>
   <e>       <p><l>varande</l>   <r>vara<s n="vbser"/><s n="pprs"/></r></p></e>
 </pardef>

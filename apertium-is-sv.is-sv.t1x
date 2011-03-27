@@ -21,6 +21,10 @@
       <cat-item tags="vblex.*.past.*"/>
       <cat-item tags="vblex.*.prs.*"/>
       <cat-item tags="vblex.*.pss.*"/>
+      <cat-item tags="vbser.pri.*"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbser.prs.*"/>
+      <cat-item tags="vbser.pss.*"/>
     </def-cat>
   </section-def-cats>
 
