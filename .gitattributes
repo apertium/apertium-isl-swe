@@ -18,6 +18,7 @@
 /apertium-is-sv.sv.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/generation-summary.is-sv.txt -text
 dev/generation-test.is-sv.sh -text
 dev/generation-test.sv-is.sh -text
 dev/inconsistency-summary.sh -text
