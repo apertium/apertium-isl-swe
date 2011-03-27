@@ -1,0 +1,9 @@
+    111 ^@neinn<det><qnt><nt><nom>$
+     48 ^@neinn<det><qnt><m><nom>$
+     41 ^@neinn<det><qnt><m><acc>$
+     41 ^@neinn<det><qnt><f><nom>$
+     39 ^@neinn<det><qnt><m><dat>$
+     27 ^@neinn<det><qnt><nt><dat>$
+     21 ^@neinn<det><qnt><f><gen>$
+     10 ^@neinn<det><qnt><m><gen>$
+      1 ^@Neinn<det><qnt><f><nom>$
