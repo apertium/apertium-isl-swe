@@ -166,6 +166,17 @@
    <e r="LR"><p><l><s n="nt"/><s n="pl"/></l><r><s n="sg"/></r></p></e>
    <e r="RL"><p><l><s n="GD"/><s n="ND"/></l><r><s n="sg"/></r></p></e>
  </pardef>
+ <pardef n="flóttamannastaða_flyktingstatus__n">
+   <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+   <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+   <e r="RL"><p><l><s n="ND"/></l><r><s n="sg"/></r></p></e>
+ </pardef>
+ <pardef n="útlönd_utland__n">
+   <e r="RL"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+   <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+   <e r="LR"><p><l><s n="pl"/></l><r><s n="ND"/></r></p></e>
+ </pardef>
+
 
  </pardefs>
 
@@ -1994,7 +2005,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>flugvöllur<s n="n"/><s n="m"/></l><r>flygplats<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>flutningur<s n="n"/><s n="m"/></l><r>migration<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>flói<s n="n"/><s n="m"/></l><r>bukt<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>flóttamannastaða<s n="n"/><s n="f"/></l><r>flyktingstatus<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>flóttamannastaða<s n="n"/><s n="f"/></l><r>flyktingstatus<s n="n"/><s n="ut"/></r></p><par n="flóttamannastaða_flyktingstatus__n"/></e>
 <e><p><l>flóttamaður<s n="n"/><s n="m"/></l><r>flykting<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>flótti<s n="n"/><s n="m"/></l><r>flykt<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>flóð<s n="n"/><s n="nt"/></l><r>flod<s n="n"/><s n="ut"/></r></p></e>
@@ -3858,7 +3869,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>úrval<s n="n"/><s n="nt"/></l><r>urval<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>útbrot<s n="n"/><s n="nt"/></l><r>utbrott<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>útfærsla<s n="n"/><s n="f"/></l><r>genomförande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
-	<e><p><l>útlönd<s n="n"/><s n="nt"/></l><r>utland<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>útlönd<s n="n"/><s n="nt"/></l><r>utland<s n="n"/><s n="nt"/></r></p><par n="útlönd_utland__n"/></e>
 	<e r="RL" c="v1"><p><l>útreikningur<s n="n"/><s n="m"/></l><r>räkenskap<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>útskýring<s n="n"/><s n="f"/></l><r>förtydligande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e><p><l>þak<s n="n"/><s n="nt"/></l><r>tak<s n="n"/><s n="nt"/></r></p></e>
