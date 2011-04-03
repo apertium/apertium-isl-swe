@@ -2,21 +2,21 @@
 
 <transfer default="chunk">
   <section-def-cats>
-    <def-cat n="nom">
+    <def-cat n="nom"> 					<!--noun-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
-    <def-cat n="num">
+    <def-cat n="num"> 					<!--numeral-->
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="adj">
+    <def-cat n="adj"> 					<!--adjective-->
       <cat-item tags="adj.*"/>
     </def-cat>
-    <def-cat n="inf">
+    <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.inf"/>
     </def-cat>
-    <def-cat n="vfin">
+    <def-cat n="vfin"> 					<!--finite verb-->
       <cat-item tags="vblex.*.pri.*"/>
       <cat-item tags="vblex.*.past.*"/>
       <cat-item tags="vblex.*.prs.*"/>
@@ -28,11 +28,13 @@
     </def-cat>
   </section-def-cats>
 
+<!--#######################################################################################-->
+
   <section-def-attrs>
-    <def-attr n="a_adj">
+    <def-attr n="a_adj"> 							<!--ADJECTIVE-->
       <attr-item tags="adj"/>
     </def-attr>
-    <def-attr n="a_nom">
+    <def-attr n="a_nom"> 							<!--NOUN-->
       <attr-item tags="n"/>
       <attr-item tags="np"/>
       <attr-item tags="np.al"/>
@@ -41,17 +43,17 @@
       <attr-item tags="np.org"/>
       <attr-item tags="np.cog"/>
     </def-attr>
-    <def-attr n="a_verb">
+    <def-attr n="a_verb"> 							<!--VERB-->
       <attr-item tags="vblex"/>
       <attr-item tags="vbmod"/>
       <attr-item tags="vaux"/>
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
     </def-attr>
-    <def-attr n="a_num">
+    <def-attr n="a_num"> 							<!--NUMERAL-->
       <attr-item tags="num"/>
     </def-attr>
-    <def-attr n="gen">
+    <def-attr n="gen"> 								<!--GENDER-->
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
@@ -59,33 +61,33 @@
       <attr-item tags="mf"/>
       <attr-item tags="GD"/>
     </def-attr>
-    <def-attr n="cas">
+    <def-attr n="cas"> 								<!--CASE-->
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
     </def-attr>
-    <def-attr n="grau">
+    <def-attr n="grau"> 							<!--COMPARISON-->
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
     </def-attr>
-    <def-attr n="voz">
+    <def-attr n="voz"> 								<!--VOICE-->
       <attr-item tags="actv"/>
       <attr-item tags="pasv"/>
       <attr-item tags="midv"/>
     </def-attr>
-    <def-attr n="nbr">
+    <def-attr n="nbr"> 								<!--NUMBER-->
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
-    <def-attr n="defnes">
+    <def-attr n="defnes"> 							<!--DEFINITENESS-->
       <attr-item tags="ind"/>
       <attr-item tags="def"/>
     </def-attr>
-    <def-attr n="temps">
+    <def-attr n="temps"> 							<!--TENSE-->
       <attr-item tags="inf"/>
       <attr-item tags="pri"/>
       <attr-item tags="pres"/>
@@ -101,13 +103,12 @@
     <def-var n="genere"/>
   </section-def-vars>
 
+<!--#######################################################################################-->
+<!--###################				MACROS				###################################-->
+<!--#######################################################################################-->
 
-
-<!--
-	MACRO
--->
   <section-def-macros>
-    <def-macro n="conv_case1" npar="1" >
+    <def-macro n="conv_case1" npar="1" > 						<!-- MACRO: convert acc/dat to nom -->	
       <choose>
         <when>
           <test>
@@ -124,7 +125,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="conv_temps1" npar="1">
+    <def-macro n="conv_temps1" npar="1"> 		<!-- MACRO: convert present indicative/subjunctive to present -->
       <choose>
         <when>
           <test>
@@ -141,8 +142,14 @@
       </choose>
     </def-macro>
 
-
   </section-def-macros>
+
+
+
+
+<!--#######################################################################################-->
+<!--###################				RULES				###################################-->
+<!--#######################################################################################-->
 
   <section-rules>
 
@@ -184,7 +191,8 @@
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag> <!--sintagma nominal = noun phrase     <spectei> but i prefer "nominal segment" -->
+              <tag><lit-tag v="SN"/></tag> 
+<!-- SN = sintagma nominal = noun phrase, but i prefer "nominal segment" -->
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -203,6 +211,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="regla: adj nom">
       <pattern>
