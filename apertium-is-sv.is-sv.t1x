@@ -26,6 +26,10 @@
       <cat-item tags="vbser.prs.*"/>
       <cat-item tags="vbser.pss.*"/>
     </def-cat>
+    <def-cat n="vimp"> 					<!--imperative verb-->
+      <cat-item tags="vblex.*.imp.*"/>
+      <cat-item tags="vbser.imp.*"/>
+    </def-cat>
   </section-def-cats>
 
 <!--#######################################################################################-->
@@ -89,6 +93,7 @@
     </def-attr>
     <def-attr n="temps"> 							<!--TENSE-->
       <attr-item tags="inf"/>
+      <attr-item tags="imp"/>
       <attr-item tags="pri"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
@@ -308,6 +313,35 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: vimp">
+      <pattern>
+        <pattern-item n="vimp"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_temps1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="vfin" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.FIN"/></tag>
+              <tag><clip pos="1" side="tl" part="voz"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </transfer>
