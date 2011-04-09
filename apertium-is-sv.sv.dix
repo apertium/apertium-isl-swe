@@ -839,7 +839,7 @@
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="blod__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / # / #; no plural -->
+<pardef n="blod__n" c="autelogeoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / # / #; no plural -->
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
@@ -1231,6 +1231,13 @@
   <e>       <p><l>ningarna</l>       <r>an<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
+<pardef n="försäkr/an__n" c="autoconcord:ut,sgpl"> 
+  <e>       <p><l>an</l>        <r>an<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>an</l>       <r>an<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ingar</l>        <r>an<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ingarna</l>       <r>an<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+</pardef>
+
 
 <pardef n="klost/er__n" c="autoconcord:ut,sp"> <!-- Common; ~er / ~ret / ~er / ~ren; invariant in indefinite -->
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -1477,6 +1484,7 @@
 	<pardef n="Afrika__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+	
 	<pardef n="Zeeland__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
@@ -4805,13 +4813,13 @@
 <e lm="bord"><i>bord</i><par n="ackord__n"/></e>
 <e lm="botten"><i>bott</i><par n="bott/en__n"/></e>
 <e lm="anbud"><i>anbud</i><par n="ackord__n"/></e>
-<e lm="inbjudan"><i>inbjudan</i><par n="samverkan__n"/></e>
+<e lm="inbjudan"><i>inbjud</i><par n="verk/an__n"/></e>
 <e lm="bana"><i>ban</i><par n="frug/a__n"/></e>
 <e lm="förbränning"><i>förbränning</i><par n="bil__n"/></e>
 <e lm="britt"><i>britt</i><par n="accent__n"/></e>
 <e lm="förändring"><i>förändring</i><par n="bil__n"/></e>
 <e lm="ändring"><i>ändring</i><par n="bil__n"/></e>
-<e lm="bröstcancer"><i>bröstcancer</i><par n="adel__n"/></e>
+<e lm="bröstcancer"><i>bröstcanc</i><par n="kalend/er__n"/></e>
 <e lm="spets"><i>spets</i><par n="bil__n"/></e>
 <e lm="avbrott"><i>avbrott</i><par n="ackord__n"/></e>
 <e lm="kränkning"><i>kränkning</i><par n="bil__n"/></e>
@@ -5135,7 +5143,7 @@
 <e lm="företrädare"><i>företrädar</i><par n="apotekar/e__n"/></e>
 <e lm="representant"><i>representant</i><par n="accent__n"/></e>
 <e lm="suveränitet"><i>suveränitet</i><par n="accent__n"/></e>
-<e lm="försäkran"><i>försäkran</i><par n="samverkan__n"/></e>
+<e lm="försäkran"><i>försäkr</i><par n="försäkr/an__n"/></e>
 <e lm="möte"><i>möte</i><par n="äpple__n"/></e>
 <e lm="rådsmöte"><i>rådsmöte</i><par n="äpple__n"/></e>
 <e lm="session"><i>session</i><par n="accent__n"/></e>
@@ -5375,7 +5383,7 @@
 <e lm="stimulans"><i>stimulans</i><par n="accent__n"/></e>
 <e lm="incitament"><i>incitament</i><par n="ackord__n"/></e>
 <e lm="stimulansåtgärd"><i>stimulansåtgärd</i><par n="accent__n"/></e>
-<e lm="uppmuntran"><i>uppmuntran</i><par n="samverkan__n"/></e>
+<e lm="uppmuntran"><i>uppmuntr</i><par n="försäkr/an__n"/></e>
 <e lm="vila"><i>vil</i><par n="frug/a__n"/></e>
 <e lm="vitryska"><i>vitrysk</i><par n="afghansk/a__n"/></e>
 <e lm="drift"><i>drift</i><par n="accent__n"/></e>
@@ -5494,7 +5502,7 @@
 <e lm="bekostnad"><i>bekostnad</i><par n="accent__n"/></e>
 <e lm="kostnad"><i>kostnad</i><par n="mask__n"/></e>
 <e lm="fördel"><i>fördel</i><par n="bil__n"/></e>
-<e lm="cancer"><i>cancer</i><par n="adel__n"/></e>
+<e lm="cancer"><i>canc</i><par n="kalend/er__n"/></e>
 <e lm="anspråk"><i>anspråk</i><par n="ackord__n"/></e>
 <e lm="krav"><i>krav</i><par n="ackord__n"/></e>
 <e lm="kraft"><i>kraft</i><par n="mask__n"/></e>
@@ -5567,7 +5575,7 @@
 <e lm="ljus"><i>ljus</i><par n="badhus__n"/></e>
 <e lm="löfte"><i>löfte</i><par n="äpple__n"/></e>
 <e lm="utfästelse"><i>utfästelse</i><par n="aktie__n"/></e>
-<e lm="eloge"><i>eloge</i><par n="oro__n"/></e>
+<e lm="eloge"><i>eloge</i><par n="accent__n"/></e>
 <e lm="luft"><i>luft</i><par n="mat__n"/></e>
 <e lm="luftkvalitet"><i>luftkvalitet</i><par n="accent__n"/></e>
 <e lm="luftrum"><i>luftrum</i><par n="gram__n"/></e>
@@ -6022,7 +6030,7 @@
 <e lm="civilisation"><i>civilisation</i><par n="accent__n"/></e>
 <e lm="konvent"><i>konvent</i><par n="ackord__n"/></e>
 <e lm="hållbarhet"><i>hållbarhet</i><par n="adress__n"/></e>
-<e lm="dödläge"><i>dödläge</i><par n="blod__n"/></e>
+<e lm="dödläge"><i>dödläge</i><par n="äpple__n"/></e>
 <e lm="identitet"><i>identitet</i><par n="accent__n"/></e>
 <e lm="autonomi"><i>autonomi</i><par n="geometri__n"/></e>
 <e lm="självständighet"><i>självständighet</i><par n="adress__n"/></e>
