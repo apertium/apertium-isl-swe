@@ -304,6 +304,12 @@
   <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
   <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
 </pardef>
+<pardef n="þrír_tre__num">
+  <e r="LR"><p><l><s n="m"/></l><r><s n="mfn"/></r></p></e>
+  <e r="LR"><p><l><s n="f"/></l><r><s n="mfn"/></r></p></e>
+  <e r="LR"><p><l><s n="nt"/></l><r><s n="mfn"/></r></p></e>
+  <e r="RL"><p><l><s n="GD"/></l><r><s n="mfn"/></r></p></e>
+</pardef>
 
 
  </pardefs>
@@ -402,9 +408,9 @@
     <!-- Numbers -->
     <e><p><l>núll<s n="num"/></l><r>noll<s n="num"/></r></p></e>
     <e><p><l>einn<s n="num"/></l><r>en<s n="num"/></r></p></e>
-    <e><p><l>tveir<s n="num"/></l><r>två<s n="num"/></r></p></e>
-    <e><p><l>þrír<s n="num"/></l><r>tre<s n="num"/></r></p></e>
-    <e><p><l>fjórir<s n="num"/></l><r>fyra<s n="num"/></r></p></e>
+    <e><p><l>tveir<s n="num"/></l><r>två<s n="num"/></r></p><par n="þrír_tre__num"/></e>
+    <e><p><l>þrír<s n="num"/></l><r>tre<s n="num"/></r></p><par n="þrír_tre__num"/></e>
+    <e><p><l>fjórir<s n="num"/></l><r>fyra<s n="num"/></r></p><par n="þrír_tre__num"/></e>
     <e><p><l>fimm<s n="num"/></l><r>fem<s n="num"/></r></p></e>
     <e><p><l>sex<s n="num"/></l><r>sex<s n="num"/></r></p></e>
     <e><p><l>sjö<s n="num"/></l><r>sju<s n="num"/></r></p></e>
