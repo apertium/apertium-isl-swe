@@ -72,6 +72,7 @@
 	<sdef n="ord"      c="Ordinal"/>
 	<sdef n="neg"      c="Negative"/>
 	<sdef n="ind"      c="Indefinite"/>
+	<sdef n="def"      c="Definite"/>
 	<sdef n="tot"      c="Totalising"/>
 	<sdef n="clt"       c="Clitic"/>
      
@@ -312,6 +313,43 @@
 </pardef>
 
 
+<pardef n="Bandaríkin_USA__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Sovétríkin_Sovjetunionen__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Sakharovverðlaunin_Sacharovpriset__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Vestur-Indíur_Västindien__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Bahamaeyjar_Bahamas__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Barbadoseyjar_Barbados__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Grænhöfðaeyjar_KapVerde__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Fídjieyjar_Fiji__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+<pardef n="Alparnir_Alperna__np">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
  </pardefs>
 
 
@@ -490,7 +528,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
     <e><p><l>í<b/>ár<s n="adv"/></l><r>i<b/>år<s n="adv"/></r></p></e>
     <e c="v0"><p><l>í<b/>fyrra<s n="adv"/></l><r>i<b/>fjol<s n="adv"/></r></p></e>
     <e r="RL" c="v1"><p><l>í<b/>fyrra<s n="adv"/></l><r>i<b/>fjor<s n="adv"/></r></p></e>
-    <e><p><l>til<b/>samans<s n="adv"/></l><r>tillsammans<s n="adv"/></r></p></e>
     <e><p><l>í<b/>hittið<b/>fyrra<s n="adv"/></l><r>i<b/>förfjol<s n="adv"/></r></p></e>
 
     <e><p><l>í<b/>upphafi<s n="adv"/></l><r>i<b/>början<s n="adv"/></r></p></e>
@@ -588,8 +625,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 
 
 	<!-- SECTION: Prepositions -->
-	<e><p><l>í<b/>kringum<s n="pr"/></l><r>omkring<s n="pr"/></r></p></e>
-	<e><p><l>nema<s n="pr"/></l><r>förutom<s n="pr"/></r></p></e>
+	<e c="v0"><p><l>í<b/>kringum<s n="pr"/></l><r>omkring<s n="pr"/></r></p></e>
+	<e r="RL" c="v1"><p><l>í<b/>kringum<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
+	<e c="v0"><p><l>nema<s n="pr"/></l><r>förutom<s n="pr"/></r></p></e>
+	<e r="RL" c="v1"><p><l>nema<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
 	<e><p><l>ofaná<s n="pr"/></l><r>ovanför<s n="pr"/></r></p></e>
 	<e><p><l>varðandi<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
 		<e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
@@ -615,7 +654,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 		<e r="RL" c="v1"><p><l>meðfram<s n="pr"/></l><r>längs<s n="pr"/></r></p></e>
 		<e c="v0"><p><l>meðfram<s n="pr"/></l><r>utmed<s n="pr"/></r></p></e>
 		<e><p><l>milli<s n="pr"/></l><r>mellan<s n="pr"/></r></p></e>
-		<e><p><l>nema<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
 		<e><p><l>samkvæmt<s n="pr"/></l><r>enligt<s n="pr"/></r></p></e>
 		<e><p><l>til<s n="pr"/></l><r>till<s n="pr"/></r></p></e>
 		<e r="RL" c="v1"><p><l>um<s n="pr"/></l><r>cirka<s n="pr"/></r></p></e>
@@ -631,7 +669,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 		<e c="v0"><p><l>á<s n="pr"/></l><r>på<s n="pr"/></r></p></e>
 		<e r="RL" c="v1"><p><l>á<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
 		<e><p><l>án<s n="pr"/></l><r>utan<s n="pr"/></r></p></e>
-		<e><p><l>í<b/>kringum<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
 		<e><p><l>í<s n="pr"/></l><r>i<s n="pr"/></r></p></e>
 		<e><p><l>úr<s n="pr"/></l><r>ur<s n="pr"/></r></p></e>
 	<!-- END SECTION: Prepositions -->
@@ -729,7 +766,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 
 
 <!-- SECTION: Adverbs -->
-	<e><p><l>enn<s n="adv"/></l><r>än<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>enn<s n="adv"/></l><r>än<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>enn<s n="adv"/></l><r>ändå<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>síðan<s n="adv"/></l><r>sedan<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>síðan<s n="adv"/></l><r>sen<s n="adv"/></r></p></e>
 	<e><p><l>af<b/>hverjum<s n="adv"/></l><r>varav<s n="adv"/></r></p></e>
@@ -753,8 +791,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>að<b/>einhverju<b/>leyti<s n="adv"/></l><r>delvis<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>launum<s n="adv"/></l><r>i<b/>gengäld<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>lyktum<s n="adv"/></l><r>avslutningsvis<s n="adv"/></r></p></e>
-	<e><p><l>að<b/>minnsta<b/>kosti<s n="adv"/></l><r>minst<s n="adv"/></r></p></e>
-	<e><p><l>að<b/>minnsta<b/>kosti<s n="adv"/></l><r>åtminstone<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>að<b/>minnsta<b/>kosti<s n="adv"/></l><r>minst<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>að<b/>minnsta<b/>kosti<s n="adv"/></l><r>åtminstone<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>ofan<s n="adv"/></l><r>ovan<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>sumu<b/>leyti<s n="adv"/></l><r>dels<s n="adv"/></r></p></e>
 	<e><p><l>aðallega<s n="adv"/></l><r>huvudsakligen<s n="adv"/></r></p></e>
@@ -782,11 +820,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>ekki<s n="adv"/></l><r>inte<s n="adv"/></r></p></e>
 	<e><p><l>endilega<s n="adv"/></l><r>nödvändigtvis<s n="adv"/></r></p></e>
 	<e><p><l>engu<b/>að<b/>síður<s n="adv"/></l><r>likväl<s n="adv"/></r></p></e>
-	<e><p><l>enn<s n="adv"/></l><r>ändå<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>ennþá<s n="adv"/></l><r>fortfarande<s n="adv"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v1"><p><l>ennþá<s n="adv"/></l><r>ännu<s n="adv"/></r></p></e>
 	<e><p><l>erlendis<s n="adv"/></l><r>utomlands<s n="adv"/></r></p></e>
-	<e><p><l>falla<g><b/>saman</g><s n="adv"/></l><r>sammanfalla<s n="adv"/></r></p></e>
 	<e><p><l>fleiri<s n="adv"/></l><r>alltfler<s n="adv"/></r></p></e>
 	<e><p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
 	<e><p><l>framhjá<s n="adv"/></l><r>förbi<s n="adv"/></r></p></e>
@@ -808,6 +844,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>helst<s n="adv"/></l><r>helst<s n="adv"/></r></p></e>
 	<e><p><l>hingað<b/>til<s n="adv"/></l><r>hittills<s n="adv"/></r></p></e>
 	<e><p><l>hingað<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
+	<e r="RL" c="v2"><p><l>hins<b/>vegar<s n="adv"/></l><r>däremot<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>hins<b/>vegar<s n="adv"/></l><r>dock<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>hins<b/>vegar<s n="adv"/></l><r>emellertid<s n="adv"/></r></p></e>
 	<e><p><l>hver<b/>að<b/>sínu<b/>leyti<s n="adv"/></l><r>respektive<s n="adv"/></r></p></e>
@@ -830,14 +867,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>loksins<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>loksins<s n="adv"/></l><r>äntligen<s n="adv"/></r></p></e>
 	<e><p><l>líka<s n="adv"/></l><r>också<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>lítið<s n="adv"/></l><r>föga<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>lítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>meira<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>meira<s n="adv"/></l><r>mera<s n="adv"/></r></p></e>
-	<e><p><l>meiri<s n="adv"/></l><r>alltmer<s n="adv"/></r></p></e>
-	<e><p><l>mest<s n="adv"/></l><r>mest<s n="adv"/></r></p></e>
 	<e><p><l>milli<b/>sín<s n="adv"/></l><r>sinsemellan<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>mjög<s n="adv"/></l><r>allra<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>mjög<s n="adv"/></l><r>mycket<s n="adv"/></r></p></e>
 	<e><p><l>nefnilega<s n="adv"/></l><r>nämligen<s n="adv"/></r></p></e>
 	<e><p><l>nei<s n="adv"/></l><r>nej<s n="adv"/></r></p></e>
@@ -862,9 +893,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>reyndar<s n="adv"/></l><r>faktiskt<s n="adv"/></r></p></e>
 	<e><p><l>rétt<b/>áðan<s n="adv"/></l><r>nyss<s n="adv"/></r></p></e>
 	<e><p><l>rúmlega<s n="adv"/></l><r>drygt<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>saman<s n="adv"/></l><r>ihop<s n="adv"/></r></p></e>
-	<e r="RL" c="v2"><p><l>saman<s n="adv"/></l><r>samman<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>saman<s n="adv"/></l><r>samman<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>saman<s n="adv"/></l><r>tillsammans<s n="adv"/></r></p></e>
+    <e><p><l>til<b/>samans<s n="adv"/></l><r>ihop<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>samtals<s n="adv"/></l><r>sammantaget<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>samtals<s n="adv"/></l><r>totalt<s n="adv"/></r></p></e>
 	<e><p><l>sem<b/>betur<b/>fer<s n="adv"/></l><r>lyckligtvis<s n="adv"/></r></p></e>
@@ -872,7 +903,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>sennilega<s n="adv"/></l><r>förmodligen<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>sennilega<s n="adv"/></l><r>troligen<s n="adv"/></r></p></e>
 	<e><p><l>sjaldan<s n="adv"/></l><r>sällan<s n="adv"/></r></p></e>
-	<e><p><l>sjálfstæður<s n="adv"/></l><r>fristående<s n="adv"/></r></p></e>
 	<e><p><l>sko<s n="adv"/></l><r>alltså<s n="adv"/></r></p></e>
 	<e><p><l>skyndilega<s n="adv"/></l><r>plötsligt<s n="adv"/></r></p></e>
 	<e r="RL" c="v2"><p><l>smám<b/>saman<s n="adv"/></l><r>gradvis<s n="adv"/></r></p></e>
@@ -889,8 +919,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>sundur<s n="adv"/></l><r>sönder<s n="adv"/></r></p></e>
 	<e><p><l>svo<s n="adv"/></l><r>så<s n="adv"/></r></p></e>
 	<e><p><l>svolítið<s n="adv"/></l><r>tämligen<s n="adv"/></r></p></e>
-	<e><p><l>sérstaklega<s n="adv"/></l><r>framförallt<s n="adv"/></r></p></e>
-	<e><p><l>sérstaklega<s n="adv"/></l><r>i<b/>synnerhet<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>sérstaklega<s n="adv"/></l><r>framförallt<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>sérstaklega<s n="adv"/></l><r>i<b/>synnerhet<s n="adv"/></r></p></e>
 	<e><p><l>síðast<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>sömuleiðis<s n="adv"/></l><r>likaledes<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>sömuleiðis<s n="adv"/></l><r>likaså<s n="adv"/></r></p></e>
@@ -960,8 +990,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>af<b/>því<s n="adv"/></l><r>därför<s n="adv"/></r></p></e>
 	<e><p><l>þá<s n="adv"/></l><r>då<s n="adv"/></r></p></e>
 	<e><p><l>þó<s n="adv"/></l><r>dog<s n="adv"/></r></p></e>
-	<e><p><l>mest<s n="adv"/></l><r>mesta<s n="adv"/></r></p></e>
-	<e><p><l>hins<b/>vegar<s n="adv"/></l><r>däremot<s n="adv"/></r></p></e>
 	<e><p><l>þess<b/>vegna<s n="adv"/></l><r>därav<s n="adv"/></r></p></e>
 	<e><p><l>svo<b/>og<s n="adv"/></l><r>såväl<s n="adv"/></r></p></e>
 <!-- END SECTION: Adverbs -->
@@ -1489,6 +1517,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>siðmenntaður<s n="adj"/></l><r>civiliserad<s n="adj"/></r></p></e>
 	<e><p><l>sjaldgæfur<s n="adj"/></l><r>sällsynt<s n="adj"/></r></p></e>
 	<e><p><l>sjálfbær<s n="adj"/></l><r>hållbar<s n="adj"/></r></p></e>
+	<e r="RL" c="v2"><p><l>sjálfstæður<s n="adj"/></l><r>fristående<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>sjálfstæður<s n="adj"/></l><r>autonom<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>sjálfstæður<s n="adj"/></l><r>självständig<s n="adj"/></r></p></e>
 	<e><p><l>sjálfur<s n="adj"/></l><r>själv<s n="adj"/></r></p></e>
@@ -4047,6 +4076,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Alavanos<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Alavanos<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Alexander<s n="np"/><s n="ant"/><s n="m"/></l><r>Alexander<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Alparnir<s n="np"/><s n="top"/><s n="m"/></l><r>Alperna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+<!--	<e><p><l>Alparnir<s n="np"/><s n="top"/><s n="m"/></l><r>Alperna<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Alparnir_Alperna__np"/></e> -->
 	<e><p><l>Alþjóðabankinn<s n="np"/><s n="al"/><s n="m"/></l><r>Världsbanken<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Alþjóðaheilbrigðismálastofnun<s n="np"/><s n="al"/><s n="f"/></l><r>Världshälsoorganisation<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Alþjóðaviðskiptastofnun<s n="np"/><s n="al"/><s n="f"/></l><r>Världshandelsorganisation<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
@@ -4070,7 +4100,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Aþena<s n="np"/><s n="top"/><s n="f"/></l><r>Aten<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bali<s n="np"/><s n="top"/><s n="f"/></l><r>Bali<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Balkan<s n="np"/><s n="top"/><s n="m"/></l><r>Balkan<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>USA<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>USA<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Bandaríkin_USA__np"/></e>
 	<e><p><l>Bangemann<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Bangemann<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Baringdorf<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Baringdorf<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -4266,7 +4296,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Mccarthy<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Mccarthy<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Mccreevy<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Mccreevy<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Mckenna<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Mckenna<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
-	<e><p><l>Meda<s n="np"/><s n="al"/><s n="f"/></l><r>Meda<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Medína<s n="np"/><s n="top"/><s n="f"/></l><r>Medina<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Mercosur<s n="np"/><s n="al"/><s n="nt"/></l><r>Mercosur<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
 	<e><p><l>Merkel<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Merkel<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -4333,7 +4362,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Róm<s n="np"/><s n="top"/><s n="f"/></l><r>Rom<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Saddam<s n="np"/><s n="ant"/><s n="m"/></l><r>Saddam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Sahara<s n="np"/><s n="top"/><s n="nt"/></l><r>Sahara<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Sakharovverðlaunin<s n="np"/><s n="al"/><s n="nt"/></l><r>Sacharovpriset<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Sakharovverðlaunin<s n="np"/><s n="al"/><s n="nt"/></l><r>Sacharovpriset<s n="np"/><s n="al"/><s n="nt"/></r></p><par n="Sakharovverðlaunin_Sacharovpriset__np"/></e> 
 	<e><p><l>Salafranca<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Salafranca<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Salvador<s n="np"/><s n="top"/><s n="f"/></l><r>Salvador<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Sarkozy<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Sarkozy<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -4353,7 +4382,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Skotland<s n="np"/><s n="top"/><s n="nt"/></l><r>Skottland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Slóvenía<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Solana<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Solana<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
-	<e><p><l>Sovétríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>Sovjetunionen<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Sovétríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>Sovjetunionen<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Sovétríkin_Sovjetunionen__np"/></e>
 	<e><p><l>Spánn<s n="np"/><s n="top"/><s n="m"/></l><r>Spanien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Stavros<s n="np"/><s n="ant"/><s n="m"/></l><r>Stavros<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Sterckx<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Sterckx<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -4383,7 +4412,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>València<s n="np"/><s n="top"/><s n="f"/></l><r>Valencia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Verheugen<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Verheugen<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Vestur-Evrópa<s n="np"/><s n="top"/><s n="f"/></l><r>Västeuropa<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Vestur-Indíur<s n="np"/><s n="top"/><s n="f"/></l><r>Västindien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Vestur-Indíur<s n="np"/><s n="top"/><s n="f"/></l><r>Västindien<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Vestur-Indíur_Västindien__np"/></e>
 	<e><p><l>Vestur-Sahara<s n="np"/><s n="top"/><s n="nt"/></l><r>Västsahara<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vesturbakkinn<s n="np"/><s n="top"/><s n="m"/></l><r>Västbanken<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vigo<s n="np"/><s n="ant"/><s n="m"/></l><r>Vigo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -4415,11 +4444,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Aserbaídsjan<s n="np"/><s n="top"/><s n="nt"/></l><r>Azerbajdzjan<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Argentína<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Ástralía<s n="np"/><s n="top"/><s n="f"/></l><r>Australien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bahamaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Bahamaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Bahamaeyjar_Bahamas__np"/></e>
 	<e><p><l>Barein<s n="np"/><s n="top"/><s n="nt"/></l><r>Bahrain<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bangladess<s n="np"/><s n="top"/><s n="nt"/></l><r>Bangladesh<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Armenía<s n="np"/><s n="top"/><s n="f"/></l><r>Armenien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Barbadoseyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Barbados<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Barbadoseyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Barbados<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Barbadoseyjar_Barbados__np"/></e>
 	<e><p><l>Bermúdaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Bermuda<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bólivía<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Botsvana<s n="np"/><s n="top"/><s n="nt"/></l><r>Botswana<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -4431,7 +4460,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Búrúndí<s n="np"/><s n="top"/><s n="nt"/></l><r>Burundi<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kambódía<s n="np"/><s n="top"/><s n="f"/></l><r>Kambodja<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kanada<s n="np"/><s n="top"/><s n="nt"/></l><r>Kanada<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Grænhöfðaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Kap<b/>Verde<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Grænhöfðaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Kap<b/>Verde<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Grænhöfðaeyjar_KapVerde__np"/></e>
 	<e><p><l>Caymaneyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Caymanöarna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Srí<b/>Lanka<s n="np"/><s n="top"/><s n="nt"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Síle<s n="np"/><s n="top"/><s n="nt"/></l><r>Chile<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -4449,7 +4478,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Miðbaugs-Gínea<s n="np"/><s n="top"/><s n="f"/></l><r>Ekvatorialguinea<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Eistland<s n="np"/><s n="top"/><s n="nt"/></l><r>Estland<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Falklandseyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Falklandsöarna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Fídjieyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Fiji<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Fídjieyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Fiji<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Fídjieyjar_Fiji__np"/></e>
 	<e><p><l>Djíbútí<s n="np"/><s n="top"/><s n="nt"/></l><r>Djibouti<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Gambía<s n="np"/><s n="top"/><s n="f"/></l><r>Gambia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Gana<s n="np"/><s n="top"/><s n="nt"/></l><r>Ghana<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -4543,7 +4572,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Egyptaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Egypten<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bretland<s n="np"/><s n="top"/><s n="nt"/></l><r>Storbritannien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Tansanía<s n="np"/><s n="top"/><s n="f"/></l><r>Tanzania<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>USA<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Úrúgvæ<s n="np"/><s n="top"/><s n="nt"/></l><r>Uruguay<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Úsbekistan<s n="np"/><s n="top"/><s n="nt"/></l><r>Uzbekistan<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Venesúela<s n="np"/><s n="top"/><s n="f"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -4576,8 +4604,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Akrahreppur<s n="np"/><s n="top"/><s n="m"/></l><r>Akrahreppur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kópavogur<s n="np"/><s n="top"/><s n="m"/></l><r>Kópavogur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 
-	<e><p><l>Kyrrahaf<s n="np"/><s n="al"/><s n="nt"/></l><r>Stilla<b/>havet<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
-	<e><p><l>Atlantshaf<s n="np"/><s n="al"/><s n="nt"/></l><r>Atlanten<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>Kyrrahaf<s n="np"/><s n="top"/><s n="nt"/></l><r>Stilla<b/>havet<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Atlantshaf<s n="np"/><s n="top"/><s n="nt"/></l><r>Atlanten<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	
 	
 <!-- END SECTION: Proper nouns -->
@@ -4732,6 +4760,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>eyðileggja<s n="vblex"/></l><r>förstöra<s n="vblex"/></r></p></e>
 	<e><p><l>fagna<s n="vblex"/></l><r>fira<s n="vblex"/></r></p></e>
 	<e><p><l>falla<g><b/>niður</g><s n="vblex"/></l><r>bortfalla<s n="vblex"/></r></p></e>
+	<e><p><l>falla<g><b/>saman</g><s n="vblex"/></l><r>sammanfalla<s n="vblex"/></r></p></e>
 	<e><p><l>falla<s n="vblex"/></l><r>falla<s n="vblex"/></r></p></e>
 	<e><p><l>falsa<s n="vblex"/></l><r>förfalska<s n="vblex"/></r></p></e>
 	<e><p><l>fangelsa<s n="vblex"/></l><r>fängsla<s n="vblex"/></r></p></e>

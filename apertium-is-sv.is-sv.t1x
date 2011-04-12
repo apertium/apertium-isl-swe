@@ -25,10 +25,15 @@
       <cat-item tags="vbser.past.*"/>
       <cat-item tags="vbser.prs.*"/>
       <cat-item tags="vbser.pss.*"/>
+      <cat-item tags="vbhaver.pri.*"/>
+      <cat-item tags="vbhaver.past.*"/>
+      <cat-item tags="vbhaver.prs.*"/>
+      <cat-item tags="vbhaver.pss.*"/>
     </def-cat>
     <def-cat n="vimp"> 					<!--imperative verb-->
       <cat-item tags="vblex.*.imp.*"/>
       <cat-item tags="vbser.imp.*"/>
+      <cat-item tags="vbhaver.imp.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -143,6 +148,20 @@
           <let>
             <clip pos="1" side="tl" part="temps"/>
             <lit-tag v="pres"/>
+          </let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="past"/></equal>
+              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="pss"/></equal>
+            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="past"/>
           </let>
         </when>
       </choose>

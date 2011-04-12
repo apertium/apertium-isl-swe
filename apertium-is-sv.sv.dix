@@ -1484,6 +1484,12 @@
 	<pardef n="Afrika__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+
+	<pardef n="Nordsjön__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+
 	
 	<pardef n="Zeeland__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
@@ -1494,12 +1500,35 @@
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
 	</pardef>
 
+	<pardef n="Azorerna__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="pl"/></r></p><par n="S__case"/></e>
+	</pardef>
+
 	<pardef n="Wikipedia__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+	
+	<pardef n="Världshälsoorganisation__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l>en</l>        <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+
+	<pardef n="Atlanten__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+	<pardef n="Stilla_havet__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>	
 	<pardef n="Europol__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+	<pardef n="EMU__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+	
     <!-- Numerals -->
 
 <pardef n="arton__num">
@@ -1537,11 +1566,10 @@
 </pardef>
 
 <pardef n="ha__vbhaver">
-  <e>       <p><l></l>          <r><s n="vbhaver"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l></l>          <r><s n="vbhaver"/><s n="inf"/></r></p></e>
   <e>       <p><l>r</l>         <r><s n="vbhaver"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="vbhaver"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>de</l>        <r><s n="vbhaver"/><s n="past"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>ft</l>        <r><s n="vbhaver"/><s n="supn"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>de</l>        <r><s n="vbhaver"/><s n="past"/></r></p></e>
+  <e>       <p><l>ft</l>        <r><s n="vbhaver"/><s n="supn"/></r></p></e>
   <e>       <p><l></l>          <r><s n="vbhaver"/><s n="imp"/></r></p></e>
   <e>       <p><l>vande</l>     <r><s n="vbhaver"/><s n="pprs"/></r></p></e>
   <e>       <p><l>vd</l>        <r><s n="vbhaver"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -3083,6 +3111,7 @@
 <e lm="materiell"><i>materiell</i><par n="afrikansk__adj"/></e>
 <e lm="beroende på"><i>beroende</i><par n="extra__adj"/><p><l><b/>på</l><r><g><b/>på</g></r></p></e>
 <e lm="efterföljande"><i>efterföljande</i><par n="extra__adj"/></e>
+<e lm="fristående"><i>fristående</i><par n="extra__adj"/></e>
 <e lm="följande"><i>följande</i><par n="extra__adj"/></e>
 <e lm="enträgen"><i>enträg</i><par n="nak/en__adj"/></e>
 <e lm="återstående"><i>återstående</i><par n="extra__adj"/></e>
@@ -3945,6 +3974,7 @@
 <e lm="förstöra"><i>förstör</i><par n="hör/a__vblex"/></e>
 <e lm="fira"><i>fira</i><par n="adressera__vblex"/></e>
 <e lm="bortfalla"><i>bortf</i><par n="anf/alla__vblex"/></e>
+<e lm="sammanfalla"><i>sammanf</i><par n="anf/alla__vblex"/></e>
 <e lm="falla"><i>f</i><par n="anf/alla__vblex"/></e>
 <e lm="förfalska"><i>förfalska</i><par n="adressera__vblex"/></e>
 <e lm="fängsla"><i>fängsla</i><par n="adressera__vblex"/></e>
@@ -6847,10 +6877,10 @@
 <e lm="Airbus"><i>Airbus</i><par n="Wikipedia__np"/></e>
 <e lm="Alavanos"><i>Alavanos</i><par n="Abbas__np"/></e>
 <e lm="Alexander"><i>Alexander</i><par n="Trond__np"/></e>
-<e lm="Alperna"><i>Alperna</i><par n="Afrika__np"/></e>
+<e lm="Alperna"><i>Alperna</i><par n="Azorerna__np"/></e>
 <e lm="Världsbanken"><i>Världsbanken</i><par n="Wikipedia__np"/></e>
-<e lm="Världshälsoorganisation"><i>Världshälsoorganisation</i><par n="Wikipedia__np"/></e>
-<e lm="Världshandelsorganisation"><i>Världshandelsorganisation</i><par n="Wikipedia__np"/></e>
+<e lm="Världshälsoorganisation"><i>Världshälsoorganisation</i><par n="Världshälsoorganisation__np"/></e>
+<e lm="Världshandelsorganisation"><i>Världshandelsorganisation</i><par n="Världshälsoorganisation__np"/></e>
 <e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
 <e lm="Amsterdamfördraget"><i>Amsterdamfördraget</i><par n="Europol__np"/></e>
 <e lm="Amsterdam"><i>Amsterdam</i><par n="Afrika__np"/></e>
@@ -6861,7 +6891,7 @@
 <e lm="Anne"><i>Anne</i><par n="Eva__np"/></e>
 <e lm="Antonio"><i>Antonio</i><par n="Trond__np"/></e>
 <e lm="Arafat"><i>Arafat</i><par n="Magnusson__np"/></e>
-<e lm="Azorerna"><i>Azorerna</i><par n="Afrika__np"/></e>
+<e lm="Azorerna"><i>Azorerna</i><par n="Azorerna__np"/></e>
 <e lm="Aung"><i>Aung</i><par n="Magnusson__np"/></e>
 <e lm="Östeuropa"><i>Östeuropa</i><par n="Afrika__np"/></e>
 <e lm="Östtimor"><i>Östtimor</i><par n="Afrika__np"/></e>
@@ -7008,7 +7038,7 @@
 <e lm="Kaliningrad"><i>Kaliningrad</i><par n="Afrika__np"/></e>
 <e lm="Kambodja"><i>Kambodja</i><par n="Afrika__np"/></e>
 <e lm="Kanada"><i>Kanada</i><par n="Afrika__np"/></e>
-<e lm="Kanarieöarna"><i>Kanarieöarna</i><par n="Afrika__np"/></e>
+<e lm="Kanarieöarna"><i>Kanarieöarna</i><par n="Azorerna__np"/></e>
 <e lm="Karas"><i>Karas</i><par n="Abbas__np"/></e>
 <e lm="Karlheinz"><i>Karlheinz</i><par n="Magnusson__np"/></e>
 <e lm="Kazakstan"><i>Kazakstan</i><par n="Afrika__np"/></e>
@@ -7066,7 +7096,6 @@
 <e lm="Mccarthy"><i>Mccarthy</i><par n="Magnusson__np"/></e>
 <e lm="Mccreevy"><i>Mccreevy</i><par n="Magnusson__np"/></e>
 <e lm="Mckenna"><i>Mckenna</i><par n="Magnusson__np"/></e>
-<e lm="Meda"><i>Meda</i><par n="Wikipedia__np"/></e>
 <e lm="Medina"><i>Medina</i><par n="Afrika__np"/></e>
 <e lm="Mercosur"><i>Mercosur</i><par n="Europol__np"/></e>
 <e lm="Merkel"><i>Merkel</i><par n="Magnusson__np"/></e>
@@ -7085,7 +7114,7 @@
 <e lm="Morillon"><i>Morillon</i><par n="Magnusson__np"/></e>
 <e lm="Moskva"><i>Moskva</i><par n="Afrika__np"/></e>
 <e lm="Mugabe"><i>Mugabe</i><par n="Magnusson__np"/></e>
-<e lm="EMU"><i>EMU</i><par n="Europol__np"/></e>
+<e lm="EMU"><i>EMU</i><par n="EMU__np"/></e>
 <e lm="Nassauer"><i>Nassauer</i><par n="Magnusson__np"/></e>
 <e lm="Neil"><i>Neil</i><par n="Trond__np"/></e>
 <e lm="Nicholson"><i>Nicholson</i><par n="Magnusson__np"/></e>
@@ -7093,7 +7122,7 @@
 <e lm="Nielson"><i>Nielson</i><par n="Magnusson__np"/></e>
 <e lm="Norge"><i>Norge</i><par n="Zeeland__np"/></e>
 <e lm="Nordirland"><i>Nordirland</i><par n="Zeeland__np"/></e>
-<e lm="Nordsjön"><i>Nordsjön</i><par n="Afrika__np"/></e>
+<e lm="Nordsjön"><i>Nordsjön</i><par n="Nordsjön__np"/></e>
 <e lm="Oostlander"><i>Oostlander</i><par n="Magnusson__np"/></e>
 <e lm="Ortega"><i>Ortega</i><par n="Magnusson__np"/></e>
 <e lm="Paasilinna"><i>Paasilinna</i><par n="Magnusson__np"/></e>
@@ -7168,7 +7197,7 @@
 <e lm="Montenegro"><i>Montenegro</i><par n="Zeeland__np"/></e>
 <e lm="Swoboda"><i>Swoboda</i><par n="Magnusson__np"/></e>
 <e lm="Tammerfors"><i>Tammerfors</i><par n="Afrika__np"/></e>
-<e lm="Thailand"><i>Thailand</i><par n="Afrika__np"/></e>
+<e lm="Thailand"><i>Thailand</i><par n="Zeeland__np"/></e>
 <e lm="Taiwan"><i>Taiwan</i><par n="Zeeland__np"/></e>
 <e lm="Thessaloniki"><i>Thessaloniki</i><par n="Afrika__np"/></e>
 <e lm="Thomas"><i>Thomas</i><par n="Trond__np"/></e>
@@ -7218,7 +7247,7 @@
 <e lm="Bangladesh"><i>Bangladesh</i><par n="Afrika__np"/></e>
 <e lm="Armenien"><i>Armenien</i><par n="Afrika__np"/></e>
 <e lm="Barbados"><i>Barbados</i><par n="Paris__np"/></e>
-<e lm="Bermuda"><i>Bermuda</i><par n="Afrika__np"/></e>
+<e lm="Bermuda"><i>Bermuda</i><par n="Azorerna__np"/></e>
 <e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
 <e lm="Botswana"><i>Botswana</i><par n="Afrika__np"/></e>
 <e lm="Brasilien"><i>Brasilien</i><par n="Afrika__np"/></e>
@@ -7230,12 +7259,12 @@
 <e lm="Kambodja"><i>Kambodja</i><par n="Afrika__np"/></e>
 <e lm="Kanada"><i>Kanada</i><par n="Afrika__np"/></e>
 <e lm="Kap Verde"><i>Kap<b/>Verde</i><par n="Afrika__np"/></e>
-<e lm="Caymanöarna"><i>Caymanöarna</i><par n="Afrika__np"/></e>
+<e lm="Caymanöarna"><i>Caymanöarna</i><par n="Azorerna__np"/></e>
 <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Afrika__np"/></e>
 <e lm="Chile"><i>Chile</i><par n="Afrika__np"/></e>
 <e lm="Kina"><i>Kina</i><par n="Afrika__np"/></e>
 <e lm="Colombia"><i>Colombia</i><par n="Afrika__np"/></e>
-<e lm="Komorerna"><i>Komorerna</i><par n="Afrika__np"/></e>
+<e lm="Komorerna"><i>Komorerna</i><par n="Azorerna__np"/></e>
 <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Afrika__np"/></e>
 <e lm="Kroatien"><i>Kroatien</i><par n="Afrika__np"/></e>
 <e lm="Kuba"><i>Kuba</i><par n="Afrika__np"/></e>
@@ -7246,7 +7275,7 @@
 <e lm="El Salvador"><i>El<b/>Salvador</i><par n="Afrika__np"/></e>
 <e lm="Ekvatorialguinea"><i>Ekvatorialguinea</i><par n="Afrika__np"/></e>
 <e lm="Estland"><i>Estland</i><par n="Afrika__np"/></e>
-<e lm="Falklandsöarna"><i>Falklandsöarna</i><par n="Afrika__np"/></e>
+<e lm="Falklandsöarna"><i>Falklandsöarna</i><par n="Azorerna__np"/></e>
 <e lm="Fiji"><i>Fiji</i><par n="Afrika__np"/></e>
 <e lm="Djibouti"><i>Djibouti</i><par n="Afrika__np"/></e>
 <e lm="Gambia"><i>Gambia</i><par n="Afrika__np"/></e>
@@ -7284,7 +7313,7 @@
 <e lm="Madagaskar"><i>Madagaskar</i><par n="Afrika__np"/></e>
 <e lm="Malawi"><i>Malawi</i><par n="Afrika__np"/></e>
 <e lm="Malaysia"><i>Malaysia</i><par n="Afrika__np"/></e>
-<e lm="Maldiverna"><i>Maldiverna</i><par n="Afrika__np"/></e>
+<e lm="Maldiverna"><i>Maldiverna</i><par n="Azorerna__np"/></e>
 <e lm="Malta"><i>Malta</i><par n="Afrika__np"/></e>
 <e lm="Mauretanien"><i>Mauretanien</i><par n="Afrika__np"/></e>
 <e lm="Mauritius"><i>Mauritius</i><par n="Paris__np"/></e>
@@ -7297,7 +7326,7 @@
 <e lm="Nepal"><i>Nepal</i><par n="Afrika__np"/></e>
 <e lm="Aruba"><i>Aruba</i><par n="Afrika__np"/></e>
 <e lm="Vanuatu"><i>Vanuatu</i><par n="Afrika__np"/></e>
-<e lm="Cooköarna"><i>Cooköarna</i><par n="Afrika__np"/></e>
+<e lm="Cooköarna"><i>Cooköarna</i><par n="Azorerna__np"/></e>
 <e lm="Nicaragua"><i>Nicaragua</i><par n="Afrika__np"/></e>
 <e lm="Nicaragua"><i>Nicaragua</i><par n="Afrika__np"/></e>
 <e lm="Nigeria"><i>Nigeria</i><par n="Afrika__np"/></e>
@@ -7306,7 +7335,7 @@
 <e lm="Papua"><i>Papua</i><par n="Afrika__np"/></e>
 <e lm="Paraguay"><i>Paraguay</i><par n="Afrika__np"/></e>
 <e lm="Peru"><i>Peru</i><par n="Afrika__np"/></e>
-<e lm="Filippinerna"><i>Filippinerna</i><par n="Afrika__np"/></e>
+<e lm="Filippinerna"><i>Filippinerna</i><par n="Azorerna__np"/></e>
 <e lm="Guinea-Bissau"><i>Guinea-Bissau</i><par n="Afrika__np"/></e>
 <e lm="Öst-Timor"><i>Öst-Timor</i><par n="Afrika__np"/></e>
 <e lm="Qatar"><i>Qatar</i><par n="Afrika__np"/></e>
@@ -7316,7 +7345,7 @@
 <e lm="Saint Helena"><i>Saint<b/>Helena</i><par n="Afrika__np"/></e>
 <e lm="Sao Tomé och Principe"><i>Sao<b/>Tomé<b/>och<b/>Principe</i><par n="Afrika__np"/></e>
 <e lm="Saudi-Arabien"><i>Saudi-Arabien</i><par n="Afrika__np"/></e>
-<e lm="Seychellerna"><i>Seychellerna</i><par n="Afrika__np"/></e>
+<e lm="Seychellerna"><i>Seychellerna</i><par n="Azorerna__np"/></e>
 <e lm="Sierre Leone"><i>Sierre<b/>Leone</i><par n="Afrika__np"/></e>
 <e lm="Singapore"><i>Singapore</i><par n="Afrika__np"/></e>
 <e lm="Slovakien"><i>Slovakien</i><par n="Afrika__np"/></e>
@@ -7333,7 +7362,7 @@
 <e lm="Thailand"><i>Thailand</i><par n="Afrika__np"/></e>
 <e lm="Tonga"><i>Tonga</i><par n="Afrika__np"/></e>
 <e lm="Trinidad och Tobago"><i>Trinidad<b/>och<b/>Tobago</i><par n="Afrika__np"/></e>
-<e lm="Förenade Arabemiraten"><i>Förenade<b/>Arabemiraten</i><par n="Afrika__np"/></e>
+<e lm="Förenade Arabemiraten"><i>Förenade<b/>Arabemiraten</i><par n="Azorerna__np"/></e>
 <e lm="Tunisien"><i>Tunisien</i><par n="Afrika__np"/></e>
 <e lm="Turkmenistan"><i>Turkmenistan</i><par n="Afrika__np"/></e>
 <e lm="Uganda"><i>Uganda</i><par n="Afrika__np"/></e>
@@ -7341,7 +7370,6 @@
 <e lm="Egypten"><i>Egypten</i><par n="Afrika__np"/></e>
 <e lm="Storbritannien"><i>Storbritannien</i><par n="Afrika__np"/></e>
 <e lm="Tanzania"><i>Tanzania</i><par n="Afrika__np"/></e>
-<e lm="USA"><i>USA</i><par n="Afrika__np"/></e>
 <e lm="Uruguay"><i>Uruguay</i><par n="Afrika__np"/></e>
 <e lm="Uzbekistan"><i>Uzbekistan</i><par n="Afrika__np"/></e>
 <e lm="Venezuela"><i>Venezuela</i><par n="Afrika__np"/></e>
@@ -7371,8 +7399,8 @@
 <e lm="Fljótahreppur"><i>Fljótahreppur</i><par n="Afrika__np"/></e>
 <e lm="Akrahreppur"><i>Akrahreppur</i><par n="Afrika__np"/></e>
 <e lm="Kópavogur"><i>Kópavogur</i><par n="Afrika__np"/></e>
-<e lm="Stilla havet"><i>Stilla<b/>havet</i><par n="Wikipedia__np"/></e>
-<e lm="Atlanten"><i>Atlanten</i><par n="Wikipedia__np"/></e>
+<e lm="Stilla havet"><i>Stilla<b/>havet</i><par n="Stilla_havet__np"/></e>
+<e lm="Atlanten"><i>Atlanten</i><par n="Atlanten__np"/></e>
 <!--END PROPER NOUNS-->
 
 
@@ -7698,7 +7726,6 @@
 	<e lm="fortfarande"><i>fortfarande</i><par n="var__adv"/></e>
 	<e lm="ännu"><i>ännu</i><par n="var__adv"/></e>
 	<e lm="utomlands"><i>utomlands</i><par n="var__adv"/></e>
-	<e lm="sammanfalla"><i>sammanfalla</i><par n="var__adv"/></e>
 	<e lm="alltfler"><i>alltfler</i><par n="var__adv"/></e>
 	<e lm="fram"><i>fram</i><par n="var__adv"/></e>
 	<e lm="förbi"><i>förbi</i><par n="var__adv"/></e>
@@ -7742,15 +7769,7 @@
 	<e lm="slutligen"><i>slutligen</i><par n="var__adv"/></e>
 	<e lm="äntligen"><i>äntligen</i><par n="var__adv"/></e>
 	<e lm="också"><i>också</i><par n="var__adv"/></e>
-	<e lm="föga"><i>föga</i><par n="var__adv"/></e>
-	<e lm="lite"><i>lite</i><par n="var__adv"/></e>
-	<e lm="mer"><i>mer</i><par n="var__adv"/></e>
-	<e lm="mera"><i>mera</i><par n="var__adv"/></e>
-	<e lm="alltmer"><i>alltmer</i><par n="var__adv"/></e>
-	<e lm="mest"><i>mest</i><par n="var__adv"/></e>
 	<e lm="sinsemellan"><i>sinsemellan</i><par n="var__adv"/></e>
-	<e lm="allra"><i>allra</i><par n="var__adv"/></e>
-	<e lm="mycket"><i>mycket</i><par n="var__adv"/></e>
 	<e lm="nämligen"><i>nämligen</i><par n="var__adv"/></e>
 	<e lm="nej"><i>nej</i><par n="var__adv"/></e>
 	<e lm="nere"><i>nere</i><par n="var__adv"/></e>
@@ -7769,7 +7788,6 @@
 	<e lm="nu"><i>nu</i><par n="var__adv"/></e>
 	<e lm="nyligen"><i>nyligen</i><par n="var__adv"/></e>
 	<e lm="i förtid"><i>i<b/>förtid</i><par n="var__adv"/></e>
-	<e lm="ofta"><i>ofta</i><par n="var__adv"/></e>
 	<e lm="personligen"><i>personligen</i><par n="var__adv"/></e>
 	<e lm="faktiskt"><i>faktiskt</i><par n="var__adv"/></e>
 	<e lm="nyss"><i>nyss</i><par n="var__adv"/></e>
@@ -7784,7 +7802,6 @@
 	<e lm="förmodligen"><i>förmodligen</i><par n="var__adv"/></e>
 	<e lm="troligen"><i>troligen</i><par n="var__adv"/></e>
 	<e lm="sällan"><i>sällan</i><par n="var__adv"/></e>
-	<e lm="fristående"><i>fristående</i><par n="var__adv"/></e>
 	<e lm="alltså"><i>alltså</i><par n="var__adv"/></e>
 	<e lm="plötsligt"><i>plötsligt</i><par n="var__adv"/></e>
 	<e lm="gradvis"><i>gradvis</i><par n="var__adv"/></e>
@@ -7821,7 +7838,6 @@
 	<e lm="uppe"><i>uppe</i><par n="var__adv"/></e>
 	<e lm="utifrån"><i>utifrån</i><par n="var__adv"/></e>
 	<e lm="noga"><i>noga</i><par n="var__adv"/></e>
-	<e lm="väl"><i>väl</i><par n="var__adv"/></e>
 	<e lm="vanligen"><i>vanligen</i><par n="var__adv"/></e>
 	<e lm="gärna"><i>gärna</i><par n="var__adv"/></e>
 	<e lm="verkligen"><i>verkligen</i><par n="var__adv"/></e>
@@ -7871,7 +7887,6 @@
 	<e lm="därför"><i>därför</i><par n="var__adv"/></e>
 	<e lm="då"><i>då</i><par n="var__adv"/></e>
 	<e lm="dog"><i>dog</i><par n="var__adv"/></e>
-	<e lm="mesta"><i>mesta</i><par n="var__adv"/></e>
 	<e lm="däremot"><i>däremot</i><par n="var__adv"/></e>
 	<e lm="därav"><i>därav</i><par n="var__adv"/></e>
 	<e lm="såväl"><i>såväl</i><par n="var__adv"/></e>
