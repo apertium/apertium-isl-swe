@@ -93,6 +93,21 @@
 
 
  <pardefs>
+    <pardef n="mánuðir__months__num">
+      <e><p><l>janúar<s n="num"/></l><r>januari<s n="num"/></r></p></e>
+      <e><p><l>febrúar<s n="num"/></l><r>februari<s n="num"/></r></p></e>
+      <e><p><l>mars<s n="num"/></l><r>mars<s n="num"/></r></p></e>
+      <e><p><l>apríl<s n="num"/></l><r>april<s n="num"/></r></p></e>
+      <e><p><l>maí<s n="num"/></l><r>maj<s n="num"/></r></p></e>
+      <e><p><l>júní<s n="num"/></l><r>juni<s n="num"/></r></p></e>
+      <e><p><l>júlí<s n="num"/></l><r>juli<s n="num"/></r></p></e>
+      <e><p><l>ágúst<s n="num"/></l><r>augusti<s n="num"/></r></p></e>
+      <e><p><l>september<s n="num"/></l><r>september<s n="num"/></r></p></e>
+      <e><p><l>október<s n="num"/></l><r>oktober<s n="num"/></r></p></e>
+      <e><p><l>nóvember<s n="num"/></l><r>november<s n="num"/></r></p></e>
+      <e><p><l>desember<s n="num"/></l><r>december<s n="num"/></r></p></e>
+    </pardef>
+
  
  <pardef n="minn_mine__prn">
    <e r="LR"><p><l><s n="mf"/><s n="sg"/></l><r><s n="mf"/><s n="sp"/></r></p></e>
@@ -5461,6 +5476,16 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v2"><p><l>þýða<s n="vblex"/></l><r>sammanställa<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>þýða<s n="vblex"/></l><r>tyda<s n="vblex"/></r></p></e>
 <!-- SECTION: Verbs -->
+
+
+    <e><re>[2-3]?[0,4-9]</re><p><l>.<b/></l><r><b/></r></p><par n="mánuðir__months__num"/></e>
+    <e><re>1[0-9]</re><p><l>.<b/></l><r><b/></r></p><par n="mánuðir__months__num"/></e>
+<!--
+    <e><re>[2-9]*</re><p><l>1.<b/></l><r>1st<b/></r></p><par n="mánuðir__months__num"/></e>
+    <e><re>[2-9]*</re><p><l>2.<b/></l><r>2nd<b/></r></p><par n="mánuðir__months__num"/></e>
+    <e><re>[2-9]*</re><p><l>3.<b/></l><r>3rd<b/></r></p><par n="mánuðir__months__num"/></e>
+-->
+
 
  </section>
 </dictionary>

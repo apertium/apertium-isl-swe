@@ -1,3 +1,6 @@
+   1537 ^@tveir<num><mfn>$
+    860 ^@þrír<num><mfn>$
+    487 ^@fjórir<num><mfn>$
     156 ^@1. janúar<num>$
      98 ^@1. desember<num>$
      80 ^@17. júní<num>$
@@ -364,6 +367,7 @@
      15 ^@11. ágúst<num>$
      12 ^@23. ágúst<num>$
       8 ^@29. febrúar<num>$
+      2 ^@tveir<num><mfn>$ 
       1 ^:<sent>$   ш) (^@25. september<num>$
       1 ^*kúrósava$ (黒澤 明) (^@23. mars<num>$
       1 ^-<guio>$ バ ^@14. október<num>$

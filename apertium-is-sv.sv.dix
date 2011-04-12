@@ -79,6 +79,28 @@
   <pardefs>
     <!-- Punctuation -->
 
+    <pardef n="mánuðir">
+      <e><p><l>januari</l><r>januari</r></p></e>
+      <e><p><l>februari</l><r>februari</r></p></e>
+      <e><p><l>mars</l><r>mars</r></p></e>
+      <e><p><l>april</l><r>april</r></p></e>
+      <e><p><l>maj</l><r>maj</r></p></e>
+      <e><p><l>juni</l><r>juni</r></p></e>
+      <e><p><l>juli</l><r>juli</r></p></e>
+      <e><p><l>augusti</l><r>augusti</r></p></e>
+      <e><p><l>september</l><r>september</r></p></e>
+      <e><p><l>oktober</l><r>oktober</r></p></e>
+      <e><p><l>november</l><r>november</r></p></e>
+      <e><p><l>december</l><r>december</r></p></e>
+    </pardef>
+
+    <!-- 1st 2nd 3rd 4th 5th 6th 7th 8th 9th 10th 11th 12th 13th 14th 15th ... 20th 21st -->
+    <pardef n="dates">
+      <e>       <re>[2-3]?[0,4-9]</re><p><l><b/></l><r><b/></r></p><par n="mánuðir"/><p><l/><r><s n="num"/></r></p></e>
+      <e>       <re>1[0-9]</re><p><l><b/></l><r><b/></r></p><par n="mánuðir"/><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
+
 <pardef n="numeros">
   <e>       <re>[0-9]+([.,][0-9]+)?(%)?</re><p><l></l><r><s n="num"/></r></p></e>
       <e>       <re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
@@ -7966,6 +7988,7 @@
   </section>
   <section id="final" type="inconditional">
 <e>                      <par n="separa"/></e>
+<e>                      <par n="dates"/></e>
 <e>                      <par n="numeros"/></e>
 <e>                      <par n="coma"/></e>
 <e>                      <par n="paresq"/></e>
