@@ -147,6 +147,25 @@
       </choose>
     </def-macro>
 
+    <def-macro n="conv_case2" npar="1" > 						<!-- MACRO: convert acc/dat/gen to nom -->	
+      <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="dat"/></equal>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="cas"/>
+            <lit-tag v="adj"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+
     <def-macro n="conv_temps1" npar="1"> 		<!-- MACRO: convert present indicative/subjunctive to present -->
       <choose>
         <when>
@@ -260,6 +279,44 @@
         </out>
       </action>
     </rule>
+
+
+<!-- HMMM?
+
+	    <rule comment="regla: adj">
+	      <pattern>
+	        <pattern-item n="adj"/>
+	      </pattern>
+	      <action>
+ 	        <call-macro n="conv_case2">
+	          <with-param pos="1"/>
+	        </call-macro> 
+	        <out>  -->
+<!-- 	          <chunk name="adj" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SN"/></tag> 
+	 SN = sintagma nominal = noun phrase, but i prefer "nominal segment" 
+	              <tag><clip pos="1" side="tl" part="gen"/></tag>
+	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="1" side="tl" part="cas"/></tag>
+	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	            </tags> -->
+<!--	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_adj"/>
+	              <clip pos="1" side="tl" part="grau"/>
+	              <clip pos="1" side="tl" part="gen"/>
+	              <clip pos="1" side="tl" part="nbr"/>
+	              <clip pos="1" side="tl" part="cas"/>
+	              <clip pos="1" side="tl" part="defnes"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>  -->
+
+<!-- 	          </chunk> -->
+<!--	        </out>
+	      </action>
+	    </rule> -->
+
 
 
     <rule comment="regla: adj nom">

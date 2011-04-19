@@ -4917,6 +4917,15 @@
 <e lm="dagordning"><i>dagordning</i><par n="bil__n"/></e>
 <e lm="program"><i>program</i><par n="gram__n"/></e>
 <e lm="dag"><i>dag</i><par n="bil__n"/></e>
+
+<e lm="måndag"><i>måndag</i><par n="bil__n"/></e>
+<e lm="tisdag"><i>tisdag</i><par n="bil__n"/></e>
+<e lm="onsdag"><i>onsdag</i><par n="bil__n"/></e>
+<e lm="torsdag"><i>torsdag</i><par n="bil__n"/></e>
+<e lm="fredag"><i>fredag</i><par n="bil__n"/></e>
+<e lm="lördag"><i>lördag</i><par n="bil__n"/></e>
+<e lm="söndag"><i>söndag</i><par n="bil__n"/></e>
+
 <e lm="danska"><i>dansk</i><par n="afghansk/a__n"/></e>
 <e lm="dödsstraff"><i>dödsstraff</i><par n="ackord__n"/></e>
 <e lm="dödsfall"><i>dödsfall</i><par n="ackord__n"/></e>
