@@ -3865,6 +3865,367 @@
 <e lm="reproduktiv"><i>reproduktiv</i><par n="afrikansk__adj"/></e>
 <e lm="medel"><i>medel</i><par n="extra__adj"/></e>
 <e lm="minimal"><i>minimal</i><par n="afrikansk__adj"/></e>
+
+
+		<!--new adjectives nov 2011-->
+<e lm="isolerad"><i>isolera</i><par n="beväpna/d__adj"/></e>
+<e lm="äldre"><i>äldre</i><par n="extra__adj"/></e>
+<e lm="ensam"><i>ensam</i><par n="blygsam__adj"/></e>
+<e lm="allmän"><i>allmän</i><par n="allmän__adj"/></e>
+<e lm="fullständig"><i>fullständig</i><par n="aktiv__adj"/></e>
+<e lm="diverse"><i>diverse</i><par n="extra__adj"/></e>
+<e lm="allsmäktig"><i>allsmäktig</i><par n="aktiv__adj"/></e>
+<e lm="passande"><i>passande</i><par n="extra__adj"/></e>
+<e lm="vidrig"><i>vidrig</i><par n="aktiv__adj"/></e>
+<e lm="fånig"><i>fånig</i><par n="aktiv__adj"/></e>
+<e lm="förmögen"><i>förmög</i><par n="nak/en__adj"/></e>
+<e lm="amerikansk"><i>amerikansk</i><par n="afrikansk__adj"/></e>
+<e lm="direkt"><i>direkt</i><par n="diskret__adj"/></e>
+<e lm="bar"><i>bar</i><par n="afrikansk__adj"/></e>
+<e lm="barfota"><i>barfota</i><par n="extra__adj"/></e>
+<e lm="våt"><i>vå</i><par n="vå/t__adj"/></e>
+<e lm="rosa"><i>rosa</i><par n="extra__adj"/></e>
+<e lm="välsignad"><i>välsigna</i><par n="beväpna/d__adj"/></e>
+<e lm="mild"><i>mil</i><par n="särskil/d__adj"/></e>
+<e lm="böjd"><i>böj</i><par n="särskil/d__adj"/></e>
+<e lm="pigg"><i>pigg</i><par n="aktiv__adj"/></e>
+<e lm="brännande"><i>brännande</i><par n="extra__adj"/></e>
+<e lm="bruten"><i>brut</i><par n="nak/en__adj"/></e>
+<e lm="brun"><i>brun</i><par n="aktiv__adj"/></e>
+<e lm="brådskande"><i>brådskande</i><par n="extra__adj"/></e>
+<e lm="benig"><i>benig</i><par n="aktiv__adj"/></e>
+<e lm="förbättrad"><i>förbättra</i><par n="beväpna/d__adj"/></e>
+<e lm="färdig"><i>färdig</i><par n="afrikansk__adj"/></e>
+<e lm="ledsen"><i>leds</i><par n="nak/en__adj"/></e>
+<e lm="dyster"><i>dyst</i><par n="tapp/er__adj"/></e>
+<e lm="svag"><i>svag</i><par n="aktiv__adj"/></e>
+<e lm="dunkel"><i>dunk</i><par n="dunk/el__adj"/></e>
+<e lm="djup"><i>djup</i><par n="aktiv__adj"/></e>
+<e lm="dryg"><i>dryg</i><par n="afrikansk__adj"/></e>
+<e lm="berusad"><i>berusa</i><par n="beväpna/d__adj"/></e>
+<e lm="sur"><i>sur</i><par n="aktiv__adj"/></e>
+<e lm="duktig"><i>duktig</i><par n="aktiv__adj"/></e>
+<e lm="mystisk"><i>mystisk</i><par n="afrikansk__adj"/></e>
+<e lm="död"><i>död</i><par n="afrikansk__adj"/></e>
+<e lm="underbar"><i>underbar</i><par n="aktiv__adj"/></e>
+<e lm="mörk"><i>mörk</i><par n="aktiv__adj"/></e>
+<e lm="övre"><i>övre</i><par n="extra__adj"/></e>
+<e lm="egen"><i>eg</i><par n="eg/en__adj"/></e>
+<e lm="evig"><i>evig</i><par n="aktiv__adj"/></e>
+<e lm="enda"><i>enda</i><par n="extra__adj"/></e>
+<e lm="egendomlig"><i>egendomlig</i><par n="aktiv__adj"/></e>
+<e lm="uppriktig"><i>uppriktig</i><par n="aktiv__adj"/></e>
+<e lm="ensam"><i>ensam</i><par n="blygsam__adj"/></e>
+<e lm="eldröd"><i>eldrö</i><par n="rö/d__adj"/></e>
+<e lm="älskvärd"><i>älskvär</i><par n="run/d__adj"/></e>
+<e lm="ändlös"><i>ändlös</i><par n="afrikansk__adj"/></e>
+<e lm="benägen"><i>benäg</i><par n="nak/en__adj"/></e>
+<e lm="normal"><i>normal</i><par n="afrikansk__adj"/></e>
+<e lm="vacker"><i>vack</i><par n="tapp/er__adj"/></e>
+<e lm="fallen"><i>fall</i><par n="nak/en__adj"/></e>
+<e lm="falsk"><i>falsk</i><par n="aktiv__adj"/></e>
+<e lm="borta"><i>borta</i><par n="extra__adj"/></e>
+<e lm="fast"><i>fast</i><par n="diskret__adj"/></e>
+<e lm="belåten"><i>belåt</i><par n="nak/en__adj"/></e>
+<e lm="fet"><i>fe</i><par n="vå/t__adj"/></e>
+<e lm="fyrtioårig"><i>fyrtioårig</i><par n="afrikansk__adj"/></e>
+<e lm="många"><i></i><par n="/många__adj"/></e>
+<e lm="platt"><i>platt</i><par n="diskret__adj"/></e>
+<e lm="snabb"><i>snabb</i><par n="aktiv__adj"/></e>
+<e lm="snar"><i>snar</i><par n="aktiv__adj"/></e>
+<e lm="sval"><i>sval</i><par n="aktiv__adj"/></e>
+<e lm="nyfiken"><i>nyfik</i><par n="nak/en__adj"/></e>
+<e lm="förbryllad"><i>förbrylla</i><par n="beväpna/d__adj"/></e>
+<e lm="exotisk"><i>exotisk</i><par n="afrikansk__adj"/></e>
+<e lm="påträngande"><i>påträngande</i><par n="extra__adj"/></e>
+<e lm="främre"><i>främre</i><par n="extra__adj"/></e>
+<e lm="primitiv"><i>primitiv</i><par n="aktiv__adj"/></e>
+<e lm="avvikande"><i>avvikande</i><par n="extra__adj"/></e>
+<e lm="berömd"><i>beröm</i><par n="särskil/d__adj"/></e>
+<e lm="skön"><i>skön</i><par n="aktiv__adj"/></e>
+<e lm="informativ"><i>informativ</i><par n="afrikansk__adj"/></e>
+<e lm="konstig"><i>konstig</i><par n="aktiv__adj"/></e>
+<e lm="rolig"><i>rolig</i><par n="aktiv__adj"/></e>
+<e lm="menad"><i>mena</i><par n="beväpna/d__adj"/></e>
+<e lm="ovannämnd"><i>ovannämn</i><par n="blin/d__adj"/></e>
+<e lm="fåtal"><i>fåtal</i><par n="extra__adj"/></e>
+<e lm="få"><i></i><par n="/få__adj"/></e>
+<e lm="kapabel"><i>kapab</i><par n="dubb/el__adj"/></e>
+<e lm="social"><i>social</i><par n="afrikansk__adj"/></e>
+<e lm="fin"><i>fin</i><par n="aktiv__adj"/></e>
+<e lm="blek"><i>blek</i><par n="aktiv__adj"/></e>
+<e lm="sur"><i>sur</i><par n="aktiv__adj"/></e>
+<e lm="ålderdomlig"><i>ålderdomlig</i><par n="aktiv__adj"/></e>
+<e lm="given"><i>giv</i><par n="nak/en__adj"/></e>
+<e lm="tillverkad"><i>tillverka</i><par n="beväpna/d__adj"/></e>
+<e lm="lagrad"><i>lagra</i><par n="beväpna/d__adj"/></e>
+<e lm="gift"><i>gift</i><par n="gift__adj"/></e>
+<e lm="glad"><i>gla</i><par n="gla/d__adj"/></e>
+<e lm="glänsande"><i>glänsande</i><par n="extra__adj"/></e>
+<e lm="grinande"><i>grinande</i><par n="extra__adj"/></e>
+<e lm="elegant"><i>elegant</i><par n="gift__adj"/></e>
+<e lm="tydlig"><i>tydlig</i><par n="aktiv__adj"/></e>
+<e lm="still"><i>still</i><par n="afrikansk__adj"/></e>
+<e lm="grafisk"><i>grafisk</i><par n="afrikansk__adj"/></e>
+<e lm="förargad"><i>förarga</i><par n="beväpna/d__adj"/></e>
+<e lm="smal"><i>smal</i><par n="aktiv__adj"/></e>
+<e lm="grå"><i>grå</i><par n="blå__adj"/></e>
+<e lm="gyllene"><i>gyllene</i><par n="extra__adj"/></e>
+<e lm="gul"><i>gul</i><par n="aktiv__adj"/></e>
+<e lm="begåvad"><i>begåva</i><par n="beväpna/d__adj"/></e>
+<e lm="smaklös"><i>smaklös</i><par n="aktiv__adj"/></e>
+<e lm="helig"><i>helig</i><par n="aktiv__adj"/></e>
+<e lm="fascinerande"><i>fascinerande</i><par n="extra__adj"/></e>
+<e lm="dum"><i>dum</i><par n="blygsam__adj"/></e>
+<e lm="hädangången"><i>hädangång</i><par n="nak/en__adj"/></e>
+<e lm="het"><i>he</i><par n="vå/t__adj"/></e>
+<e lm="lycklig"><i>lycklig</i><par n="aktiv__adj"/></e>
+<e lm="tveksam"><i>tveksam</i><par n="blygsam__adj"/></e>
+<e lm="sist"><i>sist</i><par n="gift__adj"/></e>
+<e lm="lastad"><i>lasta</i><par n="beväpna/d__adj"/></e>
+<e lm="tyst"><i>tyst</i><par n="diskret__adj"/></e>
+<e lm="tystlåten"><i>tystlåt</i><par n="nak/en__adj"/></e>
+<e lm="löjlig"><i>löjlig</i><par n="aktiv__adj"/></e>
+<e lm="skrattande"><i>skrattande</i><par n="extra__adj"/></e>
+<e lm="chockad"><i>chocka</i><par n="beväpna/d__adj"/></e>
+<e lm="hälsosam"><i>hälsosam</i><par n="blygsam__adj"/></e>
+<e lm="försvunnen"><i>försvunn</i><par n="försvunn/en__adj"/></e>
+<e lm="frisk"><i>frisk</i><par n="aktiv__adj"/></e>
+<e lm="orörlig"><i>orörlig</i><par n="aktiv__adj"/></e>
+<e lm="självbelåten"><i>självbelåt</i><par n="nak/en__adj"/></e>
+<e lm="imponerad"><i>imponera</i><par n="beväpna/d__adj"/></e>
+<e lm="cirkulär"><i>cirkulär</i><par n="afrikansk__adj"/></e>
+<e lm="reflekterande"><i>reflekterande</i><par n="extra__adj"/></e>
+<e lm="eftertänksam"><i>eftertänksam</i><par n="blygsam__adj"/></e>
+<e lm="dold"><i>dol</i><par n="särskil/d__adj"/></e>
+<e lm="blåsig"><i>blåsig</i><par n="aktiv__adj"/></e>
+<e lm="vardaglig"><i>vardaglig</i><par n="aktiv__adj"/></e>
+<e lm="halv"><i>halv</i><par n="afrikansk__adj"/></e>
+<e lm="hög"><i>hög</i><par n="hög__adj"/></e>
+<e lm="högljudd"><i>höglju</i><par n="rä/dd__adj"/></e>
+<e lm="underlydande"><i>underlydande</i><par n="extra__adj"/></e>
+<e lm="invändig"><i>invändig</i><par n="aktiv__adj"/></e>
+<e lm="kompenserad"><i>kompensera</i><par n="beväpna/d__adj"/></e>
+<e lm="lika många"><i>lika<b/>många</i><par n="extra__adj"/></e>
+<e lm="kall"><i>kall</i><par n="aktiv__adj"/></e>
+<e lm="berusad"><i>berusa</i><par n="beväpna/d__adj"/></e>
+<e lm="möjlig"><i>möjlig</i><par n="aktiv__adj"/></e>
+<e lm="smart"><i>smart</i><par n="diskret__adj"/></e>
+<e lm="klädd"><i>klä</i><par n="rä/dd__adj"/></e>
+<e lm="kunglig"><i>kunglig</i><par n="aktiv__adj"/></e>
+<e lm="kristen"><i>krist</i><par n="nak/en__adj"/></e>
+<e lm="förtrogen"><i>förtrog</i><par n="nak/en__adj"/></e>
+<e lm="framstående"><i>framstående</i><par n="extra__adj"/></e>
+<e lm="kvick"><i>kvick</i><par n="aktiv__adj"/></e>
+<e lm="konstig"><i>konstig</i><par n="aktiv__adj"/></e>
+<e lm="stillastående"><i>stillastående</i><par n="extra__adj"/></e>
+<e lm="munter"><i>munt</i><par n="tapp/er__adj"/></e>
+<e lm="löglig"><i>löglig</i><par n="aktiv__adj"/></e>
+<e lm="det mesta"><i>det<b/>mesta</i><par n="extra__adj"/></e>
+<e lm="ledig"><i>ledig</i><par n="aktiv__adj"/></e>
+<e lm="tillgänglig"><i>tillgänglig</i><par n="aktiv__adj"/></e>
+<e lm="hemlighetsfull"><i>hemlighetsfull</i><par n="afrikansk__adj"/></e>
+<e lm="levande"><i>levande</i><par n="extra__adj"/></e>
+<e lm="konstnärlig"><i>konstnärlig</i><par n="afrikansk__adj"/></e>
+<e lm="förgången"><i>förgång</i><par n="nak/en__adj"/></e>
+<e lm="ful"><i>ful</i><par n="aktiv__adj"/></e>
+<e lm="ljuv"><i>ljuv</i><par n="aktiv__adj"/></e>
+<e lm="flammande"><i>flammande</i><par n="extra__adj"/></e>
+<e lm="stängd"><i>stäng</i><par n="blin/d__adj"/></e>
+<e lm="avslutad"><i>avsluta</i><par n="beväpna/d__adj"/></e>
+<e lm="hårig"><i>hårig</i><par n="aktiv__adj"/></e>
+<e lm="lärd"><i>lär</i><par n="blin/d__adj"/></e>
+<e lm="låst"><i>låst</i><par n="gift__adj"/></e>
+<e lm="eländig"><i>eländig</i><par n="aktiv__adj"/></e>
+<e lm="lätt"><i>lätt</i><par n="diskret__adj"/></e>
+<e lm="häpnadsväckande"><i>häpnadsväckande</i><par n="extra__adj"/></e>
+<e lm="mänsklig"><i>mänsklig</i><par n="aktiv__adj"/></e>
+<e lm="varierad"><i>variera</i><par n="beväpna/d__adj"/></e>
+<e lm="betydande"><i>betydande</i><par n="extra__adj"/></e>
+<e lm="markerad"><i>markera</i><par n="beväpna/d__adj"/></e>
+<e lm="märklig"><i>märklig</i><par n="aktiv__adj"/></e>
+<e lm="mild"><i>mil</i><par n="särskil/d__adj"/></e>
+<e lm="minnesvärd"><i>minnesvär</i><par n="särskil/d__adj"/></e>
+<e lm="minskande"><i>minskande</i><par n="extra__adj"/></e>
+<e lm="misslyckad"><i>misslycka</i><par n="beväpna/d__adj"/></e>
+<e lm="ojämn"><i>ojämn</i><par n="aktiv__adj"/></e>
+<e lm="obarmhärtig"><i>obarmhärtig</i><par n="aktiv__adj"/></e>
+<e lm="ledsen">          <i>leds</i><par n="nak/en__adj"/></e>
+<e lm="smal"><i>smal</i><par n="aktiv__adj"/></e>
+<e lm="mjuk"><i>mjuk</i><par n="aktiv__adj"/></e>
+<e lm="snygg"><i>snygg</i><par n="aktiv__adj"/></e>
+<e lm="målad"><i>måla</i><par n="beväpna/d__adj"/></e>
+<e lm="anfådd"><i>anfå</i><par n="rä/dd__adj"/></e>
+<e lm="naken">           <i>nak</i><par n="nak/en__adj"/></e>
+<e lm="nominerad"><i>nominera</i><par n="beväpna/d__adj"/></e>
+<e lm="underjordisk"><i>underjordisk</i><par n="afrikansk__adj"/></e>
+<e lm="lägre"><i>lägre</i><par n="extra__adj"/></e>
+<e lm="norsk">           <i>norsk</i><par n="afrikansk__adj"/></e>
+<e lm="nordost"><i>nordost</i><par n="extra__adj"/></e>
+<e lm="trevlig">         <i>trevlig</i><par n="aktiv__adj"/></e>
+<e lm="nära"><i>nära</i><par n="extra__adj"/></e>
+<e lm="tillräcklig"><i>tillräcklig</i><par n="aktiv__adj"/></e>
+<e lm="känslig"><i>känslig</i><par n="aktiv__adj"/></e>
+<e lm="nyfödd"><i>nyfö</i><par n="nyfö/dd__adj"/></e>
+<e lm="nykommen"><i>nykom</i><par n="nykom/men__adj"/></e>
+<e lm="ganska ny"><i>ganska<b/>ny</i><par n="fri__adj"/></e>
+<e lm="högre"><i>högre</i><par n="extra__adj"/></e>
+<e lm="klen"><i>klen</i><par n="aktiv__adj"/></e>
+<e lm="fuktig">          <i>fuktig</i><par n="aktiv__adj"/></e>
+<e lm="stark">           <i>stark</i><par n="aktiv__adj"/></e>
+<e lm="regelbunden"><i>regelbund</i><par n="nak/en__adj"/></e>
+<e lm="redo"><i>redo</i><par n="extra__adj"/></e>
+<e lm="arg"><i>arg</i><par n="aktiv__adj"/></e>
+<e lm="förvirrad"><i>förvirra</i><par n="beväpna/d__adj"/></e>
+<e lm="enorm"><i>enorm</i><par n="afrikansk__adj"/></e>
+<e lm="rykande"><i>rykande</i><par n="extra__adj"/></e>
+<e lm="drygt"><i>drygt</i><par n="extra__adj"/></e>
+<e lm="ledsagande"><i>ledsagande</i><par n="extra__adj"/></e>
+<e lm="identisk">        <i>identisk</i><par n="afrikansk__adj"/></e>
+<e lm="långsam"><i>långsam</i><par n="blygsam__adj"/></e>
+<e lm="sen">             <i>sen</i><par n="aktiv__adj"/></e>
+<e lm="naturlig">        <i>naturlig</i><par n="aktiv__adj"/></e>
+<e lm="sned"><i>sne</i><par n="gla/d__adj"/></e>
+<e lm="kort"><i>kort</i><par n="diskret__adj"/></e>
+<e lm="rolig">           <i>rolig</i><par n="aktiv__adj"/></e>
+<e lm="genomborrande"><i>genomborrande</i><par n="extra__adj"/></e>
+<e lm="legitim"><i>legitim</i><par n="afrikansk__adj"/></e>
+<e lm="frånskild"><i>frånskil</i><par n="blin/d__adj"/></e>
+<e lm="skuren"><i>skur</i><par n="nak/en__adj"/></e>
+<e lm="förtjust"><i>förtjust</i><par n="gift__adj"/></e>
+<e lm="dekorerad"><i>dekorera</i><par n="beväpna/d__adj"/></e>
+<e lm="genomträngande"><i>genomträngande</i><par n="extra__adj"/></e>
+<e lm="besläktad"><i>besläkta</i><par n="beväpna/d__adj"/></e>
+<e lm="plötslig"><i>plötslig</i><par n="afrikansk__adj"/></e>
+<e lm="strålande"><i>strålande</i><par n="extra__adj"/></e>
+<e lm="smutsig">         <i>smutsig</i><par n="aktiv__adj"/></e>
+<e lm="sliten"><i>slit</i><par n="nak/en__adj"/></e>
+<e lm="dålig"><i>dålig</i><par n="aktiv__adj"/></e>
+<e lm="rolig">           <i>rolig</i><par n="aktiv__adj"/></e>
+<e lm="utmärkt"><i>utmärkt</i><par n="gift__adj"/></e>
+<e lm="vårdad"><i>vårda</i><par n="beväpna/d__adj"/></e>
+<e lm="fort"><i>fort</i><par n="diskret__adj"/></e>
+<e lm="sovande"><i>sovande</i><par n="extra__adj"/></e>
+<e lm="sorgsen">         <i>sorgs</i><par n="nak/en__adj"/></e>
+<e lm="upphetsad"><i>upphetsa</i><par n="beväpna/d__adj"/></e>
+<e lm="belägen"><i>beläg</i><par n="nak/en__adj"/></e>
+<e lm="enstak"><i>enstak</i><par n="afrikansk__adj"/></e>
+<e lm="stilla"><i>stilla</i><par n="extra__adj"/></e>
+<e lm="stel"><i>stel</i><par n="aktiv__adj"/></e>
+<e lm="borstlik"><i>borstlik</i><par n="aktiv__adj"/></e>
+<e lm="konungslig"><i>konungslig</i><par n="aktiv__adj"/></e>
+<e lm="sydost"><i>sydost</i><par n="extra__adj"/></e>
+<e lm="sydväst"><i>sydväst</i><par n="extra__adj"/></e>
+<e lm="kul"><i>kul</i><par n="afrikansk__adj"/></e>
+<e lm="hungrig">         <i>hungrig</i><par n="aktiv__adj"/></e>
+<e lm="klädd i svart"><i>klä<g><b/>i<b/>svart</g></i><par n="rä/dd__adj"/></e>
+<e lm="så kallad"><i>så<b/>kalla</i><par n="beväpna/d__adj"/></e>
+<e lm="någon"><i>någon</i><par n="extra__adj"/></e>
+<e lm="sömnig"><i>sömnig</i><par n="aktiv__adj"/></e>
+<e lm="smärtsam"><i>smärtsam</i><par n="blygsam__adj"/></e>
+<e lm="salig"><i>salig</i><par n="aktiv__adj"/></e>
+<e lm="acceptabel"><i>acceptab</i><par n="dubb/el__adj"/></e>
+<e lm="sårad"><i>såra</i><par n="beväpna/d__adj"/></e>
+<e lm="söt"><i>sö</i><par n="vå/t__adj"/></e>
+<e lm="egendomlig"><i>egendomlig</i><par n="aktiv__adj"/></e>
+<e lm="unik">            <i>unik</i><par n="aktiv__adj"/></e>
+<e lm="senare"><i>senare</i><par n="extra__adj"/></e>
+<e lm="sista"><i>sista</i><par n="extra__adj"/></e>
+<e lm="lång">            <i>l</i><par n="l/ång__adj"/></e>
+<e lm="begränsad"><i>begränsa</i><par n="beväpna/d__adj"/></e>
+<e lm="avsevärd"><i>avsevär</i><par n="run/d__adj"/></e>
+<e lm="tillgänglig"><i>tillgänglig</i><par n="aktiv__adj"/></e>
+<e lm="skälvande"><i>skälvande</i><par n="extra__adj"/></e>
+<e lm="pålitlig"><i>pålitlig</i><par n="aktiv__adj"/></e>
+<e lm="rasande"><i>rasande</i><par n="extra__adj"/></e>
+<e lm="tjugoårig"><i>tjugoårig</i><par n="afrikansk__adj"/></e>
+<e lm="knapp"><i>knapp</i><par n="afrikansk__adj"/></e>
+<e lm="klar"><i>klar</i><par n="aktiv__adj"/></e>
+<e lm="frekvent"><i>frekvent</i><par n="diskret__adj"/></e>
+<e lm="förlorad"><i>förlora</i><par n="beväpna/d__adj"/></e>
+<e lm="diskuterad"><i>diskutera</i><par n="beväpna/d__adj"/></e>
+<e lm="betydande"><i>betydande</i><par n="extra__adj"/></e>
+<e lm="tidigare"><i>tidigare</i><par n="extra__adj"/></e>
+<e lm="utesluten"><i>uteslut</i><par n="nak/en__adj"/></e>
+<e lm="förvånad"><i>förvåna</i><par n="beväpna/d__adj"/></e>
+<e lm="möjligt"><i>möjligt</i><par n="extra__adj"/></e>
+<e lm="urblekt"><i>urblekt</i><par n="extra__adj"/></e>
+<e lm="extern"><i>extern</i><par n="afrikansk__adj"/></e>
+<e lm="utvald"><i>utval</i><par n="blin/d__adj"/></e>
+<e lm="solid"><i>soli</i><par n="gla/d__adj"/></e>
+<e lm="avig"><i>avig</i><par n="aktiv__adj"/></e>
+<e lm="knepig"><i>knepig</i><par n="aktiv__adj"/></e>
+<e lm="vattenavstötande"><i>vattenavstötande</i><par n="extra__adj"/></e>
+<e lm="försämrad"><i>försämra</i><par n="beväpna/d__adj"/></e>
+<e lm="vänlig">       <i>vänlig</i><par n="aktiv__adj"/></e>
+<e lm="vänskaplig"><i>vänskaplig</i><par n="aktiv__adj"/></e>
+<e lm="vänster"><i>vänster</i><par n="extra__adj"/></e>
+<e lm="populär"><i>populär</i><par n="aktiv__adj"/></e>
+<e lm="aktiv">           <i>aktiv</i><par n="aktiv__adj"/></e>
+<e lm="respekterad"><i>respektera</i><par n="beväpna/d__adj"/></e>
+<e lm="respektabel"><i>respektab</i><par n="dubb/el__adj"/></e>
+<e lm="säker"><i>säk</i><par n="tapp/er__adj"/></e>
+<e lm="tokig"><i>tokig</i><par n="aktiv__adj"/></e>
+<e lm="berörd"><i>berör</i><par n="blin/d__adj"/></e>
+<e lm="mäktig"><i>mäktig</i><par n="aktiv__adj"/></e>
+<e lm="ljum">            <i>ljum</i><par n="blygsam__adj"/></e>
+<e lm="hopplaus"><i>hopplaus</i><par n="afrikansk__adj"/></e>
+<e lm="snäll"><i>snäll</i><par n="aktiv__adj"/></e>
+<e lm="viss">            <i>viss</i><par n="aktiv__adj"/></e>
+<e lm="vidöppen"><i>vidöpp</i><par n="nak/en__adj"/></e>
+<e lm="underbar"><i>underbar</i><par n="afrikansk__adj"/></e>
+<e lm="framträdande"><i>framträdande</i><par n="extra__adj"/></e>
+<e lm="inflytelserik"><i>inflytelserik</i><par n="aktiv__adj"/></e>
+<e lm="likgiltig"><i>likgiltig</i><par n="aktiv__adj"/></e>
+<e lm="bestämd"><i>bestäm</i><par n="blin/d__adj"/></e>
+<e lm="påträngande"><i>påträngande</i><par n="extra__adj"/></e>
+<e lm="tillfredsställande"><i>tillfredsställande</i><par n="extra__adj"/></e>
+<e lm="belåten"><i>belåt</i><par n="nak/en__adj"/></e>
+<e lm="förälskad"><i>förälska</i><par n="beväpna/d__adj"/></e>
+<e lm="upphetsad"><i>upphetsa</i><par n="beväpna/d__adj"/></e>
+<e lm="född"><i>fö</i><par n="rä/dd__adj"/></e>
+<e lm="fantastisk"><i>fantastisk</i><par n="afrikansk__adj"/></e>
+<e lm="häftig"><i>häftig</i><par n="aktiv__adj"/></e>
+<e lm="överordnad"><i>överordna</i><par n="beväpna/d__adj"/></e>
+<e lm="förstående"><i>förstående</i><par n="extra__adj"/></e>
+<e lm="iskall"><i>iskall</i><par n="aktiv__adj"/></e>
+<e lm="isländsk"><i>isländsk</i><par n="afrikansk__adj"/></e>
+<e lm="onormal"><i>onormal</i><par n="afrikansk__adj"/></e>
+<e lm="ofördelaktig"><i>ofördelaktig</i><par n="aktiv__adj"/></e>
+<e lm="oundviklig"><i>oundviklig</i><par n="aktiv__adj"/></e>
+<e lm="trygg">           <i>trygg</i><par n="aktiv__adj"/></e>
+<e lm="ofödd"><i>ofö</i><par n="rä/dd__adj"/></e>
+<e lm="främmande"><i>främmande</i><par n="extra__adj"/></e>
+<e lm="osannolik"><i>osannolik</i><par n="aktiv__adj"/></e>
+<e lm="olik">            <i>olik</i><par n="afrikansk__adj"/></e>
+<e lm="orolig"><i>orolig</i><par n="aktiv__adj"/></e>
+<e lm="orättmätig"><i>orättmätig</i><par n="aktiv__adj"/></e>
+<e lm="osynlig"><i>osynlig</i><par n="aktiv__adj"/></e>
+<e lm="otalig"><i>otalig</i><par n="aktiv__adj"/></e>
+<e lm="skräckslagen"><i>skräckslag</i><par n="nak/en__adj"/></e>
+<e lm="ovetande"><i>ovetande</i><par n="extra__adj"/></e>
+<e lm="oväntad"><i>ovänta</i><par n="beväpna/d__adj"/></e>
+<e lm="manisk"><i>manisk</i><par n="afrikansk__adj"/></e>
+<e lm="okänd"><i>okän</i><par n="blin/d__adj"/></e>
+<e lm="otålig"><i>otålig</i><par n="aktiv__adj"/></e>
+<e lm="obekväm"><i>obekväm</i><par n="aktiv__adj"/></e>
+<e lm="avig"><i>avig</i><par n="aktiv__adj"/></e>
+<e lm="trist"><i>trist</i><par n="diskret__adj"/></e>
+<e lm="fåtal"><i>fåtal</i><par n="extra__adj"/></e>
+<e lm="pytteliten"><i>pytteliten</i><par n="/liten__adj"/></e>
+<e lm="mikroskopisk"><i>mikroskopisk</i><par n="afrikansk__adj"/></e>
+<e lm="hackig"><i>hackig</i><par n="aktiv__adj"/></e>
+<e lm="utländsk"><i>utländsk</i><par n="afrikansk__adj"/></e>
+<e lm="erforderlig"><i>erforderlig</i><par n="aktiv__adj"/></e>
+<e lm="hyfsad"><i>hyfsa</i><par n="beväpna/d__adj"/></e>
+<e lm="trött">           <i>trött</i><par n="diskret__adj"/></e>
+<e lm="uppsvullen"><i>uppsvull</i><par n="nak/en__adj"/></e>
+<e lm="dyster"><i>dyst</i><par n="tapp/er__adj"/></e>
+<e lm="tunn">            <i>tun</i><par n="san/n__adj"/></e>
+<e lm="torr">            <i>torr</i><par n="aktiv__adj"/></e>
+<e lm="envis"><i>envis</i><par n="aktiv__adj"/></e>
+<e lm="tjock">           <i>tjock</i><par n="aktiv__adj"/></e>
+
 <!-- END ADJECTIVES-->
 
 <!--VERBS-->
