@@ -2122,7 +2122,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>dapurlegur<s n="adj"/></l><r>dyster<s n="adj"/></r></p></e>
 	<e><p><l>daufur<s n="adj"/></l><r>svag<s n="adj"/></r></p></e>
 	<e><p><l>dimmur<s n="adj"/></l><r>dunkel<s n="adj"/></r></p></e>
-	<e><p><l>djúp<s n="adj"/></l><r>djup<s n="adj"/></r></p></e>
 	<e><p><l>drjúgur<s n="adj"/></l><r>dryg<s n="adj"/></r></p></e>
 	<e><p><l>drukkinn<s n="adj"/></l><r>berusad<s n="adj"/></r></p></e>
 	<e><p><l>drungalegur<s n="adj"/></l><r>sur<s n="adj"/></r></p></e>
@@ -2141,7 +2140,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>eldrauður<s n="adj"/></l><r>eldröd<s n="adj"/></r></p></e>
 	<e><p><l>elskulegur<s n="adj"/></l><r>älskvärd<s n="adj"/></r></p></e>
 	<e><p><l>endalaus<s n="adj"/></l><r>ändlös<s n="adj"/></r></p></e>
-	<e><p><l>endalaust<s n="adj"/></l><r>ändlös<s n="adj"/></r></p></e>
 	<e><p><l>endilangur<s n="adj"/></l><r>benägen<s n="adj"/></r></p></e>
 	<e><p><l>eðlilegur<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
 	<e><p><l>fagur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
@@ -2181,7 +2179,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>gamaldags<s n="adj"/></l><r>ålderdomlig<s n="adj"/></r></p></e>
 	<e><p><l>gefinn<s n="adj"/></l><r>given<s n="adj"/></r></p></e>
 	<e><p><l>gerður<s n="adj"/></l><r>tillverkad<s n="adj"/></r></p></e>
-	<e><p><l>geymd<s n="adj"/></l><r>lagrad<s n="adj"/></r></p></e>
+	<e><p><l>geymdur<s n="adj"/></l><r>lagrad<s n="adj"/></r></p></e>
 	<e><p><l>giftur<s n="adj"/></l><r>gift<s n="adj"/></r></p></e>
 	<e><p><l>glaður<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
 	<e><p><l>gljáandi<s n="adj"/></l><r>glänsande<s n="adj"/></r></p></e>
@@ -2298,7 +2296,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>nýfæddur<s n="adj"/></l><r>nyfödd<s n="adj"/></r></p></e>
 	<e><p><l>nýkominn<s n="adj"/></l><r>nykommen<s n="adj"/></r></p></e>
 	<e><p><l>nýlegur<s n="adj"/></l><r><g>ganska<b/></g>ny<s n="adj"/></r></p></e>
-	<e><p><l>ofar<s n="adj"/></l><r>högre<s n="adj"/></r></p></e>
 	<e><p><l>ofurlítill<s n="adj"/></l><r>klen<s n="adj"/></r></p></e>
 	<e><p><l>rakur<s n="adj"/></l><r>fuktig<s n="adj"/></r></p></e>
 	<e><p><l>rammur<s n="adj"/></l><r>stark<s n="adj"/></r></p></e>
