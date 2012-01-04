@@ -5667,7 +5667,6 @@
 <e lm="kritik"><i>kritik</i><par n="adress__n"/></e>
 <e lm="jeans"><i>jeans</i><par n="mat__n"/></e>
 <e lm="nackdel"><i>nackdel</i><par n="bil__n"/></e>
-<e lm="gång"><i>gång</i><par n="bil__n"/></e>
 <e lm="takt"><i>takt</i><par n="accent__n"/></e>
 <e lm="gas"><i>gas</i><par n="adress__n"/></e>
 <e lm="hål"><i>hål</i><par n="ackord__n"/></e>
@@ -7515,7 +7514,7 @@
 <e lm="gråt"><i>gråt</i><par n="mat__n"/></e>
 <e lm="gudstjänst"><i>gudstjänst</i><par n="mask__n"/></e>
 <e lm="gumma"><i>gumm</i><par n="frug/a__n"/></e>
-<e lm="gånger"><i>gånger</i><par n="böter__n"/></e>
+<e lm="gång"><i>gång</i><par n="mask__n"/></e>
 <e lm="gård">            <i>gård</i><par n="bil__n"/></e>
 <e lm="gåta">            <i>gåt</i><par n="frug/a__n"/></e>
 <e lm="gåva">            <i>gåv</i><par n="frug/a__n"/></e>
