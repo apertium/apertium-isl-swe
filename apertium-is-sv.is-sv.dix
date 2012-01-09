@@ -6567,7 +6567,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Jóra<s n="np"/><s n="ant"/><s n="f"/></l><r>Jora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Jórunn<s n="np"/><s n="ant"/><s n="f"/></l><r>Jorunn<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Jökulsá<s n="np"/><s n="top"/><s n="f"/></l><r>Jökulsa<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Júpíter<s n="np"/><s n="al"/><s n="m"/></l><r>Jupiter<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+	<e><p><l>Júpíter<s n="np"/><s n="al"/><s n="m"/></l><r>Jupiter<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Karin<s n="np"/><s n="ant"/><s n="f"/></l><r>Karin<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Karl<s n="np"/><s n="ant"/><s n="m"/></l><r>Karl<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Kaspían<s n="np"/><s n="ant"/><s n="m"/></l><r>Kaspian<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6637,10 +6637,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Ronja<s n="np"/><s n="ant"/><s n="f"/></l><r>Ronja<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Rut<s n="np"/><s n="ant"/><s n="f"/></l><r>Rut<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Rósa<s n="np"/><s n="ant"/><s n="f"/></l><r>Rosa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>SS<s n="np"/><s n="al"/><s n="ut"/></l><r>SS<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>SS<s n="np"/><s n="al"/><s n="nt"/></l><r>SS<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Salómon<s n="np"/><s n="ant"/><s n="m"/></l><r>Solomon<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Sandfell<s n="np"/><s n="top"/><s n="nt"/></l><r>Sandfell<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Satúrnus<s n="np"/><s n="al"/><s n="m"/></l><r>Saturnus<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+	<e><p><l>Satúrnus<s n="np"/><s n="al"/><s n="m"/></l><r>Saturnus<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Sethe<s n="np"/><s n="ant"/><s n="m"/></l><r>Sethe<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Seðlabanki<s n="np"/><s n="al"/><s n="m"/></l><r>Riksbank<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Sigríður<s n="np"/><s n="ant"/><s n="f"/></l><r>Sigrid<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -6674,7 +6674,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Teddi<s n="np"/><s n="ant"/><s n="m"/></l><r>Teddi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Thor<s n="np"/><s n="ant"/><s n="m"/></l><r>Thor<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Thorndike<s n="np"/><s n="top"/><s n="nt"/></l><r>Thorndike<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Tindur<s n="np"/><s n="top"/><s n="m"/></l><r>Tindur<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+	<e><p><l>Tindur<s n="np"/><s n="top"/><s n="m"/></l><r>Tindur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Tjörn<s n="np"/><s n="top"/><s n="f"/></l><r>Tjörn<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Tobías<s n="np"/><s n="ant"/><s n="m"/></l><r>Tobias<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Tommi<s n="np"/><s n="ant"/><s n="m"/></l><r>Tommi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6686,7 +6686,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Vaskur<s n="np"/><s n="ant"/><s n="m"/></l><r>Vaskur<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Vatnajökull<s n="np"/><s n="top"/><s n="m"/></l><r>Vatnajökull<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vestfirðir<s n="np"/><s n="top"/><s n="m"/></l><r>Västfjordar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Vestmannaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Vestmannaeyjar<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+	<e><p><l>Vestmannaeyjar<s n="np"/><s n="top"/><s n="nt"/></l><r>Vestmannaeyjar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vetrarbraut<s n="np"/><s n="top"/><s n="f"/></l><r>Vetrarbraut<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vico<s n="np"/><s n="ant"/><s n="m"/></l><r>Vico<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Vigdís<s n="np"/><s n="ant"/><s n="f"/></l><r>Vigdis<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
