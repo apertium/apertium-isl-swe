@@ -22,6 +22,7 @@
     <sdef n="part"    c="Particle"/>
     <sdef n="ij"      c="Interjection"/>
     <sdef n="abbr"    c="Abbreviations"/>
+    <sdef n="infm"    c="infinitive marker"/>
 
 <!--nouns-->
     <sdef n="m"       c="Masculine"/>
@@ -637,6 +638,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 		<e><p><l>en<s n="cnjcoo"/></l><r>men<s n="cnjcoo"/></r></p></e>
 		<e><p><l>og<s n="cnjcoo"/></l><r>och<s n="cnjcoo"/></r></p></e>
 		<e><p><l>ásamt<s n="cnjcoo"/></l><r>samt<s n="cnjcoo"/></r></p></e>
+		
+		<e><p><l>að<s n="infm"/></l><r>att<s n="infm"/></r></p></e>
+		
 	<!-- END SECTION: Conjunctions -->
 
 

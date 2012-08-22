@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <transfer default="chunk">
+
+
   <section-def-cats>
     <def-cat n="nom"> 					<!--noun-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="nom_ind"> 					<!--noun, without article-->
+      <cat-item tags="n.*.ind"/>
+    </def-cat>
+    <def-cat n="nom_gen_def"> 					<!--noun, genitive, with article - (possessor) -->
+      <cat-item tags="n.*.gen.def"/>
     </def-cat>
     <def-cat n="num"> 					<!--numeral-->
       <cat-item tags="num.*"/>
@@ -15,8 +23,16 @@
     <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.inf"/>
+      <cat-item tags="vbser.*.inf.*"/>
+      <cat-item tags="vbser.*.inf"/>
+      <cat-item tags="vbhaver.*.inf.*"/>
+      <cat-item tags="vbhaver.*.inf"/>
+      <cat-item tags="vbmod.*.inf.*"/>
+      <cat-item tags="vbmod.*.inf"/>
+      <cat-item tags="vaux.*.inf.*"/>
+      <cat-item tags="vaux.*.inf"/>
     </def-cat>
-    <def-cat n="vbhaver_inf"> 					<!--infinitive-->
+    <def-cat n="vbhaver_inf"> 					<!--hafa infinitive-->
       <cat-item tags="vbhaver.*.inf"/>
       <cat-item tags="vbhaver.inf"/>
       <cat-item tags="vbhaver.inf.*"/>
@@ -34,8 +50,16 @@
       <cat-item tags="vbhaver.past.*"/>
       <cat-item tags="vbhaver.prs.*"/>
       <cat-item tags="vbhaver.pss.*"/>
+      <cat-item tags="vbmod.pri.*"/>
+      <cat-item tags="vbmod.past.*"/>
+      <cat-item tags="vbmod.prs.*"/>
+      <cat-item tags="vbmod.pss.*"/>
+      <cat-item tags="vaux.pri.*"/>
+      <cat-item tags="vaux.past.*"/>
+      <cat-item tags="vaux.prs.*"/>
+      <cat-item tags="vaux.pss.*"/>
     </def-cat>
-    <def-cat n="vbhaver_fin"> 					<!--finite verb-->
+    <def-cat n="vbhaver_fin"> 					<!--hafa finite verb-->
       <cat-item tags="vbhaver.pri.*"/>
       <cat-item tags="vbhaver.past.*"/>
       <cat-item tags="vbhaver.prs.*"/>
@@ -45,7 +69,29 @@
       <cat-item tags="vblex.*.imp.*"/>
       <cat-item tags="vbser.imp.*"/>
       <cat-item tags="vbhaver.imp.*"/>
+      <cat-item tags="vaux.imp.*"/>
+      <cat-item tags="vbmod.imp.*"/>
     </def-cat>
+  	<def-cat n="geta">
+      <cat-item lemma="geta" tags="vbmod.*"/>
+  	</def-cat>
+
+  <def-cat n="pp">                           <!--pas participle -->
+     <cat-item tags="vblex.supn"/>    
+     <cat-item tags="vblex.supn.*"/>
+     <cat-item tags="vblex.*.supn.*"/>
+     <cat-item tags="vblex.*.supn"/>
+     <cat-item tags="vblex.pp"/>
+     <cat-item tags="vblex.pp.*"/>
+     <cat-item tags="vblex.*.pp"/>
+     <cat-item tags="vblex.*.pp.*"/>
+     <cat-item tags="vbser.supn"/>
+     <cat-item tags="vbhaver.supn"/>
+     <cat-item tags="vaux.*.supn"/>
+     <cat-item tags="vbmod.*.supn"/>
+     <cat-item tags="vbmod.supn"/>
+  </def-cat>
+
   </section-def-cats>
 
 <!--#######################################################################################-->
@@ -110,11 +156,12 @@
     </def-attr>
     <def-attr n="temps"> 							<!--TENSE-->
       <attr-item tags="inf"/>
+      <attr-item tags="supn"/>
       <attr-item tags="imp"/>
+      <attr-item tags="prs"/>
       <attr-item tags="pri"/>
       <attr-item tags="pres"/>
       <attr-item tags="past"/>
-      <attr-item tags="prs"/>
       <attr-item tags="pss"/>
       <attr-item tags="pp"/>
     </def-attr>
@@ -130,6 +177,9 @@
 <!--#######################################################################################-->
 
   <section-def-macros>
+	
+	
+	
     <def-macro n="conv_case1" npar="1" > 						<!-- MACRO: convert acc/dat to nom -->	
       <choose>
         <when>
@@ -159,14 +209,13 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="cas"/>
-            <lit-tag v="adj"/>
+            <lit-tag v="nom"/>
           </let>
         </when>
       </choose>
     </def-macro>
 
-
-    <def-macro n="conv_temps1" npar="1"> 		<!-- MACRO: convert present indicative/subjunctive to present -->
+    <def-macro n="conv_temps1" npar="1"> 		<!-- MACRO: convert present/past indicative/subjunctive to present/past-->
       <choose>
         <when>
           <test>
@@ -194,21 +243,22 @@
           </let>
         </when>
       </choose>
+    </def-macro>
+
+    <def-macro n="conv_voice" npar="1"> 		<!-- MACRO: convert middle voice to passive voice (-s)-->
       <choose>
         <when>
           <test>
-            <or>
-              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="past"/></equal>
-              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="pss"/></equal>
-            </or>
+              <equal><clip pos="1" side="sl" part="voz"/><lit-tag v="midv"/></equal>
           </test>
           <let>
-            <clip pos="1" side="tl" part="temps"/>
-            <lit-tag v="past"/>
+            <clip pos="1" side="tl" part="voz"/>
+            <lit-tag v="pasv"/>
           </let>
         </when>
       </choose>
     </def-macro>
+
 
   </section-def-macros>
 
@@ -220,6 +270,153 @@
 <!--#######################################################################################-->
 
   <section-rules>
+
+
+
+	  <rule comment="REGLA: GETA PP → KAN INF | get komið → kan komma">     <!-- check -->
+	     <pattern>
+	       <pattern-item n="geta"/>
+	       <pattern-item n="pp"/>
+	     </pattern>
+	     <action>
+<!--	       <call-macro n="firstWord">                              do I need this???
+	         <with-param pos="1"/>
+	       </call-macro>    -->
+	       <call-macro n="conv_temps1"> <!--  -->
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <call-macro n="conv_voice"> <!--  -->
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <out>
+	         <chunk name="geta_komid" case="caseFirstWord">      <!-- ???? casefirstword???-->
+	           <tags>
+	             <tag><lit-tag v="SV"/></tag>                 <!-- ????? -->
+	              <!--<tag><clip pos="1" side="sl" part="syntax"/></tag>-->
+	              <!--<tag><lit-tag v="@+FMAINV"/></tag>                   <!-- ????? -->
+	
+	              <!-- <clip pos="2" side="tl" part="a_verb"/>    -->    <!-- ????? tag for a_verb???-->	
+	              <tag><clip pos="1" side="tl" part="temps"/></tag>
+	              <tag><clip pos="1" side="tl" part="voz"/></tag>
+	             <!-- <tag><clip pos="1" side="tl" part="nbr"/></tag>-->      <!-- ????? not in swedish-->
+	            </tags>
+	            <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <clip pos="1" side="tl" part="temps"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_verb"/>
+	              <lit-tag v="inf"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	     </action>
+	  </rule>
+
+
+		  <rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | hestur stelpunnar → flickans hest">   <!-- check --> 
+		     <pattern>
+		       <pattern-item n="nom_ind"/>
+		       <pattern-item n="nom_gen_def"/>
+		     </pattern>
+		     <action>
+	<!--	       <call-macro n="firstWord">                              do I need this???
+		         <with-param pos="1"/>
+		       </call-macro>    -->
+		       <call-macro n="conv_case2"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="hestur_stelpunnar" case="caseFirstWord">      <!-- ???? casefirstword???-->
+		           <tags>
+		             <tag><lit-tag v="SN"/></tag>                 <!-- ????? -->
+		              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom???-->	
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		              <tag><clip pos="1" side="tl" part="cas"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="2" side="tl" part="lemh"/>
+		              <clip pos="2" side="tl" part="a_nom"/>
+		              <clip pos="2" side="tl" part="gen"/>
+		              <clip pos="2" side="tl" part="nbr"/>
+					  <lit-tag v="def"/>
+					  <lit-tag v="gen"/>
+		              <clip pos="2" side="tl" part="lemq"/>
+		            </lu>
+		            <b pos="1"/>                    <!-- ????? pos = 1 ???-->
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_nom"/>
+		              <clip pos="1" side="tl" part="gen" link-to="2"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+					  <lit-tag v="ind"/>
+					  <lit-tag v="nom"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+		  </rule>
+
+
+
+
+		  <rule comment="REGLA: UNDEF SG NOUN → INDEF ART NOUN | hestur → en hest">     <!-- !!!still to be written!!!! -->
+		     <pattern>
+		       <pattern-item n="nom_sg_ind"/>
+		     </pattern>
+		     <action>
+	<!--	       <call-macro n="firstWord">                              do I need this???
+		         <with-param pos="1"/>
+		       </call-macro>    -->
+		       <call-macro n="conv_temps1"> <!--  -->
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_voice"> <!--  -->
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="geta_komid" case="caseFirstWord">      <!-- ???? casefirstword???-->
+		           <tags>
+		             <tag><lit-tag v="SV"/></tag>                 <!-- ????? -->
+		              <!--<tag><clip pos="1" side="sl" part="syntax"/></tag>-->
+		              <!--<tag><lit-tag v="@+FMAINV"/></tag>                   <!-- ????? -->
+
+		              <!-- <clip pos="2" side="tl" part="a_verb"/>    -->    <!-- ????? tag for a_verb???-->	
+		              <tag><clip pos="1" side="tl" part="temps"/></tag>
+		              <tag><clip pos="1" side="tl" part="voz"/></tag>
+		             <!-- <tag><clip pos="1" side="tl" part="nbr"/></tag>-->      <!-- ????? not in swedish-->
+		            </tags>
+		            <lu>
+	                 <clip pos="1" side="tl" part="lemh"/>
+	                 <clip pos="1" side="tl" part="a_verb"/>
+	                 <clip pos="1" side="tl" part="temps"/>
+	                 <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		            <b pos="1"/>
+		            <lu>
+		              <clip pos="2" side="tl" part="lemh"/>
+		              <clip pos="2" side="tl" part="a_verb"/>
+		              <lit-tag v="inf"/>
+		              <clip pos="2" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+		  </rule>
+
+
+
+
+
+    <!-- TO BE CHECKED!!!!-->
 
     <!-- Sintagmas nominales -->
 
@@ -263,8 +460,8 @@
 <!-- SN = sintagma nominal = noun phrase, but i prefer "nominal segment" -->
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="cas"/></tag>
               <tag><clip pos="1" side="tl" part="defnes"/></tag>
+              <tag><clip pos="1" side="tl" part="cas"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
