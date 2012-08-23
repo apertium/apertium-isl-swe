@@ -9,10 +9,34 @@
     <def-cat n="num">
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="inf">
+    <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.inf"/>
+      <cat-item tags="vbser.*.inf.*"/>
+      <cat-item tags="vbser.*.inf"/>
+      <cat-item tags="vbhaver.*.inf.*"/>
+      <cat-item tags="vbhaver.*.inf"/>
+      <cat-item tags="vbmod.*.inf.*"/>
+      <cat-item tags="vbmod.*.inf"/>
+      <cat-item tags="vaux.*.inf.*"/>
+      <cat-item tags="vaux.*.inf"/>
     </def-cat>
+
+    <def-cat n="vfin"> 					<!--finite verb-->
+      <cat-item tags="vblex.*.pres.*"/>
+      <cat-item tags="vblex.*.past.*"/>
+      <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbhaver.pres.*"/>
+      <cat-item tags="vbhaver.past.*"/>
+      <cat-item tags="vbmod.pres.*"/>
+      <cat-item tags="vbmod.past.*"/>
+      <cat-item tags="vaux.pres.*"/>
+      <cat-item tags="vaux.past.*"/>
+    </def-cat>
+
+
+
   </section-def-cats>
 
   <section-def-attrs>

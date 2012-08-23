@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Dictionary:
-	Sections: 2
-	Entries: 5105
-	Sdefs: 64
-	Paradigms: 272
 
--->
 <dictionary>
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
@@ -2552,7 +2545,7 @@
 <pardef n="lj/uga__vblex">
   <e>       <p><l>uga</l>       <r>uga<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>uger</l>      <r>uga<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ugs</l>       <r>uga<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ugs</l>       <r>uga<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ög</l>        <r>uga<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>ugit</l>      <r>uga<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>ugande</l>    <r>uga<s n="vblex"/><s n="pprs"/></r></p></e>
@@ -5311,7 +5304,7 @@
 <e lm="omfamna">         <i>omfamna</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="fälla"><i>fäll</i><par n="följ/a__vblex"/></e>
 <!--LR or RL--> <e lm="diskutera"><i>diskutera</i><par n="adressera__vblex"/></e>
-ta<g><b/>bort</g> <e lm="ta bort"><i>t</i><par n="ant/a__vblex"/><p><l><b/>bort</l><r><g><b/>bort</g></r></p></e>
+<e lm="ta bort"><i>t</i><par n="ant/a__vblex"/><p><l><b/>bort</l><r><g><b/>bort</g></r></p></e>
 <!--LR or RL--> <e lm="öka"><i>öka</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="blåsa"><i>blås</i><par n="belys/a__vblex"/></e>
 <e lm="bläddra"><i>bläddra</i><par n="adressera__vblex"/></e>
@@ -5323,10 +5316,10 @@ ta<g><b/>bort</g> <e lm="ta bort"><i>t</i><par n="ant/a__vblex"/><p><l><b/>bort<
 <e lm="fladdra"><i>fladdra</i><par n="adressera__vblex"/></e>
 <e lm="fläkta"><i>fläkta</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="skynda"><i>skynda</i><par n="adressera__vblex"/></e>
-rädda<g><b/>sig</g> <e lm="rädda sig"><i>rädda</i><par n="adressera__vblex"/><p><l><b/>sig</l><r><g><b/>sig</g></r></p></e>
+<e lm="rädda sig"><i>rädda</i><par n="adressera__vblex"/><p><l><b/>sig</l><r><g><b/>sig</g></r></p></e>
 <!--LR or RL--> <e lm="undvika"><i>undv</i><par n="skr/ika__vblex"/></e>
 <e lm="fresta"><i>fresta</i><par n="adressera__vblex"/></e>
-få<g><b/>reda<b/>på</g> <e lm="få reda på"><i>f</i><par n="f/å__vblex"/><p><l><b/>reda<b/>på</l><r><g><b/>reda<b/>på</g></r></p></e>
+<e lm="få reda på"><i>f</i><par n="f/å__vblex"/><p><l><b/>reda<b/>på</l><r><g><b/>reda<b/>på</g></r></p></e>
 <!--LR or RL--> <e lm="försäkra"><i>försäkra</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="påstå"><i>påst</i><par n="st/å__vblex"/></e>
 <!--LR or RL--> <e lm="undra"><i>undra</i><par n="adressera__vblex"/></e>
@@ -5367,12 +5360,12 @@ få<g><b/>reda<b/>på</g> <e lm="få reda på"><i>f</i><par n="f/å__vblex"/><p>
 <!--LR or RL--> <e lm="lyckas"><i>lycka</i><par n="lycka/s__vblex"/></e>
 <e lm="härma"><i>härma</i><par n="adressera__vblex"/></e>
 <e lm="förhärda"><i>förhärda</i><par n="adressera__vblex"/></e>
-plocka<g><b/>upp</g> <e lm="plocka upp"><i>f</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
+<e lm="plocka upp"><i>f</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
 <e lm="värma"><i>värm</i><par n="följ/a__vblex"/></e>
 <e lm="cykla">   <i>cykla</i><par n="adressera__vblex"/></e>
-se<g><b/>fram<b/>emot</g> <e lm="se"><i>s</i><par n="s/e__vblex"/><p><l><b/>fram<b/>emot</l><r><g><b/>fram<b/>emot</g></r></p></e>
+<e lm="se"><i>s</i><par n="s/e__vblex"/><p><l><b/>fram<b/>emot</l><r><g><b/>fram<b/>emot</g></r></p></e>
 <!--LR or RL--> <e lm="belasta"><i>belasta</i><par n="adressera__vblex"/></e>
-låta<g><b/>komma</g> <e lm="låta"><i>l</i><par n="l/åta__vblex"/><p><l><b/>komma</l><r><g><b/>komma</g></r></p></e>
+<e lm="låta"><i>l</i><par n="l/åta__vblex"/><p><l><b/>komma</l><r><g><b/>komma</g></r></p></e>
 <!--LR or RL--> <e lm="låta"><i>l</i><par n="l/åta__vblex"/></e>
 <e lm="låta"><i>l</i><par n="måst/a__vblex"/></e>
 <e lm="ropa">            <i>ropa</i><par n="adressera__vblex"/></e>
@@ -5384,13 +5377,13 @@ låta<g><b/>komma</g> <e lm="låta"><i>l</i><par n="l/åta__vblex"/><p><l><b/>ko
 <e lm="störta"><i>störta</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="skynda"><i>skynda</i><par n="adressera__vblex"/></e>
 <e lm="rengöra"><i>reng</i><par n="g/öra__vblex"/></e>
-jaga<g><b/>bort</g> <e lm="jaga"><i>jaga</i><par n="adressera__vblex"/><p><l><b/>bort</l><r><g><b/>bort</g></r></p></e>
+<e lm="jaga"><i>jaga</i><par n="adressera__vblex"/><p><l><b/>bort</l><r><g><b/>bort</g></r></p></e>
 <!--LR or RL--> <e lm="flytta"><i>flytta</i><par n="adressera__vblex"/></e>
 <e lm="snappa"><i>snappa</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="genomföra"><i>genomför</i><par n="hör/a__vblex"/></e>
 <e lm="skaka">           <i>skaka</i><par n="adressera__vblex"/></e>   <!--skaka,skakade,skakat,skakar-->
 <e lm="kollapsa"><i>kollapsa</i><par n="adressera__vblex"/></e>
-röra<g><b/>om</g> <e lm="röra"><i>rör</i><par n="hör/a__vblex"/><p><l><b/>om</l><r><g><b/>om</g></r></p></e>
+<e lm="röra"><i>rör</i><par n="hör/a__vblex"/><p><l><b/>om</l><r><g><b/>om</g></r></p></e>
 <e lm="skrämma"><i>skräm</i><par n="göm/ma__vblex"/></e>
 <e lm="ropa">            <i>ropa</i><par n="adressera__vblex"/></e>
 <e lm="rygga"><i>rygga</i><par n="adressera__vblex"/></e>
@@ -5403,7 +5396,7 @@ röra<g><b/>om</g> <e lm="röra"><i>rör</i><par n="hör/a__vblex"/><p><l><b/>om
 <e lm="viska">           <i>viska</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="anse"><i>ans</i><par n="s/e__vblex"/></e>
 <!--LR or RL--> <e lm="täcka"><i>täck</i><par n="belys/a__vblex"/></e>
-klä<g><b/>av<b/>sig</g> <e lm="klä"><i>klä</i><par n="bo__vblex"/><p><l><b/>av<b/>sig</l><r><g><b/>av<b/>sig</g></r></p></e>
+<e lm="klä"><i>klä</i><par n="bo__vblex"/><p><l><b/>av<b/>sig</l><r><g><b/>av<b/>sig</g></r></p></e>
 <!--LR or RL--> <e lm="passa"><i>passa</i><par n="adressera__vblex"/></e>
 <e lm="sakta"><i>sakta</i><par n="adressera__vblex"/></e>
 <e lm="hosta">           <i>hosta</i><par n="adressera__vblex"/></e>
@@ -5475,7 +5468,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <!--LR or RL--> <e lm="förlita"><i>förlita</i><par n="adressera__vblex"/></e>
 <e lm="glida"><i>gl</i><par n="l/ida__vblex"/></e>
 <e lm="ränna"><i>ränn</i><par n="följ/a__vblex"/></e>
-fräscha<g><b/>upp</g> <e lm="fräscha"><i>fräscha</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
+<e lm="fräscha"><i>fräscha</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
 <e lm="regna">           <i>regna</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="skriva"><i>skr</i><par n="beskr/iva__vblex"/></e>
 <e lm="brista"><i>br</i><par n="br/ista__vblex"/></e>
@@ -5495,7 +5488,7 @@ fräscha<g><b/>upp</g> <e lm="fräscha"><i>fräscha</i><par n="adressera__vblex"
 <!--LR or RL--> <e lm="sköta"><i>sköt</i><par n="belys/a__vblex"/></e>
 <e lm="koka">            <i>kok</i><par n="kok/a__vblex"/></e>
 <e lm="suga">            <i>s</i><par n="lj/uga__vblex"/></e>
-skälla<g><b/>ut</g> <e lm="skälla"><i>skäll</i><par n="följ/a__vblex"/><p><l><b/>ut</l><r><g><b/>ut</g></r></p></e>
+<e lm="skälla"><i>skäll</i><par n="följ/a__vblex"/><p><l><b/>ut</l><r><g><b/>ut</g></r></p></e>
 <e lm="förkorta">        <i>förkorta</i><par n="adressera__vblex"/></e>     <!--förkorta,förkortade,förkortat,förkortar-->
 <e lm="smälla"><i>smäll</i><par n="följ/a__vblex"/></e>
 <!--LR or RL--> <e lm="förstöra"><i>förstör</i><par n="hör/a__vblex"/></e>
@@ -5510,13 +5503,13 @@ skälla<g><b/>ut</g> <e lm="skälla"><i>skäll</i><par n="följ/a__vblex"/><p><l
 <e lm="skåla"><i>skåla</i><par n="adressera__vblex"/></e>
 <e lm="skina"><i>sk</i><par n="sk/ina__vblex"/></e>
 <e lm="döpa"><i>döp</i><par n="belys/a__vblex"/></e>
-koppla<g><b/>av</g> <e lm="koppla"><i>koppla</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
-ge<g><b/>efter</g> <e lm="ge"><i>g</i><par n="medg/e__vblex"/><p><l><b/>efter</l><r><g><b/>efter</g></r></p></e>
+<e lm="koppla"><i>koppla</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
+<e lm="ge"><i>g</i><par n="medg/e__vblex"/><p><l><b/>efter</l><r><g><b/>efter</g></r></p></e>
 <e lm="slicka"><i>slicka</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="släppa"><i>släpp</i><par n="belys/a__vblex"/></e>
 <e lm="slockna"><i>slockna</i><par n="adressera__vblex"/></e>
 <e lm="spräcka"><i>spräck</i><par n="belys/a__vblex"/></e>
-stänga<g><b/>av</g> <e lm="stänga"><i>stäng</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
+<e lm="stänga"><i>stäng</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
 <!--LR or RL--> <e lm="underlätta"><i>underlätta</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="slippa"><i>sl</i><par n="sl/ippa__vblex"/></e>
 <e lm="smörja"><i>sm</i><par n="sm/örja__vblex"/></e>
@@ -5567,10 +5560,10 @@ stänga<g><b/>av</g> <e lm="stänga"><i>stäng</i><par n="följ/a__vblex"/><p><l
 <e lm="sopa">            <i>sopa</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="tappa"><i>tappa</i><par n="adressera__vblex"/></e>
 <e lm="mumla"><i>mumla</i><par n="adressera__vblex"/></e>
-spela<g><b/>schack</g> <e lm="spela"><i>spela</i><par n="adressera__vblex"/><p><l><b/>schack</l><r><g><b/>schack</g></r></p></e>
+<e lm="spela"><i>spela</i><par n="adressera__vblex"/><p><l><b/>schack</l><r><g><b/>schack</g></r></p></e>
 <e lm="rita"><i>rita</i><par n="adressera__vblex"/></e>
 <e lm="tämja"><i>tämj</i><par n="följ/a__vblex"/></e>
-gå<g><b/>på<b/>tå</g> <e lm="gå"><i>g</i><par n="g/å__vblex"/><p><l><b/>på<b/>tå</l><r><g><b/>på<b/>tå</g></r></p></e>
+<e lm="gå"><i>g</i><par n="g/å__vblex"/><p><l><b/>på<b/>tå</l><r><g><b/>på<b/>tå</g></r></p></e>
 <e lm="vibrera"><i>vibrera</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="draga"><i>dr</i><par n="dr/aga__vblex"/></e>
 <e lm="trampa">          <i>trampa</i><par n="adressera__vblex"/></e> <!--trampa,trampade,trampat,trampar-->
@@ -5592,12 +5585,12 @@ gå<g><b/>på<b/>tå</g> <e lm="gå"><i>g</i><par n="g/å__vblex"/><p><l><b/>på
 <e lm="vada"><i>vada</i><par n="adressera__vblex"/></e>
 <e lm="vinka"><i>vinka</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="fundera"><i>fundera</i><par n="adressera__vblex"/></e>
-vara<g><b/>sur</g> <e lm="vara"><i>vara</i><par n="/vara__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
+<e lm="vara"><i>vara</i><par n="/vara__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
 <e lm="vrida"><i>vrida</i><par n="l/ida__vblex"/></e>
 <e lm="vädra"><i>vädra</i><par n="adressera__vblex"/></e>
-tycka<g><b/>synd<b/>om</g> <e lm="tycka"><i>tyck</i><par n="belys/a__vblex"/><p><l><b/>synd<b/>om</l><r><g><b/>synd<b/>om</g></r></p></e>
+<e lm="tycka"><i>tyck</i><par n="belys/a__vblex"/><p><l><b/>synd<b/>om</l><r><g><b/>synd<b/>om</g></r></p></e>
 <e lm="gnälla"><i>gnäll</i><par n="följ/a__vblex"/></e>
-ryka<g><b/>på<b/>axlarna</g> <e lm="ryka"><i>r</i><par n="d/yka__vblex"/><p><l><b/>på<b/>axlarna</l><r><g><b/>på<b/>axlarna</g></r></p></e>
+<e lm="ryka"><i>r</i><par n="d/yka__vblex"/><p><l><b/>på<b/>axlarna</l><r><g><b/>på<b/>axlarna</g></r></p></e>
 <!--LR or RL--> <e lm="odla"><i>odla</i><par n="adressera__vblex"/></e>
 <e lm="tro">             <i>tro</i><par n="avsky__vblex"/></e>
 <e lm="tilltala"><i>tilltala</i><par n="adressera__vblex"/></e>
