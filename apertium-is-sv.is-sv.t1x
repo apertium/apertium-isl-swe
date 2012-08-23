@@ -639,7 +639,7 @@
 		     </action>
 	</rule>
 
-	<rule comment="regla: vcop">
+	<rule comment="regla: VCOP">
 	      <pattern>
 	        <pattern-item n="vcop"/>
 	      </pattern>
