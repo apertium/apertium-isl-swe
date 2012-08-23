@@ -11,6 +11,9 @@
     <def-cat n="nom_ind"> 					<!--noun, without article-->
       <cat-item tags="n.*.ind"/>
     </def-cat>
+    <def-cat n="nom_sg_ind"> 					<!--noun, without article-->
+      <cat-item tags="n.*.sg.*.ind"/>
+    </def-cat>
     <def-cat n="nom_gen_def"> 					<!--noun, genitive, with article - (possessor) -->
       <cat-item tags="n.*.gen.def"/>
     </def-cat>
@@ -362,7 +365,7 @@
 	          </chunk>
 	        </out>
 	     </action>
-	  </rule>
+    </rule>
 
 
 	<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | hestur stelpunnar → flickans hest">   <!-- check --> 
@@ -409,7 +412,7 @@
 		          </chunk>
 		        </out>
 		     </action>
-		  </rule>
+    </rule>
 
 <!--also write noun possessive pronoun bókin hans → hans bok -->
 
@@ -418,9 +421,9 @@
 		       <pattern-item n="nom_sg_ind"/>
 		     </pattern>
 		     <action>
-	<!--	       <call-macro n="firstWord">                              do I need this???
+		       <call-macro n="firstWord">                            
 		         <with-param pos="1"/>
-		       </call-macro>    -->
+		       </call-macro>    
 		       <call-macro n="conv_temps1"> <!--  -->
 		         <with-param pos="1"/>
 		       </call-macro>
@@ -428,11 +431,9 @@
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
-		         <chunk name="geta_komid" case="caseFirstWord">      <!-- ???? casefirstword???-->
+		         <chunk name="geta_komid" case="caseFirstWord">    
 		           <tags>
-		             <tag><lit-tag v="SV"/></tag>                 <!-- ????? -->
-		              <!--<tag><clip pos="1" side="sl" part="syntax"/></tag>-->
-		              <!--<tag><lit-tag v="@+FMAINV"/></tag>                   <!-- ????? -->
+		             <tag><lit-tag v="SV"/></tag>                
 
 		              <!-- <clip pos="2" side="tl" part="a_verb"/>    -->    <!-- ????? tag for a_verb???-->	
 		              <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -455,7 +456,7 @@
 		          </chunk>
 		        </out>
 		     </action>
-		  </rule>
+	</rule>
 
 
     <rule comment="regla: adj nom | dýr bjór → dyrt öl">
@@ -521,9 +522,8 @@
 	              <tag><clip pos="2" side="tl" part="defnes"/></tag>
 	              <tag><clip pos="2" side="tl" part="cas"/></tag>
 	            </tags>
-				<lu>
-
-<!-- Here I need the pronoun den/det/de
+<!-- 				<lu>
+ Here I need the pronoun den/det/de
 <pardef n="d/en__prn">
   <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -535,8 +535,8 @@
 	              <lit-tag v="dem"/>
 	              <clip pos="2" side="tl" part="gen" link-to="2"/>
 	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	              <clip pos="1" side="tl" part="lemq"/>              -->
-	            </lu>
+	              <clip pos="1" side="tl" part="lemq"/>             
+	            </lu>     -->
 	            <b pos="1"/>
 	            <lu>
 	              <clip pos="1" side="tl" part="lemh"/>
@@ -564,6 +564,77 @@
 
 
 <!-- er að skrifa → skriver -->
+
+
+<rule comment="REGLA: NOUN  | hestur → hest">   <!-- check --> 
+	     <pattern>
+	       <pattern-item n="nom"/>
+	     </pattern>
+	     <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+	       <call-macro n="conv_case1"> 
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <out>
+	         <chunk name="hestur" case="caseFirstWord">    
+	           <tags>
+	             <tag><lit-tag v="SN"/></tag>              
+	              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
+	              <tag><clip pos="1" side="tl" part="gen"/></tag>
+	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	              <tag><clip pos="1" side="tl" part="cas"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_nom"/>
+	              <clip pos="1" side="tl" part="gen"/>
+	              <clip pos="1" side="tl" part="nbr"/>
+	              <clip pos="1" side="tl" part="defnes"/>
+	              <clip pos="1" side="tl" part="cas"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	     </action>
+	  </rule>
+
+	<rule comment="REGLA: ADJ  | fallegur → vacker">   <!-- check --> 
+		     <pattern>
+		       <pattern-item n="adj"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+		       <call-macro n="conv_case1"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="fallegur" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_nom"/>
+		              <clip pos="1" side="tl" part="grau"/>
+		              <clip pos="1" side="tl" part="gen"/>
+		              <clip pos="1" side="tl" part="nbr"/>
+		              <clip pos="1" side="tl" part="defnes"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+		  </rule>
 
 
 
