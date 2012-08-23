@@ -60,14 +60,15 @@ LIST GENDER = m f nt mfn ;
 LIST PERSON = (p1 sg) (p2 sg) (p3 sg) (p1 pl) (p2 pl) (p3 pl) ;
 LIST NAGD = nom acc dat gen ;
 
-SET V-IND-FIN = Pri OR Past OR Prs OR Pss;
-SET V-PRESENT-3PLURAL = V Prs Pl3 ;
+SET V-IND-FIN = Pri OR Past OR Prs OR Pss ;
+SET V-PRESENT-3PLURAL = V + Prs + Pl3 ;
 SET V-COP = Copula ;
 SET SG2-OR-SG3 = Sg2 OR Sg3 ;
 SET REL-OR-ITG = (prn rel) OR (prn itg) ;
 SET S-BOUNDARY  = (prn itg) OR (prn rel) OR ("\;") OR (":") OR ("-") OR ("–") OR CS ;
-SET POSPRN = prn pos ;
-SET DEMPRN = prn dem ;
+
+LIST POSPRN = (prn pos) ;
+LIST DEMPRN = (prn dem) ;
 
 SET NounMscFem = (n m) OR (n f) OR (n mfn) ;
 SET NounMscNeu = (n m) OR (n nt) OR (n mfn) ;
@@ -139,8 +140,8 @@ REMOVE:r N IF (O A) (O N) (1C N) (0C Acc) (1C Acc) #IceNLP line 61
 REMOVE:r N IF (O A) (O N) (1C N) (0C Dat) (1C Dat) #IceNLP line 61
 REMOVE:r N IF (O A) (O N) (1C N) (0C Gen) (1C Gen) #IceNLP line 61
 
-REMOVE:r Nom IF (0 "<árið>") (1 Num) (1 ("[0-9]+"r)) #IceNLP line 64
-REMOVE:r N IF (0 "<á>") (1C N OR A) #IceNLP line 65
+REMOVE:r Nom IF (0 ("<árið>")) (1 Num) (1 ("[0-9]+"r)) #IceNLP line 64
+REMOVE:r N IF (0 ("<á>")) (1C N OR A) #IceNLP line 65
 REMOVE:r N IF (0 N) (O Prop) (1 Prop) #IceNLP line 67
 REMOVE:r N IF (0 N) (0 V) (1C Pron) (1C Nom OR Acc) #IceNLP line 69
 
@@ -178,22 +179,22 @@ REMOVE:r V IF (0 V) (-1C Pr) 			#do not allow verbs after a preposition (t.d. "b
 
 
 ###---VERBS---
-SELECT:r V-PRESENT-3PLURAL IF (0 V-PRESENT-3PLURAL) (0 Inf) (-1 (Prn + Pl3) OR (N + Pl3))  #3p pl verb VS. infinitive
+SELECT:r V-PRESENT-3PLURAL IF (0 V-PRESENT-3PLURAL) (0 Inf) (-1 Pron + Pl3 OR N + Pl3)  #3p pl verb VS. infinitive
 SELECT:r CS IF (0 ("sem")) (NOT -1 ("<ég>")) #for sem choose conjunction unless the preceding word is ég
 
 ###---ADJECTIVES---
-REMOVE:r A IF (0 A) (0 V) (-1C N OR Pron) #IceNLP line 80
-REMOVE:r A IF (0 A) (0 V) (-1 "að") (NOT 0 Dat) #IceNLP line 84
-REMOVE:r A IF (0 A) (0 N) (-1C Pr) (NOT 1 N) #IceNLP line 86
-REMOVE:r A IF (0 A) (0 N) (-1C DEMPRN) #IceNLP line 91
-REMOVE:r A IF (0 A) (0 V) (-1C N) (1C Pr) #IceNLP line 94
-REMOVE:r A IF (0 A) (0 Adv) (1C A #IceNLP 105
-REMOVE:r A IF (0 ("<fyrst>")) (1C N OR Prop OR Pron) (2C V-IND-FIN) #IceNLP 111
-SELECT:r Adv IF (0 (".+lega"r)) (0 A) (0 Adv) (1C A OR Adv) 
-SELECT:r Adv IF (0 (".+lega"r)) (0 A) (0 Adv) (-1C V) (NOT 1 A OR Adv OR N) 
-REMOVE:r A IF (0 (".+lega"r)) (0 A) (0 Adv) (NOT 1 N) (NOT 1 A) #IceNLP 116
-REMOVE:r A IF (0 ("<eins>")) (1 ("og")) #IceNLP 119, although "eins og" exists as a seperate entry in is.dix
-REMOVE:r A IF (0 Num) (0 A) (1 ("ár"))#IceNLP 123
+REMOVE:r A IF (0 A) (0 V) (-1C N OR Pron) ; #IceNLP line 80
+REMOVE:r A IF (0 A) (0 V) (-1 ("að")) (NOT 0 Dat) ; #IceNLP line 84
+REMOVE:r A IF (0 A) (0 N) (-1C Pr) (NOT 1 N) ; #IceNLP line 86
+REMOVE:r A IF (0 A) (0 N) (-1C DEMPRN) ; #IceNLP line 91
+REMOVE:r A IF (0 A) (0 V) (-1C N) (1C Pr) ; #IceNLP line 94
+REMOVE:r A IF (0 A) (0 Adv) (1C A) ; #IceNLP 105
+REMOVE:r A IF (0 ("<fyrst>")) (1C N OR Prop OR Pron) (2C V-IND-FIN); #IceNLP 111
+SELECT:r Adv IF (0 (".+lega"r)) (0 A) (0 Adv) (1C A OR Adv) ;
+SELECT:r Adv IF (0 (".+lega"r)) (0 A) (0 Adv) (-1C V) (NOT 1 A OR Adv OR N) ;
+REMOVE:r A IF (0 (".+lega"r)) (0 A) (0 Adv) (NOT 1 N) (NOT 1 A) ;#IceNLP 116
+REMOVE:r A IF (0 ("<eins>")) (1 ("og")) ; #IceNLP 119, although "eins og" exists as a seperate entry in is.dix
+REMOVE:r A IF (0 Num) (0 A) (1 ("ár")); #IceNLP 123
 
 ###---ADVERBS---
 
