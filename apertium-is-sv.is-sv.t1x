@@ -62,6 +62,9 @@
       <cat-item tags="vaux.prs.*"/>
       <cat-item tags="vaux.pss.*"/>
     </def-cat>
+    <def-cat n="vcop"> 					<!--copula-->
+      <cat-item tags="vbser.*"/>
+    </def-cat>
     <def-cat n="vbhaver_fin"> 					<!--hafa finite verb-->
       <cat-item tags="vbhaver.pri.*"/>
       <cat-item tags="vbhaver.past.*"/>
@@ -566,7 +569,7 @@
 <!-- er að skrifa → skriver -->
 
 
-<rule comment="REGLA: NOUN  | hestur → hest">   <!-- check --> 
+    <rule comment="REGLA: NOUN  | hestur → hest">   <!-- check --> 
 	     <pattern>
 	       <pattern-item n="nom"/>
 	     </pattern>
@@ -634,10 +637,9 @@
 		          </chunk>
 		        </out>
 		     </action>
-		  </rule>
+	</rule>
 
-
-	    <rule comment="regla: vcop">
+	<rule comment="regla: vcop">
 	      <pattern>
 	        <pattern-item n="vcop"/>
 	      </pattern>
@@ -660,7 +662,29 @@
 	          </chunk>
 	        </out>
 	      </action>
-	    </rule>
+	 </rule>
+
+	<rule comment="regla: VINF">
+	      <pattern>
+	        <pattern-item n="inf"/>
+	      </pattern>
+	      <action>
+	        <out>
+	          <chunk name="vinf" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SV.INF"/></tag>
+	              <tag><clip pos="1" side="tl" part="temps"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_verb"/>
+	              <clip pos="1" side="tl" part="temps"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	      </action>
+	 </rule>
 
 
     <!-- TO BE CHECKED!!!!-->
