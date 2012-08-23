@@ -740,8 +740,6 @@
 </pardef>
 
 
-
-
     <!-- Nouns -->
 
 <pardef n="bil__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~ar / ~arna -->
@@ -3113,14 +3111,7 @@
 
 
 
-
-
-
-
 <section id="main" type="standard">
-
-<!-- NEW -->
-
 
 
 
@@ -5419,7 +5410,7 @@
 <e lm="krypa"><i>kr</i><par n="kr/ypa__vblex"/></e>
 <e lm="tända"><i>tän</i><par n="använ/da__vblex"/></e>
 <e lm="dikta"><i>dikta</i><par n="adressera__vblex"/></e>
-gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><g><b/>sig</g></r></p></e>
+<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><g><b/>sig</g></r></p></e>
 <!--LR or RL--> <e lm="frukta"><i>frukta</i><par n="adressera__vblex"/></e>
 <e lm="kyssa"><i>kyss</i><par n="belys/a__vblex"/></e>
 <e lm="kolla"><i>kolla</i><par n="adressera__vblex"/></e>
@@ -7122,7 +7113,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="korruption"><i>korruption</i><par n="accent__n"/></e>
 <e lm="bomb"><i>bomb</i><par n="accent__n"/></e>
 <e lm="frågeställare"><i>frågeställar</i><par n="apotekar/e__n"/></e>
-<e lm="fråga"><i>fråg</i><par n="frug/a__n"/>
+<e lm="fråga"><i>fråg</i><par n="frug/a__n"/></e>
 <e lm="frågetecken"><i>frågeteck</i><par n="teck/en__n"/></e>
 <e lm="prognos"><i>prognos</i><par n="accent__n"/></e>
 <e lm="spanska"><i>spansk</i><par n="afghansk/a__n"/></e>
@@ -8102,7 +8093,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="kaka">            <i>kak</i><par n="frug/a__n"/></e>
 <e lm="kanal">           <i>kanal</i><par n="accent__n"/></e>
 <e lm="kanin">           <i>kanin</i><par n="accent__n"/></e>
-<e lm="kant">            <i>kant</i><par n="mask__n"/>
+<e lm="kant">            <i>kant</i><par n="mask__n"/></e>
 <e lm="kappa">           <i>kapp</i><par n="frug/a__n"/></e>
 <e lm="kapten">          <i>kapten</i><par n="accent__n"/></e>
 <e lm="katt">            <i>katt</i><par n="ed__n"/></e>
@@ -8303,7 +8294,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="polischef"><i>polischef</i><par n="mask__n"/></e>
 <e lm="politik">         <i>politik</i><par n="koppar__n"/></e>
 <e lm="portion">         <i>portion</i><par n="accent__n"/></e>
-<e lm="potatis">         <i>potatis</i><par n="bil__n"/>
+<e lm="potatis">         <i>potatis</i><par n="bil__n"/></e>
 <e lm="potta"><i>pott</i><par n="frug/a__n"/></e>
 <e lm="processor">       <i>processor</i><par n="geometri__n"/></e>
 <e lm="promenad">        <i>promenad</i><par n="mask__n"/></e>
@@ -9530,11 +9521,11 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="Andres"><i>Andres</i><par n="Jonas__np"/></e>
 <e lm="Anny"><i>Anny</i><par n="Eva__np"/></e>
 <e lm="Östfjordar"><i>Östfjordar</i><par n="Afrika__np"/></e>
-<e lm="<g>Östra<b/></g>Grönland"><i><g>Östra<b/></g>Grönland</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
-<e lm="<g>Östra<b/></g>Island"><i><g>Östra<b/></g>Island</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
+<e lm="Östra Grönland"><i><g>Östra<b/></g>Grönland</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
+<e lm="Östra Island"><i><g>Östra<b/></g>Island</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
 <e lm="Austurvöllur"><i>Austurvöllur</i><par n="Afrika__np"/></e>
 <e lm="Axel"><i>Axel</i><par n="Trond__np"/></e>
-<e lm="<g>Förenta<b/></g>staterna"><i><g>Förenta<b/></g>staterna</i><par n="Azorerna__np"/><p><l>Förenta<b/></l><r><g>Förenta<b/></g></r></p></e>
+<e lm="Förenta staterna"><i><g>Förenta<b/></g>staterna</i><par n="Azorerna__np"/><p><l>Förenta<b/></l><r><g>Förenta<b/></g></r></p></e>
 <e lm="Bella"><i>Bella</i><par n="Eva__np"/></e>
 <e lm="Ben"><i>Ben</i><par n="Trond__np"/></e>
 <e lm="Benedikt"><i>Benedikt</i><par n="Trond__np"/></e>
@@ -9660,7 +9651,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="Kata"><i>Kata</i><par n="Eva__np"/></e>
 <e lm="Katrin"><i>Katrin</i><par n="Eva__np"/></e>
 <e lm="Keflavik"><i>Keflavik</i><par n="Afrika__np"/></e>
-<e lm="<g>Keflavik<b/></g>flygplats"><i><g>Keflavik<b/></g>flygplats</i><par n="Paris__np"/><p><l>Keflavik<b/></l><r><g>Keflavik<b/></g></r></p></e>
+<e lm="Keflavik flygplats"><i><g>Keflavik<b/></g>flygplats</i><par n="Paris__np"/><p><l>Keflavik<b/></l><r><g>Keflavik<b/></g></r></p></e>
 <e lm="Kenya"><i>Kenya</i><par n="Afrika__np"/></e>
 <e lm="Kimmi"><i>Kimmi</i><par n="Trond__np"/></e>
 <e lm="Kirkjubol"><i>Kirkjubol</i><par n="Zeeland__np"/></e>
@@ -9702,7 +9693,7 @@ gifta<b/><e lm="gifta"><i>gift</i><par n="fäst/a__vblex"/><p><l><b/>sig</l><r><
 <e lm="Ninna"><i>Ninna</i><par n="Eva__np"/></e>
 <e lm="Nonni"><i>Nonni</i><par n="Trond__np"/></e>
 <e lm="Nordfjördur"><i>Nordfjördur</i><par n="Afrika__np"/></e>
-<e lm="Norra<b/>Island"><i>Norra<b/>Island</i><par n="Zeeland__np"/></e>
+<e lm="Norra Island"><i>Norra<b/>Island</i><par n="Zeeland__np"/></e>
 <e lm="Nina"><i>Nina</i><par n="Eva__np"/></e>
 <e lm="Nora"><i>Nora</i><par n="Eva__np"/></e>
 <e lm="Oddur"><i>Oddur</i><par n="Trond__np"/></e>
