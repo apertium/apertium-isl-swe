@@ -11,6 +11,9 @@
     <def-cat n="nom_ind"> 					<!--noun, without article-->
       <cat-item tags="n.*.ind"/>
     </def-cat>
+    <def-cat n="nom_def"> 					<!--noun, with article-->
+      <cat-item tags="n.*.def"/>
+    </def-cat>
     <def-cat n="nom_sg_ind"> 					<!--noun, without article-->
       <cat-item tags="n.*.sg.*.ind"/>
     </def-cat>
@@ -22,6 +25,12 @@
     </def-cat>
     <def-cat n="adj"> 					<!--adjective-->
       <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adj_def"> 					<!--adjective def, weak declension-->
+      <cat-item tags="adj.*.def"/>
+    </def-cat>
+    <def-cat n="adj_ind"> 					<!--adjective indef, strong declension-->
+      <cat-item tags="adj.*.ind"/>
     </def-cat>
     <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
@@ -224,6 +233,86 @@
       </choose>
     </def-macro>
 
+    <def-macro n="conv_gender1" npar="1" > 	<!-- MACRO: convert gender for adj, 
+																sing, pst: m/f => ut
+																m/f/nt => mfn, for plural, comp, superlatives,  it might need revision -->	
+      <choose>
+        <when>
+          <test>
+			<and>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+            <or>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            </or>
+        	</and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when>
+        <when>
+          <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
+
+    <def-macro n="conv_number1" npar="1" > 	<!-- MACRO: convert number for adj, 
+																pst, def = > sp
+																comp, superlatives => sp -->	
+      <choose>
+        <when>
+          <test>
+			<or>
+			<and>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+        	</and>
+            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+    	</or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sp"/>
+          </let>
+        </when>
+	 </choose>
+    </def-macro>
+
+
+<!--    <def-macro n="conv_gender2" npar="1" > 			
+      <choose>
+        <when>
+          <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when>
+ 		</choose>
+    </def-macro>  -->
+
+
+
     <def-macro n="conv_temps1" npar="1"> 		<!-- MACRO: convert present/past indicative/subjunctive to present/past-->
       <choose>
         <when>
@@ -328,7 +417,7 @@
 
 
 
-	<rule comment="REGLA: GETA PP → KAN INF | get komið → kan komma">     <!-- check -->
+	<rule comment="REGLA: GETA PP → KAN INF | get komið → kan komma">     <!-- does not work -->
 	     <pattern>
 	       <pattern-item n="geta"/>
 	       <pattern-item n="pp"/>
@@ -371,7 +460,7 @@
     </rule>
 
 
-	<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | hestur stelpunnar → flickans hest">   <!-- check --> 
+	<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | hestur stelpunnar → flickans hest">   <!-- works! --> 
 		     <pattern>
 		       <pattern-item n="nom_ind"/>
 		       <pattern-item n="nom_gen_def"/>
@@ -419,98 +508,13 @@
 
 <!--also write noun possessive pronoun bókin hans → hans bok -->
 
-    <rule comment="REGLA: UNDEF SG NOUN → INDEF_ART NOUN | hestur → en hest">     <!-- !!!still to be written!!!! -->
-		     <pattern>
-		       <pattern-item n="nom_sg_ind"/>
-		     </pattern>
-		     <action>
-		       <call-macro n="firstWord">                            
-		         <with-param pos="1"/>
-		       </call-macro>    
-		       <call-macro n="conv_temps1"> <!--  -->
-		         <with-param pos="1"/>
-		       </call-macro>
-		       <call-macro n="conv_voice"> <!--  -->
-		         <with-param pos="1"/>
-		       </call-macro>
-		       <out>
-		         <chunk name="geta_komid" case="caseFirstWord">    
-		           <tags>
-		             <tag><lit-tag v="SV"/></tag>                
+ 
 
-		              <!-- <clip pos="2" side="tl" part="a_verb"/>    -->    <!-- ????? tag for a_verb???-->	
-		              <tag><clip pos="1" side="tl" part="temps"/></tag>
-		              <tag><clip pos="1" side="tl" part="voz"/></tag>
-		             <!-- <tag><clip pos="1" side="tl" part="nbr"/></tag>-->      <!-- ????? not in swedish-->
-		            </tags>
-		            <lu>
-	                 <clip pos="1" side="tl" part="lemh"/>
-	                 <clip pos="1" side="tl" part="a_verb"/>
-	                 <clip pos="1" side="tl" part="temps"/>
-	                 <clip pos="1" side="tl" part="lemq"/>
-		            </lu>
-		            <b pos="1"/>
-		            <lu>
-		              <clip pos="2" side="tl" part="lemh"/>
-		              <clip pos="2" side="tl" part="a_verb"/>
-		              <lit-tag v="inf"/>
-		              <clip pos="2" side="tl" part="lemq"/>
-		            </lu>
-		          </chunk>
-		        </out>
-		     </action>
-	</rule>
-
-
-    <rule comment="regla: adj nom | dýr bjór → dyrt öl">
-	      <pattern>
-	        <pattern-item n="adj"/>
-	        <pattern-item n="nom"/>
-	      </pattern>
-	      <action>
-	        <call-macro n="conv_case1">   	
-	          <with-param pos="1"/>
-	        </call-macro>
-	        <call-macro n="conv_case1">   	
-	          <with-param pos="2"/>
-	        </call-macro>
-	        <out>
-	          <chunk name="mod_nom" case="caseFirstWord">
-	            <tags>
-	              <tag><lit-tag v="SN"/></tag>
-	              <tag><clip pos="2" side="tl" part="gen"/></tag>
-	              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-	              <tag><clip pos="2" side="tl" part="defnes"/></tag>
-	              <tag><clip pos="2" side="tl" part="cas"/></tag>
-	            </tags>
-	            <lu>
-	              <clip pos="1" side="tl" part="lemh"/>
-	              <clip pos="1" side="tl" part="a_adj"/>
-	              <clip pos="1" side="tl" part="grau"/>
-	              <clip pos="2" side="tl" part="gen" link-to="2"/>   
-	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
-	              <clip pos="2" side="tl" part="defnes" link-to="4"/>     
-	              <clip pos="1" side="tl" part="lemq"/>
-	            </lu>
-	            <b pos="1"/>
-	            <lu>
-	              <clip pos="2" side="tl" part="lemh"/>
-	              <clip pos="2" side="tl" part="a_nom"/>
-	              <clip pos="2" side="tl" part="gen" link-to="2"/>
-	              <clip pos="2" side="tl" part="nbr" link-to="3"/>
-	              <clip pos="2" side="tl" part="defnes" link-to="4"/>
-	              <clip pos="2" side="tl" part="cas" link-to="5"/>
-	              <clip pos="2" side="tl" part="lemq"/>
-	            </lu>
-	          </chunk>
-	        </out>
-	      </action>
-	</rule>
 
     <rule comment="regla: adj nom defined | dýri bjórinn → det dyra ölet">     <!--CHECK!!!-->
 	      <pattern>
-	        <pattern-item n="adj"/>
-	        <pattern-item n="nom"/>
+	        <pattern-item n="adj_def"/>
+	        <pattern-item n="nom_def"/>
 	      </pattern>
 	      <action>
 	        <call-macro n="conv_case1">   						<!-- only for the noun???-->
@@ -565,11 +569,55 @@
 	      </action>
 	</rule>
 
+    <rule comment="regla: adj nom (undef) | fallegur bjór → vackert öl">  <!-- works -->
+	      <pattern>
+	        <pattern-item n="adj_ind"/>
+	        <pattern-item n="nom_ind"/>
+	      </pattern>
+	      <action>
+	        <call-macro n="conv_case1">   	
+	          <with-param pos="1"/>
+	        </call-macro>
+	        <call-macro n="conv_case1">   	
+	          <with-param pos="2"/>
+	        </call-macro>
+	        <out>
+	          <chunk name="mod_nom" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SN"/></tag>
+	              <tag><clip pos="2" side="tl" part="gen"/></tag>
+	              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="2" side="tl" part="defnes"/></tag>
+	              <tag><clip pos="2" side="tl" part="cas"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_adj"/>
+	              <clip pos="1" side="tl" part="grau"/>
+	              <clip pos="2" side="tl" part="gen" link-to="2"/>   
+	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+	              <clip pos="2" side="tl" part="defnes" link-to="4"/>     
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_nom"/>
+	              <clip pos="2" side="tl" part="gen" link-to="2"/>
+	              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+	              <clip pos="2" side="tl" part="defnes" link-to="4"/>
+	              <clip pos="2" side="tl" part="cas" link-to="5"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	      </action>
+	</rule>
 
 <!-- er að skrifa → skriver -->
 
 
-    <rule comment="REGLA: NOUN  | hestur → hest">   <!-- check --> 
+    <rule comment="REGLA: NOUN  | hestur → hest">   <!-- works --> 
 	     <pattern>
 	       <pattern-item n="nom"/>
 	     </pattern>
@@ -602,9 +650,9 @@
 	          </chunk>
 	        </out>
 	     </action>
-	  </rule>
+	</rule>
 
-	<rule comment="REGLA: ADJ  | fallegur → vacker">   <!-- check --> 
+	<rule comment="REGLA: ADJ  | fallegur → vacker">   <!-- does work --> 
 		     <pattern>
 		       <pattern-item n="adj"/>
 		     </pattern>
@@ -613,6 +661,12 @@
 		         <with-param pos="1"/>
 		       </call-macro>    
 		       <call-macro n="conv_case1"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender1"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number1"> 
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
@@ -627,7 +681,7 @@
 		            </tags>
 		            <lu>
 		              <clip pos="1" side="tl" part="lemh"/>
-		              <clip pos="1" side="tl" part="a_nom"/>
+		              <clip pos="1" side="tl" part="a_adj"/>
 		              <clip pos="1" side="tl" part="grau"/>
 		              <clip pos="1" side="tl" part="gen"/>
 		              <clip pos="1" side="tl" part="nbr"/>
@@ -639,7 +693,7 @@
 		     </action>
 	</rule>
 
-	<rule comment="regla: VCOP">
+	<rule comment="regla: VCOP">    <!-- works -->
 	      <pattern>
 	        <pattern-item n="vcop"/>
 	      </pattern>
@@ -664,7 +718,7 @@
 	      </action>
 	 </rule>
 
-	<rule comment="regla: VINF">
+	<rule comment="regla: VINF | skrifa -> skriva">   <!-- does NOT work --> 
 	      <pattern>
 	        <pattern-item n="inf"/>
 	      </pattern>
@@ -686,12 +740,53 @@
 	      </action>
 	 </rule>
 
+   <rule comment="REGLA: UNDEF SG NOUN → INDEF_ART NOUN | hestur → en hest">     <!-- !!!still to be written!!!! -->
+		     <pattern>
+		       <pattern-item n="nom_sg_ind"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                            
+		         <with-param pos="1"/>
+		       </call-macro>    
+		       <call-macro n="conv_temps1"> <!--  -->
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_voice"> <!--  -->
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="geta_komid" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SV"/></tag>                
+
+		              <!-- <clip pos="2" side="tl" part="a_verb"/>    -->    <!-- ????? tag for a_verb???-->	
+		              <tag><clip pos="1" side="tl" part="temps"/></tag>
+		              <tag><clip pos="1" side="tl" part="voz"/></tag>
+		             <!-- <tag><clip pos="1" side="tl" part="nbr"/></tag>-->      <!-- ????? not in swedish-->
+		            </tags>
+		            <lu>
+	                 <clip pos="1" side="tl" part="lemh"/>
+	                 <clip pos="1" side="tl" part="a_verb"/>
+	                 <clip pos="1" side="tl" part="temps"/>
+	                 <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		            <b pos="1"/>
+		            <lu>
+		              <clip pos="2" side="tl" part="lemh"/>
+		              <clip pos="2" side="tl" part="a_verb"/>
+		              <lit-tag v="inf"/>
+		              <clip pos="2" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
 
     <!-- TO BE CHECKED!!!!-->
 
     <!-- Sintagmas nominales -->
 
-    <rule comment="regla: num">
+<!--    <rule comment="regla: num">
       <pattern>
         <pattern-item n="num"/>
       </pattern>
@@ -728,7 +823,6 @@
           <chunk name="nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag> 
-<!-- SN = sintagma nominal = noun phrase, but i prefer "nominal segment" -->
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="defnes"/></tag>
@@ -749,47 +843,6 @@
     </rule>
 
 
-<!-- HMMM?
-
-	    <rule comment="regla: adj">
-	      <pattern>
-	        <pattern-item n="adj"/>
-	      </pattern>
-	      <action>
- 	        <call-macro n="conv_case2">
-	          <with-param pos="1"/>
-	        </call-macro> 
-	        <out>  -->
-<!-- 	          <chunk name="adj" case="caseFirstWord">
-	            <tags>
-	              <tag><lit-tag v="SN"/></tag> 
-	 SN = sintagma nominal = noun phrase, but i prefer "nominal segment" 
-	              <tag><clip pos="1" side="tl" part="gen"/></tag>
-	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-	              <tag><clip pos="1" side="tl" part="cas"/></tag>
-	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
-	            </tags> -->
-<!--	            <lu>
-	              <clip pos="1" side="tl" part="lemh"/>
-	              <clip pos="1" side="tl" part="a_adj"/>
-	              <clip pos="1" side="tl" part="grau"/>
-	              <clip pos="1" side="tl" part="gen"/>
-	              <clip pos="1" side="tl" part="nbr"/>
-	              <clip pos="1" side="tl" part="cas"/>
-	              <clip pos="1" side="tl" part="defnes"/>
-	              <clip pos="1" side="tl" part="lemq"/>
-	            </lu>  -->
-
-<!-- 	          </chunk> -->
-<!--	        </out>
-	      </action>
-	    </rule> -->
-
-
-
-
-
-    <!-- Sintagmas verbales: Verbal segments -->
 
     <rule comment="regla: inf">
       <pattern>
@@ -920,7 +973,7 @@
         </out>
       </action>
     </rule>
-
+-->
 
   </section-rules>
 </transfer>
