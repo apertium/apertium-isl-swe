@@ -39,11 +39,11 @@
       <cat-item tags="vaux.past.*"/>
     </def-cat>
 
-   <def-cat n="pr">
+   <def-cat n="prep">
       	<cat-item tags="pr"/>
     </def-cat>
 
-    <def-cat n="prgen">
+    <def-cat n="prgen">    <!--prepositions that govern the genitive case-->
       	<cat-item lemma="till" tags="pr"/>
 		<cat-item lemma="inom" tags="pr"/> 
 		<cat-item lemma="bland" tags="pr"/> 
@@ -421,6 +421,28 @@
         </out>
       </action>
     </rule>
+
+  <rule comment="REGLA: PREP → PREP | till -> til">
+     <pattern>
+       <pattern-item n="prep"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk namefrom="PREP" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PREP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
 
     <rule comment="regla: adj nom (undef) | vackert öl → fallegur bjór">  <!-- works -->
 	      <pattern>
