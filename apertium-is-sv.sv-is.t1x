@@ -154,6 +154,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="genere"/>
+    <def-var n="cur_lema"/>
 	<def-var n="caseFirstWord"/>
   	<def-var n="EOS" v="true"/>
   </section-def-vars>
@@ -459,8 +460,13 @@
        <call-macro n="firstWord">
          <with-param pos="1"/>
        </call-macro>
+       <let>
+         <var n="cur_lema"/>
+         <clip pos="1" side="tl" part="lem"/>
+         
+       </let>
        <out>
-         <chunk namefrom="PREPGEN" case="caseFirstWord">
+         <chunk namefrom="cur_lema" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="PREPGEN"/></tag>
             </tags>
