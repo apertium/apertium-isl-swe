@@ -422,7 +422,7 @@
       </action>
     </rule>
 
-  <rule comment="REGLA: PREP → PREP | till -> til">
+<!--  <rule comment="REGLA: PREP → PREP | till -> til">
      <pattern>
        <pattern-item n="prep"/>
      </pattern>
@@ -434,6 +434,28 @@
          <chunk namefrom="PREP" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="PREP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+-->
+
+  <rule comment="REGLA: PREP_GEN → PREP_GEN | till -> til">  <!--prep that governs gen-->
+     <pattern>
+       <pattern-item n="prgen"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk namefrom="PREPGEN" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PREPGEN"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
