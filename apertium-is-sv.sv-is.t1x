@@ -460,13 +460,8 @@
        <call-macro n="firstWord">
          <with-param pos="1"/>
        </call-macro>
-       <let>
-         <var n="cur_lema"/>
-         <clip pos="1" side="tl" part="lem"/>
-         
-       </let>
        <out>
-         <chunk namefrom="cur_lema" case="caseFirstWord">
+         <chunk name="prep_gov_gen" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="PREPGEN"/></tag>
             </tags>
@@ -586,7 +581,7 @@
       </action>
     </rule>
 
-
+<!--
     <rule comment="regla: till nom(gen) | till staden → til borgarinnar">    
 	      <pattern>
 	        <pattern-item n="prgen"/>
@@ -620,7 +615,7 @@
 	        </out>
 	      </action>
 	</rule> 
-
+-->
 
 
   </section-rules>
