@@ -1392,7 +1392,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>faglegur<s n="adj"/></l><r>yrkesmässig<s n="adj"/></r></p></e>
 	<e><p><l>falinn<s n="adj"/></l><r>dold<s n="adj"/></r></p></e>
 	<e><p><l>ljóshærður<s n="adj"/></l><r>blond<s n="adj"/></r></p></e>
-	<e><p><l>fallegur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
 	<e><p><l>fallvaltur<s n="adj"/></l><r>ohållbar<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fatlaður<s n="adj"/></l><r>funktionshindrad<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>fatlaður<s n="adj"/></l><r>handikappad<s n="adj"/></r></p></e>
@@ -2147,7 +2146,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>endalaus<s n="adj"/></l><r>ändlös<s n="adj"/></r></p></e>
 	<e><p><l>endilangur<s n="adj"/></l><r>benägen<s n="adj"/></r></p></e>
 	<e><p><l>eðlilegur<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
-	<e><p><l>fagur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
+	<e r="LR" c="v1"><p><l>fagur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
+	<e c="v0"><p><l>fallegur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
 	<e><p><l>fallinn<s n="adj"/></l><r>fallen<s n="adj"/></r></p></e>
 	<e><p><l>falskur<s n="adj"/></l><r>falsk<s n="adj"/></r></p></e>
 	<e><p><l>farinn<s n="adj"/></l><r>borta<s n="adj"/></r></p></e>
