@@ -18,9 +18,9 @@
       <cat-item tags="SA"/>
       <cat-item tags="SA.*"/>
     </def-cat>
-    <def-cat n="SVcop">
-      <cat-item tags="SVcop"/>
-      <cat-item tags="SVcop.*"/>
+    <def-cat n="SVCOP">
+      <cat-item tags="SVCOP"/>
+      <cat-item tags="SVCOP.*"/>
     </def-cat>
 
   </section-def-cats>
@@ -61,6 +61,32 @@
         </out>
       </action>
     </rule>
+
+<!--     <rule comment="REGLA: SN SVCOP ADJ">     ???? 
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="SVCOP"/>
+        <pattern-item n="ADJ"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          <b pos="1"/>
+          <clip pos="2" part="lem"/>
+          <clip pos="2" part="tags"/>
+          <clip pos="2" part="chcontent"/>
+          <b pos="2"/>
+          <clip pos="3" part="lem"/>
+          <clip pos="3" part="tags"/>
+          <clip pos="3" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>     -->
+
 
   </section-rules>
 </interchunk>

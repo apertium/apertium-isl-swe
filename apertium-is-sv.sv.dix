@@ -801,8 +801,10 @@
 </pardef>
 
 <pardef n="extra__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="mfn"/><s n="sp"/><s n="ind"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="adj"/><s n="pst"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="adj"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>       <r><s n="adj"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="adj"/><s n="pst"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l></l>        <r><s n="adj"/><s n="pst"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="frejda/d__adj"> <!-- ENTRIES COMMENTED OUT PENDING CHECKING -->
@@ -1782,7 +1784,7 @@
   <e>       <p><l>ar</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>og</l>        <r>a<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>agit</l>      <r>a<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
-  <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>agande</l>    <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
 </pardef>
 
@@ -3229,7 +3231,6 @@
 <e lm="mellan"><i>mellan</i><par n="på__pr"/></e>
 <e lm="utom"><i>utom</i><par n="på__pr"/></e>
 <e lm="enligt"><i>enligt</i><par n="på__pr"/></e>
-<e lm="till"><i>till</i><par n="på__pr"/></e>
 <e lm="cirka"><i>cirka</i><par n="på__pr"/></e>
 <e lm="om"><i>om</i><par n="på__pr"/></e>
 <e lm="under"><i>under</i><par n="på__pr"/></e>
@@ -9925,6 +9926,7 @@
 <e lm="vid">             <i>vid</i><par n="på__pr"/></e>
 <e lm="från">            <i>från</i><par n="på__pr"/></e>
 <e lm="till">            <i>till</i><par n="på__pr"/></e>
+<e lm="på grund av">     <i>på<b/>grund<b/>av</i><par n="på__pr"/></e>
 <e lm="åt">              <i>åt</i><par n="på__pr"/></e>
 <e lm="ur">              <i>ur</i><par n="på__pr"/></e>
 <e lm="per">             <i>per</i><par n="på__pr"/></e>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <transfer default="chunk">
+
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -21,7 +22,6 @@
       <cat-item tags="vaux.*.inf.*"/>
       <cat-item tags="vaux.*.inf"/>
     </def-cat>
-
     <def-cat n="vfin"> 					<!--finite verb-->
       <cat-item tags="vblex.*.pres.*"/>
       <cat-item tags="vblex.*.past.*"/>
@@ -35,8 +35,31 @@
       <cat-item tags="vaux.past.*"/>
     </def-cat>
 
+   <def-cat n="pr">
+      	<cat-item tags="pr"/>
+    </def-cat>
+
+    <def-cat n="prgen">
+      	<cat-item lemma="till" tags="pr"/>
+		<cat-item lemma="inom" tags="pr"/> 
+		<cat-item lemma="bland" tags="pr"/> 
+		<cat-item lemma="mellan" tags="pr"/> 
+		<cat-item lemma="utan" tags="pr"/> 
+		<cat-item lemma="på grund av" tags="pr"/> 
+    </def-cat>
 
 
+<!--	<def-cat n="pr_gen"/>
+  		<cat-item tags="pr"/>
+	
+	
+	<cat-item lemma="till" tags="pr"/> 
+	<cat-item lemma="inom" tags="pr"/> 
+	<cat-item lemma="bland" tags="pr"/> 
+	<cat-item lemma="mellan" tags="pr"/> 
+	<cat-item lemma="utan" tags="pr"/> 
+	<cat-item lemma="på grund av" tags="pr"/> 
+	</def-cat> -->
   </section-def-cats>
 
   <section-def-attrs>
@@ -59,12 +82,16 @@
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
+    <def-attr n="a_pr">   			<!--preposition    -->
+      <attr-item tags="pr"/>
+    </def-attr>
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="nt"/>
       <attr-item tags="ut"/>
       <attr-item tags="mf"/>
+      <attr-item tags="mfn"/>
       <attr-item tags="GD"/>
     </def-attr>
     <def-attr n="cas">
@@ -76,26 +103,248 @@
     <def-attr n="voz">
       <attr-item tags="actv"/>
       <attr-item tags="pasv"/>
+      <attr-item tags="midv"/>
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
+      <attr-item tags="ND"/>
     </def-attr>
     <def-attr n="defnes">
       <attr-item tags="ind"/>
       <attr-item tags="def"/>
     </def-attr>
-    <def-attr n="temps">
+    <def-attr n="temps"> 							<!--TENSE-->
       <attr-item tags="inf"/>
+      <attr-item tags="supn"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="prs"/>
       <attr-item tags="pri"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pss"/>
+      <attr-item tags="pp"/>
     </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="genere"/>
+	<def-var n="caseFirstWord"/>
+  	<def-var n="EOS" v="true"/>
   </section-def-vars>
+
+<!--#######################################################################################-->
+<!--###################				MACROS				###################################-->
+<!--#######################################################################################-->
+  <section-def-macros>
+	
+    <def-macro n="conv_case_to_acc" npar="1" > 	<!-- MACRO: convert nom to acc -->	
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="cas"/>
+            <lit-tag v="acc"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="conv_case_to_dat" npar="1" > 		<!-- MACRO: convert nom to dat-->	
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="cas"/>
+            <lit-tag v="acc"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="conv_case_to_gen" npar="1" > 		<!-- MACRO: convert nom to gen-->	
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="cas"/>
+            <lit-tag v="gen"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+
+
+    <def-macro n="conv_gender1" npar="1" > 	<!-- MACRO: rewrite!!! -->	
+      <choose>
+        <when>
+          <test>
+			<and>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+            <or>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            </or>
+        	</and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when>
+        <when>
+          <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
+
+    <def-macro n="conv_number1" npar="1" > 	<!-- MACRO: rewrite!!! -->	
+      <choose>
+        <when>
+          <test>
+			<or>
+			<and>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+        	</and>
+            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+    	</or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sp"/>
+          </let>
+        </when>
+	 </choose>
+    </def-macro>
+
+
+    <!--    <def-macro n="conv_gender2" npar="1" > 			
+      <choose>
+        <when>
+          <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when>
+ 		</choose>
+    </def-macro>  -->
+
+
+
+    <def-macro n="conv_temps1" npar="1">	<!-- MACRO: convert present indicative to present indicative-->
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="pres"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="pri"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="conv_voice" npar="1"> 		<!-- MACRO: convert passive voice to middle voice (-s)-->
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="sl" part="voz"/><lit-tag v="pasv"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="voz"/>
+            <lit-tag v="midv"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="firstWord" npar="1">
+      <choose>
+        <when>
+          <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_np"/>    <!--from is-en, removed the acr part -->
+                <lit v=""/>
+              </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal> 
+                  <var n="EOS"/>
+                  <lit v="true"/>
+                </equal> 
+              </test>
+              <modify-case>
+                <clip pos="1" side="tl" part="lem"/>
+                <lit v="aa"/>
+              </modify-case>
+              <let>
+                <var n="caseFirstWord"/>
+                <lit v="Aa"/>
+              </let>
+            </when>
+            <otherwise> 
+              <let>
+                <var n="caseFirstWord"/>
+                <lit v="aa"/>
+              </let>
+            </otherwise>
+          </choose>
+        </when>
+        <otherwise>
+          <let>
+            <var n="caseFirstWord"/>
+            <lit v="aa"/>
+          </let>
+        </otherwise>
+      </choose>
+      <let>
+        <var n="EOS"/>
+        <lit v="false"/>
+      </let>
+    </def-macro>
+
+
+
+  </section-def-macros>
+
+<!--#######################################################################################-->
+<!--###################				RULES				###################################-->
+<!--#######################################################################################-->
+
+
+
 
   <section-rules>
 
@@ -180,6 +429,42 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="regla: till nom(gen) | till staden → til borgarinnar">    
+	      <pattern>
+	        <pattern-item n="prgen"/>
+	        <pattern-item n="nom"/>
+	      </pattern>
+	      <action>
+	        <call-macro n="conv_case_to_gen">   	
+	          <with-param pos="2"/>
+	        </call-macro>
+	        <out>
+	          <chunk name="TILL_STADEN" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SPrep"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_pr"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_nom"/>
+	              <clip pos="2" side="tl" part="gen"/>
+	              <clip pos="2" side="tl" part="nbr"/>
+	              <lit-tag v="gen"/>
+	              <clip pos="2" side="tl" part="defnes"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	      </action>
+	</rule> 
+
 
 
   </section-rules>

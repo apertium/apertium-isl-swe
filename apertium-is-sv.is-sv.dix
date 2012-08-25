@@ -676,6 +676,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 		<e><p><l>milli<s n="pr"/></l><r>mellan<s n="pr"/></r></p></e>
 		<e><p><l>samkvæmt<s n="pr"/></l><r>enligt<s n="pr"/></r></p></e>
 		<e><p><l>til<s n="pr"/></l><r>till<s n="pr"/></r></p></e>
+		<e><p><l>vegna<s n="pr"/></l><r>på<b/>grund<b/>av<s n="pr"/></r></p></e>
 		<e r="RL" c="v1"><p><l>um<s n="pr"/></l><r>cirka<s n="pr"/></r></p></e>
 		<e c="v0"><p><l>um<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
 		<e><p><l>undir<s n="pr"/></l><r>under<s n="pr"/></r></p></e>

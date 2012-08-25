@@ -8,16 +8,16 @@
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
-    <def-cat n="nom_ind"> 					<!--noun, without article-->
+    <def-cat n="nom_ind"> 					<!--noun, wiðout article-->
       <cat-item tags="n.*.ind"/>
     </def-cat>
-    <def-cat n="nom_def"> 					<!--noun, with article-->
+    <def-cat n="nom_def"> 					<!--noun, wið article-->
       <cat-item tags="n.*.def"/>
     </def-cat>
-    <def-cat n="nom_sg_ind"> 					<!--noun, without article-->
+    <def-cat n="nom_sg_ind"> 					<!--noun, wiðout article-->
       <cat-item tags="n.*.sg.*.ind"/>
     </def-cat>
-    <def-cat n="nom_gen_def"> 					<!--noun, genitive, with article - (possessor) -->
+    <def-cat n="nom_gen_def"> 					<!--noun, genitive, wið article - (possessor) -->
       <cat-item tags="n.*.gen.def"/>
     </def-cat>
     <def-cat n="num"> 					<!--numeral-->
@@ -105,6 +105,16 @@
      <cat-item tags="vaux.*.supn"/>
      <cat-item tags="vbmod.*.supn"/>
      <cat-item tags="vbmod.supn"/>
+  </def-cat>
+
+  <def-cat n="adv">   <!--upp: no comparison-->
+     <cat-item tags="adv"/>
+  </def-cat>
+
+  <def-cat n="adv_comp">  <!-- adverbs ðat can have comp and sup: vel-->
+     <cat-item tags="adv.pst"/>
+     <cat-item tags="adv.comp"/>
+     <cat-item tags="adv.sup"/>
   </def-cat>
 
   </section-def-cats>
@@ -433,7 +443,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="geta_komid" case="caseFirstWord">     
+	         <chunk name="GET_KOMIÐ" case="caseFirstWord">     
 	           <tags>
 	             <tag><lit-tag v="SV"/></tag>               
 
@@ -473,7 +483,7 @@
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
-		         <chunk name="hestur_stelpunnar" case="caseFirstWord">    
+		         <chunk name="HESTUR_STELPUNNAR" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SN"/></tag>              
 		              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
@@ -521,7 +531,7 @@
 	          <with-param pos="2"/>
 	        </call-macro>
 	        <out>
-	          <chunk name="mod_nom_def" case="caseFirstWord">
+	          <chunk name="FALLEGI_HESTURINN" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -582,7 +592,7 @@
 	          <with-param pos="2"/>
 	        </call-macro>
 	        <out>
-	          <chunk name="mod_nom" case="caseFirstWord">
+	          <chunk name="FALLEGUR_HESTUR" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -629,7 +639,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="hestur" case="caseFirstWord">    
+	         <chunk name="HESTUR" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
@@ -670,7 +680,7 @@
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
-		         <chunk name="fallegur" case="caseFirstWord">    
+		         <chunk name="FALLEGUR" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
 		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
@@ -693,6 +703,7 @@
 		     </action>
 	</rule>
 
+
 	<rule comment="regla: VCOP">    <!-- works -->
 	      <pattern>
 	        <pattern-item n="vcop"/>
@@ -702,9 +713,9 @@
 	          <with-param pos="1"/>
 	        </call-macro>
 	        <out>
-	          <chunk name="vcop" case="caseFirstWord">
+	          <chunk name="COPULA" case="caseFirstWord">
 	            <tags>
-	              <tag><lit-tag v="SV.COP"/></tag>
+	              <tag><lit-tag v="SVCOP"/></tag>
 	              <tag><clip pos="1" side="tl" part="temps"/></tag>
 	            </tags>
 	            <lu>
