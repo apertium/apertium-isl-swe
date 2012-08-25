@@ -40,6 +40,10 @@ LIST Gen = (gen) ;
 LIST Dat = (dat) ;
 LIST Voc = (voc) ;
 
+LIST Def = (def) ;
+LIST Ind = (ind) ;
+
+
 LIST NUMBER = sg pl ;
 LIST GENDER = m f nt mfn ;
 LIST PERSON = (p1 sg) (p2 sg) (p3 sg) (p1 pl) (p2 pl) (p3 pl) ;
@@ -58,3 +62,5 @@ SET S-BOUNDARY  = (prn itg) OR (prn rel) OR ("\;") OR (":") OR ("-") OR ("–") 
 SECTION
 
 SELECT (n);
+
+REMOVE:r1 Pl IF (0 A) (0 Def) (1C N) (1C Sg)

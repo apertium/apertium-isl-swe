@@ -21,6 +21,29 @@
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_chunk">
+      <attr-item tags="SV"/>
+      <attr-item tags="SN"/>
+      <attr-item tags="PREPGEN"/>
+      <attr-item tags="CS"/>
+      <attr-item tags="CC"/>
+      <attr-item tags="ADV"/>
+      <attr-item tags="SADV"/>
+      <attr-item tags="NEG"/>
+    </def-attr>
+    <def-attr n="pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="pp"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="inf"/>
+    </def-attr>
     <def-attr n="gen">
       <attr-item tags="f"/>
       <attr-item tags="m"/>
@@ -42,6 +65,11 @@
 
   </section-def-attrs>
 
+  <section-def-vars>
+    <def-var n="nombre"/>
+    <def-var n="genere"/>
+  </section-def-vars>
+
 
 <section-def-macros>
 
@@ -49,10 +77,10 @@
     <choose>
       <when>
         <test>
-            <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+            <equal><clip pos="1" part="cas"/><lit-tag v="nom"/></equal>
         </test>
         <let>
-          <clip pos="1" side="tl" part="cas"/>
+          <clip pos="1" part="cas"/>
           <lit-tag v="gen"/>
         </let>
       </when>
@@ -60,11 +88,6 @@
   </def-macro>
 
 </section-def-macros>
-
-  <section-def-vars>
-    <def-var n="nombre"/>
-    <def-var n="genere"/>
-  </section-def-vars>
 
 <section-rules>
 
