@@ -5843,7 +5843,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Aþena<s n="np"/><s n="top"/><s n="f"/></l><r>Aten<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bali<s n="np"/><s n="top"/><s n="f"/></l><r>Bali<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Balkan<s n="np"/><s n="top"/><s n="m"/></l><r>Balkan<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>USA<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Bandaríkin_USA__np"/></e>
+	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/></l><r>USA<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Bandaríkin_USA__np"/>	-->
 	<e><p><l>Bangemann<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Bangemann<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Baringdorf<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Baringdorf<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Barnier<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -5913,7 +5913,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Erasmus<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Erasmus<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Erika<s n="np"/><s n="ant"/><s n="f"/></l><r>Erika<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Erítrea<s n="np"/><s n="top"/><s n="f"/></l><r>Eritrea<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Europol<s n="np"/><s n="al"/><s n="nt"/></l><r>Europol<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Europol<s n="np"/><s n="org"/><s n="nt"/></l><r>Europol<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Evrópa<s n="np"/><s n="top"/><s n="f"/></l><r>Europa<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Evrópusambandið<s n="np"/><s n="al"/><s n="nt"/></l><r>Europeiska<b/>unionen<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Eystrasalt<s n="np"/><s n="top"/><s n="nt"/></l><r>Östersjön<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -5924,10 +5924,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Flynn<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Flynn<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Flæmingjaland<s n="np"/><s n="top"/><s n="nt"/></l><r>Flandern<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Flórens<s n="np"/><s n="top"/><s n="f"/></l><r>Florenz<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Ford<s n="np"/><s n="al"/><s n="nt"/></l><r>Ford<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
-	<e><p><l>Forum<s n="np"/><s n="al"/><s n="nt"/></l><r>Forum<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Ford<s n="np"/><s n="org"/><s n="nt"/></l><r>Ford<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
+	<e><p><l>Forum<s n="np"/><s n="org"/><s n="nt"/></l><r>Forum<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Frakkland<s n="np"/><s n="top"/><s n="nt"/></l><r>Frankrike<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Frontex<s n="np"/><s n="al"/><s n="nt"/></l><r>Frontex<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Frontex<s n="np"/><s n="org"/><s n="nt"/></l><r>Frontex<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Fílabeinsströndin<s n="np"/><s n="top"/><s n="f"/></l><r>Efenbenskusten<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Galeote<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Galeote<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Galileo<s n="np"/><s n="ant"/><s n="m"/></l><r>Galileo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -5948,7 +5948,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Gínea<s n="np"/><s n="top"/><s n="f"/></l><r>Guinea<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Haag<s n="np"/><s n="top"/><s n="f"/></l><r>Haag<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Haarder<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Haarder<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
-	<e><p><l>Hamas<s n="np"/><s n="al"/><s n="nt"/></l><r>Hamas<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Hamas<s n="np"/><s n="org"/><s n="nt"/></l><r>Hamas<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Hannes<s n="np"/><s n="ant"/><s n="m"/></l><r>Hannes<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Hatzidakis<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Hatzidakis<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Haug<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Haug<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -5956,7 +5956,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Helsinki<s n="np"/><s n="top"/><s n="f"/></l><r>Helsingfors<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Hermann<s n="np"/><s n="ant"/><s n="m"/></l><r>Herman<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Hersegóvína<s n="np"/><s n="top"/><s n="f"/></l><r>Hercegovina<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Hezbollah<s n="np"/><s n="al"/><s n="nt"/></l><r>Hizbollah<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Hezbollah<s n="np"/><s n="org"/><s n="nt"/></l><r>Hizbollah<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Holland<s n="np"/><s n="top"/><s n="nt"/></l><r>Nederländerna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Howitt<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Howitt<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Hughes<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Hughes<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -6040,7 +6040,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Mccreevy<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Mccreevy<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Mckenna<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Mckenna<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Medína<s n="np"/><s n="top"/><s n="f"/></l><r>Medina<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Mercosur<s n="np"/><s n="al"/><s n="nt"/></l><r>Mercosur<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Mercosur<s n="np"/><s n="org"/><s n="nt"/></l><r>Mercosur<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Merkel<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Merkel<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Michael<s n="np"/><s n="ant"/><s n="m"/></l><r>Michael<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Michel<s n="np"/><s n="ant"/><s n="m"/></l><r>Michel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6105,7 +6105,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Róm<s n="np"/><s n="top"/><s n="f"/></l><r>Rom<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Saddam<s n="np"/><s n="ant"/><s n="m"/></l><r>Saddam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Sahara<s n="np"/><s n="top"/><s n="nt"/></l><r>Sahara<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Sakharovverðlaunin<s n="np"/><s n="al"/><s n="nt"/></l><r>Sacharovpriset<s n="np"/><s n="al"/><s n="nt"/></r></p><par n="Sakharovverðlaunin_Sacharovpriset__np"/></e> 
+	<e><p><l>Sakharovverðlaunin<s n="np"/><s n="al"/><s n="nt"/><s n="pl"/></l><r>Sacharovpriset<s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p></e>  <!--<par n="Sakharovverðlaunin_Sacharovpriset__np"/>	-->
 	<e><p><l>Salafranca<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Salafranca<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Salvador<s n="np"/><s n="top"/><s n="f"/></l><r>Salvador<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Sarkozy<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Sarkozy<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -6125,7 +6125,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Skotland<s n="np"/><s n="top"/><s n="nt"/></l><r>Skottland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Slóvenía<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Solana<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Solana<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
-	<e><p><l>Sovétríkin<s n="np"/><s n="top"/><s n="nt"/></l><r>Sovjetunionen<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Sovétríkin_Sovjetunionen__np"/></e>
+	<e><p><l>Sovétríkin<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/></l><r>Sovjetunionen<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Sovétríkin_Sovjetunionen__np"/>	-->
 	<e><p><l>Spánn<s n="np"/><s n="top"/><s n="m"/></l><r>Spanien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Stavros<s n="np"/><s n="ant"/><s n="m"/></l><r>Stavros<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Sterckx<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Sterckx<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
@@ -6155,7 +6155,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>València<s n="np"/><s n="top"/><s n="f"/></l><r>Valencia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Verheugen<s n="np"/><s n="cog"/><s n="mfn"/></l><r>Verheugen<s n="np"/><s n="cog"/><s n="mfn"/></r></p></e>
 	<e><p><l>Vestur-Evrópa<s n="np"/><s n="top"/><s n="f"/></l><r>Västeuropa<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Vestur-Indíur<s n="np"/><s n="top"/><s n="f"/></l><r>Västindien<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Vestur-Indíur_Västindien__np"/></e>
+	<e><p><l>Vestur-Indíur<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Västindien<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Vestur-Indíur_Västindien__np"/>	-->
 	<e><p><l>Vestur-Sahara<s n="np"/><s n="top"/><s n="nt"/></l><r>Västsahara<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vesturbakkinn<s n="np"/><s n="top"/><s n="m"/></l><r>Västbanken<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vigo<s n="np"/><s n="ant"/><s n="m"/></l><r>Vigo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6187,11 +6187,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Aserbaídsjan<s n="np"/><s n="top"/><s n="nt"/></l><r>Azerbajdzjan<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Argentína<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Ástralía<s n="np"/><s n="top"/><s n="f"/></l><r>Australien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bahamaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Bahamaeyjar_Bahamas__np"/></e>
+	<e><p><l>Bahamaeyjar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Bahamaeyjar_Bahamas__np"/>	-->
 	<e><p><l>Barein<s n="np"/><s n="top"/><s n="nt"/></l><r>Bahrain<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bangladess<s n="np"/><s n="top"/><s n="nt"/></l><r>Bangladesh<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Armenía<s n="np"/><s n="top"/><s n="f"/></l><r>Armenien<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Barbadoseyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Barbados<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Barbadoseyjar_Barbados__np"/></e>
+	<e><p><l>Barbadoseyjar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Barbados<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e>  <!--<par n="Barbadoseyjar_Barbados__np"/>	-->
 	<e><p><l>Bermúdaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Bermuda<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Bólivía<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Botsvana<s n="np"/><s n="top"/><s n="nt"/></l><r>Botswana<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -6203,7 +6203,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Búrúndí<s n="np"/><s n="top"/><s n="nt"/></l><r>Burundi<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kambódía<s n="np"/><s n="top"/><s n="f"/></l><r>Kambodja<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kanada<s n="np"/><s n="top"/><s n="nt"/></l><r>Kanada<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Grænhöfðaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Kap<b/>Verde<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Grænhöfðaeyjar_KapVerde__np"/></e>
+	<e><p><l>Grænhöfðaeyjar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Kap<b/>Verde<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Grænhöfðaeyjar_KapVerde__np"/>	-->
 	<e><p><l>Caymaneyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Caymanöarna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Srí<b/>Lanka<s n="np"/><s n="top"/><s n="nt"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Síle<s n="np"/><s n="top"/><s n="nt"/></l><r>Chile<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -6221,7 +6221,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Miðbaugs-Gínea<s n="np"/><s n="top"/><s n="f"/></l><r>Ekvatorialguinea<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Eistland<s n="np"/><s n="top"/><s n="nt"/></l><r>Estland<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Falklandseyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Falklandsöarna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Fídjieyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Fiji<s n="np"/><s n="top"/><s n="ut"/></r></p><par n="Fídjieyjar_Fiji__np"/></e>
+	<e><p><l>Fídjieyjar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Fiji<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="Fídjieyjar_Fiji__np"/>	-->
 	<e><p><l>Djíbútí<s n="np"/><s n="top"/><s n="nt"/></l><r>Djibouti<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Gambía<s n="np"/><s n="top"/><s n="f"/></l><r>Gambia<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Gana<s n="np"/><s n="top"/><s n="nt"/></l><r>Ghana<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -6445,7 +6445,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Alli<s n="np"/><s n="ant"/><s n="m"/></l><r>Alli<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Alís<s n="np"/><s n="ant"/><s n="f"/></l><r>Alisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Alþjóðahvalveiðiráð<s n="np"/><s n="al"/><s n="nt"/></l><r><g>Internationella<b/></g>valfångstkommission<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
-	<e><p><l>Alþýðubandalag<s n="np"/><s n="al"/><s n="nt"/></l><r>Allmogeförbund<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Alþýðubandalag<s n="np"/><s n="org"/><s n="nt"/></l><r>Allmogeförbund<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Alþýðuflokkurinn<s n="np"/><s n="al"/><s n="m"/></l><r>Socialdemokraterna<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Andri<s n="np"/><s n="ant"/><s n="m"/></l><r>Andri<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Andrés<s n="np"/><s n="ant"/><s n="m"/></l><r>Andres<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
