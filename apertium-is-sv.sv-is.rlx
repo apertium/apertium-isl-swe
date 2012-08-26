@@ -63,4 +63,4 @@ SECTION
 
 SELECT (n);
 
-REMOVE:r1 Pl IF (0 A) (0 Def) (1C N) (1C Sg)
+SELECT:r1 Def IF (0 A) (0 Pl) (1C N) (1C Def)

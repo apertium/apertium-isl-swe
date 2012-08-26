@@ -1,15 +1,15 @@
 
-lau 25 ágú 2012 14:38:39 GMT
+sun 26 ágú 2012 00:50:14 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
-adj	-e 98631		 168	 44208	
+adj	-e 98607		 0	 44334	
 cnjcoo	-e 8		 0	 0	
 prn	-e 787		 0	 748	
-vblex	-e 73967		 197	 72934	
+vblex	-e 73967		 197	 72932	
 abbr	-e 5		 0	 0	
 adv	-e 482		 0	 76	
-n	-e 42024		 536	 1348	
-np	-e 3961		 275	 66	
+n	-e 42031		 16	 1442	
+np	-e 3963		 12	 198	
 pr	-e 30		 0	 0	
 vbhaver	-e 25		 0	 22	
 vbser	-e 22		 0	 1	

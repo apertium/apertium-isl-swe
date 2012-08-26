@@ -286,7 +286,7 @@
 <pardef n="beiðni_begäran__n">
   <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
   <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><s n="sg"/></l><r><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e> 
 </pardef>
 <pardef n="öfgastefna_extremism__n">
   <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -3779,8 +3779,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>vangasvipur<s n="n"/><s n="m"/></l><r>profil<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>vanhæfni<s n="n"/><s n="f"/></l><r>oförmåga<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>vantraust<s n="n"/><s n="nt"/></l><r>misstro<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>vara<s n="n"/><s n="f"/></l><r>produkt<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>vara<s n="n"/><s n="f"/></l><r>vara<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>vara<s n="n"/><s n="f"/></l><r>produkt<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>vara<s n="n"/><s n="f"/></l><r>vara<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>varahlutur<s n="n"/><s n="m"/></l><r>reservdel<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>varasjóður<s n="n"/><s n="m"/></l><r>reserv<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>varnarmaður<s n="n"/><s n="m"/></l><r>försvarare<s n="n"/><s n="ut"/></r></p></e>
@@ -4736,7 +4736,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>blokkflauta<s n="n"/><s n="f"/></l><r>blockflöjt<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>blossi<s n="n"/><s n="m"/></l><r>flamma<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>blær<s n="n"/><s n="m"/></l><r>atmosfär<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>blóm<s n="n"/><s n="f"/></l><r>blomma<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>blóm<s n="n"/><s n="nt"/></l><r>blomma<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>blýantur<s n="n"/><s n="m"/></l><r>blyertspenna<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>bolla<s n="n"/><s n="f"/></l><r>bulle<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>bolli<s n="n"/><s n="m"/></l><r>kopp<s n="n"/><s n="ut"/></r></p></e>
@@ -4895,7 +4895,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>frystihús<s n="n"/><s n="nt"/></l><r>frysfabrik<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>frændi<s n="n"/><s n="m"/></l><r>släkting<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>frænka<s n="n"/><s n="f"/></l><r>släkting<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>fræði<s n="n"/><s n="nt"/></l><r>lärdom<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>fræði<s n="n"/><s n="f"/></l><r>lärdom<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fræðimaður<s n="n"/><s n="m"/></l><r>vetenskapsman<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fræðsla<s n="n"/><s n="f"/></l><r>undervisning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fréttastjóri<s n="n"/><s n="m"/></l><r>redaktionschef<s n="n"/><s n="ut"/></r></p></e>
@@ -5017,7 +5017,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hlutafélagalög<s n="n"/><s n="nt"/></l><r>aktiebolagslag<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hlutdeild<s n="n"/><s n="f"/></l><r>delning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hlutskipti<s n="n"/><s n="nt"/></l><r>livsöde<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>hlátur<s n="n"/><s n="nt"/></l><r>skratt<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>hlátur<s n="n"/><s n="m"/></l><r>skratt<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hlé<s n="n"/><s n="nt"/></l><r>paus<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hlíð<s n="n"/><s n="f"/></l><r>backe<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hnakki<s n="n"/><s n="m"/></l><r>nacke<s n="n"/><s n="ut"/></r></p></e>
@@ -5072,7 +5072,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>höfuðverkur<s n="n"/><s n="m"/></l><r>huvudvärk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>höfðingi<s n="n"/><s n="m"/></l><r>hövding<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hörfun<s n="n"/><s n="f"/></l><r>tillbakadragande<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>hörund<s n="n"/><s n="f"/></l><r>hud<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>hörund<s n="n"/><s n="nt"/></l><r>hud<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>höttur<s n="n"/><s n="m"/></l><r>hätta<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>húfa<s n="n"/><s n="f"/></l><r>keps<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>húsbóndi<s n="n"/><s n="m"/></l><r>husbonde<s n="n"/><s n="ut"/></r></p></e>
@@ -5126,7 +5126,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>kjóll<s n="n"/><s n="m"/></l><r>klänning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>kjör<s n="n"/><s n="nt"/></l><r>val<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>klaufhamar<s n="n"/><s n="m"/></l><r>klyvhammare<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>klaustur<s n="n"/><s n="m"/></l><r>kloster<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>klaustur<s n="n"/><s n="nt"/></l><r>kloster<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>klefi<s n="n"/><s n="m"/></l><r>hytt<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>klettur<s n="n"/><s n="m"/></l><r>klippa<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>klukkutími<s n="n"/><s n="m"/></l><r>timme<s n="n"/><s n="ut"/></r></p></e>
@@ -5174,7 +5174,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>landslag<s n="n"/><s n="nt"/></l><r>landskap<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>langafi<s n="n"/><s n="m"/></l><r>gammelfarfar<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>langafi<s n="n"/><s n="m"/></l><r>gammelmorfar<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>langreyður<s n="n"/><s n="m"/></l><r>fenval<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>langreyður<s n="n"/><s n="f"/></l><r>fenval<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>latína<s n="n"/><s n="f"/></l><r>latin<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>lauf<s n="n"/><s n="nt"/></l><r>löv<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>laug<s n="n"/><s n="f"/></l><r>basäng<s n="n"/><s n="ut"/></r></p></e>
@@ -5191,7 +5191,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>leit<s n="n"/><s n="f"/></l><r>sökning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>leið<s n="n"/><s n="f"/></l><r>riktning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>leiðangur<s n="n"/><s n="m"/></l><r>expedition<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>leiði<s n="n"/><s n="m"/></l><r>leda<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>leiði<s n="n"/><s n="nt"/></l><r>leda<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>lesandi<s n="n"/><s n="m"/></l><r>läsare<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>lestur<s n="n"/><s n="m"/></l><r>läsning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>leyndardómur<s n="n"/><s n="m"/></l><r>mysterium<s n="n"/><s n="nt"/></r></p></e>
@@ -5256,7 +5256,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>miðbær<s n="n"/><s n="m"/></l><r>city<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>miði<s n="n"/><s n="m"/></l><r>biljett<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>miðnætti<s n="n"/><s n="nt"/></l><r>midnatt<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>mold<s n="n"/><s n="nt"/></l><r>mögel<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>mold<s n="n"/><s n="f"/></l><r>mögel<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>morðingi<s n="n"/><s n="m"/></l><r>mördare<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>munkur<s n="n"/><s n="m"/></l><r>munk<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>munnur<s n="n"/><s n="m"/></l><r>mun<s n="n"/><s n="ut"/></r></p></e>
@@ -5367,7 +5367,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>róteind<s n="n"/><s n="f"/></l><r>proton<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>róður<s n="n"/><s n="m"/></l><r>rodd<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>rök<s n="n"/><s n="nt"/></l><r>argument<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>rökkur<s n="n"/><s n="m"/></l><r>skymning<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>rökkur<s n="n"/><s n="nt"/></l><r>skymning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>rönd<s n="n"/><s n="f"/></l><r>rand<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>rúm<s n="n"/><s n="nt"/></l><r>säng<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>rúða<s n="n"/><s n="f"/></l><r>ruta<s n="n"/><s n="ut"/></r></p></e>
@@ -5380,7 +5380,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>samferða<s n="n"/><s n="f"/></l><r>resesällskap<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>samstæða<s n="n"/><s n="f"/></l><r>uppsättning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>samþykkt<s n="n"/><s n="f"/></l><r>samtycke<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>sandreyður<s n="n"/><s n="m"/></l><r>sejval<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>sandreyður<s n="n"/><s n="f"/></l><r>sejval<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>sandur<s n="n"/><s n="m"/></l><r>sand<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>sannleiki<s n="n"/><s n="m"/></l><r>sanning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>setning<s n="n"/><s n="f"/></l><r>mening<s n="n"/><s n="ut"/></r></p></e>
@@ -5399,7 +5399,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>skammtur<s n="n"/><s n="m"/></l><r>dos<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skammtur<s n="n"/><s n="m"/></l><r>portion<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skap<s n="n"/><s n="nt"/></l><r>humör<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>skarð<s n="n"/><s n="n"/></l><r>hack<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>skarð<s n="n"/><s n="nt"/></l><r>hack<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>skauti<s n="n"/><s n="m"/></l><r>skridsko<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skegg<s n="n"/><s n="nt"/></l><r>skägg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>skeið<s n="n"/><s n="nt"/></l><r>sked<s n="n"/><s n="nt"/></r></p></e>
@@ -5423,7 +5423,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>skrifstofumaður<s n="n"/><s n="m"/></l><r>kontorist<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skriðjökull<s n="n"/><s n="m"/></l><r>glaciär<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skrúfa<s n="n"/><s n="f"/></l><r>skruv<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>skuggi<s n="n"/><s n="f"/></l><r>skugga<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>skuggi<s n="n"/><s n="m"/></l><r>skugga<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skurður<s n="n"/><s n="m"/></l><r>skärning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>skyn<s n="n"/><s n="nt"/></l><r>förstånd<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>skynjun<s n="n"/><s n="f"/></l><r>upptäckt<s n="n"/><s n="ut"/></r></p></e>
@@ -5479,7 +5479,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>stefnuskrá<s n="n"/><s n="f"/></l><r>dagordning<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>steinbítur<s n="n"/><s n="m"/></l><r>havskatt<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>steinn<s n="n"/><s n="m"/></l><r>sten<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>steypireyður<s n="n"/><s n="m"/></l><r>blåval<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>steypireyður<s n="n"/><s n="f"/></l><r>blåval<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>stigi<s n="n"/><s n="m"/></l><r>trappa<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>stjarna<s n="n"/><s n="f"/></l><r>stjärna<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>stjórnandi<s n="n"/><s n="m"/></l><r>administratör<s n="n"/><s n="ut"/></r></p></e>
@@ -5599,7 +5599,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>tunga<s n="n"/><s n="f"/></l><r>tunga<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>tungl<s n="n"/><s n="nt"/></l><r>måne<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>tunna<s n="n"/><s n="f"/></l><r>fat<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>turn<s n="n"/><s n="nt"/></l><r>torn<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>turn<s n="n"/><s n="m"/></l><r>torn<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>tuska<s n="n"/><s n="f"/></l><r>trasa<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>tvíburi<s n="n"/><s n="m"/></l><r>tvilling<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>tvívetni<s n="n"/><s n="nt"/></l><r>deuterium<s n="n"/><s n="nt"/></r></p></e>
@@ -5622,7 +5622,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>tönn<s n="n"/><s n="f"/></l><r>tand<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>tún<s n="n"/><s n="nt"/></l><r>fält<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>ull<s n="n"/><s n="f"/></l><r>ylle<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>umgengni<s n="n"/><s n="nt"/></l><r>uppförande<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>umgengni<s n="n"/><s n="f"/></l><r>uppförande<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>umgengnisréttur<s n="n"/><s n="m"/></l><r>umgängesrätt<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>umhyggja<s n="n"/><s n="f"/></l><r>omsorg<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>ummerki<s n="n"/><s n="nt"/></l><r>bevis<s n="n"/><s n="nt"/></r></p></e>
@@ -5642,7 +5642,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>utanríkisráðuneyti<s n="n"/><s n="nt"/></l><r>utrikesdepartament<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>vagn<s n="n"/><s n="m"/></l><r>vagn<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vald<s n="n"/><s n="nt"/></l><r>makt<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>vals<s n="n"/><s n="nt"/></l><r>vals<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>vals<s n="n"/><s n="m"/></l><r>vals<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vangaveltur<s n="n"/><s n="f"/></l><r>reflektion<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vangi<s n="n"/><s n="m"/></l><r>haka<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vani<s n="n"/><s n="m"/></l><r>vana<s n="n"/><s n="ut"/></r></p></e>
@@ -5788,7 +5788,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>þjóðverji<s n="n"/><s n="m"/></l><r>tysk<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>þoka<s n="n"/><s n="f"/></l><r>dimma<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>þorp<s n="n"/><s n="nt"/></l><r>by<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>þraut<s n="n"/><s n="nt"/></l><r>pussel<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>þraut<s n="n"/><s n="f"/></l><r>pussel<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>þrep<s n="n"/><s n="nt"/></l><r>steg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>þreyta<s n="n"/><s n="f"/></l><r>trötthet<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>þroski<s n="n"/><s n="m"/></l><r>utveckling<s n="n"/><s n="ut"/></r></p></e>
@@ -6502,7 +6502,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Eyjólfur<s n="np"/><s n="ant"/><s n="m"/></l><r>Eyjolfur<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Eysteinn<s n="np"/><s n="ant"/><s n="m"/></l><r>Eystein<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Faxaflói<s n="np"/><s n="top"/><s n="m"/></l><r>Faxafloi<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Framsóknarflokkur<s n="np"/><s n="al"/><s n="m"/></l><r>Framstegsparti<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Framsóknarflokkur<s n="np"/><s n="org"/><s n="m"/></l><r>Framstegsparti<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Frank<s n="np"/><s n="ant"/><s n="m"/></l><r>Frank<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Friðrik<s n="np"/><s n="ant"/><s n="m"/></l><r>Frederik<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Fríða<s n="np"/><s n="ant"/><s n="f"/></l><r>Frida<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -6654,7 +6654,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Sigurður<s n="np"/><s n="ant"/><s n="m"/></l><r>Sigurd<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Silla<s n="np"/><s n="ant"/><s n="f"/></l><r>Silla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Simmi<s n="np"/><s n="ant"/><s n="f"/></l><r>Simmi<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>Sjálfstæðisflokkur<s n="np"/><s n="al"/><s n="m"/></l><r>Självständighetsparti<s n="np"/><s n="al"/><s n="nt"/></r></p></e>
+	<e><p><l>Sjálfstæðisflokkur<s n="np"/><s n="org"/><s n="m"/></l><r>Självständighetsparti<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Skagafjörður<s n="np"/><s n="top"/><s n="m"/></l><r>Skagafjördur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Skalla-Pétur<s n="np"/><s n="ant"/><s n="m"/></l><r>Skalla-Peter<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Skundi<s n="np"/><s n="ant"/><s n="m"/></l><r>Skundi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6691,7 +6691,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Vaskur<s n="np"/><s n="ant"/><s n="m"/></l><r>Vaskur<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Vatnajökull<s n="np"/><s n="top"/><s n="m"/></l><r>Vatnajökull<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vestfirðir<s n="np"/><s n="top"/><s n="m"/></l><r>Västfjordar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Vestmannaeyjar<s n="np"/><s n="top"/><s n="nt"/></l><r>Vestmannaeyjar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Vestmannaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Vestmannaeyjar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vetrarbraut<s n="np"/><s n="top"/><s n="f"/></l><r>Vetrarbraut<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vico<s n="np"/><s n="ant"/><s n="m"/></l><r>Vico<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Vigdís<s n="np"/><s n="ant"/><s n="f"/></l><r>Vigdis<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -6731,7 +6731,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Þórarinn<s n="np"/><s n="ant"/><s n="m"/></l><r>Thorarinn<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Þórunn<s n="np"/><s n="ant"/><s n="f"/></l><r>Torunn<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Þórður<s n="np"/><s n="ant"/><s n="m"/></l><r>Thord<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>Alþýðuflokkur<s n="np"/><s n="al"/><s n="m"/></l><r>Socialdemokraterna<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>Alþýðuflokkur<s n="np"/><s n="org"/><s n="m"/></l><r>Socialdemokraterna<s n="np"/><s n="org"/><s n="ut"/></r></p></e>
 	<e><p><l>Lovísa<s n="np"/><s n="ant"/><s n="f"/></l><r>Lovisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	
 	
@@ -7761,7 +7761,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>kveikja<s n="vblex"/></l><r>tända<s n="vblex"/></r></p></e>
 	<e><p><l>kveða<s n="vblex"/></l><r>dikta<s n="vblex"/></r></p></e>
 	<e><p><l>kvikna<s n="vblex"/></l><r>tända<s n="vblex"/></r></p></e>
-	<e><p><l>kvænast<s n="vblex"/></l><r>gifta<b/>sig<s n="vblex"/></r></p></e>
+	<e><p><l>kvænast<s n="vblex"/></l><r>gifta<g><b/>sig</g><s n="vblex"/></r></p></e>
 	<e><p><l>kvíða<s n="vblex"/></l><r>frukta<s n="vblex"/></r></p></e>
 	<e><p><l>kyngja<s n="vblex"/></l><r>svälja<s n="vblex"/></r></p></e>
 	<e><p><l>kyssa<s n="vblex"/></l><r>kyssa<s n="vblex"/></r></p></e>

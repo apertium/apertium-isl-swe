@@ -582,7 +582,7 @@
     </rule>
 
 <!--
-    <rule comment="regla: till nom(gen) | till staden → til borgarinnar">    
+    <rule comment="regla: till nom(gen) | till staden → til borgarinnar">   moved to t2x 
 	      <pattern>
 	        <pattern-item n="prgen"/>
 	        <pattern-item n="nom"/>

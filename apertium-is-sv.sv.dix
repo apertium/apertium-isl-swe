@@ -1662,6 +1662,9 @@
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 	</pardef>	
 	<pardef n="Europol__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="org"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+	<pardef n="Amsterdamfördraget__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
 	<pardef n="EMU__np">
@@ -4326,8 +4329,8 @@
 <e lm="känslig"><i>känslig</i><par n="aktiv__adj"/></e>
 <e lm="nyfödd"><i>nyfö</i><par n="nyfö/dd__adj"/></e>
 <e lm="nykommen"><i>nykom</i><par n="nykom/men__adj"/></e>
-<e lm="ganska ny"><i>ganska<b/>ny</i><par n="fri__adj"/></e>
-<e lm="högre"><i>högre</i><par n="extra__adj"/></e>
+<e lm="ganska ny"><i><g>ganska<b/></g>ny</i><par n="fri__adj"/></e>
+<!-- <e lm="högre"><i>högre</i><par n="extra__adj"/></e> -->
 <e lm="klen"><i>klen</i><par n="aktiv__adj"/></e>
 <e lm="fuktig">          <i>fuktig</i><par n="aktiv__adj"/></e>
 <e lm="stark">           <i>stark</i><par n="aktiv__adj"/></e>
@@ -4470,7 +4473,7 @@
 <e lm="avig"><i>avig</i><par n="aktiv__adj"/></e>
 <e lm="trist"><i>trist</i><par n="diskret__adj"/></e>
 <e lm="fåtal"><i>fåtal</i><par n="extra__adj"/></e>
-<e lm="pytteliten"><i>pytteliten</i><par n="/liten__adj"/></e>
+<e lm="pytteliten"><i>pytte</i><par n="/liten__adj"/></e>
 <e lm="mikroskopisk"><i>mikroskopisk</i><par n="afrikansk__adj"/></e>
 <e lm="hackig"><i>hackig</i><par n="aktiv__adj"/></e>
 <e lm="utländsk"><i>utländsk</i><par n="afrikansk__adj"/></e>
@@ -5480,7 +5483,7 @@
 <!--LR or RL--> <e lm="passa"><i>passa</i><par n="adressera__vblex"/></e>
 <e lm="sakta"><i>sakta</i><par n="adressera__vblex"/></e>
 <e lm="hosta">           <i>hosta</i><par n="adressera__vblex"/></e>
-<e lm="hugga">           <i>h</i><par n="h/ugga__vblex"/></e>
+<!--<e lm="hugga">           <i>h</i><par n="h/ugga__vblex"/></e> -->
 <e lm="retirera"><i>retirera</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="jämna"><i>jämna</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="motsvara"><i>motsvara</i><par n="adressera__vblex"/></e>
@@ -5583,7 +5586,7 @@
 <e lm="skåla"><i>skåla</i><par n="adressera__vblex"/></e>
 <e lm="skina"><i>sk</i><par n="sk/ina__vblex"/></e>
 <e lm="döpa"><i>döp</i><par n="belys/a__vblex"/></e>
-<e lm="koppla av"><i>koppla</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
+<e lm="koppla av"><i>koppl</i><par n="följ/a__vblex"/><p><l><b/>av</l><r><g><b/>av</g></r></p></e>
 <e lm="ge efter"><i>g</i><par n="medg/e__vblex"/><p><l><b/>efter</l><r><g><b/>efter</g></r></p></e>
 <e lm="slicka"><i>slicka</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="släppa"><i>släpp</i><par n="belys/a__vblex"/></e>
@@ -5629,7 +5632,7 @@
 <e lm="böja"><i>böj</i><par n="följ/a__vblex"/></e>
 <e lm="svärja">           <i>sv</i><par n="sv/ärja__vblex"/></e>
 <!--LR or RL--> <e lm="beröva"><i>beröv</i><par n="följ/a__vblex"/></e>
-<e lm="svettas"><i>svett</i><par n="lycka/s__vblex"/></e>
+<e lm="svettas"><i>svetta</i><par n="lycka/s__vblex"/></e>
 <e lm="sväva">           <i>sväva</i><par n="adressera__vblex"/></e>   <!--sväva,svävade,svävat,svävar-->
 <e lm="svika">           <i>sv</i><par n="skr/ika__vblex"/></e>
 <e lm="simma">           <i>s</i><par n="s/imma__vblex"/></e>
@@ -5665,8 +5668,8 @@
 <e lm="vada"><i>vada</i><par n="adressera__vblex"/></e>
 <e lm="vinka"><i>vinka</i><par n="adressera__vblex"/></e>
 <!--LR or RL--> <e lm="fundera"><i>fundera</i><par n="adressera__vblex"/></e>
-<e lm="vara sur"><i>vara</i><par n="/vara__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
-<e lm="vrida"><i>vrida</i><par n="l/ida__vblex"/></e>
+<e lm="vara sur"><i></i><par n="/vara__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
+<e lm="vrida"><i>vr</i><par n="l/ida__vblex"/></e>
 <e lm="vädra"><i>vädra</i><par n="adressera__vblex"/></e>
 <e lm="tycka synd om"><i>tyck</i><par n="belys/a__vblex"/><p><l><b/>synd<b/>om</l><r><g><b/>synd<b/>om</g></r></p></e>
 <e lm="gnälla"><i>gnäll</i><par n="följ/a__vblex"/></e>
@@ -8991,7 +8994,7 @@
 <e lm="Världshälsoorganisation"><i>Världshälsoorganisation</i><par n="Världshälsoorganisation__np"/></e>
 <e lm="Världshandelsorganisation"><i>Världshandelsorganisation</i><par n="Världshälsoorganisation__np"/></e>
 <e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
-<e lm="Amsterdamfördraget"><i>Amsterdamfördraget</i><par n="Europol__np"/></e>
+<e lm="Amsterdamfördraget"><i>Amsterdamfördraget</i><par n="Amsterdamfördraget__np"/></e>
 <e lm="Amsterdam"><i>Amsterdam</i><par n="Afrika__np"/></e>
 <e lm="Andersson"><i>Andersson</i><par n="Magnusson__np"/></e>
 <e lm="Angela"><i>Angela</i><par n="Eva__np"/></e>
@@ -9052,7 +9055,7 @@
 <e lm="Collins"><i>Collins</i><par n="Abbas__np"/></e>
 <e lm="Corbett"><i>Corbett</i><par n="Magnusson__np"/></e>
 <e lm="Coreper"><i>Coreper</i><par n="Magnusson__np"/></e>
-<e lm="Cotonouavtal"><i>Cotonouavtal</i><par n="Europol__np"/></e>
+<e lm="Cotonouavtal"><i>Cotonouavtal</i><par n="Amsterdamfördraget__np"/></e>
 <e lm="Cox"><i>Cox</i><par n="Magnusson__np"/></e>
 <e lm="Crespo"><i>Crespo</i><par n="Magnusson__np"/></e>
 <e lm="Crowley"><i>Crowley</i><par n="Magnusson__np"/></e>
@@ -9271,7 +9274,7 @@
 <e lm="Rom"><i>Rom</i><par n="Afrika__np"/></e>
 <e lm="Saddam"><i>Saddam</i><par n="Trond__np"/></e>
 <e lm="Sahara"><i>Sahara</i><par n="Afrika__np"/></e>
-<e lm="Sacharovpriset"><i>Sacharovpriset</i><par n="Europol__np"/></e>
+<e lm="Sacharovpriset"><i>Sacharovpriset</i><par n="Amsterdamfördraget__np"/></e>
 <e lm="Salafranca"><i>Salafranca</i><par n="Magnusson__np"/></e>
 <e lm="Salvador"><i>Salvador</i><par n="Afrika__np"/></e>
 <e lm="Sarkozy"><i>Sarkozy</i><par n="Magnusson__np"/></e>
@@ -9852,7 +9855,7 @@
 <e lm="Vaskur"><i>Vaskur</i><par n="Trond__np"/></e>
 <e lm="Vatnajökull"><i>Vatnajökull</i><par n="Afrika__np"/></e>
 <e lm="Västfjordar"><i>Västfjordar</i><par n="Afrika__np"/></e>
-<e lm="Vestmannaeyjar"><i>Vestmannaeyjar</i><par n="Afrika__np"/></e>
+<e lm="Vestmannaeyjar"><i>Vestmannaeyjar</i><par n="Azorerna__np"/></e>
 <e lm="Vetrarbraut"><i>Vetrarbraut</i><par n="Afrika__np"/></e>
 <e lm="Vico"><i>Vico</i><par n="Trond__np"/></e>
 <e lm="Vigdis"><i>Vigdis</i><par n="Eva__np"/></e>
