@@ -36,6 +36,7 @@
     <sdef n="cog" 	c=""/> 
     <sdef n="top" 	c=""/> 
     <sdef n="al" 	c=""/> 
+    <sdef n="org" 	c=""/> 
     <sdef n="obj" 	c="Object"/> 
     <sdef n="subj" 	c="Subject"/> 
     <sdef n="tn" /> 
@@ -1343,11 +1344,11 @@
 </pardef>
 
 
-<pardef n="klost/er__n" c="autoconcord:ut,sp"> <!-- Common; ~er / ~ret / ~er / ~ren; invariant in indefinite -->
-  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>ret</l>       <r>er<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>ren</l>       <r>er<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+<pardef n="klost/er__n" c="autoconcord:nt,sp"> <!-- Common; ~er / ~ret / ~er / ~ren; invariant in indefinite -->
+  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ret</l>       <r>er<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ren</l>       <r>er<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="kvicksilv/er__n" c="autoconcord:ut,sgpl"> <!-- Common; ~er / ~ret / # / #; uncountable -->
@@ -8416,7 +8417,7 @@
 <e lm="reling"><i>reling</i><par n="bil__n"/></e>
 <e lm="rest">            <i>rest</i><par n="mask__n"/></e>
 <e lm="restaurang">      <i>restaurang</i><par n="accent__n"/></e>
-<e lm="riksdagsledamot"><i>riksdagsledamot</i><par n="ledam/ot__n"/></e>
+<e lm="riksdagsledamot"><i>riksdagsledam</i><par n="ledam/ot__n"/></e>
 <e lm="riktning">        <i>riktning</i><par n="bil__n"/></e>
 <e lm="ringklocka"><i>ringklock</i><par n="frug/a__n"/></e>
 <e lm="ritning">         <i>ritning</i><par n="bil__n"/></e>
@@ -8543,7 +8544,7 @@
 <e lm="tandläkare">      <i>tandläkar</i><par n="apotekar/e__n"/></e>
 <e lm="teater">          <i>teat</i><par n="kalend/er__n"/></e>
 <e lm="teckenuppsättning"><i>teckenuppsättning</i><par n="bil__n"/></e>
-<e lm="tecknare"><i>tecknare</i><par n="apotekar/e__n"/></e>
+<e lm="tecknare"><i>tecknar</i><par n="apotekar/e__n"/></e>
 <e lm="telefon">         <i>telefon</i><par n="accent__n"/></e>
 <e lm="termin"><i>termin</i><par n="mask__n"/></e>
 <e lm="terrass">         <i>terrass</i><par n="adress__n"/></e>
@@ -8590,7 +8591,7 @@
 <e lm="tös"><i>tös</i><par n="mask__n"/></e>
 <e lm="umgängesrätt"><i>umgängesrätt</i><par n="mask__n"/></e>
 <e lm="underhållning"><i>underhållning</i><par n="bil__n"/></e>
-<e lm="undersökare"><i>undersökare</i><par n="apotekar/e__n"/></e>
+<e lm="undersökare"><i>undersökar</i><par n="apotekar/e__n"/></e>
 <e lm="undersökning">    <i>undersökning</i><par n="bil__n"/></e>
 <e lm="undervisning"><i>undervisning</i><par n="bil__n"/></e>
 <e lm="ungdom">          <i>ungdom</i><par n="bil__n"/></e>
@@ -8648,7 +8649,7 @@
 <e lm="yngling">         <i>yngling</i><par n="bil__n"/></e>
 <e lm="ytterdörr"><i>ytterdörr</i><par n="bil__n"/></e>
 <e lm="ändmorän"><i>ändmorän</i><par n="mask__n"/></e>
-<e lm="ängel"><i>ängel</i><par n="cyk/el__n"/></e>
+<e lm="ängel"><i>äng</i><par n="cyk/el__n"/></e>
 <e lm="änka">            <i>änk</i><par n="frug/a__n"/></e>
 <e lm="ära">             <i>är</i><par n="frug/a__n"/></e>
 <e lm="ärm"><i>ärm</i><par n="bil__n"/></e>
@@ -8825,7 +8826,7 @@
 <e lm="ljud">            <i>ljud</i><par n="ackord__n"/></e>
 <e lm="ljus">            <i>ljus</i><par n="badhus__n"/></e>
 <e lm="lugn">            <i>lugn</i><par n="ackord__n"/></e>
-<e lm="läder">           <i>läd</i><par n="kvicksilv/er__n"/></e>
+<e lm="läder">           <i>läd</i><par n="pill/er__n"/></e>
 <e lm="läge"><i>läge</i><par n="aktstycke__n"/></e>
 <e lm="lås">             <i>lås</i><par n="badhus__n"/></e>
 <e lm="löfte"><i>löfte</i><par n="aktstycke__n"/></e>
@@ -8846,7 +8847,7 @@
 <e lm="musiksällskap"><i>musiksällskap</i><par n="ackord__n"/></e>
 <e lm="mysterium"><i>mysteri</i><par n="laboratori/um__n"/></e>
 <e lm="mål">             <i>mål</i><par n="ackord__n"/></e>
-<e lm="mörker">          <i>mörk</i><par n="kvicksilv/er__n"/></e>
+<e lm="mörker">          <i>mörk</i><par n="pill/er__n"/></e>
 <e lm="nervsystem"><i>nervsystem</i><par n="ackord__n"/></e>
 <e lm="neutron">         <i>neutron</i><par n="mask__n"/></e>
 <e lm="nominalvärde"><i>nominalvärde</i><par n="aktstycke__n"/></e>
@@ -8869,7 +8870,7 @@
 <e lm="resesällskap"><i>resesällskap</i><par n="ackord__n"/></e>
 <e lm="resultat">        <i>resultat</i><par n="ackord__n"/></e>
 <e lm="rop">             <i>rop</i><par n="ackord__n"/></e>
-<e lm="rotande"><i>rotande</i><par n="aktstycke__n"/></e>
+<!-- <e lm="rotande"><i>rotande</i><par n="aktstycke__n"/></e>  -->
 <e lm="rymdskepp">       <i>rymdskepp</i><par n="ackord__n"/></e>
 <e lm="räcke"><i>räcke</i><par n="aktstycke__n"/></e>
 <e lm="rök">             <i>rök</i><par n="mat__n"/></e>
@@ -8903,7 +8904,7 @@
 <e lm="sovrum"><i>sovrum</i><par n="gram__n"/></e>
 <e lm="spade">           <i>spad</i><par n="abborr/e__n"/></e>
 <e lm="spel">            <i>spel</i><par n="ackord__n"/></e>
-<e lm="spelsätt">        <i>spelsätt</i><par n="ackord__n"/></e>
+<!-- <e lm="spelsätt">        <i>spelsätt</i><par n="ackord__n"/></e>  -->
 <e lm="spik">            <i>spik</i><par n="bil__n"/></e>
 <e lm="spår">            <i>spår</i><par n="ackord__n"/></e>
 <e lm="spöke">           <i>spöke</i><par n="äpple__n"/></e>
@@ -8967,7 +8968,7 @@
 <e lm="vrål"><i>vrål</i><par n="ackord__n"/></e>
 <e lm="värde">           <i>värde</i><par n="äpple__n"/></e>
 <e lm="världskrig">      <i>världskrig</i><par n="ackord__n"/></e>
-<e lm="väte">            <i>väte</i><par n="syre__n"/></e>
+<e lm="väte">            <i>väte</i><par n="ackord__n"/></e>
 <e lm="vår"><i>vår</i><par n="ackord__n"/></e>
 <e lm="ylle">            <i>ylle</i><par n="kaffe__n"/></e>
 <e lm="äktenskap">       <i>äktenskap</i><par n="ackord__n"/></e>
