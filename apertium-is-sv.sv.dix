@@ -4211,7 +4211,7 @@
 <e lm="menad"><i>mena</i><par n="beväpna/d__adj"/></e>
 <e lm="ovannämnd"><i>ovannämn</i><par n="blin/d__adj"/></e>
 <e lm="fåtal"><i>fåtal</i><par n="extra__adj"/></e>
-<e lm="få"><i></i><par n="f/å__adj"/></e>
+<e lm="få"><i>f</i><par n="f/å__adj"/></e>
 <e lm="kapabel"><i>kapab</i><par n="dubb/el__adj"/></e>
 <e lm="social"><i>social</i><par n="afrikansk__adj"/></e>
 <e lm="fin"><i>fin</i><par n="aktiv__adj"/></e>
@@ -4471,6 +4471,7 @@
 <e lm="okänd"><i>okän</i><par n="blin/d__adj"/></e>
 <e lm="otålig"><i>otålig</i><par n="aktiv__adj"/></e>
 <e lm="obekväm"><i>obekväm</i><par n="aktiv__adj"/></e>
+<e lm="bekväm"><i>bekväm</i><par n="aktiv__adj"/></e>
 <e lm="avig"><i>avig</i><par n="aktiv__adj"/></e>
 <e lm="trist"><i>trist</i><par n="diskret__adj"/></e>
 <e lm="fåtal"><i>fåtal</i><par n="extra__adj"/></e>
@@ -5444,7 +5445,7 @@
 <!--LR or RL--> <e lm="lyckas"><i>lycka</i><par n="lycka/s__vblex"/></e>
 <e lm="härma"><i>härma</i><par n="adressera__vblex"/></e>
 <e lm="förhärda"><i>förhärda</i><par n="adressera__vblex"/></e>
-<e lm="plocka upp"><i>f</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
+<e lm="plocka upp"><i>plocka</i><par n="adressera__vblex"/><p><l><b/>upp</l><r><g><b/>upp</g></r></p></e>
 <e lm="värma"><i>värm</i><par n="följ/a__vblex"/></e>
 <e lm="cykla">   <i>cykla</i><par n="adressera__vblex"/></e>
 <e lm="se fram emot"><i>s</i><par n="s/e__vblex"/><p><l><b/>fram<b/>emot</l><r><g><b/>fram<b/>emot</g></r></p></e>

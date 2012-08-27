@@ -32,7 +32,11 @@
     <def-cat n="adj_ind"> 					<!--adjective indef, strong declension-->
       <cat-item tags="adj.*.ind"/>
     </def-cat>
-    <def-cat n="inf"> 					<!--infinitive-->
+ <def-cat n="adj_comp"> 					<!--adjective indef, strong declension-->
+   <cat-item tags="adj.comp.*"/>
+ </def-cat>
+
+   <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.inf"/>
       <cat-item tags="vbser.*.inf.*"/>
@@ -249,9 +253,24 @@
       <choose>
         <when>
           <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
 			<and>
 	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="ind"/></equal>
             <or>
               <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
               <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
@@ -263,19 +282,6 @@
             <lit-tag v="ut"/>
           </let>
         </when>
-        <when>
-          <test>
-	            <or>
-	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
-	            </or>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="gen"/>
-            <lit-tag v="mfn"/>
-          </let>
-        </when> 		
 	 </choose>
     </def-macro>
 
@@ -662,6 +668,44 @@
 	     </action>
 	</rule>
 
+	<rule comment="REGLA: ADJ_COMP  | fallegri → vackrare">   <!--  --> 
+		     <pattern>
+		       <pattern-item n="adj_comp"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+		       <call-macro n="conv_case2"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender1"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number1"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="FALLEGRI_COMP" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_adj"/>
+		              <clip pos="1" side="tl" part="grau"/>
+		              <clip pos="1" side="tl" part="gen"/>
+		              <clip pos="1" side="tl" part="nbr"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
 	<rule comment="REGLA: ADJ  | fallegur → vacker">   <!-- does work --> 
 		     <pattern>
 		       <pattern-item n="adj"/>
@@ -670,7 +714,7 @@
 		       <call-macro n="firstWord">                           
 		         <with-param pos="1"/>
 		       </call-macro>    
-		       <call-macro n="conv_case1"> 
+		       <call-macro n="conv_case2"> 
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <call-macro n="conv_gender1"> 
@@ -702,6 +746,8 @@
 		        </out>
 		     </action>
 	</rule>
+
+
 
 
 	<rule comment="regla: VCOP">    <!-- works -->
