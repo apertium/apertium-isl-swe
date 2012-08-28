@@ -6326,7 +6326,7 @@
 <e lm="grepp"><i>grepp</i><par n="ackord__n"/></e>
 <e lm="basis"><i>basis</i><par n="mat__n"/></e>
 <e lm="förutsättning"><i>förutsättning</i><par n="bil__n"/></e>
-<e lm="grundval"><i>grundval</i><par n="bil__n"/></e>
+<e lm="grundval"><i>grundval</i><par n="mat__n"/></e>
 <e lm="infrastruktur"><i>infrastruktur</i><par n="accent__n"/></e>
 <e lm="bas"><i>bas</i><par n="accent__n"/></e>
 <e lm="grund"><i>grund</i><par n="accent__n"/></e>
@@ -6337,11 +6337,11 @@
 <e lm="grekiska"><i>grekisk</i><par n="afghansk/a__n"/></e>
 <e lm="växthuseffekt"><i>växthuseffekt</i><par n="accent__n"/></e>
 <e lm="gud"><i>gud</i><par n="bil__n"/></e>
-<e lm="antisemitism"><i>antisemitism</i><par n="adress__n"/></e>
+<e lm="antisemitism"><i>antisemitism</i><par n="mat__n"/></e>
 <e lm="jude"><i>jud</i><par n="apotekar/e__n"/></e>
 <e lm="intelligens"><i>intelligens</i><par n="adress__n"/></e>
 <e lm="gårdag"><i>gårdag</i><par n="bil__n"/></e>
-<e lm="övervakning"><i>övervakning</i><par n="bil__n"/></e>
+<e lm="övervakning"><i>övervakning</i><par n="mat__n"/></e>
 <e lm="övervakningssystem"><i>övervakningssystem</i><par n="ackord__n"/></e>
 <e lm="vård"><i>vård</i><par n="bil__n"/></e>
 <e lm="kvalitet"><i>kvalitet</i><par n="accent__n"/></e>
@@ -6439,7 +6439,7 @@
 <e lm="rörlighet"><i>rörlighet</i><par n="adress__n"/></e>
 <e lm="förflyttning"><i>förflyttning</i><par n="bil__n"/></e>
 <e lm="rörelse"><i>rörelse</i><par n="aktie__n"/></e>
-<e lm="entusiasm"><i>entusiasm</i><par n="adress__n"/></e>
+<e lm="entusiasm"><i>entusiasm</i><par n="mat__n"/></e>
 <e lm="omlopp"><i>omlopp</i><par n="ackord__n"/></e>
 <e lm="cirkel"><i>cirk</i><par n="cyk/el__n"/></e>
 <e lm="krets"><i>krets</i><par n="bil__n"/></e>
