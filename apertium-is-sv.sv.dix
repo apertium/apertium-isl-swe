@@ -6371,7 +6371,7 @@
 <e lm="hälsovård"><i>hälsovård</i><par n="blod__n"/></e>
 <e lm="helhet"><i>helhet</i><par n="adress__n"/></e>
 <e lm="hälsa"><i>hälsa</i><par n="adel__n"/></e>
-<e lm="hälsoskydd"><i>hälsoskydd</i><par n="ackord__n"/></e>
+<e lm="hälsoskydd"><i>hälsoskydd</i><par n="blod__n"/></e>
 <e lm="hälsorisk"><i>hälsorisk</i><par n="accent__n"/></e>
 <e lm="hemland"><i>heml</i><par n="l/and__n"/></e>
 <e lm="självstyre"><i>självstyre</i><par n="äpple__n"/></e>
@@ -6381,15 +6381,15 @@
 <e lm="dokumentation"><i>dokumentation</i><par n="accent__n"/></e>
 <e lm="hem"><i>hem</i><par n="gram__n"/></e>
 <e lm="hushåll"><i>hushåll</i><par n="ackord__n"/></e>
-<e lm="världsekonomi"><i>världsekonomi</i><par n="geometri__n"/></e>
+<e lm="världsekonomi"><i>världsekonomi</i><par n="oro__n"/></e>
 <e lm="världsmarknad"><i>världsmarknad</i><par n="accent__n"/></e>
 <e lm="filosofi"><i>filosofi</i><par n="adel__n"/></e>
 <e lm="världskrig"><i>världskrig</i><par n="ackord__n"/></e>
 <e lm="kontinent"><i>kontinent</i><par n="mask__n"/></e>
 <e lm="besök"><i>besök</i><par n="ackord__n"/></e>
 <e lm="värld"><i>värld</i><par n="bil__n"/></e>
-<e lm="integritet"><i>integritet</i><par n="accent__n"/></e>
-<e lm="ärlighet"><i>ärlighet</i><par n="adress__n"/></e>
+<e lm="integritet"><i>integritet</i><par n="mat__n"/></e>
+<e lm="ärlighet"><i>ärlighet</i><par n="mat__n"/></e>
 <e lm="heder"><i>heder</i><par n="oro__n"/></e>
 <e lm="ära"><i>är</i><par n="frug/a__n"/></e>
 <e lm="hektar"><i>hektar</i><par n="bil__n"/></e>
@@ -6417,7 +6417,7 @@
 <e lm="aktieägare"><i>aktieägar</i><par n="apotekar/e__n"/></e>
 <e lm="andel"><i>andel</i><par n="bil__n"/></e>
 <e lm="del"><i>del</i><par n="bil__n"/></e>
-<e lm="neutralitet"><i>neutralitet</i><par n="accent__n"/></e>
+<e lm="neutralitet"><i>neutralitet</i><par n="mat__n"/></e>
 <e lm="föremål"><i>föremål</i><par n="ackord__n"/></e>
 <e lm="sak"><i>sak</i><par n="accent__n"/></e>
 <e lm="ting"><i>ting</i><par n="ackord__n"/></e>
@@ -6435,7 +6435,7 @@
 <e lm="hastighet"><i>hastighet</i><par n="mask__n"/></e>
 <e lm="snabbhet"><i>snabbhet</i><par n="adress__n"/></e>
 <e lm="öppenhet"><i>öppenhet</i><par n="adress__n"/></e>
-<e lm="dynamik"><i>dynamik</i><par n="adress__n"/></e>
+<e lm="dynamik"><i>dynamik</i><par n="mat__n"/></e>
 <e lm="rörlighet"><i>rörlighet</i><par n="adress__n"/></e>
 <e lm="förflyttning"><i>förflyttning</i><par n="bil__n"/></e>
 <e lm="rörelse"><i>rörelse</i><par n="aktie__n"/></e>
@@ -6443,7 +6443,7 @@
 <e lm="omlopp"><i>omlopp</i><par n="ackord__n"/></e>
 <e lm="cirkel"><i>cirk</i><par n="cyk/el__n"/></e>
 <e lm="krets"><i>krets</i><par n="bil__n"/></e>
-<e lm="arrogans"><i>arrogans</i><par n="adress__n"/></e>
+<e lm="arrogans"><i>arrogans</i><par n="mat__n"/></e>
 <e lm="kollaps"><i>kollaps</i><par n="adress__n"/></e>
 <e lm="nedgång"><i>nedgång</i><par n="bil__n"/></e>
 <e lm="sammanbrott"><i>sammanbrott</i><par n="ackord__n"/></e>
@@ -6503,7 +6503,7 @@
 <e lm="risk"><i>risk</i><par n="ed__n"/></e>
 <e lm="höjd"><i>höjd</i><par n="mask__n"/></e>
 <e lm="återhållsamhet"><i>återhållsamhet</i><par n="adress__n"/></e>
-<e lm="homofobi"><i>homofobi</i><par n="geometri__n"/></e>
+<e lm="homofobi"><i>homofobi</i><par n="oro__n"/></e>
 <e lm="grupp"><i>grupp</i><par n="accent__n"/></e>
 <e lm="hot"><i>hot</i><par n="ackord__n"/></e>
 <e lm="hamn"><i>hamn</i><par n="bil__n"/></e>
@@ -6515,13 +6515,13 @@
 <e lm="kapital"><i>kapital</i><par n="ackord__n"/></e>
 <e lm="impuls"><i>impuls</i><par n="accent__n"/></e>
 <e lm="hand"><i>h</i><par n="h/and__n"/></e>
-<e lm="utformning"><i>utformning</i><par n="bil__n"/></e>
+<e lm="utformning"><i>utformning</i><par n="mat__n"/></e>
 <e lm="hus"><i>hus</i><par n="badhus__n"/></e>
 <e lm="bostad"><i>bost</i><par n="st/ad__n"/></e>
 <e lm="förövare"><i>förövar</i><par n="apotekar/e__n"/></e>
-<e lm="inspiration"><i>inspiration</i><par n="accent__n"/></e>
+<e lm="inspiration"><i>inspiration</i><par n="mat__n"/></e>
 <e lm="import"><i>import</i><par n="accent__n"/></e>
-<e lm="invandring"><i>invandring</i><par n="bil__n"/></e>
+<e lm="invandring"><i>invandring</i><par n="mat__n"/></e>
 <e lm="invandrare"><i>invandrar</i><par n="apotekar/e__n"/></e>
 <e lm="migrant"><i>migrant</i><par n="accent__n"/></e>
 <e lm="invandringspolitik"><i>invandringspolitik</i><par n="accent__n"/></e>
@@ -6538,9 +6538,9 @@
 <e lm="bransch"><i>bransch</i><par n="accent__n"/></e>
 <e lm="industri"><i>industri</i><par n="geometri__n"/></e>
 <e lm="industriland"><i>industril</i><par n="l/and__n"/></e>
-<e lm="jämlikhet"><i>jämlikhet</i><par n="adress__n"/></e>
+<e lm="jämlikhet"><i>jämlikhet</i><par n="mat__n"/></e>
 <e lm="balans"><i>balans</i><par n="adress__n"/></e>
-<e lm="jämvikt"><i>jämvikt</i><par n="accent__n"/></e>
+<e lm="jämvikt"><i>jämvikt</i><par n="mat__n"/></e>
 <e lm="japan"><i>japan</i><par n="accent__n"/></e>
 <e lm="japanska"><i>japansk</i><par n="afghansk/a__n"/></e>
 <e lm="naturgas"><i>naturgas</i><par n="ackord__n"/></e>
@@ -6550,12 +6550,12 @@
 <e lm="järnväg"><i>järnväg</i><par n="bil__n"/></e>
 <e lm="jul"><i>jul</i><par n="bil__n"/></e>
 <e lm="avvägning"><i>avvägning</i><par n="bil__n"/></e>
-<e lm="jämställdhet"><i>jämställdhet</i><par n="adress__n"/></e>
+<e lm="jämställdhet"><i>jämställdhet</i><par n="mat__n"/></e>
 <e lm="jord"><i>jord</i><par n="bil__n"/></e>
 <e lm="kapitel"><i>kapit</i><par n="sek/el__n"/></e>
 <e lm="karl"><i>karl</i><par n="bil__n"/></e>
 <e lm="köp"><i>köp</i><par n="ackord__n"/></e>
-<e lm="köpkraft"><i>köpkraft</i><par n="accent__n"/></e>
+<e lm="köpkraft"><i>köpkraft</i><par n="mat__n"/></e>
 <e lm="lärare"><i>lärar</i><par n="apotekar/e__n"/></e>
 <e lm="teori"><i>teori</i><par n="geometri__n"/></e>
 <e lm="instruktion"><i>instruktion</i><par n="accent__n"/></e>
@@ -6567,8 +6567,8 @@
 <e lm="reaktor"><i>reaktor</i><par n="accent__n"/></e>
 <e lm="kärnvapen"><i>kärnvap</i><par n="teck/en__n"/></e>
 <e lm="kärna"><i>kärn</i><par n="frug/a__n"/></e>
-<e lm="kärnenergi"><i>kärnenergi</i><par n="geometri__n"/></e>
-<e lm="kärnkraft"><i>kärnkraft</i><par n="adress__n"/></e>
+<e lm="kärnenergi"><i>kärnenergi</i><par n="oro__n"/></e>
+<e lm="kärnkraft"><i>kärnkraft</i><par n="mat__n"/></e>
 <e lm="kärnkraftverk"><i>kärnkraftverk</i><par n="ackord__n"/></e>
 <e lm="väljare"><i>väljar</i><par n="apotekar/e__n"/></e>
 <e lm="valkrets"><i>valkrets</i><par n="bil__n"/></e>
@@ -6698,12 +6698,12 @@
 <e lm="pension"><i>pension</i><par n="accent__n"/></e>
 <e lm="pensionsfond"><i>pensionsfond</i><par n="accent__n"/></e>
 <e lm="organ"><i>organ</i><par n="ackord__n"/></e>
-<e lm="biomassa"><i>biomass</i><par n="frug/a__n"/></e>
+<e lm="biomassa"><i>biomassa</i><par n="oro__n"/></e>
 <e lm="levnadsvillkor"><i>levnadsvillkor</i><par n="ackord__n"/></e>
 <e lm="livskvalitet"><i>livskvalitet</i><par n="accent__n"/></e>
 <e lm="levnadsstandard"><i>levnadsstandard</i><par n="adress__n"/></e>
-<e lm="livsstil"><i>livsstil</i><par n="bil__n"/></e>
-<e lm="bioteknik"><i>bioteknik</i><par n="adress__n"/></e>
+<e lm="livsstil"><i>livsstil</i><par n="mat__n"/></e>
+<e lm="bioteknik"><i>bioteknik</i><par n="mat__n"/></e>
 <e lm="organism"><i>organism</i><par n="accent__n"/></e>
 <e lm="modell"><i>modell</i><par n="accent__n"/></e>
 <e lm="likhet"><i>likhet</i><par n="accent__n"/></e>
@@ -6737,12 +6737,12 @@
 <e lm="klarspråk"><i>klarspråk</i><par n="ackord__n"/></e>
 <e lm="människa"><i>människ</i><par n="frug/a__n"/></e>
 <e lm="dödsoffer"><i>dödsoff</i><par n="klost/er__n"/></e>
-<e lm="mänsklighet"><i>mänsklighet</i><par n="adress__n"/></e>
+<e lm="mänsklighet"><i>mänsklighet</i><par n="mat__n"/></e>
 <e lm="rykte"><i>rykte</i><par n="aktstycke__n"/></e>
 <e lm="konstruktion"><i>konstruktion</i><par n="accent__n"/></e>
 <e lm="människohandel"><i>människohandel</i><par n="adel__n"/></e>
 <e lm="människosmuggling"><i>människosmuggling</i><par n="bil__n"/></e>
-<e lm="komplexitet"><i>komplexitet</i><par n="adress__n"/></e>
+<e lm="komplexitet"><i>komplexitet</i><par n="mat__n"/></e>
 <e lm="mål"><i>mål</i><par n="ackord__n"/></e>
 <e lm="marknadsekonomi"><i>marknadsekonomi</i><par n="geometri__n"/></e>
 <e lm="marknadsföring"><i>marknadsföring</i><par n="bil__n"/></e>
@@ -6790,7 +6790,7 @@
 <e lm="minoritetsspråk"><i>minoritetsspråk</i><par n="dragspel__n"/></e>
 <e lm="minoritet"><i>minoritet</i><par n="mask__n"/></e>
 <e lm="minskning"><i>minskning</i><par n="bil__n"/></e>
-<e lm="meningsskiljaktighet"><i>meningsskiljaktighet</i><par n="adress__n"/></e>
+<e lm="meningsskiljaktighet"><i>meningsskiljaktighet</i><par n="mat__n"/></e>
 <e lm="olikhet"><i>olikhet</i><par n="adress__n"/></e>
 <e lm="missbruk"><i>missbruk</i><par n="dragspel__n"/></e>
 <e lm="missförstånd"><i>missförstånd</i><par n="ackord__n"/></e>
@@ -6815,7 +6815,7 @@
 <e lm="lobbyverksamhet"><i>lobbyverksamhet</i><par n="adress__n"/></e>
 <e lm="kompromiss"><i>kompromiss</i><par n="adress__n"/></e>
 <e lm="ärende"><i>ärende</i><par n="ackord__n"/></e>
-<e lm="yttrandefrihet"><i>yttrandefrihet</i><par n="adress__n"/></e>
+<e lm="yttrandefrihet"><i>yttrandefrihet</i><par n="mat__n"/></e>
 <e lm="förfarande"><i>förfarande</i><par n="äpple__n"/></e>
 <e lm="rättegång"><i>rättegång</i><par n="bil__n"/></e>
 <e lm="seminarium"><i>seminari</i><par n="laboratori/um__n"/></e>
@@ -6829,7 +6829,7 @@
 <e lm="motsättning"><i>motsättning</i><par n="bil__n"/></e>
 <e lm="motstånd"><i>motstånd</i><par n="ackord__n"/></e>
 <e lm="mottagande"><i>mottagande</i><par n="äpple__n"/></e>
-<e lm="motvikt"><i>motvikt</i><par n="accent__n"/></e>
+<e lm="motvikt"><i>motvikt</i><par n="mat__n"/></e>
 <e lm="förolämpning"><i>förolämpning</i><par n="bil__n"/></e>
 <e lm="mor"><i>mor</i><par n="ed__n"/></e>
 <e lm="modersmål"><i>modersmål</i><par n="ackord__n"/></e>
@@ -6837,7 +6837,7 @@
 <e lm="mark"><i>mark</i><par n="accent__n"/></e>
 <e lm="muslim"><i>muslim</i><par n="mask__n"/></e>
 <e lm="namn"><i>namn</i><par n="ackord__n"/></e>
-<e lm="nötkött"><i>nötkött</i><par n="dragspel__n"/></e>
+<e lm="nötkött"><i>nötkött</i><par n="blod__n"/></e>
 <e lm="nötkreatur"><i>nötkreatur</i><par n="dragspel__n"/></e>
 <e lm="nödvändighet"><i>nödvändighet</i><par n="adress__n"/></e>
 <e lm="nämnare"><i>nämnar</i><par n="apotekar/e__n"/></e>
@@ -6865,7 +6865,7 @@
 <e lm="grannland"><i>grannl</i><par n="l/and__n"/></e>
 <e lm="granne"><i>grann</i><par n="abborr/e__n"/></e>
 <e lm="grannskap"><i>grannskap</i><par n="ackord__n"/></e>
-<e lm="noggrannhet"><i>noggrannhet</i><par n="adress__n"/></e>
+<e lm="noggrannhet"><i>noggrannhet</i><par n="mat__n"/></e>
 <e lm="tillvägagångssätt"><i>tillvägagångssätt</i><par n="ackord__n"/></e>
 <e lm="närhet"><i>närhet</i><par n="adress__n"/></e>
 <e lm="kurs"><i>kurs</i><par n="accent__n"/></e>
@@ -6884,7 +6884,7 @@
 <e lm="innovation"><i>innovation</i><par n="accent__n"/></e>
 <e lm="företagare"><i>företagar</i><par n="apotekar/e__n"/></e>
 <e lm="utnyttjande"><i>utnyttjande</i><par n="äpple__n"/></e>
-<e lm="våld"><i>våld</i><par n="dragspel__n"/></e>
+<e lm="våld"><i>våld</i><par n="blod__n"/></e>
 <e lm="fetma"><i>fetma</i><par n="oro__n"/></e>
 <e lm="våldshandling"><i>våldshandling</i><par n="bil__n"/></e>
 <e lm="olja"><i>olj</i><par n="frug/a__n"/></e>
@@ -6895,7 +6895,7 @@
 <e lm="energisektor"><i>energisektor</i><par n="geometri__n"/></e>
 <e lm="energikälla"><i>energikäll</i><par n="frug/a__n"/></e>
 <e lm="energimarknad"><i>energimarknad</i><par n="accent__n"/></e>
-<e lm="energieffektivitet"><i>energieffektivitet</i><par n="accent__n"/></e>
+<e lm="energieffektivitet"><i>energieffektivitet</i><par n="mat__n"/></e>
 <e lm="energipolitik"><i>energipolitik</i><par n="mat__n"/></e>
 <e lm="kraftverk"><i>kraftverk</i><par n="ackord__n"/></e>
 <e lm="energisäkerhet"><i>energisäkerhet</i><par n="adress__n"/></e>
@@ -6905,7 +6905,7 @@
 <e lm="lydelse"><i>lydelse</i><par n="aktie__n"/></e>
 <e lm="ordalag"><i>ordalag</i><par n="ackord__n"/></e>
 <e lm="ordalydelse"><i>ordalydelse</i><par n="aktie__n"/></e>
-<e lm="prestige"><i>prestige</i><par n="aktie__n"/></e>
+<e lm="prestige"><i>prestige</i><par n="oro__n"/></e>
 <e lm="förpackning"><i>förpackning</i><par n="bil__n"/></e>
 <e lm="pack"><i>pack</i><par n="ackord__n"/></e>
 <e lm="paket"><i>paket</i><par n="ackord__n"/></e>
@@ -6914,15 +6914,15 @@
 <e lm="papper"><i>papper</i><par n="ackord__n"/></e>
 <e lm="par"><i>par</i><par n="ackord__n"/></e>
 <e lm="avsnitt"><i>avsnitt</i><par n="ackord__n"/></e>
-<e lm="patt"><i>patt</i><par n="bil__n"/></e>
+<e lm="patt"><i>patt</i><par n="mat__n"/></e>
 <e lm="penningpolitik"><i>penningpolitik</i><par n="mat__n"/></e>
 <e lm="betalningsbemyndigande"><i>betalningsbemyndigande</i><par n="äpple__n"/></e>
 <e lm="pengar"><i>pengar</i><par n="pengar__n"/></e>
 <e lm="penningtvätt"><i>penningtvätt</i><par n="bil__n"/></e>
 <e lm="person"><i>person</i><par n="accent__n"/></e>
 <e lm="personuppgift"><i>personuppgift</i><par n="accent__n"/></e>
-<e lm="dataskydd"><i>dataskydd</i><par n="ackord__n"/></e>
-<e lm="uppgiftsskydd"><i>uppgiftsskydd</i><par n="ackord__n"/></e>
+<e lm="dataskydd"><i>dataskydd</i><par n="blod__n"/></e>
+<e lm="uppgiftsskydd"><i>uppgiftsskydd</i><par n="blod__n"/></e>
 <e lm="plan"><i>plan</i><par n="ackord__n"/></e>
 <e lm="gissel"><i>giss</i><par n="med/el__n"/></e>
 <e lm="bekämpningsmedel"><i>bekämpningsmed</i><par n="med/el__n"/></e>
@@ -6961,7 +6961,7 @@
 <e lm="rasism"><i>rasism</i><par n="mat__n"/></e>
 <e lm="rasist"><i>rasist</i><par n="accent__n"/></e>
 <e lm="realism"><i>realism</i><par n="mat__n"/></e>
-<e lm="straffrihet"><i>straffrihet</i><par n="adress__n"/></e>
+<e lm="straffrihet"><i>straffrihet</i><par n="mat__n"/></e>
 <e lm="bestraffning"><i>bestraffning</i><par n="bil__n"/></e>
 <e lm="straff"><i>straff</i><par n="ackord__n"/></e>
 <e lm="straffrätt"><i>straffrätt</i><par n="accent__n"/></e>
@@ -7048,9 +7048,9 @@
 <e lm="transportmedel"><i>transportmed</i><par n="med/el__n"/></e>
 <e lm="transportpolitik"><i>transportpolitik</i><par n="accent__n"/></e>
 <e lm="sammanhållning"><i>sammanhållning</i><par n="bil__n"/></e>
-<e lm="sammanhang"><i>sammanhang</i><par n="ackord__n"/></e>
+<e lm="sammanhang"><i>sammanhang</i><par n="blod__n"/></e>
 <e lm="konkurrens"><i>konkurrens</i><par n="adress__n"/></e>
-<e lm="konkurrensförmåga"><i>konkurrensförmåg</i><par n="frug/a__n"/></e>
+<e lm="konkurrensförmåga"><i>konkurrensförmåga</i><par n="oro__n"/></e>
 <e lm="församling"><i>församling</i><par n="bil__n"/></e>
 <e lm="återförening"><i>återförening</i><par n="bil__n"/></e>
 <e lm="avtal"><i>avtal</i><par n="ackord__n"/></e>
@@ -7066,9 +7066,9 @@
 <e lm="förhandlingsprocess"><i>förhandlingsprocess</i><par n="accent__n"/></e>
 <e lm="kontrakt"><i>kontrakt</i><par n="ackord__n"/></e>
 <e lm="integrationsprocess"><i>integrationsprocess</i><par n="accent__n"/></e>
-<e lm="fusion"><i>fusion</i><par n="accent__n"/></e>
+<e lm="fusion"><i>fusion</i><par n="mat__n"/></e>
 <e lm="samråd"><i>samråd</i><par n="ackord__n"/></e>
-<e lm="enlighet"><i>enlighet</i><par n="adress__n"/></e>
+<e lm="enlighet"><i>enlighet</i><par n="mat__n"/></e>
 <e lm="överensstämmelse"><i>överensstämmelse</i><par n="aktie__n"/></e>
 <e lm="harmonisering"><i>harmonisering</i><par n="bil__n"/></e>
 <e lm="samordnare"><i>samordnar</i><par n="apotekar/e__n"/></e>
@@ -7081,21 +7081,21 @@
 <e lm="samarbetspartner"><i>samarbetspartner</i><par n="politiker__n"/></e>
 <e lm="partnerskapsavtal"><i>partnerskapsavtal</i><par n="ackord__n"/></e>
 <e lm="samarbetsavtal"><i>samarbetsavtal</i><par n="ackord__n"/></e>
-<e lm="enighet"><i>enighet</i><par n="adress__n"/></e>
+<e lm="enighet"><i>enighet</i><par n="mat__n"/></e>
 <e lm="konsensus"><i>konsensus</i><par n="mat__n"/></e>
 <e lm="samsyn"><i>samsyn</i><par n="mat__n"/></e>
-<e lm="solidaritet"><i>solidaritet</i><par n="adress__n"/></e>
+<e lm="solidaritet"><i>solidaritet</i><par n="mat__n"/></e>
 <e lm="koalition"><i>koalition</i><par n="accent__n"/></e>
-<e lm="harmoni"><i>harmoni</i><par n="geometri__n"/></e>
+<e lm="harmoni"><i>harmoni</i><par n="oro__n"/></e>
 <e lm="motstycke"><i>motstycke</i><par n="äpple__n"/></e>
 <e lm="parallell"><i>parallell</i><par n="accent__n"/></e>
 <e lm="samtal"><i>samtal</i><par n="ackord__n"/></e>
 <e lm="organisation"><i>organisation</i><par n="accent__n"/></e>
 <e lm="samverkan"><i>samverkan</i><par n="samverkan__n"/></e>
-<e lm="samvete"><i>samvete</i><par n="äpple__n"/></e>
+<e lm="samvete"><i>samvete</i><par n="syre__n"/></e>
 <e lm="medkänsla"><i>medkänsl</i><par n="frug/a__n"/></e>
 <e lm="sympati"><i>sympati</i><par n="geometri__n"/></e>
-<e lm="koncentration"><i>koncentration</i><par n="accent__n"/></e>
+<e lm="koncentration"><i>koncentration</i><par n="mat__n"/></e>
 <e lm="bifall"><i>bifall</i><par n="ackord__n"/></e>
 <e lm="godkännande"><i>godkännande</i><par n="äpple__n"/></e>
 <e lm="samtycke"><i>samtycke</i><par n="äpple__n"/></e>
@@ -7105,7 +7105,7 @@
 <e lm="bot"><i>bot</i><par n="adress__n"/></e>
 <e lm="böter"><i>böter</i><par n="böter__n"/></e>
 <e lm="sekund"><i>sekund</i><par n="accent__n"/></e>
-<e lm="sällskap"><i>sällskap</i><par n="ackord__n"/></e>
+<e lm="sällskap"><i>sällskap</i><par n="blod__n"/></e>
 <e lm="ambassadör"><i>ambassadör</i><par n="accent__n"/></e>
 <e lm="sändebud"><i>sändebud</i><par n="ackord__n"/></e>
 <e lm="delegation"><i>delegation</i><par n="accent__n"/></e>
@@ -7115,7 +7115,7 @@
 <e lm="sedel"><i>sed</i><par n="cyk/el__n"/></e>
 <e lm="centralbank"><i>centralbank</i><par n="accent__n"/></e>
 <e lm="sjöfart"><i>sjöfart</i><par n="adress__n"/></e>
-<e lm="sjösäkerhet"><i>sjösäkerhet</i><par n="adress__n"/></e>
+<e lm="sjösäkerhet"><i>sjösäkerhet</i><par n="mat__n"/></e>
 <e lm="sikt"><i>sikt</i><par n="accent__n"/></e>
 <e lm="seger"><i>seg</i><par n="kalend/er__n"/></e>
 <e lm="vinnare"><i>vinnar</i><par n="apotekar/e__n"/></e>
@@ -8400,7 +8400,6 @@
 <e lm="polis">           <i>polis</i><par n="adress__n"/></e>
 <e lm="polisbil"><i>polisbil</i><par n="bil__n"/></e>
 <e lm="polischef"><i>polischef</i><par n="mask__n"/></e>
-<e lm="politik">         <i>politik</i><par n="accent__n"/></e>
 <e lm="portion">         <i>portion</i><par n="accent__n"/></e>
 <e lm="potatis">         <i>potatis</i><par n="bil__n"/></e>
 <e lm="potta"><i>pott</i><par n="frug/a__n"/></e>
