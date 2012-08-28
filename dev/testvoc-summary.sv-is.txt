@@ -1,5 +1,5 @@
 
-mán 27 ágú 2012 15:19:56 GMT
+þri 28 ágú 2012 08:06:26 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
 vbhaver	-e 9		 0	 6	
@@ -12,10 +12,10 @@ adv	-e 459		 0	 124
 num	-e 33		 0	 7	
 cnjsub	-e 29		 0	 0	
 abbr	-e 26		 0	 0	
-n	-e 25051		 268	 2528	
 vbmod	-e 24		 0	 21	
+n	-e 24853		 1044	 1400	
 np	-e 1798		 0	 21	
-vblex	-e 17635		 4	 16733	
+vblex	-e 17635		 17	 16721	
 prn	-e 135		 0	 110	
 ij	-e 12		 0	 0	
 rel	-e 0		 0	 0	
