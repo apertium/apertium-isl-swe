@@ -1628,6 +1628,16 @@
 	<pardef n="Magnusson__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+	
+	<pardef n="Finnbogadottir__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+	</pardef>
+	
+	<pardef n="Bjarnas/on__np">
+	  <e>       <p><l></l>          <r>on<s n="np"/><s n="cog"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l>öner</l>          <r>on<s n="np"/><s n="cog"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+	</pardef>
 
 	<pardef n="Putin__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="m"/><s n="sg"/></r></p><par n="S__case"/></e>
@@ -1665,6 +1675,11 @@
 	<pardef n="Wikipedia__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+
+	<pardef n="Socialdemokraterna__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="pl"/></r></p><par n="S__case"/></e>
+	</pardef>
+
 	
 	<pardef n="Världshälsoorganisation__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -1679,15 +1694,27 @@
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
 	  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 	</pardef>	
+
 	<pardef n="Europol__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="org"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+
+	<pardef n="Allmogeförbund__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="org"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l>et</l>          <r><s n="np"/><s n="org"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+	
+	<pardef n="Odyssé__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l>en</l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	</pardef>
+
 	<pardef n="Amsterdamfördraget__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
+	
 	<pardef n="EMU__np">
-	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
-	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
 	
     <!-- Numerals -->
@@ -4397,7 +4424,7 @@
 <e lm="sydväst"><i>sydväst</i><par n="extra__adj"/></e>
 <e lm="kul"><i>kul</i><par n="afrikansk__adj"/></e>
 <e lm="hungrig">         <i>hungrig</i><par n="aktiv__adj"/></e>
-<e lm="klädd i svart"><i>klä<g><b/>i<b/>svart</g></i><par n="rä/dd__adj"/></e>
+<e lm="klädd i svart"><i>klä</i><par n="rä/dd__adj"/><p><l><b/>i<b/>svart</l><r><g><b/>i<b/>svart</g></r></p></e>
 <e lm="så kallad"><i>så<b/>kalla</i><par n="beväpna/d__adj"/></e>
 <e lm="någon"><i>någon</i><par n="extra__adj"/></e>
 <e lm="sömnig"><i>sömnig</i><par n="aktiv__adj"/></e>
@@ -5758,7 +5785,7 @@
 <e lm="avkastning"><i>avkastning</i><par n="bil__n"/></e>
 <e lm="avreglering"><i>avreglering</i><par n="bil__n"/></e>
 <e lm="kopia"><i>kopi</i><par n="frug/a__n"/></e>
-<e lm="likgiltighet"><i>likgiltighet</i><par n="adress__n"/></e>
+<e lm="likgiltighet"><i>likgiltighet</i><par n="mat__n"/></e>
 <e lm="hållning"><i>hållning</i><par n="bil__n"/></e>
 <e lm="stånd"><i>stånd</i><par n="ackord__n"/></e>
 <e lm="ursäkt"><i>ursäkt</i><par n="mask__n"/></e>
@@ -5772,7 +5799,7 @@
 <e lm="plenarsammanträde"><i>plenarsammanträde</i><par n="äpple__n"/></e>
 <e lm="plenum"><i>plenum</i><par n="ackord__n"/></e>
 <e lm="generalförsamling"><i>generalförsamling</i><par n="bil__n"/></e>
-<e lm="allmänhet"><i>allmänhet</i><par n="adress__n"/></e>
+<e lm="allmänhet"><i>allmänhet</i><par n="mat__n"/></e>
 <e lm="aids"><i>aids</i><par n="samverkan__n"/></e>
 <e lm="allvar"><i>allvar</i><par n="ackord__n"/></e>
 <e lm="parlament"><i>parlament</i><par n="ackord__n"/></e>
@@ -5791,7 +5818,7 @@
 <e lm="arabiska"><i>arabisk</i><par n="afghansk/a__n"/></e>
 <e lm="arv"><i>arv</i><par n="ackord__n"/></e>
 <e lm="armeniska"><i>armenisk</i><par n="afghansk/a__n"/></e>
-<e lm="lönsamhet"><i>lönsamhet</i><par n="adress__n"/></e>
+<e lm="lönsamhet"><i>lönsamhet</i><par n="mat__n"/></e>
 <e lm="asbest"><i>asbest</i><par n="mat__n"/></e>
 <e lm="brådska"><i>brådsk</i><par n="afghansk/a__n"/></e>
 <e lm="scenario"><i>scenario</i><par n="äpple__n"/></e>
@@ -5799,7 +5826,6 @@
 <e lm="påpekande"><i>påpekande</i><par n="äpple__n"/></e>
 <e lm="anmärkning"><i>anmärkning</i><par n="bil__n"/></e>
 <e lm="iakttagelse"><i>iakttagelse</i><par n="aktie__n"/></e>
-<e lm="uppmärksamhet"><i>uppmärksamhet</i><par n="adress__n"/></e>
 <e lm="akt"><i>akt</i><par n="mask__n"/></e>
 <e lm="incident"><i>incident</i><par n="accent__n"/></e>
 <e lm="anställning"><i>anställning</i><par n="bil__n"/></e>
@@ -5807,7 +5833,7 @@
 <e lm="ockupation"><i>ockupation</i><par n="accent__n"/></e>
 <e lm="sysselsättning"><i>sysselsättning</i><par n="bil__n"/></e>
 <e lm="arbetslöshet"><i>arbetslöshet</i><par n="adress__n"/></e>
-<e lm="arbetsliv"><i>arbetsliv</i><par n="ackord__n"/></e>
+<e lm="arbetsliv"><i>arbetsliv</i><par n="blod__n"/></e>
 <e lm="arbetsmarknad"><i>arbetsmarknad</i><par n="accent__n"/></e>
 <e lm="arbetsorganisation"><i>arbetsorganisation</i><par n="accent__n"/></e>
 <e lm="sysselsättningspolitik"><i>sysselsättningspolitik</i><par n="mat__n"/></e>
@@ -5937,7 +5963,7 @@
 <e lm="film"><i>film</i><par n="film__n"/></e>
 <e lm="bok"><i>b</i><par n="b/ok__n"/></e>
 <e lm="redovisning"><i>redovisning</i><par n="bil__n"/></e>
-<e lm="fundamentalism"><i>fundamentalism</i><par n="adress__n"/></e>
+<e lm="fundamentalism"><i>fundamentalism</i><par n="mat__n"/></e>
 <e lm="vaccin"><i>vaccin</i><par n="ackord__n"/></e>
 <e lm="bonde"><i>b</i><par n="b/onde__n"/></e>
 <e lm="jordbrukare"><i>jordbrukar</i><par n="apotekar/e__n"/></e>
@@ -5994,7 +6020,7 @@
 <e lm="tvivel"><i>tviv</i><par n="med/el__n"/></e>
 <e lm="främjande"><i>främjande</i><par n="äpple__n"/></e>
 <e lm="ekonomi"><i>ekonomi</i><par n="adel__n"/></e>
-<e lm="näringsliv"><i>näringsliv</i><par n="badhus__n"/></e>
+<e lm="näringsliv"><i>näringsliv</i><par n="blod__n"/></e>
 <e lm="kemikalie"><i>kemikalie</i><par n="aktie__n"/></e>
 <e lm="material"><i>material</i><par n="ackord__n"/></e>
 <e lm="ämne"><i>ämne</i><par n="äpple__n"/></e>
@@ -6016,7 +6042,7 @@
 <e lm="beslag"><i>beslag</i><par n="ackord__n"/></e>
 <e lm="tillgång"><i>tillgång</i><par n="bil__n"/></e>
 <e lm="isolering"><i>isolering</i><par n="bil__n"/></e>
-<e lm="beslutsamhet"><i>beslutsamhet</i><par n="adress__n"/></e>
+<e lm="beslutsamhet"><i>beslutsamhet</i><par n="mat__n"/></e>
 <e lm="förenlighet"><i>förenlighet</i><par n="adress__n"/></e>
 <e lm="trakasseri"><i>trakasseri</i><par n="geometri__n"/></e>
 <e lm="förenkling"><i>förenkling</i><par n="bil__n"/></e>
@@ -6142,11 +6168,11 @@
 <e lm="diversifiering"><i>diversifiering</i><par n="bil__n"/></e>
 <e lm="mångfald"><i>mångfald</i><par n="mask__n"/></e>
 <e lm="antal"><i>antal</i><par n="ackord__n"/></e>
-<e lm="pluralism"><i>pluralism</i><par n="accent__n"/></e>
+<e lm="pluralism"><i>pluralism</i><par n="mat__n"/></e>
 <e lm="media"><i>medi</i><par n="medi/a__n"/></e>
-<e lm="pressfrihet"><i>pressfrihet</i><par n="adress__n"/></e>
+<e lm="pressfrihet"><i>pressfrihet</i><par n="mat__n"/></e>
 <e lm="familj"><i>familj</i><par n="accent__n"/></e>
-<e lm="familjeliv"><i>familjeliv</i><par n="ackord__n"/></e>
+<e lm="familjeliv"><i>familjeliv</i><par n="blod__n"/></e>
 <e lm="familjemedlem"><i>familjemedlem</i><par n="stam__n"/></e>
 <e lm="familjeåterförening"><i>familjeåterförening</i><par n="bil__n"/></e>
 <e lm="flerspråkighet"><i>flerspråkighet</i><par n="adress__n"/></e>
@@ -6178,7 +6204,7 @@
 <e lm="prioritet"><i>prioritet</i><par n="accent__n"/></e>
 <e lm="förgrund"><i>förgrund</i><par n="accent__n"/></e>
 <e lm="ordförande"><i>ordförande</i><par n="order__n"/></e>
-<e lm="ordförandeskap"><i>ordförandeskap</i><par n="ackord__n"/></e>
+<e lm="ordförandeskap"><i>ordförandeskap</i><par n="blod__n"/></e>
 <e lm="struktur"><i>struktur</i><par n="accent__n"/></e>
 <e lm="program"><i>program</i><par n="gram__n"/></e>
 <e lm="privilegium"><i>privilegi</i><par n="laboratori/um__n"/></e>
@@ -6222,10 +6248,10 @@
 <e lm="frihet"><i>frihet</i><par n="accent__n"/></e>
 <e lm="tidsfrist"><i>tidsfrist</i><par n="accent__n"/></e>
 <e lm="fredsprocess"><i>fredsprocess</i><par n="accent__n"/></e>
-<e lm="fred"><i>fred</i><par n="accent__n"/></e>
+<e lm="fred"><i>fred</i><par n="mat__n"/></e>
 <e lm="cell"><i>cell</i><par n="accent__n"/></e>
 <e lm="initiativ"><i>initiativ</i><par n="ackord__n"/></e>
-<e lm="företagande"><i>företagande</i><par n="äpple__n"/></e>
+<e lm="företagande"><i>företagande</i><par n="syre__n"/></e>
 <e lm="egenföretagare"><i>egenföretagar</i><par n="apotekar/e__n"/></e>
 <e lm="entreprenör"><i>entreprenör</i><par n="accent__n"/></e>
 <e lm="lagförslag"><i>lagförslag</i><par n="ackord__n"/></e>
@@ -6261,7 +6287,7 @@
 <e lm="intention"><i>intention</i><par n="accent__n"/></e>
 <e lm="flagg"><i>flagg</i><par n="ackord__n"/></e>
 <e lm="flagga"><i>flagg</i><par n="frug/a__n"/></e>
-<e lm="fattigdom"><i>fattigdom</i><par n="adress__n"/></e>
+<e lm="fattigdom"><i>fattigdom</i><par n="mat__n"/></e>
 <e lm="parameter"><i>paramet</i><par n="kalend/er__n"/></e>
 <e lm="transaktion"><i>transaktion</i><par n="accent__n"/></e>
 <e lm="partner"><i>partner</i><par n="politiker__n"/></e>
@@ -6270,7 +6296,7 @@
 <e lm="drog"><i>drog</i><par n="mask__n"/></e>
 <e lm="fokus"><i>fokus</i><par n="badhus__n"/></e>
 <e lm="inriktning"><i>inriktning</i><par n="bil__n"/></e>
-<e lm="folk"><i>folk</i><par n="ackord__n"/></e>
+<e lm="folk"><i>folk</i><par n="blod__n"/></e>
 <e lm="uppoffring"><i>uppoffring</i><par n="bil__n"/></e>
 <e lm="offer"><i>off</i><par n="klost/er__n"/></e>
 <e lm="abort"><i>abort</i><par n="mask__n"/></e>
@@ -6308,7 +6334,7 @@
 <e lm="valuta"><i>valut</i><par n="frug/a__n"/></e>
 <e lm="konkurs"><i>konkurs</i><par n="adress__n"/></e>
 <e lm="glädje"><i>glädje</i><par n="äpple__n"/></e>
-<e lm="brottslighet"><i>brottslighet</i><par n="adress__n"/></e>
+<e lm="brottslighet"><i>brottslighet</i><par n="mat__n"/></e>
 <e lm="brottmålsdomstol"><i>brottmålsdomstol</i><par n="bil__n"/></e>
 <e lm="brottsling"><i>brottsling</i><par n="bil__n"/></e>
 <e lm="kriminalitet"><i>kriminalitet</i><par n="adress__n"/></e>
@@ -9534,8 +9560,8 @@
 <e lm="Bentall"><i>Bentall</i><par n="Magnusson__np"/></e>
 <e lm="Bernstein"><i>Bernstein</i><par n="Magnusson__np"/></e>
 <e lm="Bingley"><i>Bingley</i><par n="Magnusson__np"/></e>
-<e lm="Bjarnason"><i>Bjarnason</i><par n="Magnusson__np"/></e>
-<e lm="Björnsson"><i>Björnsson</i><par n="Magnusson__np"/></e>
+<e lm="Bjarnason"><i>Bjarnas</i><par n="Bjarnas/on__np"/></e>
+<e lm="Björnsson"><i>Björnss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Black"><i>Black</i><par n="Magnusson__np"/></e>
 <e lm="Burelli"><i>Burelli</i><par n="Magnusson__np"/></e>
 <e lm="Burkert"><i>Burkert</i><par n="Magnusson__np"/></e>
@@ -9547,57 +9573,57 @@
 <e lm="Darwin"><i>Darwin</i><par n="Magnusson__np"/></e>
 <e lm="Ebbinghaus"><i>Ebbinghaus</i><par n="Magnusson__np"/></e>
 <e lm="Eggebusch"><i>Eggebusch</i><par n="Magnusson__np"/></e>
-<e lm="Einarsson"><i>Einarsson</i><par n="Magnusson__np"/></e>
+<e lm="Einarsson"><i>Einarss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Ettore"><i>Ettore</i><par n="Magnusson__np"/></e>
 <e lm="Fechner"><i>Fechner</i><par n="Magnusson__np"/></e>
 <e lm="Filippov"><i>Filippov</i><par n="Magnusson__np"/></e>
 <e lm="Filippovna"><i>Filippovna</i><par n="Magnusson__np"/></e>
-<e lm="Finnbogadottir"><i>Finnbogadottir</i><par n="Magnusson__np"/></e>
+<e lm="Finnbogadottir"><i>Finnbogadottir</i><par n="Finnbogadottir__np"/></e>
 <e lm="Fisher"><i>Fisher</i><par n="Magnusson__np"/></e>
 <e lm="Freud"><i>Freud</i><par n="Magnusson__np"/></e>
 <e lm="Galton"><i>Galton</i><par n="Magnusson__np"/></e>
 <e lm="Garner"><i>Garner</i><par n="Magnusson__np"/></e>
-<e lm="Gunnarsson"><i>Gunnarsson</i><par n="Magnusson__np"/></e>
-<e lm="Gudmundsson"><i>Gudmundsson</i><par n="Magnusson__np"/></e>
-<e lm="Halldorsson"><i>Halldorsson</i><par n="Magnusson__np"/></e>
-<e lm="Helgason"><i>Helgason</i><par n="Magnusson__np"/></e>
+<e lm="Gunnarsson"><i>Gunnarss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Gudmundsson"><i>Gudmundss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Halldorsson"><i>Halldorss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Helgason"><i>Helgas</i><par n="Bjarnas/on__np"/></e>
 <e lm="Hendrix"><i>Hendrix</i><par n="Magnusson__np"/></e>
 <e lm="Himmler"><i>Himmler</i><par n="Magnusson__np"/></e>
 <e lm="Hitler"><i>Hitler</i><par n="Magnusson__np"/></e>
-<e lm="Hjartarson"><i>Hjartarson</i><par n="Magnusson__np"/></e>
+<e lm="Hjartarson"><i>Hjartars</i><par n="Bjarnas/on__np"/></e>
 <e lm="Horgan"><i>Horgan</i><par n="Magnusson__np"/></e>
 <e lm="Howarth"><i>Howarth</i><par n="Magnusson__np"/></e>
 <e lm="Hunter"><i>Hunter</i><par n="Magnusson__np"/></e>
 <e lm="Jensen"><i>Jensen</i><par n="Magnusson__np"/></e>
 <e lm="Jones"><i>Jones</i><par n="Magnusson__np"/></e>
-<e lm="Johannesson"><i>Johannesson</i><par n="Magnusson__np"/></e>
-<e lm="Jonsdottir"><i>Jonsdottir</i><par n="Magnusson__np"/></e>
-<e lm="Jonsson"><i>Jonsson</i><par n="Magnusson__np"/></e>
-<e lm="Kerrison"><i>Kerrison</i><par n="Magnusson__np"/></e>
-<e lm="Kjartansson"><i>Kjartansson</i><par n="Magnusson__np"/></e>
+<e lm="Johannesson"><i>Johanness</i><par n="Bjarnas/on__np"/></e>
+<e lm="Jonsdottir"><i>Jonsdottir</i><par n="Finnbogadottir__np"/></e>
+<e lm="Jonsson"><i>Jonss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Kerrison"><i>Kerris</i><par n="Bjarnas/on__np"/></e>
+<e lm="Kjartansson"><i>Kjartanss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Knörr"><i>Knörr</i><par n="Magnusson__np"/></e>
-<e lm="Kristjansson"><i>Kristjansson</i><par n="Magnusson__np"/></e>
+<e lm="Kristjansson"><i>Kristjanss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Leonhard"><i>Leonhard</i><par n="Magnusson__np"/></e>
 <e lm="Long"><i>Long</i><par n="Magnusson__np"/></e>
 <e lm="Lorrimer"><i>Lorrimer</i><par n="Magnusson__np"/></e>
 <e lm="Lyme"><i>Lyme</i><par n="Magnusson__np"/></e>
 <e lm="Magellansky"><i>Magellansky</i><par n="Magnusson__np"/></e>
-<e lm="Magnusson"><i>Magnusson</i><par n="Magnusson__np"/></e>
+<e lm="Magnusson"><i>Magnuss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Möller"><i>Möller</i><par n="Magnusson__np"/></e>
 <e lm="Nordmann"><i>Nordmann</i><par n="Magnusson__np"/></e>
 <e lm="Parker"><i>Parker</i><par n="Magnusson__np"/></e>
 <e lm="Pickenbaugh"><i>Pickenbaugh</i><par n="Magnusson__np"/></e>
 <e lm="Pinta"><i>Pinta</i><par n="Magnusson__np"/></e>
-<e lm="Pålsson"><i>Pålsson</i><par n="Magnusson__np"/></e>
-<e lm="Petursson"><i>Petursson</i><par n="Magnusson__np"/></e>
+<e lm="Pålsson"><i>Pålss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Petursson"><i>Peturss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Raine"><i>Raine</i><par n="Magnusson__np"/></e>
 <e lm="Rogosjin"><i>Rogosjin</i><par n="Magnusson__np"/></e>
 <e lm="Rowbotham"><i>Rowbotham</i><par n="Magnusson__np"/></e>
 <e lm="Saddle"><i>Saddle</i><par n="Magnusson__np"/></e>
 <e lm="Setberg"><i>Setberg</i><par n="Magnusson__np"/></e>
 <e lm="Shug"><i>Shug</i><par n="Magnusson__np"/></e>
-<e lm="Sigurdsson"><i>Sigurdsson</i><par n="Magnusson__np"/></e>
-<e lm="Stefansson"><i>Stefansson</i><par n="Magnusson__np"/></e>
+<e lm="Sigurdsson"><i>Sigurdss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Stefansson"><i>Stefanss</i><par n="Bjarnas/on__np"/></e>
 <e lm="Tanner"><i>Tanner</i><par n="Magnusson__np"/></e>
 <e lm="Thorarensen"><i>Thorarensen</i><par n="Magnusson__np"/></e>
 <e lm="Thoroddsen"><i>Thoroddsen</i><par n="Magnusson__np"/></e>
@@ -9606,21 +9632,21 @@
 <e lm="Voisin"><i>Voisin</i><par n="Magnusson__np"/></e>
 <e lm="White"><i>White</i><par n="Magnusson__np"/></e>
 <e lm="Wundt"><i>Wundt</i><par n="Magnusson__np"/></e>
-<e lm="Arnason"><i>Arnason</i><par n="Magnusson__np"/></e>
-<e lm="Isolfsson"><i>Isolfsson</i><par n="Magnusson__np"/></e>
-<e lm="Olafson"><i>Olafson</i><par n="Magnusson__np"/></e>
-<e lm="Þorgilsson"><i>Þorgilsson</i><par n="Magnusson__np"/></e>
-<e lm="Thorlaksson"><i>Thorlaksson</i><par n="Magnusson__np"/></e>
-<e lm="Thornsteinsson"><i>Thornsteinsson</i><par n="Magnusson__np"/></e>
-<e lm="Thordarson"><i>Thordarson</i><par n="Magnusson__np"/></e>
+<e lm="Arnason"><i>Arnas</i><par n="Bjarnas/on__np"/></e>
+<e lm="Isolfsson"><i>Isolfss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Olafson"><i>Olafs</i><par n="Bjarnas/on__np"/></e>
+<e lm="Þorgilsson"><i>Þorgilss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Thorlaksson"><i>Thorlakss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Thornsteinsson"><i>Thornsteinss</i><par n="Bjarnas/on__np"/></e>
+<e lm="Thordarson"><i>Thordars</i><par n="Bjarnas/on__np"/></e>
 <e lm="Akranes"><i>Akranes</i><par n="Schweiz__np"/></e>
 <e lm="Akureyri"><i>Akureyri</i><par n="Afrika__np"/></e>
 <e lm="Alice"><i>Alice</i><par n="Eva__np"/></e>
 <e lm="Alli"><i>Alli</i><par n="Trond__np"/></e>
 <e lm="Alisa"><i>Alisa</i><par n="Eva__np"/></e>
 <e lm="Internationella valfångstkommission"><i><g>Internationella<b/></g>valfångstkommission</i><par n="Världshälsoorganisation__np"/><p><l>Internationella<b/></l><r><g>Internationella<b/></g></r></p></e>
-<e lm="Allmogeförbund"><i>Allmogeförbund</i><par n="Europol__np"/></e>
-<e lm="Socialdemokraterna"><i>Socialdemokraterna</i><par n="Wikipedia__np"/></e>
+<e lm="Allmogeförbund"><i>Allmogeförbund</i><par n="Allmogeförbund__np"/></e>
+<e lm="Socialdemokraterna"><i>Socialdemokraterna</i><par n="Socialdemokraterna__np"/></e>
 <e lm="Andri"><i>Andri</i><par n="Trond__np"/></e>
 <e lm="Andres"><i>Andres</i><par n="Jonas__np"/></e>
 <e lm="Anny"><i>Anny</i><par n="Eva__np"/></e>
@@ -9678,7 +9704,7 @@
 <e lm="Eyjolfur"><i>Eyjolfur</i><par n="Trond__np"/></e>
 <e lm="Eystein"><i>Eystein</i><par n="Trond__np"/></e>
 <e lm="Faxafloi"><i>Faxafloi</i><par n="Afrika__np"/></e>
-<e lm="Framstegsparti"><i>Framstegsparti</i><par n="Europol__np"/></e>
+<e lm="Framstegsparti"><i>Framstegsparti</i><par n="Allmogeförbund__np"/></e>
 <e lm="Frank"><i>Frank</i><par n="Trond__np"/></e>
 <e lm="Frederik"><i>Frederik</i><par n="Trond__np"/></e>
 <e lm="Frida"><i>Frida</i><par n="Eva__np"/></e>
@@ -9830,7 +9856,7 @@
 <e lm="Sigurd"><i>Sigurd</i><par n="Trond__np"/></e>
 <e lm="Silla"><i>Silla</i><par n="Eva__np"/></e>
 <e lm="Simmi"><i>Simmi</i><par n="Eva__np"/></e>
-<e lm="Självständighetsparti"><i>Självständighetsparti</i><par n="Europol__np"/></e>
+<e lm="Självständighetsparti"><i>Självständighetsparti</i><par n="Allmogeförbund__np"/></e>
 <e lm="Skagafjördur"><i>Skagafjördur</i><par n="Afrika__np"/></e>
 <e lm="Skalla-Peter"><i>Skalla-Peter</i><par n="Trond__np"/></e>
 <e lm="Skundi"><i>Skundi</i><par n="Trond__np"/></e>
@@ -9886,7 +9912,7 @@
 <e lm="Asgeir"><i>Asgeir</i><par n="Trond__np"/></e>
 <e lm="Asmund"><i>Asmund</i><par n="Trond__np"/></e>
 <e lm="Isafjördur"><i>Isafjördur</i><par n="Afrika__np"/></e>
-<e lm="Odyssé"><i>Odyssé</i><par n="Wikipedia__np"/></e>
+<e lm="Odyssé"><i>Odyssé</i><par n="Odyssé__np"/></e>
 <e lm="Odysseus"><i>Odysseus</i><par n="Jonas__np"/></e>
 <e lm="Ole"><i>Ole</i><par n="Trond__np"/></e>
 <e lm="Olöf"><i>Olöf</i><par n="Eva__np"/></e>
@@ -9907,7 +9933,6 @@
 <e lm="Thorarinn"><i>Thorarinn</i><par n="Trond__np"/></e>
 <e lm="Torunn"><i>Torunn</i><par n="Eva__np"/></e>
 <e lm="Thord"><i>Thord</i><par n="Trond__np"/></e>
-<e lm="Socialdemokraterna"><i>Socialdemokraterna</i><par n="Wikipedia__np"/></e>
 <e lm="Lovisa"><i>Lovisa</i><par n="Eva__np"/></e>
 
 

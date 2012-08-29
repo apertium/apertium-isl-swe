@@ -281,12 +281,12 @@
 <pardef n="PLtantum_normal__n">
   <e r="LR"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
   <e r="RL"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
-  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="SGtantum_normal__n">
-  <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
-  <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e> 
   <e r="RL"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="normal_SGtantum__n">
   <e r="LR"><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -2498,35 +2498,35 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <!--NOUNS-->
 
 <!--utrum-->
-<e><p><l>einróma<b/>samþykki<s n="n"/><s n="nt"/></l><r>enhällighet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>einróma<b/>samþykki<s n="n"/><s n="nt"/></l><r>enhällighet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>samhljóða<b/>álit<s n="n"/><s n="nt"/></l><r>samstämmighet<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>afgangur<s n="n"/><s n="m"/></l><r>rest<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>afköst<s n="n"/><s n="nt"/></l><r>prestation<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e r="RL" c="v1"><p><l>afleiðing<s n="n"/><s n="f"/></l><r>följd<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>afleiðing<s n="n"/><s n="f"/></l><r>konsekvens<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>afleiðing<s n="n"/><s n="f"/></l><r>påföljd<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>afrakstur<s n="n"/><s n="m"/></l><r>avkastning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>afrakstur<s n="n"/><s n="m"/></l><r>avkastning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>afreglun<s n="n"/><s n="f"/></l><r>avreglering<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>afrit<s n="n"/><s n="nt"/></l><r>kopia<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>afskiptaleysi<s n="n"/><s n="nt"/></l><r>likgiltighet<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>afstaða<s n="n"/><s n="f"/></l><r>hållning<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>afstaða<s n="n"/><s n="f"/></l><r>hållning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>afsökun<s n="n"/><s n="f"/></l><r>ursäkt<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aftaka<s n="n"/><s n="f"/></l><r>avrättning<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>afvopnun<s n="n"/><s n="f"/></l><r>nedrustning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>afvopnun<s n="n"/><s n="f"/></l><r>nedrustning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>agi<s n="n"/><s n="m"/></l><r>disciplin<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>albanska<s n="n"/><s n="f"/></l><r>albanska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aldur<s n="n"/><s n="m"/></l><r>ålder<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>allsherjarþing<s n="n"/><s n="nt"/></l><r>generalförsamling<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>almenningur<s n="n"/><s n="m"/></l><r>allmänhet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>alnæmi<s n="n"/><s n="nt"/></l><r>aids<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>alþjóðaréttur<s n="n"/><s n="m"/></l><r>folkrätt<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>alþjóðavæðing<s n="n"/><s n="f"/></l><r>globalisering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>alþjóðaréttur<s n="n"/><s n="m"/></l><r>folkrätt<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>alþjóðavæðing<s n="n"/><s n="f"/></l><r>globalisering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>alþýðulýðveldi<s n="n"/><s n="nt"/></l><r>folkrepublik<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>andi<s n="n"/><s n="m"/></l><r>anda<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>andlit<s n="n"/><s n="nt"/></l><r>ansikte<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>andrúmsloft<s n="n"/><s n="nt"/></l><r>atmosfär<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>andstaða<s n="n"/><s n="f"/></l><r>invändning<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>andstaða<s n="n"/><s n="f"/></l><r>opposition<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>andstaða<s n="n"/><s n="f"/></l><r>invändning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e c="v0"><p><l>andstaða<s n="n"/><s n="f"/></l><r>opposition<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v1"><p><l>andstæða<s n="n"/><s n="f"/></l><r>kontrast<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>andstæða<s n="n"/><s n="f"/></l><r>motsats<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>andstæðingur<s n="n"/><s n="m"/></l><r>motståndare<s n="n"/><s n="ut"/></r></p></e>
@@ -2541,15 +2541,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>athygli<s n="n"/><s n="f"/></l><r>uppmärksamhet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>athöfn<s n="n"/><s n="f"/></l><r>akt<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>atvik<s n="n"/><s n="nt"/></l><r>incident<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>atvinna<s n="n"/><s n="f"/></l><r>anställning<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v2"><p><l>atvinna<s n="n"/><s n="f"/></l><r>ockupation<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v3"><p><l>atvinna<s n="n"/><s n="f"/></l><r>sysselsättning<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>atvinnuleysi<s n="n"/><s n="nt"/></l><r>arbetslöshet<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>atvinna<s n="n"/><s n="f"/></l><r>anställning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e r="RL" c="v2"><p><l>atvinna<s n="n"/><s n="f"/></l><r>ockupation<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e r="RL" c="v3"><p><l>atvinna<s n="n"/><s n="f"/></l><r>sysselsättning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>atvinnuleysi<s n="n"/><s n="nt"/></l><r>arbetslöshet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>atvinnumarkaður<s n="n"/><s n="m"/></l><r>arbetsmarknad<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>atvinnusamtök<s n="n"/><s n="nt"/></l><r>arbetsorganisation<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>atvinnustefna<s n="n"/><s n="f"/></l><r>sysselsättningspolitik<s n="n"/><s n="ut"/></r></p><par n="normal_SGtantum__n"/></e>
 <e><p><l>auglýsing<s n="n"/><s n="f"/></l><r>reklam<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>augnagot<s n="n"/><s n="nt"/></l><r>titt<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>augnagot<s n="n"/><s n="nt"/></l><r>titt<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>aukaafurð<s n="n"/><s n="f"/></l><r>biprodukt<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>aukning<s n="n"/><s n="f"/></l><r>höjning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>aukning<s n="n"/><s n="f"/></l><r>utökning<s n="n"/><s n="ut"/></r></p></e>
@@ -2559,13 +2559,13 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e c="v0"><p><l>auðkenni<s n="n"/><s n="nt"/></l><r>identifiering<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>auðkenni<s n="n"/><s n="nt"/></l><r>symbol<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>auðlind<s n="n"/><s n="f"/></l><r>resurs<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>auðsæi<s n="n"/><s n="nt"/></l><r>självklarhet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>auðsæi<s n="n"/><s n="nt"/></l><r>självklarhet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>aðalatriði<s n="n"/><s n="nt"/></l><r>kärnpunkt<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>aðalatriði<s n="n"/><s n="nt"/></l><r>substans<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aðalpartur<s n="n"/><s n="m"/></l><r>huvuddel<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aðdáun<s n="n"/><s n="f"/></l><r>beundran<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>aðferð<s n="n"/><s n="f"/></l><r>metod<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>aðgengi<s n="n"/><s n="nt"/></l><r>tillgänglighet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>aðgengi<s n="n"/><s n="nt"/></l><r>tillgänglighet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v1"><p><l>aðgerð<s n="n"/><s n="f"/></l><r>handling<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>aðgerð<s n="n"/><s n="f"/></l><r>operation<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>aðgerðaáætlun<s n="n"/><s n="f"/></l><r>handlingsplan<s n="n"/><s n="ut"/></r></p></e>
@@ -2577,11 +2577,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e c="v0"><p><l>aðlögun<s n="n"/><s n="f"/></l><r>anpassning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>aðlögun<s n="n"/><s n="f"/></l><r>justering<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>aðlögun<s n="n"/><s n="f"/></l><r>omställning<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>aðlögunartími<s n="n"/><s n="m"/></l><r>övergångsperiod<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>aðlögunartími<s n="n"/><s n="m"/></l><r>övergångsperiod<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>aðskilnaður<s n="n"/><s n="m"/></l><r>åtskillnad<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>aðstoðarmaður<s n="n"/><s n="m"/></l><r>assistent<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>aðstoðarmaður<s n="n"/><s n="m"/></l><r>medarbetare<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>bakgrunnur<s n="n"/><s n="m"/></l><r>bakgrund<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>bakgrunnur<s n="n"/><s n="m"/></l><r>bakgrund<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>bakþanki<s n="n"/><s n="m"/></l><r>eftertanke<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>banani<s n="n"/><s n="m"/></l><r>banan<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>bandalag<s n="n"/><s n="nt"/></l><r>allians<s n="n"/><s n="ut"/></r></p></e>
@@ -2591,9 +2591,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>banki<s n="n"/><s n="m"/></l><r>bank<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>bardagi<s n="n"/><s n="m"/></l><r>bekämpning<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>bardagi<s n="n"/><s n="m"/></l><r>strid<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>barnagæsla<s n="n"/><s n="f"/></l><r>barnomsorg<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>barnagæsla<s n="n"/><s n="f"/></l><r>barnomsorg<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>barnaklám<s n="n"/><s n="nt"/></l><r>barnpornografi<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>barátta<s n="n"/><s n="f"/></l><r>kamp<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>barátta<s n="n"/><s n="f"/></l><r>kamp<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>baskneska<s n="n"/><s n="f"/></l><r>baskiska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>beiðni<s n="n"/><s n="f"/></l><r>begäran<s n="n"/><s n="ut"/></r></p><par n="beiðni_begäran__n"/></e>
 <e><p><l>bending<s n="n"/><s n="f"/></l><r>gest<s n="n"/><s n="ut"/></r></p></e>
@@ -2636,21 +2636,21 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>bær<s n="n"/><s n="m"/></l><r>by<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>bætiefni<s n="n"/><s n="nt"/></l><r>tillsats<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>bætur<s n="n"/><s n="f"/></l><r>kompensation<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
-<e><p><l>bílaiðnaður<s n="n"/><s n="m"/></l><r>bilindustri<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>bílaiðnaður<s n="n"/><s n="m"/></l><r>bilindustri<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>bíll<s n="n"/><s n="m"/></l><r>bil<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>bíll<s n="n"/><s n="m"/></l><r>personbil<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>bið<s n="n"/><s n="f"/></l><r>väntan<s n="n"/><s n="ut"/></r></p><par n="bið_väntan__n"/></e>
 <e r="RL" c="v1"><p><l>bið<s n="n"/><s n="f"/></l><r>avvaktan<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>bíómynd<s n="n"/><s n="f"/></l><r>film<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>bók<s n="n"/><s n="f"/></l><r>bok<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>bókhald<s n="n"/><s n="nt"/></l><r>redovisning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>bókhald<s n="n"/><s n="nt"/></l><r>redovisning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>bókstafstrú<s n="n"/><s n="f"/></l><r>fundamentalism<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>bóndi<s n="n"/><s n="m"/></l><r>bonde<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>bóndi<s n="n"/><s n="m"/></l><r>jordbrukare<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>bóndi<s n="n"/><s n="m"/></l><r>lantbrukare<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>búfé<s n="n"/><s n="nt"/></l><r>boskap<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>búfé<s n="n"/><s n="nt"/></l><r>boskap<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>búlgarska<s n="n"/><s n="f"/></l><r>bulgariska<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>búnaður<s n="n"/><s n="m"/></l><r>utrustning<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>búnaður<s n="n"/><s n="m"/></l><r>utrustning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>búseta<s n="n"/><s n="f"/></l><r>bosättning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v1"><p><l>dagskrá<s n="n"/><s n="f"/></l><r>agenda<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>dagskrá<s n="n"/><s n="f"/></l><r>dagordning<s n="n"/><s n="ut"/></r></p></e>
@@ -2671,7 +2671,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>dómstóll<s n="n"/><s n="m"/></l><r>tribunal<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>dómur<s n="n"/><s n="m"/></l><r>dom<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>dóp<s n="n"/><s n="nt"/></l><r>narkotika<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>dýpkun<s n="n"/><s n="f"/></l><r>fördjupning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>dýpkun<s n="n"/><s n="f"/></l><r>fördjupning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>dýraflutningur<s n="n"/><s n="m"/></l><r>djurtransport<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>dýrasjúkdómur<s n="n"/><s n="m"/></l><r>djursjukdom<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>efasemd<s n="n"/><s n="f"/></l><r>farhåga<s n="n"/><s n="ut"/></r></p></e>
@@ -2679,7 +2679,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e c="v0"><p><l>efnahagslíf<s n="n"/><s n="nt"/></l><r>ekonomi<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>efni<s n="n"/><s n="nt"/></l><r>kemikalie<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eftirför<s n="n"/><s n="f"/></l><r>förföljelse<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>eftirgjöf<s n="n"/><s n="f"/></l><r>eftergift<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>eftirgjöf<s n="n"/><s n="f"/></l><r>eftergift<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>eftirköst<s n="n"/><s n="nt"/></l><r>återverkning<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>eftirlitsmaður<s n="n"/><s n="m"/></l><r>inspektör<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eftirlitsstofnun<s n="n"/><s n="f"/></l><r>tillsynsmyndighet<s n="n"/><s n="ut"/></r></p></e>
@@ -2687,20 +2687,20 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>eftirspurn<s n="n"/><s n="f"/></l><r>efterfrågan<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>eigandi<s n="n"/><s n="m"/></l><r>ägare<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eign<s n="n"/><s n="f"/></l><r>egendom<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>eignarréttur<s n="n"/><s n="m"/></l><r>äganderätt<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>eignarréttur<s n="n"/><s n="m"/></l><r>äganderätt<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>eignir<s n="n"/><s n="f"/></l><r>tillgång<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
-<e><p><l>einangrun<s n="n"/><s n="f"/></l><r>isolering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>einangrun<s n="n"/><s n="f"/></l><r>isolering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>einbeitni<s n="n"/><s n="f"/></l><r>beslutsamhet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>eindrægni<s n="n"/><s n="f"/></l><r>förenlighet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>einelti<s n="n"/><s n="nt"/></l><r>trakasseri<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>eindrægni<s n="n"/><s n="f"/></l><r>förenlighet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>einelti<s n="n"/><s n="nt"/></l><r>trakasseri<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>einföldun<s n="n"/><s n="f"/></l><r>förenkling<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eining<s n="n"/><s n="f"/></l><r>enhet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>einkavæðing<s n="n"/><s n="f"/></l><r>privatisering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>einkavæðing<s n="n"/><s n="f"/></l><r>privatisering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>einkenni<s n="n"/><s n="nt"/></l><r>egenskap<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>einræði<s n="n"/><s n="nt"/></l><r>diktatur<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>einræði<s n="n"/><s n="nt"/></l><r>diktatur<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>einræðisherra<s n="n"/><s n="m"/></l><r>diktator<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>einröddun<s n="n"/><s n="f"/></l><r>samklang<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>einsleitni<s n="n"/><s n="f"/></l><r>enhetlighet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>einsleitni<s n="n"/><s n="f"/></l><r>enhetlighet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>einstaklingur<s n="n"/><s n="m"/></l><r>individ<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>einstaklingur<s n="n"/><s n="m"/></l><r>privatperson<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eiturlyfjasala<s n="n"/><s n="f"/></l><r>narkotikahandel<s n="n"/><s n="ut"/></r></p></e>
@@ -2715,9 +2715,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>endurgreiðsla<s n="n"/><s n="f"/></l><r>återbetalning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>endurheimt<s n="n"/><s n="f"/></l><r>återgång<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>endurheimt<s n="n"/><s n="f"/></l><r>återhämtning<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>endurnotkun<s n="n"/><s n="f"/></l><r>återanvändning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>endurnotkun<s n="n"/><s n="f"/></l><r>återanvändning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>endurnýjun<s n="n"/><s n="f"/></l><r>förnyelse<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>endurskipulagning<s n="n"/><s n="f"/></l><r>omstrukturering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>endurskipulagning<s n="n"/><s n="f"/></l><r>omstrukturering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v4"><p><l>endurskoðun<s n="n"/><s n="f"/></l><r>genomgång<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v3"><p><l>endurskoðun<s n="n"/><s n="f"/></l><r>omarbetning<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>endurskoðun<s n="n"/><s n="f"/></l><r>omprövning<s n="n"/><s n="ut"/></r></p></e>
@@ -2725,12 +2725,12 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>endurskoðun<s n="n"/><s n="f"/></l><r>revision<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>endurskoðunarréttur<s n="n"/><s n="m"/></l><r>revisionsrätt<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>endurtekning<s n="n"/><s n="f"/></l><r>upprepning<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>endurvinnsla<s n="n"/><s n="f"/></l><r>avfallshantering<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>endurvinnsla<s n="n"/><s n="f"/></l><r>återvinning<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>endurvinnsla<s n="n"/><s n="f"/></l><r>avfallshantering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e c="v0"><p><l>endurvinnsla<s n="n"/><s n="f"/></l><r>återvinning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>þvöngun<s n="n"/><s n="f"/></l><r>efterlevnad<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>enska<s n="n"/><s n="f"/></l><r>engelska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>esb-borgari<s n="n"/><s n="m"/></l><r>eu-medborgare<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>esb-löggjöf<s n="n"/><s n="f"/></l><r>eu-lagstiftning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>esb-löggjöf<s n="n"/><s n="f"/></l><r>eu-lagstiftning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>esb-stefna<s n="n"/><s n="f"/></l><r>eu-politik<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>esb-stofnun<s n="n"/><s n="f"/></l><r>eu-institution<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>evra<s n="n"/><s n="f"/></l><r>euro<s n="n"/><s n="ut"/></r></p></e>
@@ -2740,10 +2740,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>eyja<s n="n"/><s n="f"/></l><r>ö<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>eymd<s n="n"/><s n="f"/></l><r>misär<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>eyða<s n="n"/><s n="f"/></l><r>lucka<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>eyðilegging<s n="n"/><s n="f"/></l><r>förödelse<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>eyðilegging<s n="n"/><s n="f"/></l><r>förödelse<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>eyðing<s n="n"/><s n="f"/></l><r>förstörelse<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>fagmenntun<s n="n"/><s n="f"/></l><r>yrkeskvalifikation<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>fagmenntun<s n="n"/><s n="f"/></l><r>yrkesutbildning<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>fagmenntun<s n="n"/><s n="f"/></l><r>yrkeskvalifikation<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e c="v0"><p><l>fagmenntun<s n="n"/><s n="f"/></l><r>yrkesutbildning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fangelsi<s n="n"/><s n="nt"/></l><r>fängelse<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>farmflutningur<s n="n"/><s n="m"/></l><r>godstransport<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>farsími<s n="n"/><s n="m"/></l><r>mobiltelefon<s n="n"/><s n="ut"/></r></p></e>
@@ -2759,12 +2759,12 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>ferðaþjónusta<s n="n"/><s n="f"/></l><r>turism<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>finnska<s n="n"/><s n="f"/></l><r>finska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fiskimaður<s n="n"/><s n="m"/></l><r>fiskare<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>fiskiskipastóll<s n="n"/><s n="m"/></l><r>fiskeflotta<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>fiskiskipastóll<s n="n"/><s n="m"/></l><r>fiskeflotta<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fiskur<s n="n"/><s n="m"/></l><r>fisk<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>fiskveiðistefna<s n="n"/><s n="f"/></l><r>fiskepolitik<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>fiskveiðistefna<s n="n"/><s n="f"/></l><r>fiskeripolitik<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjarskipti<s n="n"/><s n="nt"/></l><r>telekommunikation<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
-<e r="RL" c="v1"><p><l>fjarvera<s n="n"/><s n="f"/></l><r>avsaknad<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>fjarvera<s n="n"/><s n="f"/></l><r>avsaknad<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>fjarvera<s n="n"/><s n="f"/></l><r>frånvaro<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>fjárfesting<s n="n"/><s n="f"/></l><r>investering<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>fjárfesting<s n="n"/><s n="f"/></l><r>satsning<s n="n"/><s n="ut"/></r></p></e>
@@ -2775,11 +2775,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>fjármál<s n="n"/><s n="nt"/></l><r>finans<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>fjármálakreppa<s n="n"/><s n="f"/></l><r>finanskris<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjármálamarkaður<s n="n"/><s n="m"/></l><r>finansmarknad<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>fjármögnun<s n="n"/><s n="f"/></l><r>finansiering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>fjármögnun<s n="n"/><s n="f"/></l><r>finansiering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fjárveitingavald<s n="n"/><s n="nt"/></l><r>budgetmyndighet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjórðungur<s n="n"/><s n="m"/></l><r>fjärdedel<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjölbreyting<s n="n"/><s n="f"/></l><r>diversifiering<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>fjölbreytni<s n="n"/><s n="f"/></l><r>mångfald<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>fjölbreytni<s n="n"/><s n="f"/></l><r>mångfald<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fjölhyggja<s n="n"/><s n="f"/></l><r>pluralism<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjölmiðill<s n="n"/><s n="m"/></l><r>media<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjölmiðlafrelsi<s n="n"/><s n="nt"/></l><r>pressfrihet<s n="n"/><s n="ut"/></r></p></e>
@@ -2787,7 +2787,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>fjölskyldumeðlimur<s n="n"/><s n="m"/></l><r>familjemedlem<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjölskyldusamkoma<s n="n"/><s n="f"/></l><r>familjeåterförening<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fjöltyngi<s n="n"/><s n="nt"/></l><r>flerspråkighet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>flokkun<s n="n"/><s n="f"/></l><r>klassificering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>flokkun<s n="n"/><s n="f"/></l><r>klassificering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>flokkur<s n="n"/><s n="m"/></l><r>kategori<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>flokkur<s n="n"/><s n="m"/></l><r>klass<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>floti<s n="n"/><s n="m"/></l><r>flotta<s n="n"/><s n="ut"/></r></p></e>
@@ -2805,9 +2805,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>flóð<s n="n"/><s n="nt"/></l><r>översvämning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fordómur<s n="n"/><s n="m"/></l><r>fördom<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>foreldri<s n="n"/><s n="m"/></l><r>förälder<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>forgangsröðun<s n="n"/><s n="f"/></l><r>prioritering<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>forgangsröðun<s n="n"/><s n="f"/></l><r>prioritering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e c="v0"><p><l>forgangur<s n="n"/><s n="m"/></l><r>prioritet<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>forgrunnur<s n="n"/><s n="m"/></l><r>förgrund<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>forgrunnur<s n="n"/><s n="m"/></l><r>förgrund<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>formaður<s n="n"/><s n="m"/></l><r>ordförande<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>formgerð<s n="n"/><s n="f"/></l><r>struktur<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>forseti<s n="n"/><s n="m"/></l><r>president<s n="n"/><s n="ut"/></r></p></e>
@@ -2816,25 +2816,25 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>forsætisráðherra<s n="n"/><s n="m"/></l><r>statsminister<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>frakki<s n="n"/><s n="m"/></l><r>fransman<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>frambjóðandi<s n="n"/><s n="m"/></l><r>kandidat<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>framhald<s n="n"/><s n="nt"/></l><r>fortsättning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>framhald<s n="n"/><s n="nt"/></l><r>fortsättning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>framhaldsþjálfun<s n="n"/><s n="f"/></l><r>fortbildning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>framhlið<s n="n"/><s n="f"/></l><r>front<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>framkvæmdastjóri<s n="n"/><s n="m"/></l><r>verkställande<b/>direktör<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v2"><p><l>framlag<s n="n"/><s n="nt"/></l><r>insats<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>framleiðandi<s n="n"/><s n="m"/></l><r>producent<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>framleiðandi<s n="n"/><s n="m"/></l><r>tillverkare<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>framställning<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>produktion<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>tillverkning<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>framställning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e c="v0"><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>produktion<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>framleiðsla<s n="n"/><s n="f"/></l><r>tillverkning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>framlenging<s n="n"/><s n="f"/></l><r>förlängning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>framsal<s n="n"/><s n="nt"/></l><r>utlämning<s n="n"/><s n="ut"/></r></p></e>
-<e c="v0"><p><l>framsetning<s n="n"/><s n="f"/></l><r>formulering<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>framsetning<s n="n"/><s n="f"/></l><r>representation<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>framtíð<s n="n"/><s n="f"/></l><r>framtid<s n="n"/><s n="ut"/></r></p></e>
+<e c="v0"><p><l>framsetning<s n="n"/><s n="f"/></l><r>formulering<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e r="RL" c="v1"><p><l>framsetning<s n="n"/><s n="f"/></l><r>representation<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>framtíð<s n="n"/><s n="f"/></l><r>framtid<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>framtíðarsýn<s n="n"/><s n="f"/></l><r>vision<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>franska<s n="n"/><s n="f"/></l><r>franska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>freisting<s n="n"/><s n="f"/></l><r>frestelse<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>frelsi<s n="n"/><s n="nt"/></l><r>frihet<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>frelsi<s n="n"/><s n="nt"/></l><r>frihet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>frestur<s n="n"/><s n="m"/></l><r>tidsfrist<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>friðarferli<s n="n"/><s n="nt"/></l><r>fredsprocess<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>friður<s n="n"/><s n="m"/></l><r>fred<s n="n"/><s n="ut"/></r></p></e>
@@ -2857,9 +2857,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v3"><p><l>fundur<s n="n"/><s n="m"/></l><r>stämma<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fyrirbæri<s n="n"/><s n="nt"/></l><r>företeelse<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fyrirhöfn<s n="n"/><s n="f"/></l><r>möda<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
-<e r="RL" c="v1"><p><l>fyrirkomulag<s n="n"/><s n="nt"/></l><r>uppgörelse<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>fyrirkomulag<s n="n"/><s n="nt"/></l><r>uppgörelse<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fyrirrennari<s n="n"/><s n="m"/></l><r>föregångare<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>fyrirsláttur<s n="n"/><s n="m"/></l><r>förevändning<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>fyrirsláttur<s n="n"/><s n="m"/></l><r>förevändning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fyrirspurn<s n="n"/><s n="f"/></l><r>förfrågan<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fyrirætlun<s n="n"/><s n="f"/></l><r>intention<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>fáni<s n="n"/><s n="m"/></l><r>flagga<s n="n"/><s n="ut"/></r></p></e>
@@ -2869,7 +2869,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>félagi<s n="n"/><s n="m"/></l><r>partner<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>félagsmál<s n="n"/><s n="nt"/></l><r>socialfråga<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>fíkniefni<s n="n"/><s n="nt"/></l><r>drog<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>fókus<s n="n"/><s n="m"/></l><r>inriktning<s n="n"/><s n="ut"/></r></p></e>
+<e r="RL" c="v1"><p><l>fókus<s n="n"/><s n="m"/></l><r>inriktning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>fórn<s n="n"/><s n="f"/></l><r>uppoffring<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>fórnarlamb<s n="n"/><s n="nt"/></l><r>offer<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>fóstureyðing<s n="n"/><s n="f"/></l><r>abort<s n="n"/><s n="ut"/></r></p></e>
@@ -2882,8 +2882,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>fötlun<s n="n"/><s n="f"/></l><r>funktionshinder<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>fýsn<s n="n"/><s n="f"/></l><r>önskning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>gagnasafn<s n="n"/><s n="nt"/></l><r>databas<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>gagnkvæmni<s n="n"/><s n="f"/></l><r>ömsesidighet<s n="n"/><s n="ut"/></r></p></e>1
-<e><p><l>gagnrýni<s n="n"/><s n="f"/></l><r>kritik<s n="n"/><s n="ut"/></r></p></e>1
+<e><p><l>gagnkvæmni<s n="n"/><s n="f"/></l><r>ömsesidighet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
+<e><p><l>gagnrýni<s n="n"/><s n="f"/></l><r>kritik<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>gallabuxur<s n="n"/><s n="f"/><s n="pl"/></l><r>jeans<s n="n"/><s n="ut"/><s n="sg"/></r></p></e>
 <e><p><l>galli<s n="n"/><s n="m"/></l><r>nackdel<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>sinn<s n="n"/><s n="nt"/></l><r>gång<s n="n"/><s n="ut"/></r></p></e>
@@ -2904,8 +2904,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>gjaldþrot<s n="n"/><s n="nt"/></l><r>konkurs<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>glæpamennska<s n="n"/><s n="f"/></l><r>brottslighet<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>glæpadómstóll<s n="n"/><s n="m"/></l><r>brottmålsdomstol<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>glæpamaður<s n="n"/><s n="m"/></l><r>brottsling<s n="n"/><s n="ut"/></r></p></e>1
-<e><p><l>glæpastarfsemi<s n="n"/><s n="f"/></l><r>kriminalitet<s n="n"/><s n="ut"/></r></p></e>1
+<e><p><l>glæpamaður<s n="n"/><s n="m"/></l><r>brottsling<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>glæpastarfsemi<s n="n"/><s n="f"/></l><r>kriminalitet<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>grannskoðun<s n="n"/><s n="f"/></l><r>granskning<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>grein<s n="n"/><s n="f"/></l><r>artikel<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>greining<s n="n"/><s n="f"/></l><r>analys<s n="n"/><s n="ut"/></r></p></e>
@@ -2914,13 +2914,13 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="RL" c="v1"><p><l>greiðsla<s n="n"/><s n="f"/></l><r>utbetalning<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>grikki<s n="n"/><s n="m"/></l><r>grek<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>grundvöllur<s n="n"/><s n="m"/></l><r>basis<s n="n"/><s n="ut"/></r></p></e>
-<e r="RL" c="v1"><p><l>grundvöllur<s n="n"/><s n="m"/></l><r>förutsättning<s n="n"/><s n="ut"/></r></p></e>1
+<e r="RL" c="v1"><p><l>grundvöllur<s n="n"/><s n="m"/></l><r>förutsättning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>grundvöllur<s n="n"/><s n="m"/></l><r>grundval<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>grunngerð<s n="n"/><s n="f"/></l><r>infrastruktur<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>grunnur<s n="n"/><s n="m"/></l><r>bas<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>grunnur<s n="n"/><s n="m"/></l><r>grund<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>gráða<s n="n"/><s n="f"/></l><r>grad<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>grænmeti<s n="n"/><s n="nt"/></l><r>grönsak<s n="n"/><s n="ut"/></r></p></e>1
+<e><p><l>grænmeti<s n="n"/><s n="nt"/></l><r>grönsak<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>gríska<s n="n"/><s n="f"/></l><r>grekiska<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>gróðurhúsaáhrif<s n="n"/><s n="nt"/></l><r>växthuseffekt<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>guð<s n="n"/><s n="m"/></l><r>gud<s n="n"/><s n="ut"/></r></p></e>
@@ -2929,7 +2929,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>gáfa<s n="n"/><s n="f"/></l><r>intelligens<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>gærdagur<s n="n"/><s n="m"/></l><r>gårdag<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>gæsla<s n="n"/><s n="f"/></l><r>övervakning<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>gætni<s n="n"/><s n="f"/></l><r>vård<s n="n"/><s n="ut"/></r></p></e>1
+<e><p><l>gætni<s n="n"/><s n="f"/></l><r>vård<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>gæði<s n="n"/><s n="nt"/></l><r>kvalitet<s n="n"/><s n="ut"/></r></p><par n="PLtantum_normal__n"/></e>
 <e><p><l>gísl<s n="n"/><s n="m"/></l><r>gisslan<s n="n"/><s n="ut"/></r></p><par n="gísl_gisslan__n"/></e>
 <e><p><l>gögn<s n="n"/><s n="nt"/><s n="pl"/></l><r>data<s n="n"/><s n="ut"/><s n="sg"/></r></p></e> <!--<par n="gögn_data__n"/>-->
@@ -3024,7 +3024,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e c="v0"><p><l>hugrekki<s n="n"/><s n="nt"/></l><r>mod<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v1"><p><l>hugsjón<s n="n"/><s n="f"/></l><r>förebild<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>hugsun<s n="n"/><s n="f"/></l><r>tanke<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>hugsunarháttur<s n="n"/><s n="m"/></l><r>ståndpunkt<s n="n"/><s n="ut"/></r></p></e>1
+<e><p><l>hugsunarháttur<s n="n"/><s n="m"/></l><r>ståndpunkt<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e r="RL" c="v2"><p><l>hugtak<s n="n"/><s n="nt"/></l><r>term<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>hungur<s n="n"/><s n="nt"/></l><r>hunger<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>hungursneyð<s n="n"/><s n="f"/></l><r>svält<s n="n"/><s n="ut"/></r></p></e>
@@ -4073,41 +4073,41 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 
 	<!--neutrum-->
 	<e r="RL" c="v1"><p><l>afgangur<s n="n"/><s n="m"/></l><r>överskott<s n="n"/><s n="nt"/></r></p></e>
-	<e c="v0"><p><l>afnám<s n="n"/><s n="nt"/></l><r>avskaffande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
-	<e r="RL" c="v1"><p><l>afnám<s n="n"/><s n="nt"/></l><r>upphävande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
-	<e c="v0"><p><l>afstaða<s n="n"/><s n="f"/></l><r>stånd<s n="n"/><s n="nt"/></r></p></e>
+	<e c="v0"><p><l>afnám<s n="n"/><s n="nt"/></l><r>avskaffande<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e> <!--ande__-->
+	<e r="RL" c="v1"><p><l>afnám<s n="n"/><s n="nt"/></l><r>upphävande<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e> <!--ande__-->
+	<e c="v0"><p><l>afstaða<s n="n"/><s n="f"/></l><r>stånd<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>afturköllun<s n="n"/><s n="f"/></l><r>tillbakadragande<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e> <!--ande__-->
-	<e><p><l>afþreying<s n="n"/><s n="f"/></l><r>nöje<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>afþreying<s n="n"/><s n="f"/></l><r>nöje<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e r="RL" c="v1"><p><l>allsherjarfundur<s n="n"/><s n="m"/></l><r>plenarsammanträde<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>allsherjarfundur<s n="n"/><s n="m"/></l><r>plenum<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>alvara<s n="n"/><s n="f"/></l><r>allvar<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>alvara<s n="n"/><s n="f"/></l><r>allvar<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>alþingi<s n="n"/><s n="nt"/></l><r>parlament<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>alþingiskosningar<s n="n"/><s n="f"/></l><r>parlamentsval<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e>
 	<e><p><l>arfur<s n="n"/><s n="m"/></l><r>arv<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>atburðarás<s n="n"/><s n="f"/></l><r>scenario<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>atburðarás<s n="n"/><s n="f"/></l><r>scenario<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>athugasemd<s n="n"/><s n="f"/></l><r>påpekande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e c="v0"><p><l>atvinna<s n="n"/><s n="f"/></l><r>jobb<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>atvinnulíf<s n="n"/><s n="nt"/></l><r>arbetsliv<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>auga<s n="n"/><s n="nt"/></l><r>öga<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>augnablik<s n="n"/><s n="nt"/></l><r>ögonblick<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>augnamið<s n="n"/><s n="nt"/></l><r>ändamål<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>auður<s n="n"/><s n="m"/></l><r>välstånd<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>auður<s n="n"/><s n="m"/></l><r>välstånd<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e r="RL" c="v1"><p><l>aðferð<s n="n"/><s n="f"/></l><r>förhållningssätt<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>aðgangur<s n="n"/><s n="m"/></l><r>tillträde<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>aðhlynning<s n="n"/><s n="f"/></l><r>sjukvård<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>aðhlynning<s n="n"/><s n="f"/></l><r>sjukvård<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e c="v0"><p><l>aðild<s n="n"/><s n="f"/></l><r>medlemskap<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>aðildarland<s n="n"/><s n="nt"/></l><r>anslutningsland<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>aðildarland<s n="n"/><s n="nt"/></l><r>medlemsland<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>aðildarsamningur<s n="n"/><s n="m"/></l><r>anslutningsfördrag<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>aðstoð<s n="n"/><s n="f"/></l><r>bistånd<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>aðstoð<s n="n"/><s n="f"/></l><r>bistånd<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>aðstæður<s n="n"/><s n="f"/></l><r>villkor<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>bakslag<s n="n"/><s n="nt"/></l><r>bakslag<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>bakslag<s n="n"/><s n="nt"/></l><r>bakslag<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>bann<s n="n"/><s n="nt"/></l><r>förbud<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>barn<s n="n"/><s n="nt"/></l><r>barn<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>barnaþrælkun<s n="n"/><s n="f"/></l><r>barnarbete<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>barnaþrælkun<s n="n"/><s n="f"/></l><r>barnarbete<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>bað<s n="n"/><s n="nt"/></l><r>bad<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>bein<s n="n"/><s n="nt"/></l><r>ben<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>beinamjöl<s n="n"/><s n="nt"/></l><r>benmjöl<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>beinamjöl<s n="n"/><s n="nt"/></l><r>benmjöl<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>bjartsýni<s n="n"/><s n="f"/></l><r>optimism<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>bjór<s n="n"/><s n="m"/></l><r>öl<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>blokk<s n="n"/><s n="f"/></l><r>block<s n="n"/><s n="nt"/></r></p></e>
@@ -4120,34 +4120,34 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>bréf<s n="n"/><s n="nt"/></l><r>brev<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>bylting<s n="n"/><s n="f"/></l><r>genombrott<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>bóluefni<s n="n"/><s n="nt"/></l><r>vaccin<s n="n"/><s n="nt"/></r></p></e>
-	<e r="RL" c="v1"><p><l>búnaður<s n="n"/><s n="m"/></l><r>redskap<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>búðir<s n="n"/><s n="f"/></l><r>läger<s n="n"/><s n="nt"/></r></p></e>
+	<e r="RL" c="v1"><p><l>búnaður<s n="n"/><s n="m"/></l><r>redskap<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
+	<e><p><l>búðir<s n="n"/><s n="f"/></l><r>läger<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e>
 	<e><p><l>dagsetning<s n="n"/><s n="f"/></l><r>datum<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>dagskrá<s n="n"/><s n="f"/></l><r>program<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>dauðarefsing<s n="n"/><s n="f"/></l><r>dödsstraff<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>dauðsfall<s n="n"/><s n="nt"/></l><r>dödsfall<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>drykkjarvatn<s n="n"/><s n="nt"/></l><r>dricksvatten<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>drög<s n="n"/><s n="nt"/></l><r>utkast<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>drykkjarvatn<s n="n"/><s n="nt"/></l><r>dricksvatten<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
+	<e><p><l>drög<s n="n"/><s n="nt"/></l><r>utkast<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e>
 	<e><p><l>dvalarleyfi<s n="n"/><s n="nt"/></l><r>uppehållstillstånd<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>dæmi<s n="n"/><s n="nt"/></l><r>exempel<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>dýr<s n="n"/><s n="nt"/></l><r>djur<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>ecofin-ráð<s n="n"/><s n="nt"/></l><r>ekofinråd<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>efi<s n="n"/><s n="m"/></l><r>tvivel<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>efi<s n="n"/><s n="m"/></l><r>tvivel<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>efling<s n="n"/><s n="f"/></l><r>främjande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v1"><p><l>efnahagslíf<s n="n"/><s n="nt"/></l><r>näringsliv<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>efni<s n="n"/><s n="nt"/></l><r>material<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>efni<s n="n"/><s n="nt"/></l><r>ämne<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>eftirlit<s n="n"/><s n="nt"/></l><r>överinseende<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>eftirlátssemi<s n="n"/><s n="f"/></l><r>överseende<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>eftirlátssemi<s n="n"/><s n="f"/></l><r>överseende<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e c="v0"><p><l>eiginleiki<s n="n"/><s n="m"/></l><r>kännetecken<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>eiginleiki<s n="n"/><s n="m"/></l><r>särdrag<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>eignarhald<s n="n"/><s n="nt"/></l><r>ägande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
+	<e><p><l>eignarhald<s n="n"/><s n="nt"/></l><r>ägande<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e> <!--ande__-->
 	<e><p><l>eignaupptaka<s n="n"/><s n="f"/></l><r>beslag<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>einkaleyfi<s n="n"/><s n="nt"/></l><r>patent<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>einkalíf<s n="n"/><s n="nt"/></l><r>privatliv<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>einkalíf<s n="n"/><s n="nt"/></l><r>privatliv<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>einkunnarorð<s n="n"/><s n="nt"/></l><r>motto<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>einokun<s n="n"/><s n="f"/></l><r>monopol<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>eiturlyfjaneysla<s n="n"/><s n="f"/></l><r>narkotikamissbruk<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>einokun<s n="n"/><s n="f"/></l><r>monopol<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
+	<e><p><l>eiturlyfjaneysla<s n="n"/><s n="f"/></l><r>narkotikamissbruk<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>eldsneyti<s n="n"/><s n="nt"/></l><r>bränsle<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>endalok<s n="n"/><s n="nt"/></l><r>fullbordande<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e> <!--ande__-->
 	<e r="RL" c="v2"><p><l>endalok<s n="n"/><s n="nt"/></l><r>slutförande<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e> <!--ande__-->
@@ -4155,7 +4155,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>endurupptaka<s n="n"/><s n="f"/></l><r>återtagande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v1"><p><l>endurupptaka<s n="n"/><s n="f"/></l><r>återupptagande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e><p><l>esb-aðild<s n="n"/><s n="f"/></l><r>eu-medlemskap<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>esb-aðstoð<s n="n"/><s n="f"/></l><r>eu-stöd<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>esb-aðstoð<s n="n"/><s n="f"/></l><r>eu-stöd<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>esb-land<s n="n"/><s n="nt"/></l><r>eu-land<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>esb-sjóður<s n="n"/><s n="m"/></l><r>eu-medel<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>evrópuráð<s n="n"/><s n="nt"/></l><r>europaråd<s n="n"/><s n="nt"/></r></p></e>
@@ -4165,20 +4165,20 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>fag<s n="n"/><s n="nt"/></l><r>yrke<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fasi<s n="n"/><s n="m"/></l><r>stadium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fingrafar<s n="n"/><s n="nt"/></l><r>fingeravtryck<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>firring<s n="n"/><s n="f"/></l><r>utanförskap<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>firring<s n="n"/><s n="f"/></l><r>utanförskap<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fiskbirgðir<s n="n"/><s n="f"/></l><r>fiskbestånd<s n="n"/><s n="nt"/></r></p><par n="PLtantum_normal__n"/></e>
 	<e><p><l>fjall<s n="n"/><s n="nt"/></l><r>berg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjalllendi<s n="n"/><s n="nt"/></l><r>bergsområde<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjarlægð<s n="n"/><s n="f"/></l><r>avstånd<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>fjárhagsaðstoð<s n="n"/><s n="f"/></l><r>budgetstöd<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>fjárhagsaðstoð<s n="n"/><s n="f"/></l><r>budgetstöd<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fjárhagsár<s n="n"/><s n="nt"/></l><r>budgetår<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjárhæð<s n="n"/><s n="f"/></l><r>belopp<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>fjárlagagerð<s n="n"/><s n="f"/></l><r>budgetförfarande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
-	<e><p><l>fjárlagahalli<s n="n"/><s n="m"/></l><r>budgetunderskott<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>fjármagn<s n="n"/><s n="nt"/></l><r>budgetmedel<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>fjárlagagerð<s n="n"/><s n="f"/></l><r>budgetförfarande<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e> <!--ande__-->
+	<e><p><l>fjárlagahalli<s n="n"/><s n="m"/></l><r>budgetunderskott<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
+	<e><p><l>fjármagn<s n="n"/><s n="nt"/></l><r>budgetmedel<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fjármálastofnun<s n="n"/><s n="f"/></l><r>finansinstitut<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjárveiting<s n="n"/><s n="f"/></l><r>anslag<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>fjöldi<s n="n"/><s n="m"/></l><r>antal<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>fjöldi<s n="n"/><s n="m"/></l><r>antal<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fjölskyldulíf<s n="n"/><s n="nt"/></l><r>familjeliv<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>flug<s n="n"/><s n="nt"/></l><r>flyg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>flugfélag<s n="n"/><s n="nt"/></l><r>flygbolag<s n="n"/><s n="nt"/></r></p></e>
@@ -4201,21 +4201,21 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>framlag<s n="n"/><s n="nt"/></l><r>bidrag<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>framlag<s n="n"/><s n="nt"/></l><r>inlägg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>framrás<s n="n"/><s n="f"/></l><r>framsteg<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
-	<e><p><l>frumkvæði<s n="n"/><s n="nt"/></l><r>initiativ<s n="n"/><s n="nt"/></r></p></e>
+	<e><p><l>frumkvæði<s n="n"/><s n="nt"/></l><r>initiativ<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>frumkvöðlafræði<s n="n"/><s n="f"/></l><r>företagande<s n="n"/><s n="nt"/></r></p></e> <!--ande__-->
 	<e><p><l>frumvarp<s n="n"/><s n="nt"/></l><r>lagförslag<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>frávik<s n="n"/><s n="nt"/></l><r>avsteg<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>fundur<s n="n"/><s n="m"/></l><r>möte<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fundur<s n="n"/><s n="m"/></l><r>rådsmöte<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fyrirbrigði<s n="n"/><s n="nt"/></l><r>fenomen<s n="n"/><s n="nt"/></r></p></e>
-	<e c="v0"><p><l>fyrirkomulag<s n="n"/><s n="nt"/></l><r>regelverk<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>fyrirlitning<s n="n"/><s n="f"/></l><r>förakt<s n="n"/><s n="nt"/></r></p></e>
+	<e c="v0"><p><l>fyrirkomulag<s n="n"/><s n="nt"/></l><r>regelverk<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
+	<e><p><l>fyrirlitning<s n="n"/><s n="f"/></l><r>förakt<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fyrirmynd<s n="n"/><s n="f"/></l><r>föredöme<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fyrirtæki<s n="n"/><s n="nt"/></l><r>företag<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fyrirvari<s n="n"/><s n="m"/></l><r>förbehåll<s n="n"/><s n="nt"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fáni<s n="n"/><s n="m"/></l><r>flagg<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>félagsskapur<s n="n"/><s n="m"/></l><r>partnerskap<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
-	<e c="v0"><p><l>fókus<s n="n"/><s n="m"/></l><r>fokus<s n="n"/><s n="nt"/></r></p></e>
+	<e c="v0"><p><l>fókus<s n="n"/><s n="m"/></l><r>fokus<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fólk<s n="n"/><s n="nt"/></l><r>folk<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fósturvísir<s n="n"/><s n="m"/></l><r>embryo<s n="n"/><s n="nt"/></r></p></e>
 	<e c="v0"><p><l>fötlun<s n="n"/><s n="f"/></l><r>handikapp<s n="n"/><s n="nt"/></r></p></e>
@@ -4228,7 +4228,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>grein<s n="n"/><s n="f"/></l><r>klausul<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>greiðslustöðvun<s n="n"/><s n="f"/></l><r>moratorium<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>grip<s n="n"/><s n="nt"/></l><r>grepp<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>grunnvatn<s n="n"/><s n="nt"/></l><r>grundvatten<s n="n"/><s n="nt"/></r></p></e>1
+	<e><p><l>grunnvatn<s n="n"/><s n="nt"/></l><r>grundvatten<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>grænt<b/>ljós<s n="n"/><s n="nt"/></l><r>klartecken<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>gæslukerfi<s n="n"/><s n="nt"/></l><r>övervakningssystem<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>hafnbann<s n="n"/><s n="nt"/></l><r>embargo<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
@@ -4893,7 +4893,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>fjársjóður<s n="n"/><s n="m"/></l><r>skattmästare<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fjós<s n="n"/><s n="nt"/></l><r>ladugård<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fjósamaður<s n="n"/><s n="m"/></l><r>mejerist<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>fjör<s n="n"/><s n="nt"/></l><r>glädje<s n="n"/><s n="nt"/></r></p></e>1
+	<e><p><l>fjör<s n="n"/><s n="nt"/></l><r>glädje<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>fjörumark<s n="n"/><s n="nt"/></l><r>tidvattensmärke<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>fjörður<s n="n"/><s n="m"/></l><r>fjord<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>fjöður<s n="n"/><s n="f"/></l><r>fjäder<s n="n"/><s n="ut"/></r></p></e>
@@ -5696,7 +5696,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>verönd<s n="n"/><s n="f"/></l><r>terrass<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vesalingur<s n="n"/><s n="m"/></l><r>stackare<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>veski<s n="n"/><s n="nt"/></l><r>plånbok<s n="n"/><s n="ut"/></r></p></e>
-	<e><p><l>vetni<s n="n"/><s n="nt"/></l><r>väte<s n="n"/><s n="nt"/></r></p><par n="vetni_väte__n"/></e>
+	<e><p><l>vetni<s n="n"/><s n="nt"/></l><r>väte<s n="n"/><s n="nt"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>vetnisfrumeind<s n="n"/><s n="f"/></l><r>väteatom<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>vik<s n="n"/><s n="nt"/></l><r>uppehåll<s n="n"/><s n="nt"/></r></p></e>
 	<e><p><l>vilji<s n="n"/><s n="m"/></l><r>vilja<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
@@ -6468,11 +6468,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Alís<s n="np"/><s n="ant"/><s n="f"/></l><r>Alisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Alþjóðahvalveiðiráð<s n="np"/><s n="al"/><s n="nt"/></l><r><g>Internationella<b/></g>valfångstkommission<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Alþýðubandalag<s n="np"/><s n="org"/><s n="nt"/></l><r>Allmogeförbund<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
-	<e><p><l>Alþýðuflokkurinn<s n="np"/><s n="al"/><s n="m"/></l><r>Socialdemokraterna<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>Alþýðuflokkurinn<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Socialdemokraterna<s n="np"/><s n="al"/><s n="ut"/><s n="pl"/></r></p></e>
 	<e><p><l>Andri<s n="np"/><s n="ant"/><s n="m"/></l><r>Andri<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Andrés<s n="np"/><s n="ant"/><s n="m"/></l><r>Andres<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Anný<s n="np"/><s n="ant"/><s n="f"/></l><r>Anny<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>Austfirðir<s n="np"/><s n="top"/><s n="m"/></l><r>Östfjordar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Austfirðir<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Östfjordar<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e>
 	<e><p><l>Austur-Grænland<s n="np"/><s n="top"/><s n="nt"/></l><r><g>Östra<b/></g>Grönland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Austurland<s n="np"/><s n="top"/><s n="nt"/></l><r><g>Östra<b/></g>Island<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Austurvöllur<s n="np"/><s n="top"/><s n="m"/></l><r>Austurvöllur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -6482,12 +6482,12 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Ben<s n="np"/><s n="ant"/><s n="m"/></l><r>Ben<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Benedikt<s n="np"/><s n="ant"/><s n="m"/></l><r>Benedikt<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Berufjörður<s n="np"/><s n="top"/><s n="m"/></l><r>Berufjördur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Bessastaðir<s n="np"/><s n="top"/><s n="m"/></l><r>Bessastadir<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Bessastaðir<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Bessastadir<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e>
 	<e><p><l>Beta<s n="np"/><s n="ant"/><s n="f"/></l><r>Beta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Birkir<s n="np"/><s n="ant"/><s n="m"/></l><r>Birkir<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Bjarni<s n="np"/><s n="ant"/><s n="m"/></l><r>Bjarni<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Björn<s n="np"/><s n="ant"/><s n="m"/></l><r>Björn<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>Bláfjöll<s n="np"/><s n="top"/><s n="nt"/></l><r>Blafjöll<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Bláfjöll<s n="np"/><s n="top"/><s n="nt"/><s n="pl"/></l><r>Blafjöll<s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
 	<e><p><l>Bobbó<s n="np"/><s n="ant"/><s n="m"/></l><r>Bobbo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Bogi<s n="np"/><s n="ant"/><s n="m"/></l><r>Bogi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Borgarnes<s n="np"/><s n="top"/><s n="nt"/></l><r>Borgarnes<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
@@ -6572,7 +6572,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Hildur<s n="np"/><s n="ant"/><s n="f"/></l><r>Hildur<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Hornafjörður<s n="np"/><s n="top"/><s n="m"/></l><r>Hornafjördur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Houston<s n="np"/><s n="top"/><s n="nt"/></l><r>Houston<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Hóll<s n="np"/><s n="top"/><s n="nt"/></l><r>Holl<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Hóll<s n="np"/><s n="top"/><s n="m"/></l><r>Holl<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Högni<s n="np"/><s n="ant"/><s n="m"/></l><r>Högne<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Húsanes<s n="np"/><s n="top"/><s n="nt"/></l><r>Húsanes<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Indriði<s n="np"/><s n="ant"/><s n="m"/></l><r>Indridi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6604,7 +6604,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Katrín<s n="np"/><s n="ant"/><s n="f"/></l><r>Katrin<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Keflavík<s n="np"/><s n="top"/><s n="f"/></l><r>Keflavik<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Keflavíkurflugvöllur<s n="np"/><s n="top"/><s n="m"/></l><r><g>Keflavik<b/></g>flygplats<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Kenya<s n="np"/><s n="top"/><s n="f"/></l><r>Kenya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+	<e><p><l>Kenya<s n="np"/><s n="top"/><s n="f"/></l><r>Kenya<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kimmi<s n="np"/><s n="ant"/><s n="m"/></l><r>Kimmi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Kirkjuból<s n="np"/><s n="top"/><s n="nt"/></l><r>Kirkjubol<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Kjartan<s n="np"/><s n="ant"/><s n="m"/></l><r>Kjartan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6714,7 +6714,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Vanda<s n="np"/><s n="ant"/><s n="f"/></l><r>Vanda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Vaskur<s n="np"/><s n="ant"/><s n="m"/></l><r>Vaskur<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Vatnajökull<s n="np"/><s n="top"/><s n="m"/></l><r>Vatnajökull<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Vestfirðir<s n="np"/><s n="top"/><s n="m"/></l><r>Västfjordar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Vestfirðir<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Västfjordar<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e>
 	<e><p><l>Vestmannaeyjar<s n="np"/><s n="top"/><s n="f"/></l><r>Vestmannaeyjar<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vetrarbraut<s n="np"/><s n="top"/><s n="f"/></l><r>Vetrarbraut<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Vico<s n="np"/><s n="ant"/><s n="m"/></l><r>Vico<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6755,7 +6755,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Þórarinn<s n="np"/><s n="ant"/><s n="m"/></l><r>Thorarinn<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Þórunn<s n="np"/><s n="ant"/><s n="f"/></l><r>Torunn<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Þórður<s n="np"/><s n="ant"/><s n="m"/></l><r>Thord<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-	<e><p><l>Alþýðuflokkur<s n="np"/><s n="org"/><s n="m"/></l><r>Socialdemokraterna<s n="np"/><s n="org"/><s n="ut"/></r></p></e>
 	<e><p><l>Lovísa<s n="np"/><s n="ant"/><s n="f"/></l><r>Lovisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	
 	
