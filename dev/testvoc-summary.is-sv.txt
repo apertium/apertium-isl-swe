@@ -1,5 +1,5 @@
 
-mið 29 ágú 2012 16:26:07 GMT
+fim 30 ágú 2012 00:56:07 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
 adj	-e 98511		 0	 23076	
@@ -9,7 +9,7 @@ vblex	-e 73967		 171	 72958
 abbr	-e 5		 0	 0	
 adv	-e 482		 0	 76	
 n	-e 42175		 16	 0	
-np	-e 3947		 0	 16	
+np	-e 3945		 0	 0	
 pr	-e 30		 0	 0	
 vbhaver	-e 25		 0	 22	
 vbser	-e 22		 0	 1	

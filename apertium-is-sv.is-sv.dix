@@ -6466,15 +6466,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Alice<s n="np"/><s n="ant"/><s n="f"/></l><r>Alice<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Alli<s n="np"/><s n="ant"/><s n="m"/></l><r>Alli<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Alís<s n="np"/><s n="ant"/><s n="f"/></l><r>Alisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>Alþjóðahvalveiðiráð<s n="np"/><s n="al"/><s n="nt"/></l><r><g>Internationella<b/></g>valfångstkommission<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
+	<e><p><l>Alþjóðahvalveiðiráðið<s n="np"/><s n="al"/><s n="nt"/></l><r>Internationella<b/>valfångstkommissionen<s n="np"/><s n="al"/><s n="ut"/></r></p></e>
 	<e><p><l>Alþýðubandalag<s n="np"/><s n="org"/><s n="nt"/></l><r>Allmogeförbund<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
 	<e><p><l>Alþýðuflokkurinn<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Socialdemokraterna<s n="np"/><s n="al"/><s n="ut"/><s n="pl"/></r></p></e>
 	<e><p><l>Andri<s n="np"/><s n="ant"/><s n="m"/></l><r>Andri<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Andrés<s n="np"/><s n="ant"/><s n="m"/></l><r>Andres<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Anný<s n="np"/><s n="ant"/><s n="f"/></l><r>Anny<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Austfirðir<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Östfjordar<s n="np"/><s n="top"/><s n="ut"/><s n="sg"/></r></p></e>
-	<e><p><l>Austur-Grænland<s n="np"/><s n="top"/><s n="nt"/></l><r><g>Östra<b/></g>Grönland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
-	<e><p><l>Austurland<s n="np"/><s n="top"/><s n="nt"/></l><r><g>Östra<b/></g>Island<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Austur-Grænland<s n="np"/><s n="top"/><s n="nt"/></l><r>Östra<b/>Grönland<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+	<e><p><l>Austurland<s n="np"/><s n="top"/><s n="nt"/></l><r>Östra<b/>Island<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 	<e><p><l>Austurvöllur<s n="np"/><s n="top"/><s n="m"/></l><r>Austurvöllur<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Axel<s n="np"/><s n="ant"/><s n="m"/></l><r>Axel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Bandaríkin<s n="np"/><s n="top"/><s n="nt"/></l><r><g>Förenta<b/></g>staterna<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
@@ -6603,7 +6603,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>Kata<s n="np"/><s n="ant"/><s n="f"/></l><r>Kata<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Katrín<s n="np"/><s n="ant"/><s n="f"/></l><r>Katrin<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Keflavík<s n="np"/><s n="top"/><s n="f"/></l><r>Keflavik<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
-	<e><p><l>Keflavíkurflugvöllur<s n="np"/><s n="top"/><s n="m"/></l><r><g>Keflavik<b/></g>flygplats<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
+	<e><p><l>Keflavíkurflugvöllur<s n="np"/><s n="top"/><s n="m"/></l><r>Keflavik<b/>flygplats<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kenya<s n="np"/><s n="top"/><s n="f"/></l><r>Kenya<s n="np"/><s n="top"/><s n="ut"/></r></p></e>
 	<e><p><l>Kimmi<s n="np"/><s n="ant"/><s n="m"/></l><r>Kimmi<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 	<e><p><l>Kirkjuból<s n="np"/><s n="top"/><s n="nt"/></l><r>Kirkjubol<s n="np"/><s n="top"/><s n="nt"/></r></p></e>

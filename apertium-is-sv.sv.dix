@@ -1709,6 +1709,10 @@
 	  <e>       <p><l>en</l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
 	</pardef>
 
+	<pardef n="valfångstkommissionen__np">
+	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+	</pardef>
+	
 	<pardef n="Amsterdamfördraget__np">
 	  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
 	</pardef>
@@ -9644,15 +9648,15 @@
 <e lm="Alice"><i>Alice</i><par n="Eva__np"/></e>
 <e lm="Alli"><i>Alli</i><par n="Trond__np"/></e>
 <e lm="Alisa"><i>Alisa</i><par n="Eva__np"/></e>
-<e lm="Internationella valfångstkommission"><i><g>Internationella<b/></g>valfångstkommission</i><par n="Världshälsoorganisation__np"/><p><l>Internationella<b/></l><r><g>Internationella<b/></g></r></p></e>
+<e lm="Internationella valfångstkommission"><i>Internationella<b/>valfångstkommissionen</i><par n="valfångstkommissionen__np"/></e>
 <e lm="Allmogeförbund"><i>Allmogeförbund</i><par n="Allmogeförbund__np"/></e>
 <e lm="Socialdemokraterna"><i>Socialdemokraterna</i><par n="Socialdemokraterna__np"/></e>
 <e lm="Andri"><i>Andri</i><par n="Trond__np"/></e>
 <e lm="Andres"><i>Andres</i><par n="Jonas__np"/></e>
 <e lm="Anny"><i>Anny</i><par n="Eva__np"/></e>
 <e lm="Östfjordar"><i>Östfjordar</i><par n="Afrika__np"/></e>
-<e lm="Östra Grönland"><i><g>Östra<b/></g>Grönland</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
-<e lm="Östra Island"><i><g>Östra<b/></g>Island</i><par n="Zeeland__np"/><p><l>Östra<b/></l><r><g>Östra<b/></g></r></p></e>
+<e lm="Östra Grönland"><i>Östra<b/>Grönland</i><par n="Zeeland__np"/></e>
+<e lm="Östra Island"><i>Östra<b/>Island</i><par n="Zeeland__np"/></e> <!--<p><l>Östra<b/></l><r><g>Östra<b/></g></r></p> -->
 <e lm="Austurvöllur"><i>Austurvöllur</i><par n="Afrika__np"/></e>
 <e lm="Axel"><i>Axel</i><par n="Trond__np"/></e>
 <e lm="Förenta staterna"><i><g>Förenta<b/></g>staterna</i><par n="Azorerna__np"/><p><l>Förenta<b/></l><r><g>Förenta<b/></g></r></p></e>
@@ -9781,7 +9785,7 @@
 <e lm="Kata"><i>Kata</i><par n="Eva__np"/></e>
 <e lm="Katrin"><i>Katrin</i><par n="Eva__np"/></e>
 <e lm="Keflavik"><i>Keflavik</i><par n="Afrika__np"/></e>
-<e lm="Keflavik flygplats"><i><g>Keflavik<b/></g>flygplats</i><par n="Paris__np"/><p><l>Keflavik<b/></l><r><g>Keflavik<b/></g></r></p></e>
+<e lm="Keflavik flygplats"><i>Keflavik<b/>flygplats</i><par n="Paris__np"/></e> <!--<p><l>Keflavik<b/></l><r><g>Keflavik<b/></g></r></p> -->
 <e lm="Kenya"><i>Kenya</i><par n="Afrika__np"/></e>
 <e lm="Kimmi"><i>Kimmi</i><par n="Trond__np"/></e>
 <e lm="Kirkjubol"><i>Kirkjubol</i><par n="Zeeland__np"/></e>
