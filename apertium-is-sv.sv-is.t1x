@@ -62,6 +62,18 @@
     <def-cat n="adj_def"> 					<!--adjective def, weak declension-->
       <cat-item tags="adj.*.def"/>
     </def-cat>
+    <def-cat n="adj_sint"> 					<!--adjective sint-->
+      <cat-item tags="adj.sint.*"/>
+    </def-cat>
+    <def-cat n="adj"> 					<!--adjective-->
+      <cat-item tags="adj.*"/>
+    </def-cat>
+  <def-cat n="mer">
+     <cat-item lemma="mer" tags="*"/>
+  </def-cat>
+  <def-cat n="mest">
+     <cat-item lemma="mest" tags="*"/>
+  </def-cat>
 
 
 <!--	<def-cat n="pr_gen"/>
@@ -89,6 +101,9 @@
     </def-attr>
     <def-attr n="a_adj"> 							<!--ADJECTIVE-->
       <attr-item tags="adj"/>
+     <attr-item tags="adj.ord"/>
+<!--     <attr-item tags="adj.sint"/>
+     <attr-item tags="adj.unsint"/> -->
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -107,6 +122,10 @@
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="grau_tags">
+      <attr-item tags="sint"/>
+      <attr-item tags="unsint"/>
     </def-attr>
     <def-attr n="gen">
       <attr-item tags="m"/>
@@ -208,37 +227,38 @@
 
 
 
-    <def-macro n="conv_gender1" npar="1" > 	<!-- MACRO: rewrite!!! -->	
+    <def-macro n="conv_gender_temp" npar="1" > 	<!-- MACRO: used for adjectives !!! -->	
       <choose>
         <when>
           <test>
 			<and>
-	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
-            <or>
-              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
-              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
-            </or>
-        	</and>
+				  <or>
+	                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="ut"/></equal>
+	                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mfn"/></equal>
+				  </or>
+			</and>
           </test>
           <let>
             <clip pos="1" side="tl" part="gen"/>
-            <lit-tag v="ut"/>
+            <lit-tag v="m"/>
           </let>
         </when>
+	 </choose>
+    </def-macro>
+
+
+    <def-macro n="conv_number2" npar="1" > 	<!-- MACRO: used for adjectives !!! -->	
+      <choose>
         <when>
           <test>
-	            <or>
-	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
-	            </or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
           </test>
           <let>
-            <clip pos="1" side="tl" part="gen"/>
-            <lit-tag v="mfn"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sg"/>
           </let>
-        </when> 		
+        </when>
 	 </choose>
     </def-macro>
 
@@ -247,13 +267,13 @@
         <when>
           <test>
 			<or>
-			<and>
-	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
-        	</and>
-            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
-            <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
-    	</or>
+			      <and>
+	                  <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+      	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+               	  </and>
+                  <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+                  <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+    	    </or>
           </test>
           <let>
             <clip pos="1" side="tl" part="nbr"/>
@@ -373,6 +393,90 @@
   <section-rules>
 
     <!-- Sintagmas nominales -->
+
+
+
+
+	<rule comment="REGLA: ADJ_SINT  | mer hyfsad → þokkalegri">   <!-- --> 
+		     <pattern>
+		       <pattern-item n="mer"/>
+		       <pattern-item n="adj"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_temp">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <call-macro n="conv_number2">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="MER_ADJECTIVE" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
+		              <tag><clip pos="2" side="tl" part="grau"/></tag>
+		              <tag><clip pos="2" side="tl" part="gen"/></tag>
+		              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="2" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="2" side="tl" part="lemh"/>
+		              <clip pos="2" side="tl" part="a_adj"/>
+		              <lit-tag v="comp"/>
+		              <clip pos="2" side="tl" part="gen" link-to="3"/>
+		              <clip pos="2" side="tl" part="nbr" link-to="4"/>
+		              <lit-tag v="nom"/>
+		              <clip pos="2" side="tl" part="defnes" link-to="5"/>
+		              <clip pos="2" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
+
+	<rule comment="REGLA: ADJ  | vacker → fallegur">   <!-- --> 
+		     <pattern>
+		       <pattern-item n="adj"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_temp">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number2">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="ADJECTIVE" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_adj"/>
+		              <clip pos="1" side="tl" part="grau" link-to="2"/>
+		              <clip pos="1" side="tl" part="gen" link-to="3"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+		              <lit-tag v="nom"/>
+		              <clip pos="1" side="tl" part="defnes" link-to="5"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
+
+
 
     <rule comment="regla: num">
       <pattern>
@@ -580,6 +684,9 @@
         </out>
       </action>
     </rule>
+
+
+
 
 <!--
     <rule comment="regla: till nom(gen) | till staden → til borgarinnar">   moved to t2x 

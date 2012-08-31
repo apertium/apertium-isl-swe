@@ -128,6 +128,9 @@
   <section-def-attrs>
     <def-attr n="a_adj"> 							<!--ADJECTIVE-->
       <attr-item tags="adj"/>
+     <attr-item tags="adj.ord"/>
+     <attr-item tags="adj.sint"/>
+     <attr-item tags="adj.unsint"/>
     </def-attr>
   <def-attr n="a_np">
     <attr-item tags="np"/>
@@ -170,6 +173,10 @@
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="grau_tags">
+      <attr-item tags="sint"/>
+      <attr-item tags="unsint"/>
     </def-attr>
     <def-attr n="voz"> 								<!--VOICE-->
       <attr-item tags="actv"/>

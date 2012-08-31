@@ -59,6 +59,11 @@
     <sdef n="al"      c="Altres"/>
     <sdef n="org"      c="Organisation"/>
 
+
+	<!--adjectives-->
+	    <sdef n="sint"     c="-er, -est"/>
+	    <sdef n="unsint"     c="mer, mest"/>
+
 <!--pronouns-->
 
 	<sdef n="pers"     c="Personal"/>
@@ -2481,7 +2486,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>útlendur<s n="adj"/></l><r>utländsk<s n="adj"/></r></p></e>
 	<e><p><l>þarfur<s n="adj"/></l><r>erforderlig<s n="adj"/></r></p></e>
 	<e><p><l>þegjandi<s n="adj"/></l><r>tyst<s n="adj"/></r></p></e>
-	<e><p><l>þokkalegur<s n="adj"/></l><r>hyfsad<s n="adj"/></r></p></e>
+	<e r="LR"><p><l>þokkalegur<s n="adj"/></l><r>hyfsad<s n="adj"/><s n="unsint"/></r></p></e>
+	<e r="RL"><p><l>þokkalegur<s n="adj"/><s n="sint"/></l><r>hyfsad<s n="adj"/></r></p></e>
 	<e><p><l>þreyttur<s n="adj"/></l><r>trött<s n="adj"/></r></p></e>
 	<e><p><l>þrútinn<s n="adj"/></l><r>uppsvullen<s n="adj"/></r></p></e>
 	<e><p><l>þungbúinn<s n="adj"/></l><r>dyster<s n="adj"/></r></p></e>
