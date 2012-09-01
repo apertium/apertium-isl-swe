@@ -1,5 +1,5 @@
 
-fös 31 ágú 2012 18:12:23 GMT
+lau  1 sep 2012 01:59:05 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
 cnjcoo	-e 8		 0	 0	
@@ -17,7 +17,7 @@ num	-e 218		 0	 218
 cnjsub	-e 17		 0	 0	
 vbmod	-e 158		 0	 154	
 ij	-e 11		 0	 0	
-adj	-e 102205		 0	 24534	
+adj	-e 104789		 0	 24528	
 rel	-e 0		 0	 0	
 preadv	-e 0		 0	 0	
 part	-e 0		 0	 0	

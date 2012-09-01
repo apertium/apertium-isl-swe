@@ -226,18 +226,14 @@
     </def-macro>
 
 
-
-    <def-macro n="conv_gender_temp" npar="1" > 	<!-- MACRO: used for adjectives !!! -->	
+    <def-macro n="conv_gender_temp" npar="1" > 	<!-- MACRO: used for adjectives (pst.pl, comp, sup: mfn) !!! -->	
       <choose>
         <when>
           <test>
-			<and>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
 				  <or>
 	                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="ut"/></equal>
 	                <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mfn"/></equal>
 				  </or>
-			</and>
           </test>
           <let>
             <clip pos="1" side="tl" part="gen"/>
@@ -278,6 +274,20 @@
           <let>
             <clip pos="1" side="tl" part="nbr"/>
             <lit-tag v="sp"/>
+          </let>
+        </when>
+	 </choose>
+    </def-macro>
+
+    <def-macro n="set_defnes_ind" npar="1" > 	<!-- MACRO: for adj.comp with no tag for defnes, does it work? -->	
+      <choose>
+        <when>
+          <test>
+      	       <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="defnes"/>
+            <lit-tag v="ind"/>
           </let>
         </when>
 	 </choose>
@@ -445,20 +455,55 @@
 		       <call-macro n="firstWord">
 		         <with-param pos="1"/>
 		       </call-macro>
+		       <call-macro n="set_defnes_ind">
+		         <with-param pos="1"/>
+		       </call-macro>
 		       <call-macro n="conv_gender_temp">
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <call-macro n="conv_number2">
 		         <with-param pos="1"/>
 		       </call-macro>
+		    <choose>
+	         <when>
+	           <test>
+	             <equal>
+	               <clip pos="1" side="sl" part="grau"/>
+	               <lit-tag v="comp"/>
+	             </equal>
+	           </test>
 		       <out>
-		         <chunk name="ADJECTIVE" case="caseFirstWord">    
+		         <chunk name="ADJECTIVE_COMP" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
-		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
 		              <tag><clip pos="1" side="tl" part="gen"/></tag>
 		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="nom"/></tag>
+		              <tag><lit-tag v="ind"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_adj"/>
+		              <clip pos="1" side="tl" part="grau" link-to="2"/>
+		              <clip pos="1" side="tl" part="gen" link-to="3"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+		              <lit-tag v="nom"/>
+		              <lit-tag v="ind"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		         </out>
+	         </when>
+			<otherwise>
+		       <out>
+		         <chunk name="ADJECTIVE_PST_OR_SUP" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="nom"/></tag>
 		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
 		            </tags>
 		            <lu>
@@ -468,12 +513,14 @@
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
 		              <lit-tag v="nom"/>
-		              <clip pos="1" side="tl" part="defnes" link-to="5"/>
+		              <clip pos="1" side="tl" part="defnes" link-to="6"/>
 		              <clip pos="1" side="tl" part="lemq"/>
 		            </lu>
 		          </chunk>
-		        </out>
-		     </action>
+		         </out>
+			</otherwise>
+			</choose>
+		 </action>
 	</rule>
 
 
