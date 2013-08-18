@@ -582,7 +582,9 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
     <e><p><l>frá<b/>upphafi<s n="adv"/></l><r>från<b/>början<s n="adv"/></r></p></e>
     <e><p><l>í<b/>framtíðinni<s n="adv"/></l><r>i<b/>framtiden<s n="adv"/></r></p></e>
     <e><p><l>í<b/>bili<s n="adv"/></l><r>för<b/>tillfället<s n="adv"/></r></p></e>
-    <e><p><l>í<b/>fyrstu<s n="adv"/></l><r>först<s n="adv"/></r></p></e>
+    <e r="LR" c="v1"><p><l>í<b/>fyrstu<s n="adv"/></l><r>först<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>fyrst<s n="adv"/></l><r>först<s n="adv"/></r></p></e>
+
     <e><p><l>í<b/>vikunni<s n="adv"/></l><r>i<b/>veckan<s n="adv"/></r></p></e>
 
     <e><p><l>í<b/>vor<s n="adv"/></l><r>i<b/>vår<s n="adv"/></r></p></e>
@@ -829,17 +831,17 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>aftur<s n="adv"/></l><r>åter<s n="adv"/></r></p></e>
 	<e r="RL" c="v2"><p><l>aftur<s n="adv"/></l><r>återigen<s n="adv"/></r></p></e>
 	<e><p><l>aldrei<s n="adv"/></l><r>aldrig<s n="adv"/></r></p></e>
-	<e><p><l>algerlega<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
 	<e><p><l>alls<b/>ekki<s n="adv"/></l><r>inte<b/>alls<s n="adv"/></r></p></e>
 	<e><p><l>allstaðar<s n="adv"/></l><r>överallt<s n="adv"/></r></p></e>
-	<e><p><l>allt<b/>of<s n="adv"/></l><r>alltför<s n="adv"/></r></p></e>
 	<e><p><l>alltaf<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
 	<e><p><l>alveg<s n="adv"/></l><r>alldeles<s n="adv"/></r></p></e>
 	<e><p><l>annars<b/>staðar<s n="adv"/></l><r>annanstans<s n="adv"/></r></p></e>
-	<e><p><l>annars<s n="adv"/></l><r>annars<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>annars<s n="adv"/></l><r>annars<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>ella<s n="adv"/></l><r>annars<s n="adv"/></r></p></e>
 	<e><p><l>austur<s n="adv"/></l><r>österut<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>að<b/>auki<s n="adv"/></l><r>dessutom<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>að<b/>auki<s n="adv"/></l><r>därutöver<s n="adv"/></r></p></e>
+	<e><p><l>að<b/>auki<s n="adv"/></l><r>därutöver<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>ennfremur<s n="adv"/></l><r>dessutom<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>auk<s n="adv"/></l><r>dessutom<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>einhverju<b/>leyti<s n="adv"/></l><r>delvis<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>launum<s n="adv"/></l><r>i<b/>gengäld<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>lyktum<s n="adv"/></l><r>avslutningsvis<s n="adv"/></r></p></e>
@@ -853,17 +855,21 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>bara<s n="adv"/></l><r>just<s n="adv"/></r></p></e>
 	<e><p><l>bréfleiðis<s n="adv"/></l><r>skriftligen<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>burt<s n="adv"/></l><r>bort<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>burt<s n="adv"/></l><r>iväg<s n="adv"/></r></p></e>
-	<e r="RL" c="v2"><p><l>burt<s n="adv"/></l><r>undan<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>brott<s n="adv"/></l><r>bort<s n="adv"/></r></p></e>
+	<e><p><l>burtu<s n="adv"/></l><r>iväg<s n="adv"/></r></p></e>
 	<e><p><l>bókstaflega<s n="adv"/></l><r>bokstavligen<s n="adv"/></r></p></e>
 	<e><p><l>daglega<s n="adv"/></l><r>dagligen<s n="adv"/></r></p></e>
 	<e><p><l>eftir<s n="adv"/></l><r>kvar<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>eftirá<s n="adv"/></l><r>därefter<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>eftirá<s n="adv"/></l><r>efteråt<s n="adv"/></r></p></e>
 	<e><p><l>einhversstaðar<s n="adv"/></l><r>någonstans<s n="adv"/></r></p></e>
-	<e><p><l>einnig<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>einnig<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>jafnvel<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
 	<e><p><l>eins<s n="adv"/></l><r>likt<s n="adv"/></r></p></e>
-	<e><p><l>einu<b/>sinni<s n="adv"/></l><r>en<b/>gång<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>einu<b/>sinni<s n="adv"/></l><r>en<b/>gång<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>einusinni<s n="adv"/></l><r>en<b/>gång<s n="adv"/></r></p></e>
+
 	<e><p><l>tvisvar<s n="adv"/></l><r>två<b/>gånger<s n="adv"/></r></p></e>
 	<e><p><l>þrisvar<s n="adv"/></l><r>tre<b/>gånger<s n="adv"/></r></p></e>
 	<e><p><l>einungis<s n="adv"/></l><r>enbart<s n="adv"/></r></p></e>
@@ -876,27 +882,29 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>ennþá<s n="adv"/></l><r>ännu<s n="adv"/></r></p></e>
 	<e><p><l>erlendis<s n="adv"/></l><r>utomlands<s n="adv"/></r></p></e>
 	<e><p><l>fleiri<s n="adv"/></l><r>alltfler<s n="adv"/></r></p></e>
-	<e><p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
 	<e><p><l>framhjá<s n="adv"/></l><r>förbi<s n="adv"/></r></p></e>
-	<e><p><l>frekar<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
-	<e><p><l>fremur<s n="adv"/></l><r>hellre<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>frekar<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>ósköp<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>soldið<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
+	<e r="LR" c="v3"><p><l>býsna<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
+
 	<e><p><l>fullkomlega<s n="adv"/></l><r>fullkomligt<s n="adv"/></r></p></e>
 	<e r="RL" c="v2"><p><l>fyrirfram<s n="adv"/></l><r>förhand<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fyrirfram<s n="adv"/></l><r>förut<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>fyrirfram<s n="adv"/></l><r>i<b/>förväg<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fyrr<s n="adv"/></l><r>före<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>fyrr<s n="adv"/></l><r>förr<s n="adv"/></r></p></e>
-	<e><p><l>gjörsamlega<s n="adv"/></l><r>synnerligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>gjörsamlega<s n="adv"/></l><r>synnerligen<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>gjörsamlega<s n="adv"/></l><r>totalt<s n="adv"/></r></p></e>
 	<e><p><l>gott<b/>og<b/>vel<s n="adv"/></l><r>nåväl<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>greinilega<s n="adv"/></l><r>tydligen<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>greinilega<s n="adv"/></l><r>uppenbarligen<s n="adv"/></r></p></e>
 	<e><p><l>heim<s n="adv"/></l><r>hem<s n="adv"/></r></p></e>
 	<e><p><l>heima<s n="adv"/></l><r>hemma<s n="adv"/></r></p></e>
 	<e><p><l>heller<s n="adv"/></l><r>heller<s n="adv"/></r></p></e>
 	<e><p><l>helst<s n="adv"/></l><r>helst<s n="adv"/></r></p></e>
 	<e><p><l>hingað<b/>til<s n="adv"/></l><r>hittills<s n="adv"/></r></p></e>
 	<e><p><l>hingað<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
-	<e r="RL" c="v2"><p><l>hins<b/>vegar<s n="adv"/></l><r>däremot<s n="adv"/></r></p></e>
+	<e><p><l>hinsvegar<s n="adv"/></l><r>däremot<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>hins<b/>vegar<s n="adv"/></l><r>dock<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>hins<b/>vegar<s n="adv"/></l><r>emellertid<s n="adv"/></r></p></e>
 	<e><p><l>hver<b/>að<b/>sínu<b/>leyti<s n="adv"/></l><r>respektive<s n="adv"/></r></p></e>
@@ -904,7 +912,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hægt<s n="adv"/></l><r>sakta<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>hér<b/>með<s n="adv"/></l><r>härigenom<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>hér<b/>með<s n="adv"/></l><r>härmed<s n="adv"/></r></p></e>
-	<e><p><l>hér<s n="adv"/></l><r>här<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>héðan<b/>í<b/>frá<s n="adv"/></l><r>fortsättningsvis<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>héðan<b/>í<b/>frá<s n="adv"/></l><r>hädanefter<s n="adv"/></r></p></e>
 	<e><p><l>héðan<s n="adv"/></l><r>härifrån<s n="adv"/></r></p></e>
@@ -916,47 +923,43 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>kannski<s n="adv"/></l><r>kanske<s n="adv"/></r></p></e>
 	<e><p><l>langt<s n="adv"/></l><r>vida<s n="adv"/></r></p></e>
 	<e><p><l>lengi<s n="adv"/></l><r>länge<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>loksins<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>loksins<s n="adv"/></l><r>äntligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>loksins<s n="adv"/></l><r>äntligen<s n="adv"/></r></p></e>
 	<e><p><l>líka<s n="adv"/></l><r>också<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>lítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
 	<e><p><l>milli<b/>sín<s n="adv"/></l><r>sinsemellan<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>mjög<s n="adv"/></l><r>mycket<s n="adv"/></r></p></e>
 	<e><p><l>nefnilega<s n="adv"/></l><r>nämligen<s n="adv"/></r></p></e>
 	<e><p><l>nei<s n="adv"/></l><r>nej<s n="adv"/></r></p></e>
 	<e><p><l>niðri<s n="adv"/></l><r>nere<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>niður<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>niður<s n="adv"/></l><r>ner<s n="adv"/></r></p></e>
+	<e><p><l>niður<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
 	<e r="LR" c="v1"><p><l>nokkurntímann<s n="adv"/></l><r>någonsin<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>nokkurntíma<s n="adv"/></l><r>någonsin<s n="adv"/></r></p></e>
-	<e><p><l>nákvæmlega<s n="adv"/></l><r>precis<s n="adv"/></r></p></e>
-	<e><p><l>nálægt<s n="adv"/></l><r>nära<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>nákvæmlega<s n="adv"/></l><r>precis<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>einmitt<s n="adv"/></l><r>precis<s n="adv"/></r></p></e>
 	<e><p><l>nánar<s n="adv"/></l><r>vidare<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>náttúrulega<s n="adv"/></l><r>givetvis<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>náttúrulega<s n="adv"/></l><r>naturligtvis<s n="adv"/></r></p></e>
 	<e><p><l>næst<s n="adv"/></l><r>därpå<s n="adv"/></r></p></e>
-	<e><p><l>næstum<s n="adv"/></l><r>nästan<s n="adv"/></r></p></e>
-	<e><p><l>nóg<s n="adv"/></l><r>tillräckligt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>næstum<s n="adv"/></l><r>nästan<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>tæplega<s n="adv"/></l><r>nästan<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>nóg<s n="adv"/></l><r>tillräckligt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>nægilega<s n="adv"/></l><r>tillräckligt<s n="adv"/></r></p></e>
 	<e><p><l>nú<s n="adv"/></l><r>numera<s n="adv"/></r></p></e>
 	<e><p><l>núna<s n="adv"/></l><r>nu<s n="adv"/></r></p></e>
 	<e><p><l>nýlega<s n="adv"/></l><r>nyligen<s n="adv"/></r></p></e>
 	<e><p><l>of<b/>snemma<s n="adv"/></l><r>i<b/>förtid<s n="adv"/></r></p></e>
 	<e><p><l>oft<s n="adv"/></l><r>ofta<s n="adv"/></r></p></e>
 	<e><p><l>persónulega<s n="adv"/></l><r>personligen<s n="adv"/></r></p></e>
-	<e><p><l>reyndar<s n="adv"/></l><r>faktiskt<s n="adv"/></r></p></e>
-	<e><p><l>rétt<b/>áðan<s n="adv"/></l><r>nyss<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>rétt<b/>áðan<s n="adv"/></l><r>nyss<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>áðan<s n="adv"/></l><r>nyss<s n="adv"/></r></p></e>
 	<e><p><l>rúmlega<s n="adv"/></l><r>drygt<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>saman<s n="adv"/></l><r>samman<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>saman<s n="adv"/></l><r>tillsammans<s n="adv"/></r></p></e>
     <e><p><l>til<b/>samans<s n="adv"/></l><r>ihop<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>samtals<s n="adv"/></l><r>sammantaget<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>samtals<s n="adv"/></l><r>totalt<s n="adv"/></r></p></e>
+	<e><p><l>samtals<s n="adv"/></l><r>sammantaget<s n="adv"/></r></p></e>
 	<e><p><l>sem<b/>betur<b/>fer<s n="adv"/></l><r>lyckligtvis<s n="adv"/></r></p></e>
 	<e><p><l>sennilega<s n="adv"/></l><r>förmodligen<s n="adv"/></r></p></e>
 	<e><p><l>sjaldan<s n="adv"/></l><r>sällan<s n="adv"/></r></p></e>
 	<e><p><l>sko<s n="adv"/></l><r>alltså<s n="adv"/></r></p></e>
 	<e><p><l>skyndilega<s n="adv"/></l><r>plötsligt<s n="adv"/></r></p></e>
-	<e r="RL" c="v2"><p><l>smám<b/>saman<s n="adv"/></l><r>gradvis<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>smám<b/>saman<s n="adv"/></l><r>stegvis<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>smám<b/>saman<s n="adv"/></l><r>så<b/>småningom<s n="adv"/></r></p></e>
 	<e><p><l>smámsaman<s n="adv"/></l><r>allteftersom<s n="adv"/></r></p></e>
@@ -992,28 +995,30 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>vandlega<s n="adv"/></l><r>noga<s n="adv"/></r></p></e>
 	<e><p><l>vel<s n="adv"/></l><r>väl<s n="adv"/></r></p></e>
 	<e><p><l>venjulega<s n="adv"/></l><r>vanligen<s n="adv"/></r></p></e>
-	<e><p><l>vinsamlegast<s n="adv"/></l><r>gärna<s n="adv"/></r></p></e>
-	<e><p><l>virkilega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
-	<e r="RL" c="v2"><p><l>vissulega<s n="adv"/></l><r>förvisso<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>vissulega<s n="adv"/></l><r>sannerligen<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>vissulega<s n="adv"/></l><r>säkerligen<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>vissulega<s n="adv"/></l><r>förvisso<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>vissulega<s n="adv"/></l><r>sannerligen<s n="adv"/></r></p></e>
+	<e><p><l>sjálfsagt<s n="adv"/></l><r>säkerligen<s n="adv"/></r></p></e>
 	<e><p><l>viðvíkjandi<s n="adv"/></l><r>apropå<s n="adv"/></r></p></e>
 	<e><p><l>vonandi<s n="adv"/></l><r>förhoppningsvis<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>yfirhöfuð<s n="adv"/></l><r>överhuvud<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>yfirhöfuð<s n="adv"/></l><r>överhuvudtaget<s n="adv"/></r></p></e>
-	<e><p><l>yfirleitt<s n="adv"/></l><r>vanligtvis<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>yfirleitt<s n="adv"/></l><r>vanligtvis<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>endranær<s n="adv"/></l><r>vanligtvis<s n="adv"/></r></p></e>
 	<e r="RL" c="v1"><p><l>á<b/>móti<s n="adv"/></l><r>tvärtemot<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>á<b/>móti<s n="adv"/></l><r>tvärtom<s n="adv"/></r></p></e>
 	<e><p><l>á<b/>sínum<b/>tíma<s n="adv"/></l><r>i<b/>sinom<b/>tid<s n="adv"/></r></p></e>
 	<e><p><l>ábyggilega<s n="adv"/></l><r>troligtvis<s n="adv"/></r></p></e>
-	<e><p><l>áfram<s n="adv"/></l><r>framåt<s n="adv"/></r></p></e>
 	<e><p><l>án<b/>tillits<b/>til<s n="adv"/></l><r>oavsett<s n="adv"/></r></p></e>
 	<e><p><l>áreiðanlega<s n="adv"/></l><r>visserligen<s n="adv"/></r></p></e>
 	<e><p><l>árlega<s n="adv"/></l><r>årligen<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>burtu<s n="adv"/></l><r>borta<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>endanum<s n="adv"/></l><r>i<b/>slutändan<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>raun<b/>og<b/>veru<s n="adv"/></l><r>rentav<s n="adv"/></r></p></e>
-	<e><p><l>í<b/>rauninni<s n="adv"/></l><r>egentligen<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>í<b/>rauninni<s n="adv"/></l><r>egentligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>eiginlega<s n="adv"/></l><r>egentligen<s n="adv"/></r></p></e>
+
+	<e><p><l>reyndar<s n="adv"/></l><r>faktiskt<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>staðinn<s n="adv"/></l><r>istället<s n="adv"/></r></p></e>
 	<e><p><l>óneitanlega<s n="adv"/></l><r>onekligen<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>út<s n="adv"/></l><r>ut<s n="adv"/></r></p></e>
@@ -1048,111 +1053,114 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>afar<s n="adv"/></l><r>väldigt<s n="adv"/></r></p></e>
 	<e><p><l>afskaplega<s n="adv"/></l><r>oerhört<s n="adv"/></r></p></e>
 	<e><p><l>aftan<s n="adv"/></l><r>bakom<s n="adv"/></r></p></e>
-	<e><p><l>aldeilis<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
-	<e><p><l>algjör<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
-	<e><p><l>algjörlega<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>algjör<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>algjörlega<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>algerlega<s n="adv"/></l><r>absolut<s n="adv"/></r></p></e>
 	<e><p><l>allavega<s n="adv"/></l><r>i<b/>alla<b/>fall<s n="adv"/></r></p></e>
 	<e><p><l>alls<s n="adv"/></l><r>alls<s n="adv"/></r></p></e>
-	<e><p><l>alltof<s n="adv"/></l><r>alltför<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>alltof<s n="adv"/></l><r>alltför<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>allt<b/>of<s n="adv"/></l><r>alltför<s n="adv"/></r></p></e>
 	<e><p><l>almennilega<s n="adv"/></l><r>ordentligt<s n="adv"/></r></p></e>
 	<e><p><l>almennt<s n="adv"/></l><r>allmännt<s n="adv"/></r></p></e>
 	<e><p><l>alvarlega<s n="adv"/></l><r>på<b/>allvar<s n="adv"/></r></p></e>
 	<e><p><l>andlega<s n="adv"/></l><r>mentalt<s n="adv"/></r></p></e>
-	<e><p><l>augljóslega<s n="adv"/></l><r>uppenbarligen<s n="adv"/></r></p></e>
-	<e><p><l>augsýnilega<s n="adv"/></l><r>tydligen<s n="adv"/></r></p></e>
-	<e><p><l>auk<s n="adv"/></l><r>dessutom<s n="adv"/></r></p></e>
-	<e><p><l>auðveldlega<s n="adv"/></l><r>lätt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>augljóslega<s n="adv"/></l><r>uppenbarligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>vitanlega<s n="adv"/></l><r>uppenbarligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>augsýnilega<s n="adv"/></l><r>tydligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>greinilega<s n="adv"/></l><r>tydligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>auðveldlega<s n="adv"/></l><r>lätt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>létt<s n="adv"/></l><r>lätt<s n="adv"/></r></p></e>
 	<e><p><l>auðvitað<s n="adv"/></l><r>förstås<s n="adv"/></r></p></e>
-	<e><p><l>að<b/>auki<s n="adv"/></l><r>förresten<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>austan<s n="adv"/></l><r>österifrån<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>heiman<s n="adv"/></l><r>hemifrån<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>jafnaði<s n="adv"/></l><r>typiskt<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>sunnan<s n="adv"/></l><r>söderifrån<s n="adv"/></r></p></e>
 	<e><p><l>að<b/>vestan<s n="adv"/></l><r>västerifrån<s n="adv"/></r></p></e>
 	<e><p><l>beinlínis<s n="adv"/></l><r>direkt<s n="adv"/></r></p></e>
-	<e><p><l>blíðlega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
-	<e><p><l>brott<s n="adv"/></l><r>bort<s n="adv"/></r></p></e>
-	<e><p><l>brátt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
-	<e><p><l>bráðum<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
-	<e><p><l>burtu<s n="adv"/></l><r>bort<s n="adv"/></r></p></e>
-	<e><p><l>býsna<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
-	<e><p><l>dálítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>bráðum<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>skjótt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>fljótlega<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
+	<e r="LR" c="v3"><p><l>fljótt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
+	<e r="LR" c="v4"><p><l>brátt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
+
 	<e><p><l>eflaust<s n="adv"/></l><r>otvivelaktigt<s n="adv"/></r></p></e>
 	<e><p><l>eigi<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
-	<e><p><l>eiginlega<s n="adv"/></l><r>egentligen<s n="adv"/></r></p></e>
-	<e><p><l>einatt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
-	<e><p><l>einfaldlega<s n="adv"/></l><r>helt<b/>enkelt<s n="adv"/></r></p></e>
 	<e><p><l>eingöngu<s n="adv"/></l><r>enda<s n="adv"/></r></p></e>
-	<e><p><l>einkar<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
-	<e><p><l>einkum<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
-	<e><p><l>einmitt<s n="adv"/></l><r>precis<s n="adv"/></r></p></e>
 	<e><p><l>einskonar<s n="adv"/></l><r>typ<b/>av<s n="adv"/></r></p></e>
 	<e><p><l>einsog<s n="adv"/></l><r>såsom<s n="adv"/></r></p></e>
 	<e><p><l>einstaklega<s n="adv"/></l><r>egendomligt<s n="adv"/></r></p></e>
-	<e><p><l>einusinni<s n="adv"/></l><r>en<b/>gång<s n="adv"/></r></p></e>
-	<e><p><l>ella<s n="adv"/></l><r>annars<s n="adv"/></r></p></e>
 	<e><p><l>enda<s n="adv"/></l><r>jämväl<s n="adv"/></r></p></e>
-	<e><p><l>endanlega<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
-	<e><p><l>endranær<s n="adv"/></l><r>vanligtvis<s n="adv"/></r></p></e>
-	<e><p><l>ennfremur<s n="adv"/></l><r>dessutom<s n="adv"/></r></p></e>
 	<e><p><l>fallega<s n="adv"/></l><r>skönt<s n="adv"/></r></p></e>
 	<e><p><l>fast<s n="adv"/></l><r>fast<s n="adv"/></r></p></e>
-	<e><p><l>ferlega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
-	<e><p><l>fljótlega<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
-	<e><p><l>fljótt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
-	<e><p><l>forðum<s n="adv"/></l><r>tidigare<s n="adv"/></r></p></e>
-	<e><p><l>framan<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
-	<e><p><l>framar<s n="adv"/></l><r>längre<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>hræðilega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>óskaplega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>ferlega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>forðum<s n="adv"/></l><r>tidigare<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>fyrrum<s n="adv"/></l><r>tidigare<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>framan<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>áleiðis<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>framar<s n="adv"/></l><r>längre<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>innar<s n="adv"/></l><r>längre<s n="adv"/></r></p></e>
 	<e><p><l>frammi<s n="adv"/></l><r>framme<s n="adv"/></r></p></e>
-	<e><p><l>framundan<s n="adv"/></l><r>framåt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>framundan<s n="adv"/></l><r>framåt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>áfram<s n="adv"/></l><r>framåt<s n="adv"/></r></p></e>
 	<e><p><l>framvegis<s n="adv"/></l><r>framdeles<s n="adv"/></r></p></e>
-	<e><p><l>fyrrum<s n="adv"/></l><r>tidigare<s n="adv"/></r></p></e>
-	<e><p><l>fyrst<s n="adv"/></l><r>först<s n="adv"/></r></p></e>
 	<e><p><l>gersamlega<s n="adv"/></l><r>fullständigt<s n="adv"/></r></p></e>
-	<e><p><l>gjarnan<s n="adv"/></l><r>gärna<s n="adv"/></r></p></e>
-	<e><p><l>gjörsamlega<s n="adv"/></l><r>totalt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>gjarnan<s n="adv"/></l><r>gärna<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>vinsamlegast<s n="adv"/></l><r>gärna<s n="adv"/></r></p></e>
 	<e><p><l>glöggt<s n="adv"/></l><r>tydligt<s n="adv"/></r></p></e>
 	<e><p><l>gætilega<s n="adv"/></l><r>noggrant<s n="adv"/></r></p></e>
 	<e><p><l>harkalega<s n="adv"/></l><r>skarpt<s n="adv"/></r></p></e>
 	<e><p><l>hart<s n="adv"/></l><r>hårt<s n="adv"/></r></p></e>
-	<e><p><l>heldur<s n="adv"/></l><r>hellre<s n="adv"/></r></p></e>
-	<e><p><l>hinsvegar<s n="adv"/></l><r>däremot<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>heldur<s n="adv"/></l><r>hellre<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>fremur<s n="adv"/></l><r>hellre<s n="adv"/></r></p></e>
 	<e><p><l>hljóðlega<s n="adv"/></l><r>tyst<s n="adv"/></r></p></e>
-	<e><p><l>hratt<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
-	<e><p><l>hreinlega<s n="adv"/></l><r>helt<b/>enkelt<s n="adv"/></r></p></e>
+	<e><p><l>hratt<s n="adv"/></l><r>fort<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>í<b/>skyndi<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>snögglega<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
+	<e><p><l>snöggt<s n="adv"/></l><r>hastigt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>hreinlega<s n="adv"/></l><r>helt<b/>enkelt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>einfaldlega<s n="adv"/></l><r>helt<b/>enkelt<s n="adv"/></r></p></e>
 	<e><p><l>hreint<s n="adv"/></l><r>rent<s n="adv"/></r></p></e>
-	<e><p><l>hræðilega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
 	<e><p><l>hálfa<s n="adv"/></l><r>halv<s n="adv"/></r></p></e>
-	<e><p><l>hátt<s n="adv"/></l><r>högt<s n="adv"/></r></p></e>
 	<e><p><l>hérlendis<s n="adv"/></l><r>här<b/>i<b/>landet<s n="adv"/></r></p></e>
-	<e><p><l>hérna<s n="adv"/></l><r>här<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>hérna<s n="adv"/></l><r>här<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>hér<s n="adv"/></l><r>här<s n="adv"/></r></p></e>
 	<e><p><l>inn<s n="adv"/></l><r>in<s n="adv"/></r></p></e>
-	<e><p><l>innar<s n="adv"/></l><r>längre<s n="adv"/></r></p></e>
 	<e><p><l>iðulega<s n="adv"/></l><r>frekvent<s n="adv"/></r></p></e>
 	<e><p><l>jafnan<s n="adv"/></l><r>jämt<s n="adv"/></r></p></e>
 	<e><p><l>jafnframt<s n="adv"/></l><r>också<s n="adv"/></r></p></e>
 	<e><p><l>jafnskjótt<b/>og<s n="adv"/></l><r>lika<b/>snabbt<b/>som<s n="adv"/></r></p></e>
-	<e><p><l>jafnvel<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
 	<e><p><l>jafnóðum<s n="adv"/></l><r>samtidigt<s n="adv"/></r></p></e>
 	<e><p><l>konar<s n="adv"/></l><r>slags<s n="adv"/></r></p></e>
 	<e><p><l>kringum<s n="adv"/></l><r>runt<s n="adv"/></r></p></e>
 	<e><p><l>kæruleysislega<s n="adv"/></l><r>vårdslöst<s n="adv"/></r></p></e>
-	<e><p><l>loks<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>loks<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>endanlega<s n="adv"/></l><r>slutligen<s n="adv"/></r></p></e>
 	<e><p><l>lágt<s n="adv"/></l><r>lågt<s n="adv"/></r></p></e>
-	<e><p><l>létt<s n="adv"/></l><r>lätt<s n="adv"/></r></p></e>
 	<e><p><l>líklega<s n="adv"/></l><r>sannolikt<s n="adv"/></r></p></e>
-	<e><p><l>lítt<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
-	<e><p><l>löngum<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
 	<e><p><l>meir<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
 	<e><p><l>meira<s n="adv"/></l><r>mera<s n="adv"/></r></p></e>
-	<e><p><l>mikið<s n="adv"/></l><r>mycket<s n="adv"/></r></p></e>
-	<e><p><l>mjúklega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
-	<e><p><l>naumt<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
-	<e><p><l>neðan<s n="adv"/></l><r>nedan<s n="adv"/></r></p></e>
-	<e><p><l>neðar<s n="adv"/></l><r>nedan<s n="adv"/></r></p></e>
-	<e><p><l>náið<s n="adv"/></l><r>nära<s n="adv"/></r></p></e>
-	<e><p><l>náttúrlega<s n="adv"/></l><r>naturligtvis<s n="adv"/></r></p></e>
-	<e><p><l>nægilega<s n="adv"/></l><r>tillräckligt<s n="adv"/></r></p></e>
+	<e><p><l>mest<s n="adv"/></l><r>mest<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>mikið<s n="adv"/></l><r>mycket<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>mjög<s n="adv"/></l><r>mycket<s n="adv"/></r></p></e>
+	
+	<e r="LR" c="v1"><p><l>blíðlega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>varlega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>mjúklega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
+	
+	<e c="v0"><p><l>neðan<s n="adv"/></l><r>nedan<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>neðar<s n="adv"/></l><r>nedan<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>náið<s n="adv"/></l><r>nära<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>nálægt<s n="adv"/></l><r>nära<s n="adv"/></r></p></e>
+
 	<e><p><l>nærri<s n="adv"/></l><r>närmare<s n="adv"/></r></p></e>
 	<e><p><l>of<s n="adv"/></l><r>för<s n="adv"/></r></p></e>
 	<e><p><l>ofan<s n="adv"/></l><r>nedåt<s n="adv"/></r></p></e>
@@ -1161,55 +1169,60 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>ofurlítið<s n="adv"/></l><r>ynkligt<s n="adv"/></r></p></e>
 	<e><p><l>og<b/>því<b/>um<b/>líkt<s n="adv"/></l><r>och<b/>så<b/>vidare<s n="adv"/></r></p></e>
 	<e><p><l>oní<s n="adv"/></l><r>ner<s n="adv"/></r></p></e>
-	<e><p><l>raunar<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
-	<e><p><l>raunverulega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>raunar<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>raunverulega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v3"><p><l>aldeilis<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>virkilega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+	<e r="LR" c="v4"><p><l>sannarlega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
+
 	<e><p><l>reglulega<s n="adv"/></l><r>regelbundet<s n="adv"/></r></p></e>
 	<e><p><l>rækilega<s n="adv"/></l><r>grundligt<s n="adv"/></r></p></e>
 	<e><p><l>rétt<s n="adv"/></l><r>rätt<s n="adv"/></r></p></e>
 	<e><p><l>rólega<s n="adv"/></l><r>långsamt<s n="adv"/></r></p></e>
 	<e><p><l>rúmlega<s n="adv"/></l><r>drygt<s n="adv"/></r></p></e>
-	<e><p><l>samstundis<s n="adv"/></l><r>omedelbart<s n="adv"/></r></p></e>
 	<e><p><l>samt<s n="adv"/></l><r>ändå<s n="adv"/></r></p></e>
-	<e><p><l>sannarlega<s n="adv"/></l><r>verkligen<s n="adv"/></r></p></e>
-	<e><p><l>seint<s n="adv"/></l><r>sent<s n="adv"/></r></p></e>
-	<e><p><l>sjálfsagt<s n="adv"/></l><r>säkerligen<s n="adv"/></r></p></e>
-	<e><p><l>skjótt<s n="adv"/></l><r>snart<s n="adv"/></r></p></e>
-	<e><p><l>smá<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>seint<s n="adv"/></l><r>sent<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>síðla<s n="adv"/></l><r>sent<s n="adv"/></r></p></e>
 	<e><p><l>smám<s n="adv"/></l><r>gradvis<s n="adv"/></r></p></e>
-	<e><p><l>smátt<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
-	<e><p><l>snögglega<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
-	<e><p><l>snöggt<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
-	<e><p><l>soldið<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>smá<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>dálítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>lítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v3"><p><l>örlítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v4"><p><l>lítt<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v5"><p><l>smátt<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
+	<e r="LR" c="v6"><p><l>svolítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
 	<e><p><l>stríðnislega<s n="adv"/></l><r>retsamt<s n="adv"/></r></p></e>
 	<e><p><l>sunnar<s n="adv"/></l><r>söder<s n="adv"/></r></p></e>
 	<e><p><l>svoleiðis<s n="adv"/></l><r>så<b/>där<s n="adv"/></r></p></e>
-	<e><p><l>svolítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
 	<e><p><l>svona<s n="adv"/></l><r>så<s n="adv"/></r></p></e>
 	<e><p><l>sæmilega<s n="adv"/></l><r>någorlunda<b/>bra<s n="adv"/></r></p></e>
-	<e><p><l>sérlega<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
-	<e><p><l>sífellt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>sérlega<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>einkar<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>einkum<s n="adv"/></l><r>särskilt<s n="adv"/></r></p></e>
+
 	<e><p><l>síðar<s n="adv"/></l><r>senare<s n="adv"/></r></p></e>
-	<e><p><l>síðla<s n="adv"/></l><r>sent<s n="adv"/></r></p></e>
-	<e><p><l>talsvert<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
 	<e><p><l>trúlega<s n="adv"/></l><r>troligen<s n="adv"/></r></p></e>
 	<e><p><l>tvímælalaust<s n="adv"/></l><r>utan<b/>tvekan<s n="adv"/></r></p></e>
-	<e><p><l>tæplega<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
-	<e><p><l>tæplega<s n="adv"/></l><r>nästan<s n="adv"/></r></p></e>
-	<e><p><l>tæpt<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
-	<e><p><l>töluvert<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
-	<e><p><l>umsvifalaust<s n="adv"/></l><r>omedelbart<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>varla<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>tæpt<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>naumt<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>umsvifalaust<s n="adv"/></l><r>omedelbart<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>samstundis<s n="adv"/></l><r>omedelbart<s n="adv"/></r></p></e>
 	<e><p><l>undan<s n="adv"/></l><r>undan<s n="adv"/></r></p></e>
 	<e><p><l>undarlega<s n="adv"/></l><r>konstigt<s n="adv"/></r></p></e>
-	<e><p><l>upphátt<s n="adv"/></l><r>högt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>upphátt<s n="adv"/></l><r>högt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>hátt<s n="adv"/></l><r>högt<s n="adv"/></r></p></e>
 	<e><p><l>uppí<s n="adv"/></l><r>upp<b/>í<s n="adv"/></r></p></e>
 	<e><p><l>utan<s n="adv"/></l><r>utanför<s n="adv"/></r></p></e>
 	<e><p><l>utar<s n="adv"/></l><r>ytter<s n="adv"/></r></p></e>
 	<e><p><l>vafalaust<s n="adv"/></l><r>utan<b/>tvivel<s n="adv"/></r></p></e>
-	<e><p><l>varla<s n="adv"/></l><r>knappast<s n="adv"/></r></p></e>
-	<e><p><l>varlega<s n="adv"/></l><r>försiktigt<s n="adv"/></r></p></e>
-	<e><p><l>vart<s n="adv"/></l><r>knappt<s n="adv"/></r></p></e>
-	<e><p><l>verulega<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
-	<e><p><l>vitanlega<s n="adv"/></l><r>uppenbarligen<s n="adv"/></r></p></e>
+
+	<e r="LR" c="v1"><p><l>verulega<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>töluvert<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>talsvert<s n="adv"/></l><r>betydligt<s n="adv"/></r></p></e>
+
 	<e><p><l>vitaskuld<s n="adv"/></l><r>så<b/>klart<s n="adv"/></r></p></e>
 	<e><p><l>væntanlega<s n="adv"/></l><r>antagligen<s n="adv"/></r></p></e>
 	<e><p><l>víst<s n="adv"/></l><r>visst<s n="adv"/></r></p></e>
@@ -1217,34 +1230,30 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>ágætlega<s n="adv"/></l><r>utmärkt<s n="adv"/></r></p></e>
 	<e><p><l>ákaflega<s n="adv"/></l><r>extremt<s n="adv"/></r></p></e>
 	<e><p><l>ákaft<s n="adv"/></l><r>ivrigt<s n="adv"/></r></p></e>
-	<e><p><l>áleiðis<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
 	<e><p><l>álíka<s n="adv"/></l><r>liknande<s n="adv"/></r></p></e>
-	<e><p><l>ávallt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
-	<e><p><l>áðan<s n="adv"/></l><r>nyss<s n="adv"/></r></p></e>
 	<e><p><l>áður<s n="adv"/></l><r>innan<s n="adv"/></r></p></e>
 	<e><p><l>ætíð<s n="adv"/></l><r>oföränderligt<s n="adv"/></r></p></e>
 	<e><p><l>ævinlega<s n="adv"/></l><r>osvikligt<s n="adv"/></r></p></e>
 	<e><p><l>æðislega<s n="adv"/></l><r>vanvettigt<s n="adv"/></r></p></e>
 	<e><p><l>í<b/>kjölfarið<s n="adv"/></l><r>följande<s n="adv"/></r></p></e>
-	<e><p><l>í<b/>rauninni<s n="adv"/></l><r>faktiskt<s n="adv"/></r></p></e>
-	<e><p><l>í<b/>skyndi<s n="adv"/></l><r>snabbt<s n="adv"/></r></p></e>
-	<e><p><l>í<b/>sífellu<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+
+	<e c="v0"><p><l>sífellt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>í<b/>sífellu<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+	<e r="LR" c="v2"><p><l>ávallt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+	<e r="LR" c="v3"><p><l>löngum<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+	<e r="LR" c="v4"><p><l>einatt<s n="adv"/></l><r>ständigt<s n="adv"/></r></p></e>
+
 	<e><p><l>ósjálfrátt<s n="adv"/></l><r>automatiskt<s n="adv"/></r></p></e>
-	<e><p><l>óskaplega<s n="adv"/></l><r>fruktansvärt<s n="adv"/></r></p></e>
-	<e><p><l>ósköp<s n="adv"/></l><r>ganska<s n="adv"/></r></p></e>
 	<e><p><l>óspart<s n="adv"/></l><r>givmilt<s n="adv"/></r></p></e>
 	<e><p><l>ótrúlega<s n="adv"/></l><r>otroligt<s n="adv"/></r></p></e>
 	<e><p><l>ótt<s n="adv"/></l><r>raskt<s n="adv"/></r></p></e>
 	<e><p><l>óþægilega<s n="adv"/></l><r>obekvämt<s n="adv"/></r></p></e>
-	<e><p><l>örlítið<s n="adv"/></l><r>lite<s n="adv"/></r></p></e>
-	<e><p><l>ört<s n="adv"/></l><r>hastigt<s n="adv"/></r></p></e>
 	<e><p><l>örugglega<s n="adv"/></l><r>säkert<s n="adv"/></r></p></e>
-	<e><p><l>öðruvísi<s n="adv"/></l><r>annars<s n="adv"/></r></p></e>
 	<e><p><l>útí<s n="adv"/></l><r>ut<b/>i<s n="adv"/></r></p></e>
 	<e><p><l>ýtrari<s n="adv"/></l><r>noggrannare<s n="adv"/></r></p></e>
 	<e><p><l>þangað<s n="adv"/></l><r>dit<s n="adv"/></r></p></e>
-	<e><p><l>þar<s n="adv"/></l><r>där<s n="adv"/></r></p></e>
-	<e><p><l>þarna<s n="adv"/></l><r>där<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>þar<s n="adv"/></l><r>där<s n="adv"/></r></p></e>
+	<e r="LR" c="v1"><p><l>þarna<s n="adv"/></l><r>där<s n="adv"/></r></p></e>
 	<e><p><l>þungt<s n="adv"/></l><r>tungt<s n="adv"/></r></p></e>
 	<e><p><l>þurrlega<s n="adv"/></l><r>torrt<s n="adv"/></r></p></e>
 	<e><p><l>þvert<b/>á<b/>móti<s n="adv"/></l><r>snarare<s n="adv"/></r></p></e>
@@ -1291,7 +1300,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 
 <!-- SECTION: Adjectives -->
 <e><p><l>algjör<s n="adj"/></l><r>absolut<s n="adj"/></r></p></e>
-<e><p><l>fullorðinn<s n="adj"/></l><r>vuxen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>fullorðinn<s n="adj"/></l><r>vuxen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>fullorðinn<s n="adj"/><s n="unsint"/></l><r>vuxen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ósamkvæmur<s n="adj"/></l><r>oförenlig<s n="adj"/></r></p></e>
 	<e><p><l>afganskur<s n="adj"/></l><r>afghansk<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>afkastamikill<s n="adj"/></l><r>effektiv<s n="adj"/></r></p></e>
@@ -1307,7 +1317,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v3"><p><l>almennur<s n="adj"/></l><r>generell<s n="adj"/></r></p></e>
 	<e r="RL" c="v4"><p><l>almennur<s n="adj"/></l><r>samhällsomfattande<s n="adj"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v5"><p><l>almennur<s n="adj"/></l><r>universell<s n="adj"/></r></p></e>
-	<e><p><l>alríkis<s n="adj"/></l><r>federal<s n="adj"/></r></p></e>
+<e r="LR"><p><l>alríkis<s n="adj"/></l><r>federal<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>alríkis<s n="adj"/><s n="unsint"/></l><r>federal<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>alsírskur<s n="adj"/></l><r>algerisk<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>alvarlegur<s n="adj"/></l><r>allvarlig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>alvarlegur<s n="adj"/></l><r>seriös<s n="adj"/></r></p></e>
@@ -1336,7 +1347,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>auðveldur<s n="adj"/></l><r>lätt<s n="adj"/></r></p></e>
 	<e><p><l>aðgengilegur<s n="adj"/></l><r>tillgänglig<s n="adj"/></r></p></e>
 	<e><p><l>aðgerðalaus<s n="adj"/></l><r>passiv<s n="adj"/></r></p></e>
-	<e><p><l>aðlaðandi<s n="adj"/></l><r>attraktiv<s n="adj"/></r></p></e>
+<e r="LR"><p><l>aðlaðandi<s n="adj"/></l><r>attraktiv<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>aðlaðandi<s n="adj"/><s n="unsint"/></l><r>attraktiv<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e r="RL" c="v1"><p><l>aðskilinn<s n="adj"/></l><r>separat<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>aðskilinn<s n="adj"/></l><r>skild<s n="adj"/></r></p></e>
 	<e><p><l>baltneskur<s n="adj"/></l><r>baltisk<s n="adj"/></r></p></e>
@@ -1367,7 +1379,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>byltingarkenndur<s n="adj"/></l><r>banbrytande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>búlgarskur<s n="adj"/></l><r>bulgarisk<s n="adj"/></r></p></e>
 	<e><p><l>búrmanskur<s n="adj"/></l><r>burmesisk<s n="adj"/></r></p></e>
-	<e><p><l>búsettur<s n="adj"/></l><r>bosatt<s n="adj"/></r></p></e>
+<e r="LR"><p><l>búsettur<s n="adj"/></l><r>bosatt<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>búsettur<s n="adj"/><s n="unsint"/></l><r>bosatt<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>daglegur<s n="adj"/></l><r>daglig<s n="adj"/></r></p></e>
 	<e><p><l>danskur<s n="adj"/></l><r>dansk<s n="adj"/></r></p></e>
 	<e><p><l>dauður<s n="adj"/></l><r>död<s n="adj"/></r></p></e>
@@ -1389,15 +1402,18 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>eftirfarandi<s n="adj"/></l><r>följande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>eftirgangsharður<s n="adj"/></l><r>enträgen<s n="adj"/></r></p></e>
 	<e><p><l>eftirliggjandi<s n="adj"/></l><r>återstående<s n="adj"/></r></p></e>
-	<e><p><l>eftirlýstur<s n="adj"/></l><r>efterlyst<s n="adj"/></r></p></e>
+<e r="LR"><p><l>eftirlýstur<s n="adj"/></l><r>efterlyst<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>eftirlýstur<s n="adj"/><s n="unsint"/></l><r>efterlyst<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>eftirminnilegur<s n="adj"/></l><r>extraordinär<s n="adj"/></r></p></e>
 	<e><p><l>eftirsóttur<s n="adj"/></l><r>folklig<s n="adj"/></r></p></e>
 	<e><p><l>egypskur<s n="adj"/></l><r>egyptisk<s n="adj"/></r></p></e>
-	<e><p><l>eiginn<s n="adj"/></l><r>egen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>eiginn<s n="adj"/></l><r>egen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>eiginn<s n="adj"/><s n="unsint"/></l><r>egen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>eiginlegur<s n="adj"/></l><r>passande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>einangraður<s n="adj"/></l><r>exklusiv<s n="adj"/></r></p></e>
 	<e><p><l>einfaldur<s n="adj"/></l><r>enkel<s n="adj"/></r></p></e>
-	<e><p><l>einhliða<s n="adj"/></l><r>ensidig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>einhliða<s n="adj"/></l><r>ensidig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>einhliða<s n="adj"/><s n="unsint"/></l><r>ensidig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>eini<s n="adj"/></l><r>enda<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>einsamall<s n="adj"/></l><r>ensam<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>einsamall<s n="adj"/></l><r>solidarisk<s n="adj"/></r></p></e>
@@ -1448,7 +1464,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>framkvæmdur<s n="adj"/></l><r>genomförd<s n="adj"/></r></p></e>
 	<e><p><l>framsækinn<s n="adj"/></l><r>progressiv<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>framúrskarandi<s n="adj"/></l><r>utmärkt<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>framúrskarandi<s n="adj"/></l><r>utomordentlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>framúrskarandi<s n="adj"/></l><r>utomordentlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>framúrskarandi<s n="adj"/><s n="unsint"/></l><r>utomordentlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>franskur<s n="adj"/></l><r>fransk<s n="adj"/></r></p></e>
 	<e><p><l>fremst<s n="adj"/></l><r>främst<s n="adj"/></r></p></e>
 	<e><p><l>friðsæll<s n="adj"/></l><r>fredlig<s n="adj"/></r></p></e>
@@ -1460,8 +1477,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>fræðilegur<s n="adj"/></l><r>akademisk<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>fræðilegur<s n="adj"/></l><r>teoretisk<s n="adj"/></r></p></e>
 	<e><p><l>frískur<s n="adj"/></l><r>hälsosam<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>fullbúinn<s n="adj"/></l><r>fullständig<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>fullbúinn<s n="adj"/></l><r>komplett<s n="adj"/></r></p></e>
+<e r="LR"><p><l>fullbúinn<s n="adj"/></l><r>fullständig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>fullbúinn<s n="adj"/><s n="unsint"/></l><r>fullständig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>fullbúinn<s n="adj"/></l><r>komplett<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>fullbúinn<s n="adj"/><s n="unsint"/></l><r>komplett<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>fullkominn<s n="adj"/></l><r>perfekt<s n="adj"/></r></p></e>
 	<e><p><l>fullkomlegur<s n="adj"/></l><r>fullkomlig<s n="adj"/></r></p></e>
 	<e><p><l>fullnægjandi<s n="adj"/></l><r>tillfredsställande<s n="adj"/></r></p></e> <!--ande__-->
@@ -1486,9 +1505,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>geislavirkur<s n="adj"/></l><r>radioaktiv<s n="adj"/></r></p></e>
 	<e><p><l>georgískur<s n="adj"/></l><r>georgisk<s n="adj"/></r></p></e>
 	<e><p><l>gerlegur<s n="adj"/></l><r>genomförbar<s n="adj"/></r></p></e>
-	<e><p><l>gildandi<s n="adj"/></l><r>tillämplig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>gildandi<s n="adj"/></l><r>tillämplig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>gildandi<s n="adj"/><s n="unsint"/></l><r>tillämplig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>gildur<s n="adj"/></l><r>fullvärdig<s n="adj"/></r></p></e>
-	<e><p><l>gjaldfallinn<s n="adj"/></l><r>vederbörlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>gjaldfallinn<s n="adj"/></l><r>vederbörlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>gjaldfallinn<s n="adj"/><s n="unsint"/></l><r>vederbörlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>gjaldgengur<s n="adj"/></l><r>giltig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>glæpsamlegur<s n="adj"/></l><r>brottslig<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>glæpsamlegur<s n="adj"/></l><r>kriminell<s n="adj"/></r></p></e>
@@ -1527,7 +1548,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>heiðarlegur<s n="adj"/></l><r>rättfärdig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>heiðarlegur<s n="adj"/></l><r>ärlig<s n="adj"/></r></p></e>
 	<e><p><l>helgur<s n="adj"/></l><r>helig<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>helstur<s n="adj"/></l><r>huvudsaklig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>helstur<s n="adj"/></l><r>huvudsaklig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>helstur<s n="adj"/><s n="unsint"/></l><r>huvudsaklig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e r="RL" c="v1"><p><l>helstur<s n="adj"/></l><r>primär<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>hentugur<s n="adj"/></l><r>läglig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>hentugur<s n="adj"/></l><r>lämplig<s n="adj"/></r></p></e>
@@ -1568,7 +1590,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>hugsanlegur<s n="adj"/></l><r>tänkbar<s n="adj"/></r></p></e>
 	<e><p><l>hvítarússneskur<s n="adj"/></l><r>vitrysk<s n="adj"/></r></p></e>
 	<e><p><l>hvítur<s n="adj"/></l><r>vit<s n="adj"/></r></p></e>
-	<e><p><l>hágæði<s n="adj"/></l><r>högkvalitativ<s n="adj"/></r></p></e>
+<e r="LR"><p><l>hágæði<s n="adj"/></l><r>högkvalitativ<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>hágæði<s n="adj"/><s n="unsint"/></l><r>högkvalitativ<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>hálfur<s n="adj"/></l><r>halv<s n="adj"/></r></p></e>
 	<e><p><l>hámarks<s n="adj"/></l><r>maximal<s n="adj"/></r></p></e>
 	<e><p><l>hár<s n="adj"/></l><r>hög<s n="adj"/></r></p></e>
@@ -1622,12 +1645,14 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>lamaður<s n="adj"/></l><r>lam<s n="adj"/></r></p></e>
 	<e><p><l>landfræðilegur<s n="adj"/></l><r>geografisk<s n="adj"/></r></p></e>
 	<e><p><l>langur<s n="adj"/></l><r>lång<s n="adj"/></r></p></e>
-	<e><p><l>langvarandi<s n="adj"/></l><r>långvarig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>langvarandi<s n="adj"/></l><r>långvarig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>langvarandi<s n="adj"/><s n="unsint"/></l><r>långvarig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>leiðandi<s n="adj"/></l><r>ledande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>leiðinlegur<s n="adj"/></l><r>tråkig<s n="adj"/></r></p></e>
 	<e><p><l>leiður<s n="adj"/></l><r>ledsen<s n="adj"/></r></p></e>
 	<e><p><l>leynilegur<s n="adj"/></l><r>hemlig<s n="adj"/></r></p></e>
-	<e><p><l>liðtækur<s n="adj"/></l><r>behörig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>liðtækur<s n="adj"/></l><r>behörig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>liðtækur<s n="adj"/><s n="unsint"/></l><r>behörig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ljómandi<s n="adj"/></l><r>lysande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>lofsverður<s n="adj"/></l><r>lovvärd<s n="adj"/></r></p></e>
 	<e><p><l>lágur<s n="adj"/></l><r>låg<s n="adj"/></r></p></e>
@@ -1655,7 +1680,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>manneskjulegur<s n="adj"/></l><r>human<s n="adj"/></r></p></e>
 	<e><p><l>mannúðlegur<s n="adj"/></l><r>humanitär<s n="adj"/></r></p></e>
 	<e><p><l>marghliða<s n="adj"/></l><r>multilateral<s n="adj"/></r></p></e>
-	<e><p><l>margir<s n="adj"/></l><r>många<s n="adj"/></r></p></e>
+<e r="LR"><p><l>margir<s n="adj"/></l><r>många<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>margir<s n="adj"/><s n="unsint"/></l><r>många<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>margslunginn<s n="adj"/></l><r>inblandad<s n="adj"/></r></p></e>
 	<e><p><l>megnugur<s n="adj"/></l><r>kapabel<s n="adj"/></r></p></e>
 	<e><p><l>menningarlegur<s n="adj"/></l><r>kulturell<s n="adj"/></r></p></e>
@@ -1663,14 +1689,18 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>merkilegur<s n="adj"/></l><r>anmärkningsvärd<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>merkilegur<s n="adj"/></l><r>häpnadsväckande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>metnaðarfullur<s n="adj"/></l><r>ambitiös<s n="adj"/></r></p></e>
-	<e><p><l>meðalstór<s n="adj"/></l><r>medelstor<s n="adj"/></r></p></e>
-	<e><p><l>meðvitandi<s n="adj"/></l><r>medveten<s n="adj"/></r></p></e>
+<e r="LR"><p><l>meðalstór<s n="adj"/></l><r>medelstor<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>meðalstór<s n="adj"/><s n="unsint"/></l><r>medelstor<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>meðvitandi<s n="adj"/></l><r>medveten<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>meðvitandi<s n="adj"/><s n="unsint"/></l><r>medveten<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>mikilfenglegur<s n="adj"/></l><r>storslagen<s n="adj"/></r></p></e>
 	<e><p><l>mikilvægur<s n="adj"/></l><r>viktig<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>mismunandi<s n="adj"/></l><r>annorlunda<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>mismunandi<s n="adj"/></l><r>olik<s n="adj"/></r></p></e>
-	<e><p><l>miðlungs<s n="adj"/></l><r>medellång<s n="adj"/></r></p></e>
-	<e><p><l>miðlægur<s n="adj"/></l><r>central<s n="adj"/></r></p></e>
+	<e><p><l>öðruvísi<s n="adj"/></l><r>annorlunda<s n="adj"/></r></p></e>
+	<e><p><l>mismunandi<s n="adj"/></l><r>olik<s n="adj"/></r></p></e>
+<e r="LR"><p><l>miðlungs<s n="adj"/></l><r>medellång<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>miðlungs<s n="adj"/><s n="unsint"/></l><r>medellång<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>miðlægur<s n="adj"/></l><r>central<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>miðlægur<s n="adj"/><s n="unsint"/></l><r>central<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>miðstýrður<s n="adj"/></l><r>centraliserad<s n="adj"/></r></p></e>
 	<e><p><l>munnlegur<s n="adj"/></l><r>muntlig<s n="adj"/></r></p></e>
 	<e><p><l>málefnalegur<s n="adj"/></l><r>objektiv<s n="adj"/></r></p></e>
@@ -1684,7 +1714,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>neikvæður<s n="adj"/></l><r>negativ<s n="adj"/></r></p></e>
 	<e><p><l>niðurlægja<s n="vblex"/></l><r>förnedra<s n="vblex"/></r></p></e>
 	<e><p><l>norrænn<s n="adj"/></l><r>nordisk<s n="adj"/></r></p></e>
-	<e><p><l>norðanverður<s n="adj"/></l><r>nordlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>norðanverður<s n="adj"/></l><r>nordlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>norðanverður<s n="adj"/><s n="unsint"/></l><r>nordlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>norðvestur<s n="adj"/></l><r>nordvästra<s n="adj"/></r></p></e>
 	<e><p><l>nákvæmlegur<s n="adj"/></l><r>exakt<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>nákvæmur<s n="adj"/></l><r>detaljerad<s n="adj"/></r></p></e>
@@ -1694,7 +1725,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>náttúrulegur<s n="adj"/></l><r>biologisk<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>náttúrulegur<s n="adj"/></l><r>naturlig<s n="adj"/></r></p></e>
 	<e><p><l>nægilegur<s n="adj"/></l><r>tillräcklig<s n="adj"/></r></p></e>
-	<e><p><l>næstur<s n="adj"/></l><r>näst<s n="adj"/></r></p></e>
+<e r="LR"><p><l>næstur<s n="adj"/></l><r>näst<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>næstur<s n="adj"/><s n="unsint"/></l><r>näst<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>nógur<s n="adj"/></l><r>nog<s n="adj"/></r></p></e>
 	<e><p><l>nútímalegur<s n="adj"/></l><r>modern<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>núverandi<s n="adj"/></l><r>aktuell<s n="adj"/></r></p></e>
@@ -1724,14 +1756,16 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>rauður<s n="adj"/></l><r>röd<s n="adj"/></r></p></e>
 	<e><p><l>reglubundinn<s n="adj"/></l><r>regelbunden<s n="adj"/></r></p></e>
 	<e><p><l>reiprennandi<s n="adj"/></l><r>flytande<s n="adj"/></r></p></e> <!--ande__-->
-	<e><p><l>rofinn<s n="adj"/></l><r>avbruten<s n="adj"/></r></p></e>
+<e r="LR"><p><l>rofinn<s n="adj"/></l><r>avbruten<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>rofinn<s n="adj"/><s n="unsint"/></l><r>avbruten<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ráðgefandi<s n="adj"/></l><r>rådgivande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>ráðríkur<s n="adj"/></l><r>auktoritär<s n="adj"/></r></p></e>
 	<e><p><l>réttlætanlegur<s n="adj"/></l><r>berättigad<s n="adj"/></r></p></e>
 	<e r="RL" c="v2"><p><l>réttur<s n="adj"/></l><r>korrekt<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>réttur<s n="adj"/></l><r>riktig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>réttur<s n="adj"/></l><r>rätt<s n="adj"/></r></p></e>
-	<e><p><l>ríkur<s n="adj"/></l><r>rik<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ríkur<s n="adj"/></l><r>rik<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ríkur<s n="adj"/><s n="unsint"/></l><r>rik<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>róandi<s n="adj"/></l><r>lugnande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>rólegur<s n="adj"/></l><r>lugn<s n="adj"/></r></p></e>
 	<e r="RL" c="v2"><p><l>róttækur<s n="adj"/></l><r>drastisk<s n="adj"/></r></p></e>
@@ -1749,18 +1783,23 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>samfelldur<s n="adj"/></l><r>fortlöpande<s n="adj"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v2"><p><l>samfelldur<s n="adj"/></l><r>kontinuerlig<s n="adj"/></r></p></e>
 	<e><p><l>samhangandi<s n="adj"/></l><r>sammanhängande<s n="adj"/></r></p></e> <!--ande__-->
-	<e><p><l>samhljóða<s n="adj"/></l><r>enhällig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>samhljóða<s n="adj"/></l><r>enhällig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>samhljóða<s n="adj"/><s n="unsint"/></l><r>enhällig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>samkeppnishæfur<s n="adj"/></l><r>konkurrenskraftig<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>samkvæmur<s n="adj"/></l><r>förenlig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>samkvæmur<s n="adj"/></l><r>konsekvent<s n="adj"/></r></p></e>
 	<e><p><l>samkynhneigður<s n="adj"/></l><r>homosexuell<s n="adj"/></r></p></e>
 	<e><p><l>samliggjandi<s n="adj"/></l><r>närliggande<s n="adj"/></r></p></e> <!--ande__-->
-	<e><p><l>samloðandi<s n="adj"/></l><r>sammanhållen<s n="adj"/></r></p></e>
-	<e r="RL" c="v2"><p><l>sammála<s n="adj"/></l><r>enig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>samloðandi<s n="adj"/></l><r>sammanhållen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>samloðandi<s n="adj"/><s n="unsint"/></l><r>sammanhållen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>sammála<s n="adj"/></l><r>enig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>sammála<s n="adj"/><s n="unsint"/></l><r>enig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e r="RL" c="v1"><p><l>sammála<s n="adj"/></l><r>ense<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>sammála<s n="adj"/></l><r>överens<s n="adj"/></r></p></e>
-	<e><p><l>samsettur<s n="adj"/></l><r>sammansatt<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>samsvarandi<s n="adj"/></l><r>likvärdig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>samsettur<s n="adj"/></l><r>sammansatt<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>samsettur<s n="adj"/><s n="unsint"/></l><r>sammansatt<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>samsvarandi<s n="adj"/></l><r>likvärdig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>samsvarandi<s n="adj"/><s n="unsint"/></l><r>likvärdig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e c="v0"><p><l>samsvarandi<s n="adj"/></l><r>motsvarande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>samsíða<s n="adj"/></l><r>parallell<s n="adj"/></r></p></e>
 	<e><p><l>samtímis<s n="adj"/></l><r>samtidig<s n="adj"/></r></p></e>
@@ -1782,11 +1821,14 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>sjálfstæður<s n="adj"/></l><r>autonom<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>sjálfstæður<s n="adj"/></l><r>självständig<s n="adj"/></r></p></e>
 	<e><p><l>sjálfur<s n="adj"/></l><r>själv<s n="adj"/></r></p></e>
-	<e><p><l>sjálfviljugur<s n="adj"/></l><r>frivillig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>sjálfviljugur<s n="adj"/></l><r>frivillig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>sjálfviljugur<s n="adj"/><s n="unsint"/></l><r>frivillig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>sjálfvirkur<s n="adj"/></l><r>automatisk<s n="adj"/></r></p></e>
 	<e><p><l>skammarlegur<s n="adj"/></l><r>skamlig<s n="adj"/></r></p></e>
-	<e><p><l>skammtíma<s n="adj"/></l><r>kortsiktig<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>skapandi<s n="adj"/></l><r>kreativ<s n="adj"/></r></p></e>
+<e r="LR"><p><l>skammtíma<s n="adj"/></l><r>kortsiktig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>skammtíma<s n="adj"/><s n="unsint"/></l><r>kortsiktig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>skapandi<s n="adj"/></l><r>kreativ<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>skapandi<s n="adj"/><s n="unsint"/></l><r>kreativ<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e r="RL" c="v1"><p><l>skapandi<s n="adj"/></l><r>skapande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>skarpur<s n="adj"/></l><r>skarp<s n="adj"/></r></p></e>
 	<e><p><l>skaðlegur<s n="adj"/></l><r>skadlig<s n="adj"/></r></p></e>
@@ -1809,13 +1851,16 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>slíkur<s n="adj"/></l><r>likadan<s n="adj"/></r></p></e>
 	<e><p><l>slóvakískur<s n="adj"/></l><r>slovakisk<s n="adj"/></r></p></e>
 	<e><p><l>slóvenskur<s n="adj"/></l><r>slovensk<s n="adj"/></r></p></e>
-	<e><p><l>smitandi<s n="adj"/></l><r>smittsam<s n="adj"/></r></p></e>
-	<e><p><l>snemmbúinn<s n="adj"/></l><r>tidig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>smitandi<s n="adj"/></l><r>smittsam<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>smitandi<s n="adj"/><s n="unsint"/></l><r>smittsam<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>snemmbúinn<s n="adj"/></l><r>tidig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>snemmbúinn<s n="adj"/><s n="unsint"/></l><r>tidig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>sorglegur<s n="adj"/></l><r>sorglig<s n="adj"/></r></p></e>
 	<e><p><l>sovét<s n="adj"/></l><r>sovjetisk<s n="adj"/></r></p></e>
 	<e><p><l>spennandi<s n="adj"/></l><r>spännande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>spænskur<s n="adj"/></l><r>spansk<s n="adj"/></r></p></e>
-	<e><p><l>starfandi<s n="adj"/></l><r>sysselsatt<s n="adj"/></r></p></e>
+<e r="LR"><p><l>starfandi<s n="adj"/></l><r>sysselsatt<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>starfandi<s n="adj"/><s n="unsint"/></l><r>sysselsatt<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>starfhæfur<s n="adj"/></l><r>yrkesverksam<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>staðbundinn<s n="adj"/></l><r>lokal<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>staðbundinn<s n="adj"/></l><r>regional<s n="adj"/></r></p></e>
@@ -1861,10 +1906,12 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>súdanskur<s n="adj"/></l><r>sudanesisk<s n="adj"/></r></p></e>
 	<e><p><l>sýnilegur<s n="adj"/></l><r>synlig<s n="adj"/></r></p></e>
 	<e><p><l>tafarlaus<s n="adj"/></l><r>omedelbar<s n="adj"/></r></p></e>
-	<e><p><l>takmarkandi<s n="adj"/></l><r>restriktiv<s n="adj"/></r></p></e>
+<e r="LR"><p><l>takmarkandi<s n="adj"/></l><r>restriktiv<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>takmarkandi<s n="adj"/><s n="unsint"/></l><r>restriktiv<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e c="v0"><p><l>tengdur<s n="adj"/></l><r>relaterad<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>tengdur<s n="adj"/></l><r>tillhörande<s n="adj"/></r></p></e> <!--ande__-->
-	<e r="RL" c="v3"><p><l>tilbúinn<s n="adj"/></l><r>beredd<s n="adj"/></r></p></e>
+<e r="LR"><p><l>tilbúinn<s n="adj"/></l><r>beredd<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>tilbúinn<s n="adj"/><s n="unsint"/></l><r>beredd<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e c="v0"><p><l>tilbúinn<s n="adj"/></l><r>färdig<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>tilbúinn<s n="adj"/></l><r>redo<s n="adj"/></r></p></e>
 	<e r="RL" c="v2"><p><l>tilbúinn<s n="adj"/></l><r>syntetisk<s n="adj"/></r></p></e>
@@ -1888,7 +1935,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>tómur<s n="adj"/></l><r>tom<s n="adj"/></r></p></e>
 	<e><p><l>tölfræðilegur<s n="adj"/></l><r>statistisk<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>töluverður<s n="adj"/></l><r>avsevärd<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>töluverður<s n="adj"/></l><r>betydlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>töluverður<s n="adj"/></l><r>betydlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>töluverður<s n="adj"/><s n="unsint"/></l><r>betydlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>umdeildur<s n="adj"/></l><r>kontroversiell<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>umfangsmikill<s n="adj"/></l><r>massiv<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>umfangsmikill<s n="adj"/></l><r>omfattande<s n="adj"/></r></p></e> <!--ande__-->
@@ -1902,13 +1950,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>undirliggjandi<s n="adj"/></l><r>underliggande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>ungur<s n="adj"/></l><r>ung<s n="adj"/></r></p></e>
 	<e><p><l>ungverskur<s n="adj"/></l><r>ungersk<s n="adj"/></r></p></e>
-	<e><p><l>uppbyggjandi<s n="adj"/></l><r>konstruktiv<s n="adj"/></r></p></e>
+<e r="LR"><p><l>uppbyggjandi<s n="adj"/></l><r>konstruktiv<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>uppbyggjandi<s n="adj"/><s n="unsint"/></l><r>konstruktiv<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>upprunalegur<s n="adj"/></l><r>ursprunglig<s n="adj"/></r></p></e>
 	<e><p><l>upptekinn<s n="adj"/></l><r>upptagen<s n="adj"/></r></p></e>
 	<e><p><l>vafalaus<s n="adj"/></l><r>tveklös<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>vafasamur<s n="adj"/></l><r>tveksam<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>vafasamur<s n="adj"/></l><r>tvivelaktig<s n="adj"/></r></p></e>
-	<e><p><l>vakandi<s n="adj"/></l><r>vaksam<s n="adj"/></r></p></e>
+<e r="LR"><p><l>vakandi<s n="adj"/></l><r>vaksam<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>vakandi<s n="adj"/><s n="unsint"/></l><r>vaksam<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>vandaður<s n="adj"/></l><r>omsorgsfull<s n="adj"/></r></p></e>
 	<e><p><l>vandráðinn<s n="adj"/></l><r>problematisk<s n="adj"/></r></p></e>
 	<e><p><l>vandur<s n="adj"/></l><r>besvärlig<s n="adj"/></r></p></e>
@@ -1934,7 +1984,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>vestur-evrópskur<s n="adj"/></l><r>västeuropeisk<s n="adj"/></r></p></e>
 	<e><p><l>vesturlenskur<s n="adj"/></l><r>västerländsk<s n="adj"/></r></p></e>
 	<e><p><l>viljafastur<s n="adj"/></l><r>besluten<s n="adj"/></r></p></e>
-	<e><p><l>viljandi<s n="adj"/></l><r>avsiktlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>viljandi<s n="adj"/></l><r>avsiktlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>viljandi<s n="adj"/><s n="unsint"/></l><r>avsiktlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>viljugur<s n="adj"/></l><r>villig<s n="adj"/></r></p></e>
 	<e><p><l>villandi<s n="adj"/></l><r>vilseledande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>villtur<s n="adj"/></l><r>vild<s n="adj"/></r></p></e>
@@ -1945,11 +1996,13 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>vitsmunalegur<s n="adj"/></l><r>intellektuell<s n="adj"/></r></p></e>
 	<e><p><l>vitur<s n="adj"/></l><r>klok<s n="adj"/></r></p></e>
 	<e><p><l>viðbjóðslegur<s n="adj"/></l><r>motbjudande<s n="adj"/></r></p></e> <!--ande__-->
-	<e><p><l>viðeigandi<s n="adj"/></l><r>ändamålsenlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>viðeigandi<s n="adj"/></l><r>ändamålsenlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>viðeigandi<s n="adj"/><s n="unsint"/></l><r>ändamålsenlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>viðkvæmur<s n="adj"/></l><r>känslig<s n="adj"/></r></p></e>
 	<e><p><l>viðstaddur<s n="adj"/></l><r>närvarande<s n="adj"/></r></p></e> <!--ande__-->
 	<e c="v0"><p><l>viðunandi<s n="adj"/></l><r>acceptabel<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>viðunandi<s n="adj"/></l><r>godtagbar<s n="adj"/></r></p></e>
+<e r="LR"><p><l>viðunandi<s n="adj"/></l><r>godtagbar<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>viðunandi<s n="adj"/><s n="unsint"/></l><r>godtagbar<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>viðvarandi<s n="adj"/></l><r>ihållande<s n="adj"/></r></p></e> <!--ande__-->
 	<e c="v0"><p><l>vondur<s n="adj"/></l><r>dålig<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>vondur<s n="adj"/></l><r>ond<s n="adj"/></r></p></e>
@@ -1966,8 +2019,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>yfirstandandi<s n="adj"/></l><r>pågående<s n="adj"/></r></p></e>
 	<e><p><l>yfirvofandi<s n="adj"/></l><r>överhängande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>yfirþyrmandi<s n="adj"/></l><r>överväldigande<s n="adj"/></r></p></e> <!--ande__-->
-	<e><p><l>ystur<s n="adj"/></l><r>extrem<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>ytri<s n="adj"/></l><r>extern<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ystur<s n="adj"/></l><r>extrem<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ystur<s n="adj"/><s n="unsint"/></l><r>extrem<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>ytri<s n="adj"/></l><r>extern<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ytri<s n="adj"/><s n="unsint"/></l><r>extern<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e c="v0"><p><l>ytri<s n="adj"/></l><r>yttre<s n="adj"/></r></p></e>
 	<e><p><l>ábyrgur<s n="adj"/></l><r>ansvarig<s n="adj"/></r></p></e>
 	<e><p><l>ábyrgðarlaus<s n="adj"/></l><r>oansvarig<s n="adj"/></r></p></e>
@@ -1993,7 +2048,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>ærlegur<s n="adj"/></l><r>ordentlig<s n="adj"/></r></p></e>
 	<e><p><l>æskilegur<s n="adj"/></l><r>önskvärd<s n="adj"/></r></p></e>
 	<e><p><l>ævilangur<s n="adj"/></l><r>livslång<s n="adj"/></r></p></e>
-	<e><p><l>æðstur<s n="adj"/></l><r>ytterst<s n="adj"/></r></p></e>
+<e r="LR"><p><l>æðstur<s n="adj"/></l><r>ytterst<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>æðstur<s n="adj"/><s n="unsint"/></l><r>ytterst<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>í<b/>meðaltali<s n="adj"/></l><r>genomsnittlig<s n="adj"/></r></p></e>
 	<e><p><l>í<b/>röð<s n="adj"/></l><r>successiv<s n="adj"/></r></p></e>
 	<e><p><l>íhaldssamur<s n="adj"/></l><r>konservativ<s n="adj"/></r></p></e>
@@ -2020,12 +2076,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>óhefðbundinn<s n="adj"/></l><r>alternativ<s n="adj"/></r></p></e>
 	<e><p><l>óhentugur<s n="adj"/></l><r>otillbörlig<s n="adj"/></r></p></e>
 	<e><p><l>óhlutdrægur<s n="adj"/></l><r>opartisk<s n="adj"/></r></p></e>
-	<e r="RL" c="v1"><p><l>óhugsandi<s n="adj"/></l><r>orimlig<s n="adj"/></r></p></e>
-	<e c="v0"><p><l>óhugsandi<s n="adj"/></l><r>otänkbar<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óhugsandi<s n="adj"/></l><r>orimlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óhugsandi<s n="adj"/><s n="unsint"/></l><r>orimlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>óhugsandi<s n="adj"/></l><r>otänkbar<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óhugsandi<s n="adj"/><s n="unsint"/></l><r>otänkbar<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>óháður<s n="adj"/></l><r>oberoende<s n="adj"/></r></p></e>
 	<e><p><l>óhæfur<s n="adj"/></l><r>oförmögen<s n="adj"/></r></p></e>
 	<e><p><l>ókeypis<s n="adj"/></l><r>gratis<s n="adj"/></r></p></e>
-	<e><p><l>óleystur<s n="adj"/></l><r>olöst<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óleystur<s n="adj"/></l><r>olöst<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óleystur<s n="adj"/><s n="unsint"/></l><r>olöst<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e c="v0"><p><l>óljós<s n="adj"/></l><r>oklar<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>óljós<s n="adj"/></l><r>vag<s n="adj"/></r></p></e>
 	<e><p><l>ólympískur<s n="adj"/></l><r>olympisk<s n="adj"/></r></p></e>
@@ -2033,31 +2092,39 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>ólöglegur<s n="adj"/></l><r>olaglig<s n="adj"/></r></p></e>
 	<e><p><l>ólýðræðislegur<s n="adj"/></l><r>odemokratisk<s n="adj"/></r></p></e>
 	<e><p><l>ómannlegur<s n="adj"/></l><r>omänsklig<s n="adj"/></r></p></e>
-	<e><p><l>ómissandi<s n="adj"/></l><r>oumbärlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ómissandi<s n="adj"/></l><r>oumbärlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ómissandi<s n="adj"/><s n="unsint"/></l><r>oumbärlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ómögulegur<s n="adj"/></l><r>omöjlig<s n="adj"/></r></p></e>
 	<e><p><l>ónotaður<s n="adj"/></l><r>outnyttjad<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>ónógur<s n="adj"/></l><r>bristande<s n="adj"/></r></p></e> <!--ande__-->
 	<e c="v0"><p><l>ónógur<s n="adj"/></l><r>otillräcklig<s n="adj"/></r></p></e>
 	<e><p><l>óraunhæfur<s n="adj"/></l><r>orealistisk<s n="adj"/></r></p></e>
 	<e><p><l>ósammála<s n="adj"/></l><r>oense<s n="adj"/></r></p></e>
-	<e><p><l>ósamsvarandi<s n="adj"/></l><r>oproportionerlig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ósamsvarandi<s n="adj"/></l><r>oproportionerlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ósamsvarandi<s n="adj"/><s n="unsint"/></l><r>oproportionerlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e r="RL" c="v1"><p><l>ósanngjarn<s n="adj"/></l><r>illojal<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>ósanngjarn<s n="adj"/></l><r>orättvis<s n="adj"/></r></p></e>
 	<e><p><l>ósiðmenntaður<s n="adj"/></l><r>barbarisk<s n="adj"/></r></p></e>
 	<e><p><l>óskiljanlegur<s n="adj"/></l><r>obegriplig<s n="adj"/></r></p></e>
 	<e><p><l>óstöðugur<s n="adj"/></l><r>instabil<s n="adj"/></r></p></e>
-	<e><p><l>ósvikinn<s n="adj"/></l><r>genuin<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ósvikinn<s n="adj"/></l><r>genuin<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ósvikinn<s n="adj"/><s n="unsint"/></l><r>genuin<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ótakmarkaður<s n="adj"/></l><r>obegränsad<s n="adj"/></r></p></e>
-	<e><p><l>óteljandi<s n="adj"/></l><r>oräknelig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óteljandi<s n="adj"/></l><r>oräknelig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óteljandi<s n="adj"/><s n="unsint"/></l><r>oräknelig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ótrúlegur<s n="adj"/></l><r>otrolig<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>ótvíræður<s n="adj"/></l><r>entydig<s n="adj"/></r></p></e>
 	<e r="RL" c="v1"><p><l>ótvíræður<s n="adj"/></l><r>otvetydig<s n="adj"/></r></p></e>
 	<e><p><l>óumdeilanlegur<s n="adj"/></l><r>otvivelaktig<s n="adj"/></r></p></e>
-	<e><p><l>óumflýjanlegur<s n="adj"/></l><r>oundviklig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óumflýjanlegur<s n="adj"/></l><r>oundviklig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óumflýjanlegur<s n="adj"/><s n="unsint"/></l><r>oundviklig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>óvart<s n="adj"/></l><r>förvånande<s n="adj"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v1"><p><l>óvenjulegur<s n="adj"/></l><r>exceptionell<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>óvenjulegur<s n="adj"/></l><r>ovanlig<s n="adj"/></r></p></e>
-	<e><p><l>óviðeigandi<s n="adj"/></l><r>olämplig<s n="adj"/></r></p></e>
+
+<e r="LR"><p><l>óviðeigandi<s n="adj"/></l><r>olämplig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óviðeigandi<s n="adj"/><s n="unsint"/></l><r>olämplig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+
 	<e r="RL" c="v1"><p><l>óvæntur<s n="adj"/></l><r>oförutsedd<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>óvæntur<s n="adj"/></l><r>överraskande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>óvís<s n="adj"/></l><r>osäker<s n="adj"/></r></p></e>
@@ -2079,7 +2146,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>úreltur<s n="adj"/></l><r>föråldrad<s n="adj"/></r></p></e>
 	<e><p><l>útbreiddur<s n="adj"/></l><r>utbredd<s n="adj"/></r></p></e>
 	<e><p><l>útistandandi<s n="adj"/></l><r>utestående<s n="adj"/></r></p></e>
-	<e><p><l>útskúfaður<s n="adj"/></l><r>fördriven<s n="adj"/></r></p></e>
+<e r="LR"><p><l>útskúfaður<s n="adj"/></l><r>fördriven<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>útskúfaður<s n="adj"/><s n="unsint"/></l><r>fördriven<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ýmislegur<s n="adj"/></l><r>diverse<s n="adj"/></r></p></e>
 	<e><p><l>ýtarlegur<s n="adj"/></l><r>noggrann<s n="adj"/></r></p></e>
 	<e><p><l>þakklátur<s n="adj"/></l><r>tacksam<s n="adj"/></r></p></e>
@@ -2096,7 +2164,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>þröngur<s n="adj"/></l><r>snäv<s n="adj"/></r></p></e>
 	<e><p><l>þungur<s n="adj"/></l><r>tung<s n="adj"/></r></p></e>
 	<e><p><l>þversagnarkenndur<s n="adj"/></l><r>paradoxal<s n="adj"/></r></p></e>
-	<e><p><l>þvingandi<s n="adj"/></l><r>repressiv<s n="adj"/></r></p></e>
+<e r="LR"><p><l>þvingandi<s n="adj"/></l><r>repressiv<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>þvingandi<s n="adj"/><s n="unsint"/></l><r>repressiv<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>þvingaður<s n="adj"/></l><r>ansträngd<s n="adj"/></r></p></e>
 	<e><p><l>þáverandi<s n="adj"/></l><r>dåvarande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>þéttur<s n="adj"/></l><r>tät<s n="adj"/></r></p></e>
@@ -2109,13 +2178,16 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>atlantshafs<s n="adj"/></l><r>transatlantisk<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>borgar<s n="adj"/></l><r>urban<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>dýra<s n="adj"/></l><r>animalisk<s n="adj"/></r></p></e> <!--compound__-->
-	<e><p><l>einka<s n="adj"/></l><r>privat<s n="adj"/></r></p></e> <!--compound__-->
+<e r="LR"><p><l>einka<s n="adj"/></l><r>privat<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>einka<s n="adj"/><s n="unsint"/></l><r>privat<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>formgerðar<s n="adj"/></l><r>strukturell<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>grænmetis<s n="adj"/></l><r>vegetabilisk<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>hitabeltis<s n="adj"/></l><r>tropisk<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>iðnaðar<s n="adj"/></l><r>industriell<s n="adj"/></r></p></e> <!--compound__-->
-	<e><p><l>langtíma<s n="adj"/></l><r>långsiktig<s n="adj"/></r></p></e> <!--compound__-->
-	<e><p><l>ríkis<s n="adj"/></l><r>statlig<s n="adj"/></r></p></e> <!--compound__-->
+<e r="LR"><p><l>langtíma<s n="adj"/></l><r>långsiktig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>langtíma<s n="adj"/><s n="unsint"/></l><r>långsiktig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>ríkis<s n="adj"/></l><r>statlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ríkis<s n="adj"/><s n="unsint"/></l><r>statlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>utanríkis<s n="adj"/></l><r>utrikes<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>viðbótar<s n="adj"/></l><r>ytterligare<s n="adj"/></r></p></e> <!--compound__-->
 	<e><p><l>æxlunar<s n="adj"/></l><r>reproduktiv<s n="adj"/></r></p></e> <!--compound__-->
@@ -2147,12 +2219,14 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>boginn<s n="adj"/></l><r>böjd<s n="adj"/></r></p></e>
 	<e><p><l>brattur<s n="adj"/></l><r>pigg<s n="adj"/></r></p></e>
 	<e><p><l>brennandi<s n="adj"/></l><r>brännande<s n="adj"/></r></p></e>
-	<e><p><l>brotinn<s n="adj"/></l><r>bruten<s n="adj"/></r></p></e>
+<e r="LR"><p><l>brotinn<s n="adj"/></l><r>bruten<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>brotinn<s n="adj"/><s n="unsint"/></l><r>bruten<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>brúnn<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
 	<e><p><l>brýnn<s n="adj"/></l><r>brådskande<s n="adj"/></r></p></e>
 	<e><p><l>bágur<s n="adj"/></l><r>benig<s n="adj"/></r></p></e>
 	<e><p><l>bættur<s n="adj"/></l><r>förbättrad<s n="adj"/></r></p></e>
-	<e><p><l>búinn<s n="adj"/></l><r>färdig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>búinn<s n="adj"/></l><r>färdig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>búinn<s n="adj"/><s n="unsint"/></l><r>färdig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>dapur<s n="adj"/></l><r>ledsen<s n="adj"/></r></p></e>
 	<e><p><l>dapurlegur<s n="adj"/></l><r>dyster<s n="adj"/></r></p></e>
 	<e><p><l>daufur<s n="adj"/></l><r>svag<s n="adj"/></r></p></e>
@@ -2162,11 +2236,13 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>drungalegur<s n="adj"/></l><r>sur<s n="adj"/></r></p></e>
 	<e><p><l>duglegur<s n="adj"/></l><r>duktig<s n="adj"/></r></p></e>
 	<e><p><l>dularfullur<s n="adj"/></l><r>mystisk<s n="adj"/></r></p></e>
-	<e><p><l>dáinn<s n="adj"/></l><r>död<s n="adj"/></r></p></e>
+<e r="LR"><p><l>dáinn<s n="adj"/></l><r>död<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>dáinn<s n="adj"/><s n="unsint"/></l><r>död<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>dásamlegur<s n="adj"/></l><r>underbar<s n="adj"/></r></p></e>
 	<e><p><l>dökkur<s n="adj"/></l><r>mörk<s n="adj"/></r></p></e>
 	<e><p><l>efri<s n="adj"/></l><r>övre<s n="adj"/></r></p></e>
-	<e><p><l>eiginn<s n="adj"/></l><r>egen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>eiginn<s n="adj"/></l><r>egen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>eiginn<s n="adj"/><s n="unsint"/></l><r>egen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>eilífur<s n="adj"/></l><r>evig<s n="adj"/></r></p></e>
 	<e><p><l>einasti<s n="adj"/></l><r>enda<s n="adj"/></r></p></e>
 	<e><p><l>einkennilegur<s n="adj"/></l><r>egendomlig<s n="adj"/></r></p></e>
@@ -2179,15 +2255,18 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>eðlilegur<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
 	<e r="LR" c="v1"><p><l>fagur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>fallegur<s n="adj"/></l><r>vacker<s n="adj"/></r></p></e>
-	<e><p><l>fallinn<s n="adj"/></l><r>fallen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>fallinn<s n="adj"/></l><r>fallen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>fallinn<s n="adj"/><s n="unsint"/></l><r>fallen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>falskur<s n="adj"/></l><r>falsk<s n="adj"/></r></p></e>
 	<e><p><l>farinn<s n="adj"/></l><r>borta<s n="adj"/></r></p></e>
-	<e><p><l>fastur<s n="adj"/></l><r>fast<s n="adj"/></r></p></e>
+<e r="LR"><p><l>fastur<s n="adj"/></l><r>fast<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>fastur<s n="adj"/><s n="unsint"/></l><r>fast<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>feginn<s n="adj"/></l><r>belåten<s n="adj"/></r></p></e>
 	<e><p><l>feitur<s n="adj"/></l><r>fet<s n="adj"/></r></p></e>
 	<e><p><l>fertugur<s n="adj"/></l><r>fyrtioårig<s n="adj"/></r></p></e>
 	<e><p><l>fjölmargur<s n="adj"/></l><r>många<s n="adj"/></r></p></e>
-	<e><p><l>flatur<s n="adj"/></l><r>platt<s n="adj"/></r></p></e>
+<e r="LR"><p><l>flatur<s n="adj"/></l><r>platt<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>flatur<s n="adj"/><s n="unsint"/></l><r>platt<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>fljótur<s n="adj"/></l><r>snabb<s n="adj"/></r></p></e>
 	<e><p><l>fljótur<s n="adj"/></l><r>snar<s n="adj"/></r></p></e>
 	<e><p><l>flottur<s n="adj"/></l><r>sval<s n="adj"/></r></p></e>
@@ -2212,8 +2291,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>fíngerður<s n="adj"/></l><r>fin<s n="adj"/></r></p></e>
 	<e><p><l>fölur<s n="adj"/></l><r>blek<s n="adj"/></r></p></e>
 	<e><p><l>fúll<s n="adj"/></l><r>sur<s n="adj"/></r></p></e>
-	<e><p><l>gamaldags<s n="adj"/></l><r>ålderdomlig<s n="adj"/></r></p></e>
-	<e><p><l>gefinn<s n="adj"/></l><r>given<s n="adj"/></r></p></e>
+<e r="LR"><p><l>gamaldags<s n="adj"/></l><r>ålderdomlig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>gamaldags<s n="adj"/><s n="unsint"/></l><r>ålderdomlig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>gefinn<s n="adj"/></l><r>given<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>gefinn<s n="adj"/><s n="unsint"/></l><r>given<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>gerður<s n="adj"/></l><r>tillverkad<s n="adj"/></r></p></e>
 	<e><p><l>geymdur<s n="adj"/></l><r>lagrad<s n="adj"/></r></p></e>
 	<e><p><l>giftur<s n="adj"/></l><r>gift<s n="adj"/></r></p></e>
@@ -2234,10 +2315,12 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>heilagur<s n="adj"/></l><r>helig<s n="adj"/></r></p></e>
 	<e><p><l>heillandi<s n="adj"/></l><r>fascinerande<s n="adj"/></r></p></e>
 	<e><p><l>heimskur<s n="adj"/></l><r>dum<s n="adj"/></r></p></e>
-	<e><p><l>heitinn<s n="adj"/></l><r>hädangången<s n="adj"/></r></p></e>
+<e r="LR"><p><l>heitinn<s n="adj"/></l><r>hädangången<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>heitinn<s n="adj"/><s n="unsint"/></l><r>hädangången<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>heitur<s n="adj"/></l><r>het<s n="adj"/></r></p></e>
 	<e><p><l>heppinn<s n="adj"/></l><r>lycklig<s n="adj"/></r></p></e>
-	<e><p><l>hikandi<s n="adj"/></l><r>tveksam<s n="adj"/></r></p></e>
+<e r="LR"><p><l>hikandi<s n="adj"/></l><r>tveksam<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>hikandi<s n="adj"/><s n="unsint"/></l><r>tveksam<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>hinstur<s n="adj"/></l><r>sist<s n="adj"/></r></p></e>
 	<e><p><l>hlaðinn<s n="adj"/></l><r>lastad<s n="adj"/></r></p></e>
 	<e><p><l>hljóðlátur<s n="adj"/></l><r>tyst<s n="adj"/></r></p></e>
@@ -2254,7 +2337,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hrifinn<s n="adj"/></l><r>imponerad<s n="adj"/></r></p></e>
 	<e><p><l>hringlaga<s n="adj"/></l><r>cirkulär<s n="adj"/></r></p></e>
 	<e><p><l>hugsandi<s n="adj"/></l><r>reflekterande<s n="adj"/></r></p></e>
-	<e><p><l>hugsi<s n="adj"/></l><r>eftertänksam<s n="adj"/></r></p></e>
+<e r="LR"><p><l>hugsi<s n="adj"/></l><r>eftertänksam<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>hugsi<s n="adj"/><s n="unsint"/></l><r>eftertänksam<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>hulinn<s n="adj"/></l><r>dold<s n="adj"/></r></p></e>
 	<e><p><l>hvass<s n="adj"/></l><r>blåsig<s n="adj"/></r></p></e>
 	<e><p><l>hversdagslegur<s n="adj"/></l><r>vardaglig<s n="adj"/></r></p></e>
@@ -2262,7 +2346,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hávaxinn<s n="adj"/></l><r>hög<s n="adj"/></r></p></e>
 	<e><p><l>hávær<s n="adj"/></l><r>högljudd<s n="adj"/></r></p></e>
 	<e><p><l>háður<s n="adj"/></l><r>underlydande<s n="adj"/></r></p></e>
-	<e><p><l>innanverður<s n="adj"/></l><r>invändig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>innanverður<s n="adj"/></l><r>invändig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>innanverður<s n="adj"/><s n="unsint"/></l><r>invändig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>jafnaður<s n="adj"/></l><r>kompenserad<s n="adj"/></r></p></e>
 	<e><p><l>jafnmargur<s n="adj"/></l><r>lika<b/>många<s n="adj"/></r></p></e>
 	<e><p><l>kaldur<s n="adj"/></l><r>kall<s n="adj"/></r></p></e>
@@ -2271,7 +2356,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>klár<s n="adj"/></l><r>smart<s n="adj"/></r></p></e>
 	<e><p><l>klæddur<s n="adj"/></l><r>klädd<s n="adj"/></r></p></e>
 	<e><p><l>konunglegur<s n="adj"/></l><r>kunglig<s n="adj"/></r></p></e>
-	<e><p><l>kristinn<s n="adj"/></l><r>kristen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>kristinn<s n="adj"/></l><r>kristen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>kristinn<s n="adj"/><s n="unsint"/></l><r>kristen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>kunnugur<s n="adj"/></l><r>förtrogen<s n="adj"/></r></p></e>
 	<e><p><l>kunnur<s n="adj"/></l><r>framstående<s n="adj"/></r></p></e>
 	<e><p><l>kvikur<s n="adj"/></l><r>kvick<s n="adj"/></r></p></e>
@@ -2287,13 +2373,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>leyndur<s n="adj"/></l><r>dold<s n="adj"/></r></p></e>
 	<e><p><l>lifandi<s n="adj"/></l><r>levande<s n="adj"/></r></p></e>
 	<e><p><l>listrænn<s n="adj"/></l><r>konstnärlig<s n="adj"/></r></p></e>
-	<e><p><l>liðinn<s n="adj"/></l><r>förgången<s n="adj"/></r></p></e>
+<e r="LR"><p><l>liðinn<s n="adj"/></l><r>förgången<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>liðinn<s n="adj"/><s n="unsint"/></l><r>förgången<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ljótur<s n="adj"/></l><r>ful<s n="adj"/></r></p></e>
 	<e><p><l>ljúfur<s n="adj"/></l><r>ljuv<s n="adj"/></r></p></e>
 	<e><p><l>logandi<s n="adj"/></l><r>flammande<s n="adj"/></r></p></e>
 	<e><p><l>lokaður<s n="adj"/></l><r>stängd<s n="adj"/></r></p></e>
 	<e><p><l>lokinn<s n="adj"/></l><r>avslutad<s n="adj"/></r></p></e>
-	<e><p><l>loðinn<s n="adj"/></l><r>hårig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>loðinn<s n="adj"/></l><r>hårig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>loðinn<s n="adj"/><s n="unsint"/></l><r>hårig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>látinn<s n="adj"/></l><r>död<s n="adj"/></r></p></e>
 	<e><p><l>lærður<s n="adj"/></l><r>lärd<s n="adj"/></r></p></e>
 	<e><p><l>læstur<s n="adj"/></l><r>låst<s n="adj"/></r></p></e>
@@ -2332,7 +2420,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>nýfæddur<s n="adj"/></l><r>nyfödd<s n="adj"/></r></p></e>
 	<e><p><l>nýkominn<s n="adj"/></l><r>nykommen<s n="adj"/></r></p></e>
 	<e><p><l>nýlegur<s n="adj"/></l><r><g>ganska<b/></g>ny<s n="adj"/></r></p></e>
-	<e><p><l>ofurlítill<s n="adj"/></l><r>klen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ofurlítill<s n="adj"/></l><r>klen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ofurlítill<s n="adj"/><s n="unsint"/></l><r>klen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>rakur<s n="adj"/></l><r>fuktig<s n="adj"/></r></p></e>
 	<e><p><l>rammur<s n="adj"/></l><r>stark<s n="adj"/></r></p></e>
 	<e><p><l>reglulegur<s n="adj"/></l><r>regelbunden<s n="adj"/></r></p></e>
@@ -2353,7 +2442,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>skerandi<s n="adj"/></l><r>genomborrande<s n="adj"/></r></p></e>
 	<e><p><l>skilgetinn<s n="adj"/></l><r>legitim<s n="adj"/></r></p></e>
 	<e><p><l>skilinn<s n="adj"/></l><r>frånskild<s n="adj"/></r></p></e>
-	<e><p><l>skorinn<s n="adj"/></l><r>skuren<s n="adj"/></r></p></e>
+<e r="LR"><p><l>skorinn<s n="adj"/></l><r>skuren<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>skorinn<s n="adj"/><s n="unsint"/></l><r>skuren<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>skotinn<s n="adj"/></l><r>förtjust<s n="adj"/></r></p></e>
 	<e><p><l>skreyttur<s n="adj"/></l><r>dekorerad<s n="adj"/></r></p></e>
 	<e><p><l>skrækur<s n="adj"/></l><r>genomträngande<s n="adj"/></r></p></e>
@@ -2372,7 +2462,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>sofandi<s n="adj"/></l><r>sovande<s n="adj"/></r></p></e>
 	<e><p><l>sorgmæddur<s n="adj"/></l><r>sorgsen<s n="adj"/></r></p></e>
 	<e><p><l>spenntur<s n="adj"/></l><r>upphetsad<s n="adj"/></r></p></e>
-	<e><p><l>staddur<s n="adj"/></l><r>belägen<s n="adj"/></r></p></e>
+<e r="LR"><p><l>staddur<s n="adj"/></l><r>belägen<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>staddur<s n="adj"/><s n="unsint"/></l><r>belägen<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>stakur<s n="adj"/></l><r>enstak<s n="adj"/></r></p></e>
 	<e><p><l>stilltur<s n="adj"/></l><r>stilla<s n="adj"/></r></p></e>
 	<e><p><l>stirður<s n="adj"/></l><r>stel<s n="adj"/></r></p></e>
@@ -2398,7 +2489,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>síðastliðinn<s n="adj"/></l><r>sista<s n="adj"/></r></p></e>
 	<e><p><l>síður<s n="adj"/></l><r>lång<s n="adj"/></r></p></e>
 	<e><p><l>takmarkaður<s n="adj"/></l><r>begränsad<s n="adj"/></r></p></e>
-	<e><p><l>talsverður<s n="adj"/></l><r>avsevärd<s n="adj"/></r></p></e>
+<e r="LR"><p><l>talsverður<s n="adj"/></l><r>avsevärd<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>talsverður<s n="adj"/><s n="unsint"/></l><r>avsevärd<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>tiltækur<s n="adj"/></l><r>tillgänglig<s n="adj"/></r></p></e>
 	<e><p><l>titrandi<s n="adj"/></l><r>skälvande<s n="adj"/></r></p></e>
 	<e><p><l>traustur<s n="adj"/></l><r>pålitlig<s n="adj"/></r></p></e>
@@ -2411,7 +2503,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>umræddur<s n="adj"/></l><r>diskuterad<s n="adj"/></r></p></e>
 	<e><p><l>umtalsverður<s n="adj"/></l><r>betydande<s n="adj"/></r></p></e>
 	<e><p><l>undanfarinn<s n="adj"/></l><r>tidigare<s n="adj"/></r></p></e>
-	<e><p><l>undanskilinn<s n="adj"/></l><r>utesluten<s n="adj"/></r></p></e>
+<e r="LR"><p><l>undanskilinn<s n="adj"/></l><r>utesluten<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>undanskilinn<s n="adj"/><s n="unsint"/></l><r>utesluten<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>undrandi<s n="adj"/></l><r>förvånad<s n="adj"/></r></p></e>
 	<e><p><l>unnt<s n="adj"/></l><r>möjligt<s n="adj"/></r></p></e>
 	<e><p><l>upplitaður<s n="adj"/></l><r>urblekt<s n="adj"/></r></p></e>
@@ -2460,16 +2553,20 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>óeðlilegur<s n="adj"/></l><r>onormal<s n="adj"/></r></p></e>
 	<e><p><l>óhagstæður<s n="adj"/></l><r>ofördelaktig<s n="adj"/></r></p></e>
 	<e><p><l>óhjákvæmilegur<s n="adj"/></l><r>oundviklig<s n="adj"/></r></p></e>
-	<e><p><l>óhætt<s n="adj"/></l><r>trygg<s n="adj"/></r></p></e>
-	<e><p><l>ókominn<s n="adj"/></l><r>ofödd<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óhætt<s n="adj"/></l><r>trygg<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óhætt<s n="adj"/><s n="unsint"/></l><r>trygg<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+<e r="LR"><p><l>ókominn<s n="adj"/></l><r>ofödd<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ókominn<s n="adj"/><s n="unsint"/></l><r>ofödd<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ókunnugur<s n="adj"/></l><r>främmande<s n="adj"/></r></p></e>
 	<e><p><l>ókunnur<s n="adj"/></l><r>främmande<s n="adj"/></r></p></e>
 	<e><p><l>ólíklegur<s n="adj"/></l><r>osannolik<s n="adj"/></r></p></e>
 	<e><p><l>ólíkur<s n="adj"/></l><r>olik<s n="adj"/></r></p></e>
 	<e><p><l>órólegur<s n="adj"/></l><r>orolig<s n="adj"/></r></p></e>
-	<e><p><l>óskilgetinn<s n="adj"/></l><r>orättmätig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>óskilgetinn<s n="adj"/></l><r>orättmätig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>óskilgetinn<s n="adj"/><s n="unsint"/></l><r>orättmätig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>ósýnilegur<s n="adj"/></l><r>osynlig<s n="adj"/></r></p></e>
-	<e><p><l>ótal<s n="adj"/></l><r>otalig<s n="adj"/></r></p></e>
+<e r="LR"><p><l>ótal<s n="adj"/></l><r>otalig<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>ótal<s n="adj"/><s n="unsint"/></l><r>otalig<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>óttasleginn<s n="adj"/></l><r>skräckslagen<s n="adj"/></r></p></e>
 	<e><p><l>óvar<s n="adj"/></l><r>ovetande<s n="adj"/></r></p></e>
 	<e><p><l>óvæntur<s n="adj"/></l><r>oväntad<s n="adj"/></r></p></e>
@@ -2480,14 +2577,17 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>öfugur<s n="adj"/></l><r>avig<s n="adj"/></r></p></e>
 	<e><p><l>ömurlegur<s n="adj"/></l><r>trist<s n="adj"/></r></p></e>
 	<e><p><l>örfár<s n="adj"/></l><r>fåtal<s n="adj"/></r></p></e>
-	<e><p><l>örlítill<s n="adj"/></l><r>pytteliten<s n="adj"/></r></p></e>
+<e r="LR"><p><l>örlítill<s n="adj"/></l><r>pytteliten<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
+<e r="RL"><p><l>örlítill<s n="adj"/><s n="unsint"/></l><r>pytteliten<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
 	<e><p><l>örsmár<s n="adj"/></l><r>mikroskopisk<s n="adj"/></r></p></e>
 	<e><p><l>úfinn<s n="adj"/></l><r>hackig<s n="adj"/></r></p></e>
 	<e><p><l>útlendur<s n="adj"/></l><r>utländsk<s n="adj"/></r></p></e>
 	<e><p><l>þarfur<s n="adj"/></l><r>erforderlig<s n="adj"/></r></p></e>
 	<e><p><l>þegjandi<s n="adj"/></l><r>tyst<s n="adj"/></r></p></e>
+	
 	<e r="LR"><p><l>þokkalegur<s n="adj"/></l><r>hyfsad<s n="adj"/><s n="unsint"/></r></p></e>
 	<e r="RL"><p><l>þokkalegur<s n="adj"/><s n="sint"/></l><r>hyfsad<s n="adj"/></r></p></e>
+	
 	<e><p><l>þreyttur<s n="adj"/></l><r>trött<s n="adj"/></r></p></e>
 	<e><p><l>þrútinn<s n="adj"/></l><r>uppsvullen<s n="adj"/></r></p></e>
 	<e><p><l>þungbúinn<s n="adj"/></l><r>dyster<s n="adj"/></r></p></e>

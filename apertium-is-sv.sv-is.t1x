@@ -62,9 +62,6 @@
     <def-cat n="adj_def"> 					<!--adjective def, weak declension-->
       <cat-item tags="adj.*.def"/>
     </def-cat>
-    <def-cat n="adj_sint"> 					<!--adjective sint-->
-      <cat-item tags="adj.sint.*"/>
-    </def-cat>
     <def-cat n="adj"> 					<!--adjective-->
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -102,8 +99,8 @@
     <def-attr n="a_adj"> 							<!--ADJECTIVE-->
       <attr-item tags="adj"/>
      <attr-item tags="adj.ord"/>
-<!--     <attr-item tags="adj.sint"/>
-     <attr-item tags="adj.unsint"/> -->
+     <attr-item tags="adj.sint"/>
+     <attr-item tags="adj.unsint"/> 
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="vblex"/>
@@ -407,7 +404,7 @@
 
 
 
-	<rule comment="REGLA: ADJ_SINT  | mer hyfsad → þokkalegri">   <!-- --> 
+	<rule comment="REGLA: MER ADJ  | mer hyfsad → þokkalegri">   <!-- --> 
 		     <pattern>
 		       <pattern-item n="mer"/>
 		       <pattern-item n="adj"/>
@@ -426,7 +423,6 @@
 		         <chunk name="MER_ADJECTIVE" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
-		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
 		              <tag><clip pos="2" side="tl" part="grau"/></tag>
 		              <tag><clip pos="2" side="tl" part="gen"/></tag>
 		              <tag><clip pos="2" side="tl" part="nbr"/></tag>
@@ -446,6 +442,51 @@
 		        </out>
 		     </action>
 	</rule>
+
+
+<!--	<rule comment="REGLA: ADJ_SINT  | olämpligare → meira óviðeigandi">   
+		     <pattern>
+		       <pattern-item n="adj_sint"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_temp">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number2">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="ADJ_SINT" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <tag><lit-tag v="comp"/></tag>  
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+	                 <lit v="meira"/>
+		            </lu>
+		            <b pos="1"/>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_adj"/>
+		              <lit-tag v="comp"/>
+		              <clip pos="1" side="tl" part="gen" link-to="3"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+		              <lit-tag v="nom"/>
+		              <clip pos="1" side="tl" part="defnes" link-to="5"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
+
+--> 
 
 	<rule comment="REGLA: ADJ  | vacker → fallegur">   <!-- --> 
 		     <pattern>
@@ -467,15 +508,21 @@
 		    <choose>
 	         <when>
 	           <test>
+				<and>
+	             <equal>
+	               <clip pos="1" side="tl" part="a_adj"/>
+	               <lit-tag v="adj.unsint"/>
+	             </equal>
 	             <equal>
 	               <clip pos="1" side="sl" part="grau"/>
 	               <lit-tag v="comp"/>
 	             </equal>
+				</and>
 	           </test>
 		       <out>
-		         <chunk name="ADJECTIVE_COMP" case="caseFirstWord">    
+		         <chunk name="ADJ_COMP_UNSINT" case="caseFirstWord">    <!--olämpligare - meira óviðeigandi --> 
 		           <tags>
-		             <tag><lit-tag v="SA"/></tag>              
+		             <tag><lit-tag v="SA"/></tag>     
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
 		              <tag><clip pos="1" side="tl" part="gen"/></tag>
 		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
@@ -483,9 +530,14 @@
 		              <tag><lit-tag v="ind"/></tag>
 		            </tags>
 		            <lu>
+		              <lit v="meira"/>
+		              <lit-tag v="adv"/>
+		            </lu>
+		            <b pos="0"/>
+		            <lu>
 		              <clip pos="1" side="tl" part="lemh"/>
-		              <clip pos="1" side="tl" part="a_adj"/>
-		              <clip pos="1" side="tl" part="grau" link-to="2"/>
+		              <lit-tag v="adj"/>
+		              <lit-tag v="pst"/>
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
 		              <lit-tag v="nom"/>
@@ -495,9 +547,50 @@
 		          </chunk>
 		         </out>
 	         </when>
+	         <when>
+	           <test>
+				<and>
+	             <equal>
+	               <clip pos="1" side="tl" part="a_adj"/>
+	               <lit-tag v="adj.unsint"/>
+	             </equal>
+	             <equal>
+	               <clip pos="1" side="sl" part="grau"/>
+	               <lit-tag v="sup"/>
+	             </equal>
+				</and>
+	           </test>
+		       <out>
+		         <chunk name="ADJ_SUP_UNSINT" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>     
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="nom"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <lit v="mest"/>
+		              <lit-tag v="adv"/>
+		            </lu>
+		            <b pos="0"/>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <lit-tag v="adj"/>
+		              <lit-tag v="pst"/>
+		              <clip pos="1" side="tl" part="gen" link-to="3"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+		              <lit-tag v="nom"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="6"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		         </out>
+	         </when>
 			<otherwise>
 		       <out>
-		         <chunk name="ADJECTIVE_PST_OR_SUP" case="caseFirstWord">    
+		         <chunk name="ADJECTIVE" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
@@ -508,7 +601,7 @@
 		            </tags>
 		            <lu>
 		              <clip pos="1" side="tl" part="lemh"/>
-		              <clip pos="1" side="tl" part="a_adj"/>
+		              <lit-tag v="adj"/>  <!--to avoid sint/unsint            -->
 		              <clip pos="1" side="tl" part="grau" link-to="2"/>
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>

@@ -18,6 +18,9 @@
       <cat-item tags="PREPGEN"/>
       <cat-item tags="PREPGEN.*"/>
     </def-cat>
+    <def-cat n="ADJ_UNSINT_COMP">
+      <cat-item tags="SA.adj.unsint.comp.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -62,6 +65,18 @@
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
     </def-attr>
+    <def-attr n="a_adj"> 							<!--ADJECTIVE-->
+      <attr-item tags="adj"/>
+     <attr-item tags="adj.ord"/>
+     <attr-item tags="adj.sint"/>
+     <attr-item tags="adj.unsint"/> 
+    </def-attr>
+    <def-attr n="grau"> 							<!--COMPARISON-->
+      <attr-item tags="pst"/>
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+    </def-attr>
+
 
   </section-def-attrs>
 
@@ -86,6 +101,38 @@
       </when>
     </choose>
   </def-macro>
+
+  <def-macro n="conv_grau_to_pst" npar="1" > 		<!-- MACRO: convert comp to pst-->	
+    <choose>
+      <when>
+        <test>
+			<or>
+            	<equal><clip pos="1" part="grau"/><lit-tag v="comp"/></equal>
+            	<equal><clip pos="1" part="grau"/><lit-tag v="sup"/></equal>
+			</or>
+        </test>
+        <let>
+          <clip pos="1" part="grau"/>
+          <lit-tag v="pst"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
+  <def-macro n="conv_unsint_to_adj" npar="1" > 		<!-- MACRO: remove unsint-->	
+    <choose>
+      <when>
+        <test>
+            	<equal><clip pos="1" part="a_adj"/><lit-tag v="adj.unsint"/></equal>
+        </test>
+        <let>
+          <clip pos="1" part="a_adj"/>
+          <lit-tag v="adj"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
 
 </section-def-macros>
 
@@ -131,6 +178,34 @@
         </out>
       </action>
     </rule>
+
+<!-- should this be done here?
+
+    <rule comment="REGLA: ADJ_UNSINT_COMP">  
+      <pattern>
+        <pattern-item n="ADJ_UNSINT_COMP"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_grau_to_pst">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="conv_unsint_to_adj">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk>
+              <lit v="meira"/>
+              <lit-tag v="adv"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>   -->
 
 
 </section-rules>

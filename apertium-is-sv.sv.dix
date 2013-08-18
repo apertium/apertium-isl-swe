@@ -3176,6 +3176,12 @@
   <e>       <p><l>st</l>        <r><s n="adv"/><s n="sup"/></r></p></e>
 </pardef>
 
+<pardef n="läng/e__adv">
+  <e>       <p><l>e</l>         <r>e<s n="adv"/><s n="pst"/></r></p></e>
+  <e>       <p><l>re</l>        <r>e<s n="adv"/><s n="comp"/></r></p></e>
+  <e>       <p><l>st</l>        <r>e<s n="adv"/><s n="sup"/></r></p></e>
+</pardef>
+
 <pardef n="/väl__adv">
   <e>       <p><l>väl</l>       <r>väl<s n="adv"/><s n="pst"/></r></p></e>
   <e>       <p><l>bättre</l>    <r>väl<s n="adv"/><s n="comp"/></r></p></e>
@@ -3206,6 +3212,16 @@
   <e>       <p><l>are</l>       <r>t<s n="adv"/><s n="comp"/></r></p></e>
   <e>       <p><l>ast</l>       <r>t<s n="adv"/><s n="sup"/></r></p></e>
 </pardef>
+<pardef n="hög/t__adv">
+  <e>       <p><l>t</l>         <r>t<s n="adv"/><s n="pst"/></r></p></e>
+  <e>       <p><l>re</l>       <r>t<s n="adv"/><s n="comp"/></r></p></e>
+  <e>       <p><l>st</l>       <r>t<s n="adv"/><s n="sup"/></r></p></e>
+</pardef>
+<pardef n="hår/t__adv">
+  <e>       <p><l>t</l>         <r>t<s n="adv"/><s n="pst"/></r></p></e>
+  <e>       <p><l>dare</l>       <r>t<s n="adv"/><s n="comp"/></r></p></e>
+  <e>       <p><l>dast</l>       <r>t<s n="adv"/><s n="sup"/></r></p></e>
+</pardef>
 
 <pardef n="l/ågt__adv">
   <e>       <p><l>ågt</l>         <r>ågt<s n="adv"/><s n="pst"/></r></p></e>
@@ -3217,6 +3233,11 @@
   <e>       <p><l>t</l>         <r>t<s n="adv"/><s n="pst"/></r></p></e>
   <e>       <p><l>mare</l>       <r>t<s n="adv"/><s n="comp"/></r></p></e>
   <e>       <p><l>mast</l>       <r>t<s n="adv"/><s n="sup"/></r></p></e>
+</pardef>
+<pardef n="/illa__adv">
+  <e>       <p><l>illa</l>      <r>illa<s n="adv"/><s n="pst"/></r></p></e>
+  <e>       <p><l>värre</l>      <r>illa<s n="adv"/><s n="comp"/></r></p></e>
+  <e>       <p><l>värst</l>     <r>illa<s n="adv"/><s n="sup"/></r></p></e>
 </pardef>
 
 
@@ -3730,6 +3751,7 @@
 <e lm="storslagen"><i>storslag</i><par n="nak/en__adj"/></e>
 <e lm="viktig"><i>viktig</i><par n="aktiv__adj"/></e>
 <e lm="annorlunda"><i>annorlunda</i><par n="extra__adj"/></e>
+<e lm="annorlunda"><i>annorlunda</i><par n="var__adv"/></e>
 <e lm="medellång"><i>medell</i><par n="l/ång__adj"/></e>
 <e lm="central"><i>central</i><par n="aktiv__adj"/></e>
 <e lm="centraliserad"><i>centralisera</i><par n="beväpna/d__adj"/></e>
@@ -4043,7 +4065,7 @@
 <e lm="årlig"><i>årlig</i><par n="aktiv__adj"/></e>
 <e lm="aggressiv"><i>aggressiv</i><par n="aktiv__adj"/></e>
 <e lm="avgörande"><i>avgörande</i><par n="extra__adj"/></e>
-<e lm="åtskillig"><i>åtskillig</i><par n="aktiv__adj"/></e>
+<!--<e lm="åtskillig"><i>åtskillig</i><par n="aktiv__adj"/></e> -->
 <e lm="ordentlig"><i>ordentlig</i><par n="aktiv__adj"/></e>
 <e lm="önskvärd"><i>önskvär</i><par n="blin/d__adj"/></e>
 <e lm="livslång"><i>livsl</i><par n="l/ång__adj"/></e>
@@ -10298,14 +10320,14 @@
 	<e lm="fortsättningsvis"><i>fortsättningsvis</i><par n="var__adv"/></e>
 	<e lm="hädanefter"><i>hädanefter</i><par n="var__adv"/></e>
 	<e lm="härifrån"><i>härifrån</i><par n="var__adv"/></e>
-	<e lm="illa"><i>illa</i><par n="var__adv"/></e>
-	<e lm="inne"><i>inne</i><par n="var__adv"/></e>
+	<e lm="illa"><i></i><par n="/illa__adv"/></e>
+	<e lm="inne"><i>inn</i><par n="läng/e__adv"/></e> <!-- correct paradigm? -->
 	<e lm="lika"><i>lika</i><par n="var__adv"/></e>
 	<e lm="ja"><i>ja</i><par n="var__adv"/></e>
 	<e lm="ju"><i>ju</i><par n="var__adv"/></e>
 	<e lm="kanske"><i>kanske</i><par n="var__adv"/></e>
-	<e lm="vida"><i>vida</i><par n="var__adv"/></e>
-	<e lm="länge"><i>länge</i><par n="var__adv"/></e>
+	<e lm="vida"><i>vida</i><par n="rätt__adv"/></e>
+	<e lm="länge"><i>läng</i><par n="läng/e__adv"/></e>
 	<e lm="slutligen"><i>slutligen</i><par n="var__adv"/></e>
 	<e lm="äntligen"><i>äntligen</i><par n="var__adv"/></e>
 	<e lm="också"><i>också</i><par n="var__adv"/></e>
@@ -10432,7 +10454,6 @@
 	<e lm="såväl"><i>såväl</i><par n="var__adv"/></e>
 
 
-<e lm="lite">            <i></i><par n="/lite__adv"/></e>
 
 
 <e lm="ofta">            <i>ofta</i><par n="ofta__adv"/></e>
@@ -10449,7 +10470,7 @@
 <e lm="antagligen"><i>antagligen</i><par n="var__adv"/></e>
 <e lm="automatiskt"><i>automatiskt</i><par n="var__adv"/></e>
 <e lm="bakom"><i>bakom</i><par n="var__adv"/></e>
-<e lm="betydligt"><i>betydlig</i><par n="försiktig/t__adv"/></e>
+<e lm="betydligt"><i>betydligt</i><par n="var__adv"/></e>
 <e lm="bort"><i>bort</i><par n="var__adv"/></e>
 <e lm="dessutom"><i>dessutom</i><par n="var__adv"/></e>
 <e lm="direkt"><i>direkt</i><par n="var__adv"/></e>
@@ -10490,8 +10511,8 @@
 <e lm="hemifrån"><i>hemifrån</i><par n="var__adv"/></e>
 <e lm="här"><i>här</i><par n="var__adv"/></e>
 <e lm="här i landet"><i>här<b/>i<b/>landet</i><par n="var__adv"/></e>
-<e lm="hårt"><i>hårt</i><par n="var__adv"/></e>
-<e lm="högt"><i>högt</i><par n="var__adv"/></e>
+<e lm="hårt"><i>hår</i><par n="hår/t__adv"/></e>
+<e lm="högt"><i>hög</i><par n="hög/t__adv"/></e>
 <e lm="i alla fall"><i>i<b/>alla<b/>fall</i><par n="var__adv"/></e>
 <e lm="ikke"><i>ikke</i><par n="var__adv"/></e>
 <e lm="in"><i>in</i><par n="var__adv"/></e>
@@ -10499,12 +10520,11 @@
 <e lm="ivrigt"><i>ivrigt</i><par n="var__adv"/></e>
 <e lm="jämt"><i>jämt</i><par n="var__adv"/></e>
 <e lm="jämväl"><i>jämväl</i><par n="var__adv"/></e>
-<e lm="knappast"><i>knappast</i><par n="var__adv"/></e>
-<e lm="knappt"><i>knappt</i><par n="var__adv"/></e>
+<e lm="knappt"><i>knapp</i><par n="försiktig/t__adv"/></e>
 <e lm="konstigt"><i>konstig</i><par n="försiktig/t__adv"/></e>
 <e lm="lika snabbt som"><i>lika<b/>snabbt<b/>som</i><par n="var__adv"/></e>
 <e lm="liknande"><i>liknande</i><par n="var__adv"/></e>
-<e lm="lite"><i></i><par n="/lite__adv"/></e>
+<e lm="lite"><i></i><par n="var__adv"/></e>
 <e lm="längre"><i>längre</i><par n="var__adv"/></e>
 <e lm="lätt"><i>lätt</i><par n="rätt__adv"/></e>
 <e lm="lågt"><i>l</i><par n="l/ågt__adv"/></e>
@@ -10512,6 +10532,7 @@
 <e lm="mentalt"><i>mentalt</i><par n="var__adv"/></e>
 <e lm="mer"><i>mer</i><par n="var__adv"/></e>
 <e lm="mera"><i>mera</i><par n="var__adv"/></e>
+<e lm="mest"><i>mest</i><par n="var__adv"/></e>
 <e lm="naturligtvis"><i>naturligtvis</i><par n="var__adv"/></e>
 <e lm="nedan"><i>nedan</i><par n="var__adv"/></e>
 <e lm="nedåt"><i>nedåt</i><par n="var__adv"/></e>
@@ -10540,18 +10561,19 @@
 <e lm="rent"><i>ren</i><par n="försiktig/t__adv"/></e>
 <e lm="retsamt"><i>retsam</i><par n="långsam/t__adv"/></e>
 <e lm="runt"><i>runt</i><par n="var__adv"/></e>
-<e lm="rätt"><i>rätt</i><par n="var__adv"/></e>
+<e lm="rätt"><i>rätt</i><par n="rätt__adv"/></e>
+<e lm="fort"><i>fort</i><par n="rätt__adv"/></e>
 <e lm="samtidigt"><i>samtidigt</i><par n="var__adv"/></e>
 <e lm="sannolikt"><i>sannolikt</i><par n="var__adv"/></e>
 <e lm="senare"><i>senare</i><par n="var__adv"/></e>
 <e lm="sent"><i>sent</i><par n="var__adv"/></e>
 <e lm="skarpt"><i>skarpt</i><par n="var__adv"/></e>
-<e lm="skönt"><i>skönt</i><par n="var__adv"/></e>
+<e lm="skönt"><i>skön</i><par n="försiktig/t__adv"/></e>
 <e lm="slags"><i>slags</i><par n="var__adv"/></e>
 <e lm="slutligen"><i>slutligen</i><par n="var__adv"/></e>
 <e lm="snabbt"><i>snabbt</i><par n="var__adv"/></e>
 <e lm="snarare"><i>snarare</i><par n="var__adv"/></e>
-<e lm="snart"><i>snart</i><par n="var__adv"/></e>
+<e lm="snart"><i>snar</i><par n="försiktig/t__adv"/></e>
 <e lm="ständigt"><i>ständigt</i><par n="var__adv"/></e>
 <e lm="säkerligen"><i>säkerligen</i><par n="var__adv"/></e>
 <e lm="säkert"><i>säkert</i><par n="var__adv"/></e>
