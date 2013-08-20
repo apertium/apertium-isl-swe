@@ -1741,7 +1741,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e c="v0"><p><l>núverandi<s n="adj"/></l><r>nuvarande<s n="adj"/></r></p></e> <!--ande__-->
 	<e r="RL" c="v4"><p><l>núverandi<s n="adj"/></l><r>rådande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>nýr<s n="adj"/></l><r>ny<s n="adj"/></r></p></e>
-	<e><p><l>nýsköpun<s n="adj"/></l><r>nyskapande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>ofangreindur<s n="adj"/></l><r>ovanstående<s n="adj"/></r></p></e>
 	<e><p><l>ofbeldissinnaður<s n="adj"/></l><r>våldsam<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>opinber<s n="adj"/></l><r>offentlig<s n="adj"/></r></p></e>
@@ -1853,8 +1852,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>skýr<s n="adj"/></l><r>tydlig<s n="adj"/></r></p></e>
 	<e><p><l>sláandi<s n="adj"/></l><r>påfallande<s n="adj"/></r></p></e> <!--ande__-->
 	<e><p><l>sléttur<s n="adj"/></l><r>smidig<s n="adj"/></r></p></e>
-	<e><p><l>slíkur<s n="adj"/></l><r>dylik<s n="adj"/></r></p></e>
-	<e><p><l>slíkur<s n="adj"/></l><r>likadan<s n="adj"/></r></p></e>
+	<e c="v0"><p><l>slíkur<s n="adj"/></l><r>dylik<s n="adj"/></r></p></e>
+	<e r="RL" c="v1"><p><l>slíkur<s n="adj"/></l><r>likadan<s n="adj"/></r></p></e>
 	<e><p><l>slóvakískur<s n="adj"/></l><r>slovakisk<s n="adj"/></r></p></e>
 	<e><p><l>slóvenskur<s n="adj"/></l><r>slovensk<s n="adj"/></r></p></e>
 <e r="LR"><p><l>smitandi<s n="adj"/></l><r>smittsam<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
@@ -2027,8 +2026,11 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>yfirþyrmandi<s n="adj"/></l><r>överväldigande<s n="adj"/></r></p></e> <!--ande__-->
 <e r="LR"><p><l>ystur<s n="adj"/></l><r>extrem<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
 <e r="RL"><p><l>ystur<s n="adj"/><s n="unsint"/></l><r>extrem<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
-<e r="LR"><p><l>ytri<s n="adj"/></l><r>extern<s n="adj"/><s n="sint"/></r></p></e> <!--UNSINT_SINT-->
-<e r="RL"><p><l>ytri<s n="adj"/><s n="unsint"/></l><r>extern<s n="adj"/></r></p></e> <!--UNSINT_SINT-->
+
+
+<e c="v0"><p><l>ytri<s n="adj"/></l><r>extern<s n="adj"/></r></p></e> 
+<e r="LR" c="v1"><p><l>utanverður<s n="adj"/></l><r>extern<s n="adj"/></r></p></e>
+
 	<e c="v0"><p><l>ytri<s n="adj"/></l><r>yttre<s n="adj"/></r></p></e>
 	<e><p><l>ábyrgur<s n="adj"/></l><r>ansvarig<s n="adj"/></r></p></e>
 	<e><p><l>ábyrgðarlaus<s n="adj"/></l><r>oansvarig<s n="adj"/></r></p></e>
@@ -2512,7 +2514,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>undrandi<s n="adj"/></l><r>förvånad<s n="adj"/></r></p></e>
 	<e><p><l>unnt<s n="adj"/></l><r>möjligt<s n="adj"/></r></p></e>
 	<e><p><l>upplitaður<s n="adj"/></l><r>urblekt<s n="adj"/></r></p></e>
-	<e><p><l>utanverður<s n="adj"/></l><r>extern<s n="adj"/></r></p></e>
 	<e><p><l>valinn<s n="adj"/></l><r>utvald<s n="adj"/></r></p></e>
 	<e><p><l>vandaður<s n="adj"/></l><r>solid<s n="adj"/></r></p></e>
 	<e><p><l>vandræðalegur<s n="adj"/></l><r>avig<s n="adj"/></r></p></e>

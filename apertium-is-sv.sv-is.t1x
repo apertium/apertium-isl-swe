@@ -62,6 +62,9 @@
     <def-cat n="adj_def"> 					<!--adjective def, weak declension-->
       <cat-item tags="adj.*.def"/>
     </def-cat>
+    <def-cat n="adj_ord"> 					<!--adjective-->
+      <cat-item tags="adj.ord.*"/>
+    </def-cat>
     <def-cat n="adj"> 					<!--adjective-->
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -487,6 +490,48 @@
 	</rule>
 
 --> 
+
+	<rule comment="REGLA: ADJORD  | först → fyrstur">   <!-- ORDINAL NUMERALS --> 
+		     <pattern>
+		       <pattern-item n="adj_ord"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_temp">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number2">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="set_defnes_ind">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="ADJECTIVE" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="nom"/></tag>
+		              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <lit-tag v="adj"/>  
+		              <lit-tag v="ord"/>  
+		              <clip pos="1" side="tl" part="gen" link-to="2"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+		              <lit-tag v="nom"/>
+		              <lit-tag v="ind"/>
+<!--		              <clip pos="1" side="tl" part="defnes" link-to="6"/>  PROBA!-->
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		         </out>
+		 </action>
+	</rule>
 
 	<rule comment="REGLA: ADJ  | vacker → fallegur">   <!-- --> 
 		     <pattern>

@@ -3783,7 +3783,7 @@
 <e lm="nog"><i>nog</i><par n="extra__adj"/></e>
 <e lm="rådande"><i>rådande</i><par n="extra__adj"/></e>
 <e lm="ny"><i>ny</i><par n="fri__adj"/></e>
-<e lm="nyskapande"><i>nyskapande</i><par n="extra__adj"/></e>
+<!--  <e lm="nyskapande"><i>nyskapande</i><par n="extra__adj"/></e>  -->
 <e lm="ovanstående"><i>ovanstående</i><par n="extra__adj"/></e>
 <e lm="våldsam"><i>våldsam</i><par n="blygsam__adj"/></e>
 <e lm="offentlig"><i>offentlig</i><par n="afrikansk__adj"/></e>
@@ -4043,7 +4043,6 @@
 <e lm="överhängande"><i>överhängande</i><par n="extra__adj"/></e>
 <e lm="överväldigande"><i>överväldigande</i><par n="extra__adj"/></e>
 <e lm="extrem"><i>extrem</i><par n="aktiv__adj"/></e>
-<e lm="extern"><i>extern</i><par n="aktiv__adj"/></e>
 <e lm="ansvarig"><i>ansvarig</i><par n="afrikansk__adj"/></e>
 <e lm="oansvarig"><i>oansvarig</i><par n="aktiv__adj"/></e>
 <e lm="ansvarsfull"><i>ansvarsfull</i><par n="aktiv__adj"/></e>
@@ -4069,7 +4068,7 @@
 <e lm="önskvärd"><i>önskvär</i><par n="blin/d__adj"/></e>
 <e lm="livslång"><i>livsl</i><par n="l/ång__adj"/></e>
 <e lm="ytterst"><i>ytterst</i><par n="diskret__adj"/></e>
-<e lm="genomsnittlig"><i>genomsnittlig</i><par n="aktiv__adj"/></e>
+<e lm="genomsnittlig"><i>genomsnittlig</i><par n="afrikansk__adj"/></e>
 <e lm="successiv"><i>successiv</i><par n="afrikansk__adj"/></e>
 <e lm="konservativ"><i>konservativ</i><par n="afrikansk__adj"/></e>
 <e lm="iransk"><i>iransk</i><par n="afrikansk__adj"/></e>
@@ -4463,7 +4462,6 @@
 <e lm="sista"><i>sista</i><par n="extra__adj"/></e>
 <e lm="lång">            <i>l</i><par n="l/ång__adj"/></e>
 <e lm="begränsad"><i>begränsa</i><par n="beväpna/d__adj"/></e>
-<e lm="avsevärd"><i>avsevär</i><par n="grun/d__adj"/></e>
 <e lm="tillgänglig"><i>tillgänglig</i><par n="aktiv__adj"/></e>
 <e lm="skälvande"><i>skälvande</i><par n="extra__adj"/></e>
 <e lm="pålitlig"><i>pålitlig</i><par n="aktiv__adj"/></e>
