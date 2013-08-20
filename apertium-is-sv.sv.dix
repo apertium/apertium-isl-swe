@@ -3384,7 +3384,7 @@
 <e lm="fan"><i>fan</i><par n="hejsan__ij"/></e>
 
 <!--ADJECTIVES-->
-<e lm="vuxen"><i>vux</i><par n="nak/en__adj"/></e>
+<e lm="vuxen"><i>vux</i><par n="försvunn/en__adj"/></e>
 <e lm="oförenlig"><i>oförenlig</i><par n="aktiv__adj"/></e>
 <e lm="afghansk"><i>afghansk</i><par n="afrikansk__adj"/></e>
 <e lm="effektiv"><i>effektiv</i><par n="aktiv__adj"/></e>
@@ -3490,7 +3490,6 @@
 <e lm="extraordinär"><i>extraordinär</i><par n="afrikansk__adj"/></e>
 <e lm="folklig"><i>folklig</i><par n="aktiv__adj"/></e>
 <e lm="egyptisk"><i>egyptisk</i><par n="afrikansk__adj"/></e>
-<e lm="egen"><i>eg</i><par n="nak/en__adj"/></e>
 <e lm="passande"><i>passande</i><par n="extra__adj"/></e>
 <e lm="exklusiv"><i>exklusiv</i><par n="aktiv__adj"/></e>
 <e lm="enkel"><i>enk</i><par n="dubb/el__adj"/></e>
@@ -3548,7 +3547,7 @@
 <e lm="fri"><i>fri</i><par n="fri__adj"/></e>
 <e lm="liberal"><i>liberal</i><par n="aktiv__adj"/></e>
 <e lm="innovativ"><i>innovativ</i><par n="aktiv__adj"/></e>
-<e lm="cypriotisk"><i>cypriotisk</i><par n="afrikansk__adj"/></e>
+<!--  <e lm="cypriotisk"><i>cypriotisk</i><par n="afrikansk__adj"/></e> -->
 <e lm="fantastisk"><i>fantastisk</i><par n="afrikansk__adj"/></e>
 <e lm="akademisk"><i>akademisk</i><par n="afrikansk__adj"/></e>
 <e lm="teoretisk"><i>teoretisk</i><par n="afrikansk__adj"/></e>
@@ -3617,7 +3616,7 @@
 <e lm="rättfärdig"><i>rättfärdig</i><par n="aktiv__adj"/></e>
 <e lm="ärlig"><i>ärlig</i><par n="aktiv__adj"/></e>
 <e lm="helig"><i>helig</i><par n="aktiv__adj"/></e>
-<e lm="huvudsaklig"><i>huvudsaklig</i><par n="aktiv__adj"/></e>
+<e lm="huvudsaklig"><i>huvudsaklig</i><par n="afrikansk__adj"/></e>
 <e lm="primär"><i>primär</i><par n="afrikansk__adj"/></e>
 <e lm="läglig"><i>läglig</i><par n="aktiv__adj"/></e>
 <e lm="lämplig"><i>lämplig</i><par n="aktiv__adj"/></e>
@@ -4244,7 +4243,6 @@
 <e lm="övre"><i>övre</i><par n="extra__adj"/></e>
 <e lm="egen"><i>eg</i><par n="eg/en__adj"/></e>
 <e lm="evig"><i>evig</i><par n="aktiv__adj"/></e>
-<e lm="enda"><i>enda</i><par n="extra__adj"/></e>
 <e lm="egendomlig"><i>egendomlig</i><par n="aktiv__adj"/></e>
 <e lm="uppriktig"><i>uppriktig</i><par n="aktiv__adj"/></e>
 <e lm="ensam"><i>ensam</i><par n="blygsam__adj"/></e>

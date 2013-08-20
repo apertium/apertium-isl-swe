@@ -270,7 +270,7 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="nbr"/>
-            <lit-tag v="sp"/>
+            <lit-tag v="sg"/>
           </let>
         </when>
 	 </choose>
@@ -496,13 +496,13 @@
 		       <call-macro n="firstWord">
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="set_defnes_ind">
-		         <with-param pos="1"/>
-		       </call-macro>
 		       <call-macro n="conv_gender_temp">
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <call-macro n="conv_number2">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="set_defnes_ind">
 		         <with-param pos="1"/>
 		       </call-macro>
 		    <choose>
@@ -606,7 +606,8 @@
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
 		              <lit-tag v="nom"/>
-		              <clip pos="1" side="tl" part="defnes" link-to="6"/>
+		              <lit-tag v="ind"/>
+<!--		              <clip pos="1" side="tl" part="defnes" link-to="6"/>  PROBA!-->
 		              <clip pos="1" side="tl" part="lemq"/>
 		            </lu>
 		          </chunk>
