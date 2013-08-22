@@ -3535,7 +3535,7 @@
 <e lm="individuell"><i>individuell</i><par n="afrikansk__adj"/></e>
 <e lm="unik"><i>unik</i><par n="aktiv__adj"/></e>
 <e lm="suverän"><i>suverän</i><par n="aktiv__adj"/></e>
-<e lm="giftig"><i>giftig</i><par n="afrikansk__adj"/></e>
+<e lm="giftig"><i>giftig</i><par n="aktiv__adj"/></e>
 <e lm="äkta"><i>äkta</i><par n="extra__adj"/></e>
 <e lm="definitiv"><i>definitiv</i><par n="aktiv__adj"/></e>
 <e lm="slutgiltig"><i>slutgiltig</i><par n="aktiv__adj"/></e>
@@ -3859,7 +3859,7 @@
 <e lm="jämförbar"><i>jämförbar</i><par n="afrikansk__adj"/></e>
 <e lm="kollektiv"><i>kollektiv</i><par n="aktiv__adj"/></e>
 <e lm="associerad"><i>associera</i><par n="beväpna/d__adj"/></e>
-<e lm="enhetlig"><i>enhetlig</i><par n="afrikansk__adj"/></e>
+<e lm="enhetlig"><i>enhetlig</i><par n="aktiv__adj"/></e>
 <e lm="fortlöpande"><i>fortlöpande</i><par n="extra__adj"/></e>
 <e lm="kontinuerlig"><i>kontinuerlig</i><par n="aktiv__adj"/></e>
 <e lm="sammanhängande"><i>sammanhängande</i><par n="extra__adj"/></e>
@@ -4047,7 +4047,7 @@
 <e lm="avsiktlig"><i>avsiktlig</i><par n="aktiv__adj"/></e>
 <e lm="villig"><i>villig</i><par n="aktiv__adj"/></e>
 <e lm="vilseledande"><i>vilseledande</i><par n="extra__adj"/></e>
-<e lm="vild"><i>vil</i><par n="blin/d__adj"/></e>
+<e lm="vild"><i>vil</i><par n="grun/d__adj"/></e>
 <e lm="vänlig"><i>vänlig</i><par n="aktiv__adj"/></e>
 <e lm="snäll"><i>snäll</i><par n="aktiv__adj"/></e>
 <e lm="vänster"><i>vänst</i><par n="hög/er__adj"/></e>
@@ -4169,7 +4169,7 @@
 <e lm="oförutsedd"><i>oförutse</i><par n="rä/dd__adj"/></e>
 <e lm="överraskande"><i>överraskande</i><par n="extra__adj"/></e>
 <e lm="osäker"><i>osäk</i><par n="tapp/er__adj"/></e>
-<e lm="missnöjd"><i>missnöj</i><par n="blin/d__adj"/></e>
+<e lm="missnöjd"><i>missnöj</i><par n="grun/d__adj"/></e>
 <e lm="oacceptabel"><i>oacceptab</i><par n="dubb/el__adj"/></e>
 <e lm="oönskad"><i>oönska</i><par n="beväpna/d__adj"/></e>
 <e lm="onödig"><i>onödig</i><par n="aktiv__adj"/></e>
