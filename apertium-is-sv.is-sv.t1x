@@ -35,6 +35,10 @@
  <def-cat n="adj_comp"> 					<!--adjective indef, strong declension-->
    <cat-item tags="adj.comp.*"/>
  </def-cat>
+ <def-cat n="meira">
+    <cat-item lemma="meira" tags="*"/>
+ </def-cat>
+
 
    <def-cat n="inf"> 					<!--infinitive-->
       <cat-item tags="vblex.*.inf.*"/>
@@ -254,7 +258,8 @@
       </choose>
     </def-macro>
 
-    <def-macro n="conv_gender1" npar="1" > 	<!-- MACRO: convert gender for adj, 
+
+    <def-macro n="conv_gender_for_adj" npar="1" > 	<!-- MACRO: convert gender for adj, 
 																sing, pst: m/f => ut
 																m/f/nt => mfn, for plural, comp, superlatives,  it might need revision -->	
       <choose>
@@ -278,10 +283,10 @@
 	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
 	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="ind"/></equal>
-            <or>
-              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
-              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
-            </or>
+            	<or>
+              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            	</or>
         	</and>
           </test>
           <let>
@@ -292,7 +297,8 @@
 	 </choose>
     </def-macro>
 
-    <def-macro n="conv_number1" npar="1" > 	<!-- MACRO: convert number for adj, 
+
+    <def-macro n="conv_number_for_adj" npar="1" > 	<!-- MACRO: convert number for adj, 
 																pst, def = > sp
 																comp, superlatives => sp -->	
       <choose>
@@ -300,12 +306,12 @@
           <test>
 			<or>
 			<and>
-	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
 	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="pst"/></equal>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
         	</and>
             <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
             <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
-    	</or>
+    	    </or>
           </test>
           <let>
             <clip pos="1" side="tl" part="nbr"/>
@@ -531,8 +537,6 @@
 
 <!--also write noun possessive pronoun bókin hans → hans bok -->
 
- 
-
 
     <rule comment="regla: adj nom defined | dýri bjórinn → det dyra ölet">     <!--CHECK!!!-->
 	      <pattern>
@@ -675,7 +679,8 @@
 	     </action>
 	</rule>
 
-	<rule comment="REGLA: ADJ_COMP  | fallegri → vackrare">   <!--  --> 
+<!--
+	<rule comment="REGLA: ADJ_COMP  | fallegri → vackrare">   
 		     <pattern>
 		       <pattern-item n="adj_comp"/>
 		     </pattern>
@@ -686,17 +691,16 @@
 		       <call-macro n="conv_case2"> 
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="conv_gender1"> 
+		       <call-macro n="conv_gender_for_adj"> 
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="conv_number1"> 
+		       <call-macro n="conv_number_for_adj"> 
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
 		         <chunk name="FALLEGRI_COMP" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
-		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
 		              <tag><clip pos="1" side="tl" part="gen"/></tag>
 		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
@@ -713,6 +717,8 @@
 		        </out>
 		     </action>
 	</rule>
+-->
+
 	<rule comment="REGLA: ADJ  | fallegur → vacker">   <!-- does work --> 
 		     <pattern>
 		       <pattern-item n="adj"/>
@@ -724,14 +730,163 @@
 		       <call-macro n="conv_case2"> 
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="conv_gender1"> 
+		       <call-macro n="conv_gender_for_adj"> 
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="conv_number1"> 
+		       <call-macro n="conv_number_for_adj"> 
 		         <with-param pos="1"/>
 		       </call-macro>
+
+
+		    <choose>
+			
+			
+	         <when>
+	           <test>
+				<and>
+	             <equal>
+	               <clip pos="1" side="tl" part="a_adj"/>
+	               <lit-tag v="adj.unsint"/>
+	             </equal>
+	             <equal>
+	               <clip pos="1" side="sl" part="grau"/>
+	               <lit-tag v="comp"/>
+	             </equal>
+				</and>
+	           </test>
 		       <out>
-		         <chunk name="FALLEGUR" case="caseFirstWord">    
+		         <chunk name="ADJ_COMP_UNSINT" case="caseFirstWord">    <!--olämpligare - meira óviðeigandi --> 
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>     
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="ind"/></tag>   <!-- is this correct??? -->
+		            </tags>
+		            <lu>
+		              <lit v="mer"/>
+		              <lit-tag v="adv"/>
+		            </lu>
+		            <b pos="0"/>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <lit-tag v="adj"/>
+		              <lit-tag v="pst"/>
+<!--		              <clip pos="1" side="tl" part="gen" link-to="3"/>  
+			              <clip pos="1" side="tl" part="nbr" link-to="4"/>  -->
+					  <lit-tag v="ut"/>
+    				  <lit-tag v="sg"/>
+		              <lit-tag v="ind"/>        <!-- is this correct??? -->
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		         </out>
+	         </when>
+	         <when>
+	           <test>
+				<and>
+	             <equal>
+	               <clip pos="1" side="tl" part="a_adj"/>
+	               <lit-tag v="adj.unsint"/>
+	             </equal>
+	             <equal>
+	               <clip pos="1" side="sl" part="grau"/>
+	               <lit-tag v="sup"/>
+	             </equal>
+				</and>
+	           </test>
+		       <out>
+		         <chunk name="ADJ_SUP_UNSINT" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>     
+		              <tag><clip pos="1" side="tl" part="grau"/></tag>
+		              <tag><clip pos="1" side="tl" part="gen"/></tag>
+		              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		              <tag><lit-tag v="ind"/></tag>   <!-- is this correct??? -->
+		            </tags>
+		            <lu>
+		              <lit v="mest"/>
+		              <lit-tag v="adv"/>
+		            </lu>
+		            <b pos="0"/>
+		            <lu>
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <lit-tag v="adj"/>
+		              <lit-tag v="pst"/>
+<!--		              <clip pos="1" side="tl" part="gen" link-to="3"/>  
+		              <clip pos="1" side="tl" part="nbr" link-to="4"/>  -->
+					  <lit-tag v="ut"/>
+					  <lit-tag v="sg"/>
+		              <lit-tag v="ind"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		         </out>
+	         </when>
+	
+	
+					         <when>
+					           <test>
+					             <equal>
+					               <clip pos="1" side="tl" part="grau"/>
+					               <lit-tag v="comp"/>
+					             </equal>
+					           </test>
+						       <out>
+						         <chunk name="ADJECTIVE_COMP" case="caseFirstWord">    
+						           <tags>
+						             <tag><lit-tag v="SA"/></tag>              
+						              <tag><clip pos="1" side="tl" part="grau"/></tag>
+						              <tag><clip pos="1" side="tl" part="gen"/></tag>
+						              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+						            </tags>
+						            <lu>
+						              <clip pos="1" side="tl" part="lemh"/>
+						              <clip pos="1" side="tl" part="a_adj"/>
+						              <clip pos="1" side="tl" part="grau"/>
+						              <clip pos="1" side="tl" part="gen"/>
+						              <clip pos="1" side="tl" part="nbr"/>
+						              <clip pos="1" side="tl" part="lemq"/>
+						            </lu>
+						          </chunk>
+						        </out>
+					         </when>
+			
+					         <when>
+					           <test>
+					             <equal>
+					               <clip pos="1" side="tl" part="grau"/>
+					               <lit-tag v="sup"/>
+					             </equal>
+					           </test>
+						       <out>
+						         <chunk name="ADJECTIVE_SUP" case="caseFirstWord">    
+						           <tags>
+						             <tag><lit-tag v="SA"/></tag>              
+						              <tag><clip pos="1" side="tl" part="grau"/></tag>
+						              <tag><clip pos="1" side="tl" part="gen"/></tag>
+						              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+						              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+						            </tags>
+						            <lu>
+						              <clip pos="1" side="tl" part="lemh"/>
+						              <clip pos="1" side="tl" part="a_adj"/>
+						              <clip pos="1" side="tl" part="grau"/>
+						              <clip pos="1" side="tl" part="gen"/>
+						              <clip pos="1" side="tl" part="nbr"/>
+						              <clip pos="1" side="tl" part="defnes"/>
+						              <clip pos="1" side="tl" part="lemq"/>
+						            </lu>
+						          </chunk>
+						        </out>
+					         </when>
+			
+	
+	
+	
+			<otherwise>
+		       	<out>
+		         <chunk name="ADJECTIVE" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
 		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
@@ -742,7 +897,8 @@
 		            </tags>
 		            <lu>
 		              <clip pos="1" side="tl" part="lemh"/>
-		              <clip pos="1" side="tl" part="a_adj"/>
+<!--		              <clip pos="1" side="tl" part="a_adj"/>    -->
+					  <lit-tag v="adj"/>
 		              <clip pos="1" side="tl" part="grau"/>
 		              <clip pos="1" side="tl" part="gen"/>
 		              <clip pos="1" side="tl" part="nbr"/>
@@ -751,8 +907,52 @@
 		            </lu>
 		          </chunk>
 		        </out>
+				</otherwise>
+				</choose>
 		     </action>
 	</rule>
+
+
+	<rule comment="REGLA: MEIRA ADJ  |  meira óskilgetinn → orättmättigare">   <!-- --> 
+		     <pattern>
+		       <pattern-item n="meira"/>
+		       <pattern-item n="adj"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_adj">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <call-macro n="conv_number_for_adj">
+		         <with-param pos="2"/>
+		       </call-macro>
+		       <out>
+		         <chunk name="MEIRA_ADJECTIVE" case="caseFirstWord">    
+		           <tags>
+		             <tag><lit-tag v="SA"/></tag>              
+		              <tag><clip pos="2" side="tl" part="grau"/></tag>
+		              <tag><clip pos="2" side="tl" part="gen"/></tag>
+		              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+		              <tag><clip pos="2" side="tl" part="defnes"/></tag>
+		            </tags>
+		            <lu>
+		              <clip pos="2" side="tl" part="lemh"/>
+		              <clip pos="2" side="tl" part="a_adj"/>
+		              <lit-tag v="comp"/>
+		              <clip pos="2" side="tl" part="gen" link-to="3"/>
+		              <clip pos="2" side="tl" part="nbr" link-to="4"/>
+		              <clip pos="2" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		        </out>
+		     </action>
+	</rule>
+
+
+
+
 
 
 

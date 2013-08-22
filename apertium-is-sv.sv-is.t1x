@@ -627,7 +627,9 @@
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
 		              <lit-tag v="nom"/>
-		              <clip pos="1" side="tl" part="nbr" link-to="6"/>
+		              <clip pos="1" side="tl" part="nbr" link-to="6"/>   <!--
+NB!!!								ha?????? NB!!!!!
+		              -->
 		              <clip pos="1" side="tl" part="lemq"/>
 		            </lu>
 		          </chunk>
@@ -651,7 +653,7 @@
 		              <clip pos="1" side="tl" part="gen" link-to="3"/>
 		              <clip pos="1" side="tl" part="nbr" link-to="4"/>
 		              <lit-tag v="nom"/>
-		              <lit-tag v="ind"/>
+		              <lit-tag v="ind"/>   		<!-- is this correct??? -->
 <!--		              <clip pos="1" side="tl" part="defnes" link-to="6"/>  PROBA!-->
 		              <clip pos="1" side="tl" part="lemq"/>
 		            </lu>
