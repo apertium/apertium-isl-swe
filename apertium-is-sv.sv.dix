@@ -3481,7 +3481,7 @@
 <e lm="bindande"><i>bindande</i><par n="extra__adj"/></e>
 <e lm="optimistisk"><i>optimistisk</i><par n="afrikansk__adj"/></e>
 <e lm="klar"><i>klar</i><par n="aktiv__adj"/></e>
-<e lm="blind"><i>blin</i><par n="blin/d__adj"/></e>
+<e lm="blind"><i>blin</i><par n="särskil/d__adj"/></e>
 <e lm="blå"><i>blå</i><par n="blå__adj"/></e>
 <e lm="blodig"><i>blodig</i><par n="aktiv__adj"/></e>
 <e lm="civil"><i>civil</i><par n="aktiv__adj"/></e>
@@ -3825,7 +3825,7 @@
 <e lm="öppen"><i>öpp</i><par n="nak/en__adj"/></e>
 <e lm="palestinsk"><i>palestinsk</i><par n="afrikansk__adj"/></e>
 <e lm="enskild"><i>enskil</i><par n="särskil/d__adj"/></e>
-<e lm="personlig"><i>personlig</i><par n="afrikansk__adj"/></e>
+<e lm="personlig"><i>personlig</i><par n="aktiv__adj"/></e>
 <e lm="portugisisk"><i>portugisisk</i><par n="afrikansk__adj"/></e>
 <e lm="politisk"><i>politisk</i><par n="afrikansk__adj"/></e>
 <e lm="polsk"><i>polsk</i><par n="afrikansk__adj"/></e>
