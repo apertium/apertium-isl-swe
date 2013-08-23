@@ -1,14 +1,14 @@
 
-fim 22 ágú 2013 21:13:53 GMT
+fös 23 ágú 2013 06:31:40 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
 vbhaver	-e 9		 0	 6	
 cnjcoo	-e 8		 0	 0	
 pr	-e 75		 0	 0	
-adj	-e 7473		 15	 15	
+adj	-e 7496		 0	 0	
 vbser	-e 6		 0	 3	
 vaux	-e 4		 0	 4	
-adv	-e 473		 1	 0	
+adv	-e 471		 1	 0	
 num	-e 33		 0	 7	
 cnjsub	-e 29		 0	 0	
 abbr	-e 26		 0	 0	

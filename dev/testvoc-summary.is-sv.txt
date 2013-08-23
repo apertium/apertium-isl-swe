@@ -1,12 +1,13 @@
 
-fim 22 ágú 2013 21:13:40 GMT
+fös 23 ágú 2013 06:31:25 GMT
 -e ===============================================
 -e POS	Total	Clean	With @	With #	Clean %
+adj	-e 99377		 0	 0	
 cnjcoo	-e 8		 0	 0	
 prn	-e 787		 0	 748	
 vblex	-e 73915		 119	 72958	
 abbr	-e 5		 0	 0	
-adv	-e 504		 1	 1	
+adv	-e 505		 1	 1	
 n	-e 42167		 16	 0	
 np	-e 3945		 0	 0	
 pr	-e 30		 0	 0	
@@ -17,7 +18,6 @@ num	-e 218		 0	 218
 cnjsub	-e 17		 0	 0	
 vbmod	-e 158		 0	 154	
 ij	-e 11		 0	 0	
-adj	-e 100025		 112	 4910	
 rel	-e 0		 0	 0	
 preadv	-e 0		 0	 0	
 part	-e 0		 0	 0	
