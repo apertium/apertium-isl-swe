@@ -369,6 +369,7 @@
             <lit-tag v="past"/>
           </let>
         </when>
+
       </choose>
     </def-macro>
 
@@ -1073,6 +1074,61 @@
 		     </action>
 	</rule>
 
+    <rule comment="regla: pp">
+      <pattern>
+        <pattern-item n="pp"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="pp" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.PP"/></tag>
+              <tag><clip pos="1" side="tl" part="voz"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="voz" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: vfin">
+      <pattern>
+        <pattern-item n="vfin"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_temps1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="vfin" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.FIN"/></tag>
+              <tag><clip pos="1" side="tl" part="voz"/></tag>
+              <tag><clip pos="1" side="tl" part="temps"/></tag>
+              <tag><clip pos="1" side="tl" part="pers"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+              <clip pos="1" side="tl" part="voz" link-to="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <!-- TO BE CHECKED!!!!-->
 
     <!-- Sintagmas nominales -->
@@ -1208,34 +1264,6 @@
       </action>
     </rule>
 
-    <rule comment="regla: vfin">
-      <pattern>
-        <pattern-item n="vfin"/>
-      </pattern>
-      <action>
-        <call-macro n="conv_temps1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <chunk name="vfin" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV.FIN"/></tag>
-              <tag><clip pos="1" side="tl" part="voz"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
-              <tag><clip pos="1" side="tl" part="pers"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voz" link-to="3"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
     <rule comment="regla: vimp">
       <pattern>
