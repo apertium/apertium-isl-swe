@@ -155,6 +155,9 @@
       <attr-item tags="vbser"/>
       <attr-item tags="vbhaver"/>
     </def-attr>
+    <def-attr n="a_vblex"> 							<!--VERB-->
+      <attr-item tags="vblex.inf"/>
+    </def-attr>
     <def-attr n="a_num"> 							<!--NUMERAL-->
       <attr-item tags="num"/>
     </def-attr>
@@ -1010,13 +1013,17 @@
 	      </action>
 	 </rule>
 
-	<rule comment="regla: VINF | skrifa -> skriva">   <!-- does NOT work --> 
+<!--
+
+Not working:
+
+	<rule comment="regla: VINF | skrifa -> skriva">    
 	      <pattern>
 	        <pattern-item n="inf"/>
 	      </pattern>
 	      <action>
 	        <out>
-	          <chunk name="vinf" case="caseFirstWord">
+	          <chunk name="V_INF" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SV.INF"/></tag>
 	              <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1031,6 +1038,8 @@
 	        </out>
 	      </action>
 	 </rule>
+--> 
+
 
    <rule comment="REGLA: UNDEF SG NOUN → INDEF_ART NOUN | hestur → en hest">     <!-- !!!still to be written!!!! -->
 		     <pattern>
@@ -1098,7 +1107,9 @@
       </action>
     </rule>
 
-
+<!--
+	фран го откоментира
+-->
     <rule comment="regla: vfin">
       <pattern>
         <pattern-item n="vfin"/>
@@ -1127,6 +1138,48 @@
         </out>
       </action>
     </rule>
+
+
+	<rule comment="REGLA: VERB ">  
+		     <pattern>
+		       <pattern-item n="inf"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+	<!--	       <call-macro n="conv_case2"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_adj"> 
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_number_for_adj"> 
+		         <with-param pos="1"/>
+		       </call-macro>  -->
+
+
+								<!--INFINITVES að skrifa -> att skriva 
+								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
+			       <out>
+			         <chunk name="VERB_INF" case="caseFirstWord">   
+			           <tags>
+			             <tag><lit-tag v="V_INF"/></tag>     
+		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+			             <tag><clip pos="1" side="tl" part="voz"/></tag>
+			           </tags>
+			           <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/>
+			              <clip pos="1" side="tl" part="voz"/>
+			              <clip pos="1" side="tl" part="lemq"/>
+			            </lu>
+			          </chunk>
+			         </out>
+		     </action>
+	</rule>
+
 
 
     <!-- TO BE CHECKED!!!!-->
