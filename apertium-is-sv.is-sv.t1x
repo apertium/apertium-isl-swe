@@ -52,6 +52,20 @@
       <cat-item tags="vaux.*.inf.*"/>
       <cat-item tags="vaux.*.inf"/>
     </def-cat>
+   <def-cat n="supn"> 					<!--supine-->
+      <cat-item tags="vblex.*.supn.*"/>
+      <cat-item tags="vblex.*.supn"/>
+      <cat-item tags="vbser.*.supn.*"/>
+      <cat-item tags="vbser.*.supn"/>
+      <cat-item tags="vbhaver.*.supn.*"/>
+      <cat-item tags="vbhaver.*.supn"/>
+      <cat-item tags="vbmod.*.supn.*"/>
+      <cat-item tags="vbmod.*.supn"/>
+      <cat-item tags="vaux.*.supn.*"/>
+      <cat-item tags="vaux.*.supn"/>
+    </def-cat>
+
+
     <def-cat n="vbhaver_inf"> 					<!--hafa infinitive-->
       <cat-item tags="vbhaver.*.inf"/>
       <cat-item tags="vbhaver.inf"/>
@@ -90,29 +104,31 @@
     </def-cat>
     <def-cat n="vimp"> 					<!--imperative verb-->
       <cat-item tags="vblex.*.imp.*"/>
-      <cat-item tags="vbser.imp.*"/>
-      <cat-item tags="vbhaver.imp.*"/>
-      <cat-item tags="vaux.imp.*"/>
-      <cat-item tags="vbmod.imp.*"/>
+      <cat-item tags="vblex.*.imp"/>
+      <cat-item tags="vbser.*.imp.*"/>
+      <cat-item tags="vbser.*.imp"/>
+      <cat-item tags="vbhaver.*.imp.*"/>
+      <cat-item tags="vbhaver.*.imp"/>
+      <cat-item tags="vbmod.*.imp.*"/>
+      <cat-item tags="vbmod.*.imp"/>
+      <cat-item tags="vaux.*.imp.*"/>
+      <cat-item tags="vaux.*.imp"/>
     </def-cat>
   	<def-cat n="geta">
       <cat-item lemma="geta" tags="vbmod.*"/>
   	</def-cat>
 
   <def-cat n="pp">                           <!--pas participle -->
-     <cat-item tags="vblex.supn"/>    
-     <cat-item tags="vblex.supn.*"/>
-     <cat-item tags="vblex.*.supn.*"/>
-     <cat-item tags="vblex.*.supn"/>
-     <cat-item tags="vblex.pp"/>
-     <cat-item tags="vblex.pp.*"/>
-     <cat-item tags="vblex.*.pp"/>
-     <cat-item tags="vblex.*.pp.*"/>
-     <cat-item tags="vbser.supn"/>
-     <cat-item tags="vbhaver.supn"/>
-     <cat-item tags="vaux.*.supn"/>
-     <cat-item tags="vbmod.*.supn"/>
-     <cat-item tags="vbmod.supn"/>
+      <cat-item tags="vblex.*.pp.*"/>
+      <cat-item tags="vblex.*.pp"/>
+      <cat-item tags="vbser.*.pp.*"/>
+      <cat-item tags="vbser.*.pp"/>
+      <cat-item tags="vbhaver.*.pp.*"/>
+      <cat-item tags="vbhaver.*.pp"/>
+      <cat-item tags="vbmod.*.pp.*"/>
+      <cat-item tags="vbmod.*.pp"/>
+      <cat-item tags="vaux.*.pp.*"/>
+      <cat-item tags="vaux.*.pp"/>
   </def-cat>
 
   <def-cat n="adv">   <!--upp: no comparison-->
@@ -325,23 +341,53 @@
     </def-macro>
 
 
-<!--    <def-macro n="conv_gender2" npar="1" > 			
+    <def-macro n="conv_gender_for_pp" npar="1" > 	<!-- MACRO: convert gender for past participles, 
+																sing: m/f => ut
+																		nt => nt
+																m/f/nt => mfn, for plural -->	
       <choose>
         <when>
           <test>
 	            <or>
 	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="comp"/></equal>
-	              <equal><clip pos="1" side="sl" part="grau"/><lit-tag v="sup"/></equal>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
 	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
+            	<or>
+              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+            	</or>
           </test>
           <let>
             <clip pos="1" side="tl" part="gen"/>
             <lit-tag v="ut"/>
           </let>
         </when>
- 		</choose>
-    </def-macro>  -->
+	 </choose>
+    </def-macro>
+
+
+    <def-macro n="conv_number_for_pp" npar="1" > 	<!-- MACRO: convert number for past participles, 
+																def:  => sp           -->	
+      <choose>
+        <when>
+          <test>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sp"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
 
 
 
@@ -376,7 +422,7 @@
       </choose>
     </def-macro>
 
-    <def-macro n="conv_voice" npar="1"> 		<!-- MACRO: convert middle voice to passive voice (-s)-->
+    <def-macro n="conv_voice_mid_to_pas" npar="1"> 		<!-- MACRO: convert middle voice to passive voice (-s)-->
       <choose>
         <when>
           <test>
@@ -462,7 +508,7 @@
 	       <call-macro n="conv_temps1"> <!--  -->
 	         <with-param pos="1"/>
 	       </call-macro>
-	       <call-macro n="conv_voice"> <!--  -->
+	       <call-macro n="conv_voice_mid_to_pas"> <!--  -->
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
@@ -1052,7 +1098,7 @@ Not working:
 		       <call-macro n="conv_temps1"> <!--  -->
 		         <with-param pos="1"/>
 		       </call-macro>
-		       <call-macro n="conv_voice"> <!--  -->
+		       <call-macro n="conv_voice_mid_to_pas"> <!--  -->
 		         <with-param pos="1"/>
 		       </call-macro>
 		       <out>
@@ -1083,23 +1129,34 @@ Not working:
 		     </action>
 	</rule>
 
-    <rule comment="regla: pp">
+    <rule comment="regla: VERB_PP">
       <pattern>
         <pattern-item n="pp"/>
       </pattern>
       <action>
+	      <call-macro n="conv_gender_for_pp"> 
+	        <with-param pos="1"/>
+	      </call-macro>
+	      <call-macro n="conv_number_for_pp"> 
+	        <with-param pos="1"/>
+	      </call-macro>
         <out>
-          <chunk name="pp" case="caseFirstWord">
+          <chunk name="VERB_PP" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SV.PP"/></tag>
-              <tag><clip pos="1" side="tl" part="voz"/></tag>
-              <tag><clip pos="1" side="tl" part="temps"/></tag>
+<!--              <tag><lit-tag v="SV.PP"/></tag>  -->
+              	 <tag><lit-tag v="VERB_PP"/></tag>
+             	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+	             <tag><clip pos="1" side="tl" part="gen"/></tag>
+	             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	             <tag><clip pos="1" side="tl" part="defnes"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voz" link-to="3"/>
+              <clip pos="1" side="tl" part="gen" link-to="3"/>
+              <clip pos="1" side="tl" part="nbr" link-to="4"/>
+              <clip pos="1" side="tl" part="defnes" link-to="5"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1118,6 +1175,9 @@ Not working:
         <call-macro n="conv_temps1">
           <with-param pos="1"/>
         </call-macro>
+	    <call-macro n="conv_voice_mid_to_pas">                           
+	         <with-param pos="1"/>
+	    </call-macro>    
         <out>
           <chunk name="vfin" case="caseFirstWord">
             <tags>
@@ -1140,7 +1200,7 @@ Not working:
     </rule>
 
 
-	<rule comment="REGLA: VERB ">  
+	<rule comment="REGLA: VERB_INF ">  
 		     <pattern>
 		       <pattern-item n="inf"/>
 		     </pattern>
@@ -1148,19 +1208,12 @@ Not working:
 		       <call-macro n="firstWord">                           
 		         <with-param pos="1"/>
 		       </call-macro>    
-	<!--	       <call-macro n="conv_case2"> 
+		       <call-macro n="conv_voice_mid_to_pas">                           
 		         <with-param pos="1"/>
-		       </call-macro>
-		       <call-macro n="conv_gender_for_adj"> 
-		         <with-param pos="1"/>
-		       </call-macro>
-		       <call-macro n="conv_number_for_adj"> 
-		         <with-param pos="1"/>
-		       </call-macro>  -->
-
-
+		       </call-macro>    
 								<!--INFINITVES að skrifa -> att skriva 
 								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
+
 			       <out>
 			         <chunk name="VERB_INF" case="caseFirstWord">   
 			           <tags>
@@ -1176,9 +1229,72 @@ Not working:
 			              <clip pos="1" side="tl" part="lemq"/>
 			            </lu>
 			          </chunk>
-			         </out>
+			       </out>
 		     </action>
 	</rule>
+
+	<rule comment="REGLA: VERB_SUPN">  
+		     <pattern>
+		       <pattern-item n="supn"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+		       <call-macro n="conv_voice_mid_to_pas">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+								<!--supines skrifað -> skrivit 
+								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
+
+			       <out>
+			         <chunk name="VERB_SUPN" case="caseFirstWord">   
+			           <tags>
+			             <tag><lit-tag v="V_SUPN"/></tag>     
+		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+			             <tag><clip pos="1" side="tl" part="voz"/></tag>
+			           </tags>
+			           <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/>
+			              <clip pos="1" side="tl" part="voz"/>
+			              <clip pos="1" side="tl" part="lemq"/>
+			            </lu>
+			          </chunk>
+			       </out>
+		     </action>
+	</rule>
+
+	<rule comment="REGLA: VERB_IMP">  
+															<!-- imperative		-->
+		     <pattern>
+		       <pattern-item n="vimp"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+		       <call-macro n="conv_voice_mid_to_pas">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+			       <out>
+			         <chunk name="VERB_IMP" case="caseFirstWord">   
+			           <tags>
+			             <tag><lit-tag v="V_IMP"/></tag>     
+		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+			           </tags>
+			           <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/>
+			              <clip pos="1" side="tl" part="lemq"/>
+			            </lu>
+			          </chunk>
+			       </out>
+		     </action>
+	</rule>
+
 
 
 

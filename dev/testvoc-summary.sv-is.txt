@@ -1,28 +1,28 @@
 
-fös 23 ágú 2013 21:14:42 GMT
--e ===============================================
--e POS	Total	Clean	With @	With #	Clean %
-vbhaver	-e 9		 0	 6	
-cnjcoo	-e 8		 0	 0	
-pr	-e 75		 0	 0	
-adj	-e 7496		 0	 0	
-vbser	-e 6		 0	 3	
-vaux	-e 4		 0	 4	
-adv	-e 472		 1	 0	
-num	-e 33		 0	 7	
-cnjsub	-e 29		 0	 0	
-abbr	-e 26		 0	 0	
-vbmod	-e 24		 0	 21	
-n	-e 24577		 0	 8	
-np	-e 1864		 0	 0	
-vblex	-e 17635		 4	 16733	
-prn	-e 135		 0	 110	
-ij	-e 12		 0	 0	
-rel	-e 0		 0	 0	
-preadv	-e 0		 0	 0	
-part	-e 0		 0	 0	
-guio	-e 0		 0	 0	
-det	-e 0		 0	 0	
-cnjadv	-e 0		 0	 0	
-cm	-e 0		 0	 0	
--e ===============================================
+lau 24 ágú 2013 05:26:00 GMT
+===============================================
+POS	Total	Clean	With @	With #	Clean %
+n	24577		 0	 8	
+vblex	19118		 4	 18216	
+adj	7496		 0	 0	
+np	1864		 0	 0	
+adv	472		 1	 0	
+prn	135		 0	 110	
+pr	75		 0	 0	
+num	33		 0	 7	
+cnjsub	29		 0	 0	
+abbr	26		 0	 0	
+vbmod	24		 0	 21	
+ij	12		 0	 0	
+vbhaver	10		 0	 7	
+cnjcoo	8		 0	 0	
+vbser	6		 0	 3	
+vaux	4		 0	 4	
+rel	0		 0	 0	
+preadv	0		 0	 0	
+part	0		 0	 0	
+guio	0		 0	 0	
+det	0		 0	 0	
+cnjadv	0		 0	 0	
+cm	0		 0	 0	
+===============================================

@@ -1789,6 +1789,13 @@
   <e>       <p><l>s</l>         <r><s n="pasv"/></r></p></e>
 </pardef>
 
+<pardef n="S__voice_reflexive">
+	<!-- reflexive verbs such as umgås left without a voice tag pose a problem in transfer. Therefore I am adding a passive voice tag for transfer from middle voice in Icelandic and an active voice tag, which is the normal tag-->
+  <e>       <p><l></l>          <r><s n="actv"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="pasv"/></r></p></e>
+</pardef>
+
+
 <pardef n="/vara__vbser">
   <e>       <p><l>vara</l>      <r>vara<s n="vbser"/><s n="inf"/></r></p></e>
   <e>       <p><l>är</l>        <r>vara<s n="vbser"/><s n="pres"/></r></p></e>
@@ -1807,6 +1814,7 @@
   <e>       <p><l>vande</l>     <r><s n="vbhaver"/><s n="pprs"/></r></p></e>
   <e>       <p><l>vd</l>        <r><s n="vbhaver"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>vt</l>        <r><s n="vbhaver"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>vda</l>       <r><s n="vbhaver"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>vda</l>       <r><s n="vbhaver"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1844,6 +1852,7 @@
   <e>       <p><l>vande</l>     <r><s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>vd</l>        <r><s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>vt</l>        <r><s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>vda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>vda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1869,6 +1878,7 @@
   <e>       <p><l>ivande</l>    <r>i<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>iven</l>      <r>i<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivet</l>      <r>i<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ivna</l>      <r>i<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivna</l>      <r>i<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1893,6 +1903,7 @@
   <e>       <p><l>ättande</l>   <r>ätta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>att</l>     <r>ätta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>att</l>     <r>ätta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>atta</l>     <r>ätta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>atta</l>     <r>ätta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1907,6 +1918,7 @@
   <e>       <p><l>ärande</l>   <r>ära<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uren</l>     <r>ära<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uret</l>     <r>ära<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>urna</l>     <r>ära<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>urna</l>     <r>ära<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1920,6 +1932,7 @@
   <e>       <p><l>indande</l>   <r>inda<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unden</l>     <r>inda<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>undet</l>     <r>inda<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>undna</l>     <r>inda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>undna</l>     <r>inda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1932,6 +1945,7 @@
   <e>       <p><l>ippande</l>   <r>ippa<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uppen</l>     <r>ippa<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uppet</l>     <r>ippa<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>uppna</l>     <r>ippa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>uppna</l>     <r>ippa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1945,6 +1959,7 @@
   <e>       <p><l>eende</l>   <r>e<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>edd</l>     <r>e<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ett</l>     <r>e<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>edda</l>     <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>edda</l>     <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -1977,6 +1992,7 @@
   <e>       <p><l>ende</l>     <r><s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>dd</l>     <r><s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>tt</l>     <r><s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dda</l>     <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dda</l>     <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2001,6 +2017,7 @@
   <e>       <p><l>öljande</l>      <r>ölja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>old</l>         <r>ölja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>olt</l>         <r>ölja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>olda</l>        <r>ölja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>olda</l>        <r>ölja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2015,6 +2032,7 @@
   <e>       <p><l>äljande</l>      <r>älja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>åld</l>         <r>älja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ålt</l>         <r>älja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ålda</l>        <r>älja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ålda</l>        <r>älja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2029,16 +2047,18 @@
   <e>       <p><l>äljande</l>      <r>älja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ald</l>         <r>älja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>alt</l>         <r>älja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>alda</l>        <r>älja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>alda</l>        <r>älja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 
 <pardef n="sl/åss__vblex">
-  <e>       <p><l>åss</l>         <r>åss<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
-  <e>       <p><l>åss</l>        <r>åss<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ogs</l>        <r>åss<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>agits</l>      <r>åss<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>åss</l>         <r>åss<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>åss</l>        <r>åss<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ogs</l>        <r>åss<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>agits</l>      <r>åss<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
   <e>       <p><l>åss</l>         <r>åss<s n="vblex"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>åss</l>         <r>åss<s n="vblex"/><s n="imp"/></r></p></e>
 </pardef>
 
 
@@ -2046,14 +2066,15 @@
   <e>       <p><l>dja</l>         <r>dja<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>der</l>        <r>dja<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e r="LR">       <p><l>djer</l>        <r>dja<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>djes</l>        <r>dja<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e r="LR"><p><l>ds</l>         <r>dja<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>djes</l>        <r>dja<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e r="LR"><p><l>ds</l>         <r>dja<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>dde</l>        <r>dja<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>tt</l>         <r>dja<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>d</l>          <r>dja<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>djande</l>      <r>dja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>dd</l>         <r>dja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>tt</l>         <r>dja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dda</l>        <r>dja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dda</l>        <r>dja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2067,6 +2088,7 @@
   <e>       <p><l>äggande</l>   <r>ägga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agd</l>     <r>ägga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>agt</l>     <r>ägga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agda</l>     <r>ägga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agda</l>     <r>ägga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2081,6 +2103,7 @@
   <e>       <p><l>ande</l>      <r>aga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agen</l>      <r>aga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>aget</l>      <r>aga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agna</l>      <r>aga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agna</l>      <r>aga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2094,39 +2117,44 @@
   <e>       <p><l>agande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agen</l>      <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>aget</l>      <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agna</l>      <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agna</l>      <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="fäst/a__vblex">
   <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>er</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>e</l>        <r>a<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>         <r>a<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>          <r>a<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l></l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>a</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>a</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="f/innas__vblex">
-  <e>       <p><l>innas</l>      <r>innas<s n="vblex"/><s n="inf"/></r></p></e>
-  <e>       <p><l>finns</l>      <r>innas<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>anns</l>       <r>innas<s n="vblex"/><s n="past"/></r></p></e>
-  <e>       <p><l>unnits</l>     <r>innas<s n="vblex"/><s n="supn"/></r></p></e>
+  <e>       <p><l>innas</l>      <r>innas<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>inns</l>       <r>innas<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>anns</l>       <r>innas<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>unnits</l>     <r>innas<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>inns</l>       <r>innas<s n="vblex"/><s n="imp"/></r></p></e>
 </pardef>
 
 <pardef n="göm/ma__vblex">
-  <e>       <p><l>ma</l>        <r>ma<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ma</l>        <r>ma<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>mer</l>       <r>ma<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>de</l>          <r>ma<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>t</l>       <r>ma<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>s</l>        <r>ma<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>de</l>          <r>ma<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>t</l>       <r>ma<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>         <r>ma<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ande</l>     <r>ma<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>       <r>ma<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>       <r>ma<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>ma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>ma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2139,22 +2167,23 @@
   <e>       <p><l>nande</l>     <r>na<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>       <r>na<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>       <r>na<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>na<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>na<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="skäm/mas__vblex">
-  <e>       <p><l>mas</l>        <r>mas<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ms</l>       <r>mas<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>des</l>          <r>mas<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ts</l>       <r>mas<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>mas</l>      <r>mas<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ms</l>       <r>mas<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>des</l>      <r>mas<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ts</l>       <r>mas<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
   <e>       <p><l>s</l>         <r>mas<s n="vblex"/><s n="imp"/></r></p></e>
 </pardef>
 
 <pardef n="min/nas__vblex">
-  <e>       <p><l>nas</l>        <r>nas<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ns</l>       <r>nas<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>des</l>          <r>nas<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ts</l>       <r>nas<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>nas</l>        <r>nas<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ns</l>       <r>nas<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>des</l>          <r>nas<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ts</l>       <r>nas<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
   <e>       <p><l>ns</l>         <r>nas<s n="vblex"/><s n="imp"/></r></p></e>
 </pardef>
 
@@ -2171,6 +2200,7 @@
   <e>       <p><l>ädjande</l>      <r>ädja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>add</l>         <r>ädja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>att</l>         <r>ädja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>adda</l>        <r>ädja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>adda</l>        <r>ädja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2184,6 +2214,7 @@
   <e>       <p><l>jutande</l>    <r>juta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>juten</l>      <r>juta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>jutet</l>      <r>juta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>jutna</l>      <r>juta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>jutna</l>      <r>juta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 <!--NEW -->
@@ -2199,6 +2230,7 @@
   <e>       <p><l>ående</l>     <r>å<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agen</l>      <r>å<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>aget</l>      <r>å<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agna</l>      <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agna</l>      <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2236,7 +2268,8 @@
   <e>       <p><l>innande</l>   <r>inna<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unnen</l>     <r>inna<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unnet</l>     <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>unna</l>      <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unna</l>      <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unna</l>      <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="g/öra__vblex">
@@ -2248,6 +2281,7 @@
   <e>       <p><l>örande</l>    <r>öra<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>jord</l>      <r>öra<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>jort</l>      <r>öra<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>jorde</l>     <r>öra<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>jorde</l>     <r>öra<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2262,6 +2296,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2275,6 +2310,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2289,6 +2325,7 @@
   <e>       <p><l>ätande</l>    <r>äta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>äten</l>      <r>äta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ätet</l>      <r>äta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ätna</l>      <r>äta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ätna</l>      <r>äta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2312,6 +2349,7 @@
   <e>       <p><l>nde</l>       <r><s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r><s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>        <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>de</l>        <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2325,6 +2363,7 @@
   <e>       <p><l>ende</l>      <r><s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>dd</l>        <r><s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>tt</l>        <r><s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2345,6 +2384,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agen</l>      <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>aget</l>      <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agna</l>      <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agna</l>      <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2358,6 +2398,7 @@
   <e>       <p><l>eende</l>     <r>e<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>edd</l>       <r>e<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ett</l>       <r>e<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>edda</l>      <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>edda</l>      <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2371,6 +2412,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ad</l>        <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>at</l>        <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ade</l>       <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ade</l>       <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2385,6 +2427,7 @@
   <e>       <p><l>ikande</l>    <r>ika<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>iken</l>      <r>ika<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>iket</l>      <r>ika<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ikna</l>      <r>ika<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ikna</l>      <r>ika<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2392,13 +2435,14 @@
   <e>       <p><l>a</l>         <r>a<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>er</l>        <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>es</l>        <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e r="LR"><p><l>s</l>         <r>a<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r>a<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>de</l>        <r>a<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
   <e>       <p><l></l>          <r>a<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2412,6 +2456,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2426,6 +2471,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2440,6 +2486,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2453,6 +2500,7 @@
   <e>       <p><l>ållande</l>   <r>ålla<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ållen</l>     <r>ålla<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ållet</l>     <r>ålla<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ållna</l>     <r>ålla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ållna</l>     <r>ålla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2468,6 +2516,7 @@
   <e>       <p><l>allande</l>   <r>alla<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>allen</l>     <r>alla<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>allet</l>     <r>alla<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>allna</l>     <r>alla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>allna</l>     <r>alla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2481,6 +2530,7 @@
   <e>       <p><l>avande</l>    <r>ava<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>aven</l>      <r>ava<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>avet</l>      <r>ava<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>avna</l>      <r>ava<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>avna</l>      <r>ava<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2494,6 +2544,7 @@
   <e>       <p><l>ivande</l>    <r>e<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>iven</l>      <r>e<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivet</l>      <r>e<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ivna</l>      <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivna</l>      <r>e<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2536,6 +2587,7 @@
   <e>       <p><l>ägande</l>    <r>äga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agd</l>       <r>äga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>agt</l>       <r>äga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agda</l>      <r>äga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agda</l>      <r>äga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2551,6 +2603,7 @@
   <e>       <p><l>iggande</l>   <r>igga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>agd</l>       <r>igga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>agt</l>       <r>igga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>agda</l>      <r>igga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>agda</l>      <r>igga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2564,6 +2617,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2578,6 +2632,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2593,9 +2648,11 @@
   <e>       <p><l>immande</l>   <r>imma<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>immad</l>     <r>imma<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>immat</l>     <r>imma<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>immade</l>    <r>imma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>immade</l>    <r>imma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
   <e r="LR"><p><l>ummen</l>     <r>imma<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e r="LR"><p><l>ummet</l>     <r>imma<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e r="LR"><p><l>umna</l>      <r>imma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e r="LR"><p><l>umna</l>      <r>imma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2610,6 +2667,7 @@
   <e>       <p><l>ingande</l>   <r>inga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ungen</l>     <r>inga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unget</l>     <r>inga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ungna</l>     <r>inga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ungna</l>     <r>inga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2623,6 +2681,7 @@
   <e>       <p><l>innande</l>   <r>inna<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unnen</l>     <r>inna<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unnet</l>     <r>inna<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unna</l>      <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>unna</l>      <r>inna<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2637,6 +2696,7 @@
   <e>       <p><l>ipande</l>    <r>ipa<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ipen</l>      <r>ipa<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ipet</l>      <r>ipa<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ipna</l>       <r>ipa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ipna</l>       <r>ipa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2650,6 +2710,7 @@
   <e>       <p><l>ittande</l>   <r>itta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>utten</l>     <r>itta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uttet</l>     <r>itta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>uttna</l>     <r>itta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>uttna</l>     <r>itta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2663,6 +2724,7 @@
   <e>       <p><l>ivande</l>    <r>iva<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>iven</l>      <r>iva<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivet</l>      <r>iva<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ivna</l>      <r>iva<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivna</l>      <r>iva<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2675,6 +2737,7 @@
   <e>       <p><l>mande</l>     <r>ma<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>men</l>       <r>ma<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>met</l>       <r>ma<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>na</l>        <r>ma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>na</l>        <r>ma<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2706,6 +2769,7 @@
   <e>       <p><l>ydande</l>    <r>yda<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ydd</l>       <r>yda<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ytt</l>       <r>yda<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ydda</l>      <r>yda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ydda</l>      <r>yda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2720,6 +2784,7 @@
   <e>       <p><l>udande</l>    <r>uda<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uden</l>      <r>uda<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>udet</l>      <r>uda<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>udna</l>      <r>uda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>udna</l>      <r>uda<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2743,6 +2808,7 @@
   <e>       <p><l>ungande</l>   <r>unga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ungen</l>     <r>unga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unget</l>     <r>unga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ungna</l>     <r>unga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ungna</l>     <r>unga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2757,6 +2823,7 @@
   <e>       <p><l>unkande</l>   <r>unka<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>unken</l>     <r>unka<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>unket</l>     <r>unka<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unkna</l>     <r>unka<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>unkna</l>     <r>unka<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2770,6 +2837,7 @@
   <e>       <p><l>ygande</l>    <r>yga<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ugen</l>      <r>yga<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uget</l>      <r>yga<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ugna</l>      <r>yga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ugna</l>      <r>yga<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2783,6 +2851,7 @@
   <e>       <p><l>utande</l>    <r>uta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uten</l>      <r>uta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>utet</l>      <r>uta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>utna</l>      <r>uta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>utna</l>      <r>uta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2796,6 +2865,7 @@
   <e>       <p><l>ykande</l>    <r>yka<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ykt</l>       <r>yka<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ykt</l>       <r>yka<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ykta</l>      <r>yka<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ykta</l>      <r>yka<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2809,6 +2879,7 @@
   <e>       <p><l>ypande</l>    <r>ypa<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ypt</l>       <r>ypa<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ypt</l>       <r>ypa<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ypta</l>      <r>ypa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ypta</l>      <r>ypa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2822,6 +2893,7 @@
   <e>       <p><l>ysande</l>    <r>ysa<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>usen</l>      <r>ysa<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uset</l>      <r>ysa<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>usna</l>      <r>ysa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>usna</l>      <r>ysa<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2845,6 +2917,7 @@
   <e>       <p><l>ytande</l>    <r>yta<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uten</l>      <r>yta<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>utet</l>      <r>yta<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>utna</l>      <r>yta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>utna</l>      <r>yta<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2860,6 +2933,7 @@
   <e>       <p><l>yvande</l>    <r>yva<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uven</l>      <r>yva<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uvet</l>      <r>yva<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>uvna</l>      <r>yva<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>uvna</l>      <r>yva<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2873,6 +2947,7 @@
   <e>       <p><l>ående</l>     <r>å<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ådd</l>       <r>å<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ått</l>       <r>å<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ådda</l>      <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ådda</l>      <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2887,6 +2962,7 @@
   <e>       <p><l>ående</l>     <r>å<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ånden</l>     <r>å<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>åndet</l>     <r>å<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>åndna</l>     <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>åndna</l>     <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2901,6 +2977,7 @@
   <e>       <p><l>ående</l>     <r>å<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ången</l>     <r>å<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ånget</l>     <r>å<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ångna</l>     <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ångna</l>     <r>å<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2914,6 +2991,7 @@
   <e>       <p><l>nande</l>     <r>na<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>na<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>na<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>        <r>na<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>de</l>        <r>na<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2927,9 +3005,11 @@
   <e>       <p><l>ande</l>      <r>ja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>jd</l>        <r>ja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>jt</l>        <r>ja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>jda</l>       <r>ja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>jda</l>       <r>ja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
   <e r="LR"><p><l>d</l>         <r>ja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e r="LR"><p><l>t</l>         <r>ja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e r="LR"><p><l>da</l>        <r>ja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e r="LR"><p><l>da</l>        <r>ja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2944,6 +3024,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2957,6 +3038,7 @@
   <e>       <p><l>ande</l>      <r>a<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>a<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ta</l>        <r>a<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2970,6 +3052,7 @@
   <e>       <p><l>ende</l>      <r><s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>dd</l>        <r><s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>tt</l>        <r><s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dda</l>       <r><s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -2986,6 +3069,7 @@
   <e>       <p><l>dande</l>     <r>da<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>dd</l>        <r>da<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>tt</l>        <r>da<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dda</l>       <r>da<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>dda</l>       <r>da<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -3000,6 +3084,7 @@
   <e>       <p><l>dande</l>     <r>da<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>d</l>         <r>da<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r>da<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>da</l>        <r>da<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>da</l>        <r>da<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -3013,18 +3098,22 @@
   <e>       <p><l>idande</l>    <r>ida<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>iden</l>      <r>ida<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>idet</l>      <r>ida<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>idna</l>      <r>ida<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>idna</l>      <r>ida<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="lycka/s__vblex">
-  <e>       <p><l>s</l>         <r>s<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
-  <e>       <p><l>s</l>         <r>s<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>des</l>       <r>s<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ts</l>        <r>s<s n="vblex"/><s n="supn"/><s n="actv"/></r></p></e>
+  <e>       <p><l>s</l>         <r>s<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>s</l>         <r>s<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>des</l>       <r>s<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ts</l>        <r>s<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
   <e>       <p><l>s</l>         <r>s<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>nde</l>       <r>s<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ndes</l>      <r>s<s n="vblex"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>d</l>         <r>s<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="ind"/></r></p></e>
+  <e>       <p><l>d</l>      <r>s<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>      <r>s<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>      <r>s<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>de</l>      <r>s<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="d/ö__vblex">
@@ -3136,6 +3225,7 @@
   <e>       <p><l>örjande</l>     <r>örja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ord</l>         <r>örja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ort</l>         <r>örja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>orda</l>        <r>örja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>orda</l>        <r>örja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -3158,6 +3248,7 @@
   <e>       <p><l>jälande</l>     <r>jäla<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ulen</l>         <r>jäla<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ulet</l>         <r>jäla<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ulna</l>        <r>jäla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ulna</l>        <r>jäla<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
@@ -3172,14 +3263,15 @@
   <e>       <p><l>ärjande</l>      <r>ärja<s n="vblex"/><s n="pprs"/></r></p></e>
   <e>       <p><l>uren</l>         <r>ärja<s n="vblex"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>uret</l>         <r>ärja<s n="vblex"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>urna</l>        <r>ärja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>urna</l>        <r>ärja<s n="vblex"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="umg/ås__vblex">
-  <e>       <p><l>ås</l>         <r>ås<s n="vblex"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>ås</l>        <r>ås<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>icks</l>       <r>ås<s n="vblex"/><s n="past"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>åtts</l>       <r>ås<s n="vblex"/><s n="supn"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>ås</l>         <r>ås<s n="vblex"/><s n="inf"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>ås</l>        <r>ås<s n="vblex"/><s n="pres"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>icks</l>       <r>ås<s n="vblex"/><s n="past"/></r></p><par n="S__voice_reflexive"/></e>
+  <e>       <p><l>åtts</l>       <r>ås<s n="vblex"/><s n="supn"/></r></p><par n="S__voice_reflexive"/></e>
 </pardef>
 
 <pardef n="/vara__vblex">
@@ -5015,7 +5107,7 @@
 <e lm="missa"><i>missa</i><par n="adressera__vblex"/></e>
 <e lm="tappa"><i>tappa</i><par n="adressera__vblex"/></e>
 <e lm="misslyckas"><i>misslycka</i><par n="lycka/s__vblex"/></e>
-<e lm="fortskrida"><i>fortskr</i><par n="l/ida__vblex"/></e>
+<e lm="fortskrida"><i>fortskr</i><par n="avl/ida__vblex"/></e>
 <e lm="syfta"><i>syfta</i><par n="adressera__vblex"/></e>
 <e lm="ämna"><i>ämna</i><par n="adressera__vblex"/></e>
 <e lm="förmedla"><i>förmedla</i><par n="adressera__vblex"/></e>
