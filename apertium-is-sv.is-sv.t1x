@@ -65,6 +65,19 @@
       <cat-item tags="vaux.*.supn"/>
     </def-cat>
 
+   <def-cat n="pprs"> 					<!--supine-->
+      <cat-item tags="vblex.*.pprs.*"/>
+      <cat-item tags="vblex.pprs"/>
+      <cat-item tags="vbser.*.pprs.*"/>
+      <cat-item tags="vbser.*.pprs"/>
+      <cat-item tags="vbhaver.*.pprs.*"/>
+      <cat-item tags="vbhaver.*.pprs"/>
+      <cat-item tags="vbmod.*.pprs.*"/>
+      <cat-item tags="vbmod.*.pprs"/>
+      <cat-item tags="vaux.*.pprs.*"/>
+      <cat-item tags="vaux.*.pprs"/>
+    </def-cat>
+
 
     <def-cat n="vbhaver_inf"> 					<!--hafa infinitive-->
       <cat-item tags="vbhaver.*.inf"/>
@@ -226,6 +239,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pss"/>
       <attr-item tags="pp"/>
+      <attr-item tags="pprs"/>
     </def-attr>
   </section-def-attrs>
 
@@ -1265,6 +1279,36 @@ Not working:
 			       </out>
 		     </action>
 	</rule>
+
+
+	<rule comment="REGLA: VERB_PPRS">  
+		     <pattern>
+		       <pattern-item n="pprs"/>
+		     </pattern>
+		     <action>
+		       <call-macro n="firstWord">                           
+		         <with-param pos="1"/>
+		       </call-macro>    
+								<!--supines skrifað -> skrivit 
+								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
+
+			       <out>
+			         <chunk name="VERB_PPRS" case="caseFirstWord">   
+			           <tags>
+			             <tag><lit-tag v="V_PPRS"/></tag>     
+		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+			           </tags>
+			           <lu>
+			              <clip pos="1" side="tl" part="lemh"/>
+			              <clip pos="1" side="tl" part="a_verb"/>
+			              <clip pos="1" side="tl" part="temps"/>
+			              <clip pos="1" side="tl" part="lemq"/>
+			            </lu>
+			          </chunk>
+			       </out>
+		     </action>
+	</rule>
+
 
 	<rule comment="REGLA: VERB_IMP">  
 															<!-- imperative		-->
