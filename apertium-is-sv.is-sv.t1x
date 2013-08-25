@@ -65,7 +65,7 @@
       <cat-item tags="vaux.*.supn"/>
     </def-cat>
 
-   <def-cat n="pprs"> 					<!--supine-->
+   <def-cat n="pprs"> 					<!--present participle-->
       <cat-item tags="vblex.*.pprs.*"/>
       <cat-item tags="vblex.pprs"/>
       <cat-item tags="vbser.*.pprs.*"/>
@@ -1178,9 +1178,9 @@ Not working:
     </rule>
 
 <!--
-	фран го откоментира
+	фран го откоментира  	FINITE VERB
 -->
-    <rule comment="regla: vfin">
+    <rule comment="regla: VFIN">
       <pattern>
         <pattern-item n="vfin"/>
       </pattern>
@@ -1192,7 +1192,7 @@ Not working:
 	         <with-param pos="1"/>
 	    </call-macro>    
         <out>
-          <chunk name="vfin" case="caseFirstWord">
+          <chunk name="VFIN" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV.FIN"/></tag>
               <tag><clip pos="1" side="tl" part="voz"/></tag>
@@ -1288,9 +1288,6 @@ Not working:
 		       <call-macro n="firstWord">                           
 		         <with-param pos="1"/>
 		       </call-macro>    
-								<!--supines skrifað -> skrivit 
-								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
-
 			       <out>
 			         <chunk name="VERB_PPRS" case="caseFirstWord">   
 			           <tags>
