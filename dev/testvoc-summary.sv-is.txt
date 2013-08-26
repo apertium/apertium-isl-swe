@@ -1,17 +1,17 @@
 
-mán 26 ágú 2013 22:22:52 GMT
+mán 26 ágú 2013 23:19:32 GMT
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 n	24573		 0	 8	
-vblex	17869		 14	 70	
-adj	7496		 0	 0	
+vblex	17770		 0	 0	
+adj	7491		 0	 0	
 np	1864		 0	 0	
 adv	472		 1	 0	
 prn	135		 0	 110	
 pr	75		 0	 0	
 num	33		 0	 7	
-vbmod	32		 4	 10	
 cnjsub	29		 0	 0	
+vbmod	28		 0	 10	
 abbr	26		 0	 0	
 ij	12		 0	 0	
 vbhaver	10		 0	 7	

@@ -7593,7 +7593,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>gera<g><b/>við</g><s n="vblex"/></l><r>reparera<s n="vblex"/></r></p></e>
 	<e><p><l>gera<g><b/>áberandi</g><s n="vblex"/></l><r>framhålla<s n="vblex"/></r></p></e>
 	<e><p><l>gera<s n="vblex"/></l><r>göra<s n="vblex"/></r></p></e>
-	<e><p><l>gerast<s n="vblex"/></l><r>hända<s n="vblex"/></r></p></e>
+	
+	<e c="v0"><p><l>gerast<s n="vblex"/></l><r>hända<s n="vblex"/></r></p></e>
+	<e r="RL" c="v1"><p><l>gerast<s n="vblex"/></l><r>ske<s n="vblex"/></r></p></e>
+
 	<e><p><l>hvarfla<s n="vblex"/></l><r>inträffa<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>geyma<s n="vblex"/></l><r>behålla<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>geyma<s n="vblex"/></l><r>lagra<s n="vblex"/></r></p></e>
@@ -7672,7 +7675,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hvetja<s n="vblex"/></l><r>uppmuntra<s n="vblex"/></r></p></e>
 	<e><p><l>hámarka<s n="vblex"/></l><r>maximera<s n="vblex"/></r></p></e>
 	<e><p><l>hæla<s n="vblex"/></l><r>lovorda<s n="vblex"/></r></p></e>
-	<e><p><l>hætta<b/>við<s n="vblex"/></l><r>avbryta<s n="vblex"/></r></p></e>
+	<e><p><l>hætta<g><b/>við</g><s n="vblex"/></l><r>avbryta<s n="vblex"/></r></p></e>
 	<e><p><l>hætta<g><b/>á</g><s n="vblex"/></l><r>riskera<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>hætta<s n="vblex"/></l><r>sluta<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>hætta<s n="vblex"/></l><r>upphöra<s n="vblex"/></r></p></e>
@@ -8252,7 +8255,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>brenna<s n="vblex"/></l><r>bränna<s n="vblex"/></r></p></e>
 	<e><p><l>brotna<s n="vblex"/></l><r>bryta<s n="vblex"/></r></p></e>
 	<e><p><l>bylta<s n="vblex"/></l><r>välta<s n="vblex"/></r></p></e>
-	<e><p><l>bægja<g><b/>frá</g><s n="vblex"/></l><r>avvärja<s n="vblex"/></r></p></e>
+<!--	<e><p><l>bægja<g><b/>frá</g><s n="vblex"/></l><r>avvärja<s n="vblex"/></r></p></e> -->
 	<e><p><l>bæla<s n="vblex"/></l><r>undertrycka<s n="vblex"/></r></p></e>
 	<e><p><l>bæra<s n="vblex"/></l><r>maka<s n="vblex"/></r></p></e>
 	<e><p><l>bíta<s n="vblex"/></l><r>bita<s n="vblex"/></r></p></e>
@@ -8273,7 +8276,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>erfa<s n="vblex"/></l><r>ärva<s n="vblex"/></r></p></e>
 	<e><p><l>eta<s n="vblex"/></l><r>äta<s n="vblex"/></r></p></e>
 
-	<e><p><l>etja<s n="vblex"/></l><r>hetsa<s n="vblex"/></r></p></e>
 	<e><p><l>æsa<s n="vblex"/></l><r>hetsa<s n="vblex"/></r></p></e>
 
 	<e><p><l>fatta<s n="vblex"/></l><r>fatta<s n="vblex"/></r></p></e>
@@ -8599,9 +8601,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>þjást<s n="vblex"/></l><r>plåga<s n="vblex"/></r></p></e>
 	<e><p><l>þjóna<s n="vblex"/></l><r>tjäna<s n="vblex"/></r></p></e>
 
-	<e r="LR" c="v1"><p><l>þjóta<s n="vblex"/></l><r>rusa<s n="vblex"/></r></p></e>
-	<e c="v0"><p><l>æða<s n="vblex"/></l><r>rusa<s n="vblex"/></r></p></e>
-	<e r="LR" c="v2"><p><l>strunsa<s n="vblex"/></l><r>rusa<s n="vblex"/></r></p></e>
+	<e><p><l>æða<s n="vblex"/></l><r>storma<s n="vblex"/></r></p></e>
+	<e c="v0"><p><l>þjóta<s n="vblex"/></l><r>rusa<s n="vblex"/></r></p></e>
+	<e r="LR" c="v1"><p><l>strunsa<s n="vblex"/></l><r>rusa<s n="vblex"/></r></p></e>
+
 
 	<e><p><l>þorna<s n="vblex"/></l><r>torka<s n="vblex"/></r></p></e>
 	<e><p><l>þramma<s n="vblex"/></l><r>traska<s n="vblex"/></r></p></e>
