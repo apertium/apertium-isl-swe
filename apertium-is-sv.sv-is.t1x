@@ -30,11 +30,15 @@
       <cat-item tags="vaux.inf.*"/>
       <cat-item tags="vaux.inf"/>
     </def-cat>
+
+
+<def-cat n="vbser_imp"> 					<!-- vera imperative-->
+  <cat-item tags="vbser.imp"/>
+</def-cat>
+
     <def-cat n="vimp"> 					<!--imperative-->
       <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vblex.imp"/>
-      <cat-item tags="vbser.imp.*"/>
-      <cat-item tags="vbser.imp"/>
       <cat-item tags="vbhaver.imp.*"/>
       <cat-item tags="vbhaver.imp"/>
       <cat-item tags="vbmod.imp.*"/>
@@ -83,7 +87,9 @@
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past.*"/>
       <cat-item tags="vbser.pres.*"/>
+      <cat-item tags="vbser.pres"/>
       <cat-item tags="vbser.past.*"/>
+      <cat-item tags="vbser.past"/>
       <cat-item tags="vbhaver.pres.*"/>
       <cat-item tags="vbhaver.past.*"/>
       <cat-item tags="vbmod.pres.*"/>
@@ -960,6 +966,35 @@ NB!!!								ha?????? NB!!!!!
 -->
 
 
+<rule comment="REGLA: VBSER_IMP">  
+														<!-- vera imperative		-->
+	     <pattern>
+	       <pattern-item n="vbser_imp"/>
+	     </pattern>
+	     <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+		       <out>
+		         <chunk name="VBSER_IMP" case="caseFirstWord">   
+		           <tags>
+		             <tag><lit-tag v="VBSER_IMP"/></tag>     
+	              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
+	              	 <tag><clip pos="1" side="tl" part="pers"/></tag>
+	              	 <tag><clip pos="1" side="tl" part="nbr"/></tag>
+		           </tags>
+		           <lu>     <!-- I choose the most common form in Icelandic p2.sg        -->
+		              <clip pos="1" side="tl" part="lemh"/>
+		              <clip pos="1" side="tl" part="a_verb"/>
+		              <clip pos="1" side="tl" part="temps"/>
+					  <lit-tag v="p2"/>
+					  <lit-tag v="sg"/>
+		              <clip pos="1" side="tl" part="lemq"/>
+		            </lu>
+		          </chunk>
+		       </out>
+	     </action>
+</rule>
 
 
 

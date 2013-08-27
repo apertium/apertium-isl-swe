@@ -626,6 +626,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
     <e r="LR" c="v1"><p><l>vantar<b/>kortér<b/>í<s n="adv"/></l><r>kvart<b/>i<s n="adv"/></r></p></e> <!-- multiword followed by a number, indicating time of day -->
     <e c="v0"><p><l>kortér<b/>í<s n="adv"/></l><r>kvart<b/>i<s n="adv"/></r></p></e> <!-- multiword followed by a number, indicating time of day -->
     <!-- END Time -->
+	<e><p><l>öðruvísi<s n="adv"/></l><r>annorlunda<s n="adv"/></r></p></e>
 
 
 
