@@ -1339,6 +1339,34 @@ Not working:
 		     </action>
 	</rule>
 
+    <rule comment="regla: num">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+        <out>
+          <chunk name="num" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <lit-tag v="mfn"/>
+              <lit-tag v="3"/>
+              <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
 

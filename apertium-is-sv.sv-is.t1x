@@ -15,10 +15,10 @@
       <cat-item tags="n.*.def"/>
       <cat-item tags="n.*.def.*"/>
     </def-cat>
-    <def-cat n="num">
+    <def-cat n="num">  						<!-- numeral    -->
       <cat-item tags="num.*"/>
     </def-cat>
-    <def-cat n="inf"> 					<!--infinitive-->
+    <def-cat n="inf"> 		     			<!--infinitive-->
       <cat-item tags="vblex.inf.*"/>
       <cat-item tags="vblex.inf"/>
       <cat-item tags="vbser.inf.*"/>
@@ -36,7 +36,7 @@
   <cat-item tags="vbser.imp"/>
 </def-cat>
 
-    <def-cat n="vimp"> 					<!--imperative-->
+    <def-cat n="vimp"> 				    	<!--imperative-->
       <cat-item tags="vblex.imp.*"/>
       <cat-item tags="vblex.imp"/>
       <cat-item tags="vbhaver.imp.*"/>
@@ -46,7 +46,7 @@
       <cat-item tags="vaux.imp.*"/>
       <cat-item tags="vaux.imp"/>
     </def-cat>
-    <def-cat n="supn"> 					<!--supine-->
+    <def-cat n="supn"> 				    	<!--supine-->
       <cat-item tags="vblex.supn.*"/>
       <cat-item tags="vblex.supn"/>
       <cat-item tags="vbser.supn.*"/>
@@ -58,7 +58,7 @@
       <cat-item tags="vaux.supn.*"/>
       <cat-item tags="vaux.supn"/>
     </def-cat>
-   <def-cat n="pprs"> 					<!--present participle-->
+   <def-cat n="pprs"> 				    	<!--present participle-->
       <cat-item tags="vblex.*.pprs.*"/>
       <cat-item tags="vblex.pprs"/>
       <cat-item tags="vbser.*.pprs.*"/>
@@ -83,7 +83,7 @@
       <cat-item tags="vaux.pp"/>
   </def-cat>
 
-    <def-cat n="vfin"> 					<!--finite verb-->
+    <def-cat n="vfin"> 				    	<!--finite verb-->
       <cat-item tags="vblex.pres.*"/>
       <cat-item tags="vblex.past.*"/>
       <cat-item tags="vbser.pres.*"/>
@@ -100,7 +100,7 @@
       <cat-item tags="vaux.past.*"/>
     </def-cat>
 
-    <def-cat n="verb_passive"> 					<!--passive voice-->
+    <def-cat n="verb_passive"> 				<!--passive voice-->
       <cat-item tags="vblex.*.pasv"/>
       <cat-item tags="vblex.*.pasv.*"/>
       <cat-item tags="vbser.*.pasv"/>
@@ -119,7 +119,7 @@
       	<cat-item tags="pr"/>
     </def-cat>
 
-    <def-cat n="prgen">    <!--prepositions that govern the genitive case-->
+    <def-cat n="prgen">                      <!--prepositions that govern the genitive case-->
       	<cat-item lemma="till" tags="pr"/>
 		<cat-item lemma="inom" tags="pr"/> 
 		<cat-item lemma="bland" tags="pr"/> 
@@ -134,10 +134,10 @@
     <def-cat n="adj_def"> 					<!--adjective def, weak declension-->
       <cat-item tags="adj.*.def"/>
     </def-cat>
-    <def-cat n="adj_ord"> 					<!--adjective-->
+    <def-cat n="adj_ord"> 					<!-- ord numeral-->
       <cat-item tags="adj.ord.*"/>
     </def-cat>
-    <def-cat n="adj"> 					<!--adjective-->
+    <def-cat n="adj"> 				    	<!--adjective-->
       <cat-item tags="adj.*"/>
     </def-cat>
   <def-cat n="mer">
@@ -321,6 +321,25 @@
 	 </choose>
     </def-macro>
 
+							<!-- mfn -> m/// a better rule possible? -->	
+<!--    <def-macro n="conv_gender_for_numerals" npar="1" > 	
+      <choose>
+        <when>
+          <test>
+				  <or>
+	                <equal><clip pos="1" side="sl"/><lit v="två"/></equal>
+	                <equal><clip pos="1" side="sl"/><lit v="tre"/></equal>
+	                <equal><clip pos="1" side="sl"/><lit v="fyra"/></equal>
+				  </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="m"/>
+          </let>
+        </when>
+	 </choose>
+    </def-macro>    
+-->
 
     <def-macro n="conv_number2" npar="1" > 	<!-- MACRO: used for adjectives !!! -->	
       <choose>
@@ -786,7 +805,13 @@ NB!!!								ha?????? NB!!!!!
         <pattern-item n="num"/>
       </pattern>
       <action>
-        <out>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+<!--		       <call-macro n="conv_gender_for_numerals">
+		         <with-param pos="1"/>
+		       </call-macro>
+-->        <out>
           <chunk name="num" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>

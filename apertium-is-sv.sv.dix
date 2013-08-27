@@ -1774,10 +1774,10 @@
 </pardef>
 
 <pardef n="miljon__num">
-  <e>       <p><l></l>          <r><s n="num"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>en</l>        <r><s n="num"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>er</l>        <r><s n="num"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>erna</l>      <r><s n="num"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="num"/><s n="mfn"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>en</l>        <r><s n="num"/><s n="mfn"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>er</l>        <r><s n="num"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>erna</l>      <r><s n="num"/><s n="mfn"/><s n="pl"/><s n="def"/></r></p></e>
 </pardef>
 
 
@@ -10712,7 +10712,7 @@
 
 
 <e lm="noll"><i>noll</i><par n="arton__num"/></e>
-<e lm="en"><i>en</i><par n="arton__num"/></e>
+<e lm="en"><i>e</i><par n="e/n__num"/></e>
 <e lm="två"><i>två</i><par n="arton__num"/></e>
 <e lm="tre"><i>tre</i><par n="arton__num"/></e>
 <e lm="fyra"><i>fyra</i><par n="arton__num"/></e>
@@ -10742,7 +10742,7 @@
 <e lm="nittio"><i>nittio</i><par n="arton__num"/></e>
 <e lm="hundra"><i>hundra</i><par n="arton__num"/></e>
 <e lm="tusen"><i>tusen</i><par n="arton__num"/></e>
-<e lm="miljon"><i>miljon</i><par n="arton__num"/></e>
+<e lm="miljon"><i>miljon</i><par n="miljon__num"/></e>
 <e lm="tiotals"><i>tiotals</i><par n="arton__num"/></e>
 <e lm="miljontals"><i>miljontals</i><par n="arton__num"/></e>
 
