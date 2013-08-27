@@ -1807,15 +1807,11 @@
 
 <pardef n="ha__vbhaver">
   <e>       <p><l></l>          <r><s n="vbhaver"/><s n="inf"/></r></p></e>
-  <e>       <p><l>r</l>         <r><s n="vbhaver"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>r</l>         <r><s n="vbhaver"/><s n="pres"/></r></p></e>
   <e>       <p><l>de</l>        <r><s n="vbhaver"/><s n="past"/></r></p></e>
   <e>       <p><l>ft</l>        <r><s n="vbhaver"/><s n="supn"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="vbhaver"/><s n="imp"/></r></p></e>
+<!--  <e>       <p><l></l>          <r><s n="vbhaver"/><s n="imp"/></r></p></e>  -->
   <e>       <p><l>vande</l>     <r><s n="vbhaver"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>vd</l>        <r><s n="vbhaver"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>vt</l>        <r><s n="vbhaver"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>vda</l>       <r><s n="vbhaver"/><s n="pp"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>vda</l>       <r><s n="vbhaver"/><s n="pp"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="k/unna__vbmod">

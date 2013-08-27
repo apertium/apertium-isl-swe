@@ -1,5 +1,5 @@
 
-þri 27 ágú 2013 01:03:10 GMT
+þri 27 ágú 2013 14:03:45 GMT
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 n	24573		 0	 8	
@@ -14,9 +14,9 @@ cnjsub	29		 0	 0
 vbmod	28		 0	 10	
 abbr	26		 0	 0	
 ij	12		 0	 0	
-vbhaver	10		 0	 7	
 cnjcoo	8		 0	 0	
 vbser	6		 0	 0	
+vbhaver	5		 0	 0	
 vaux	4		 0	 0	
 rel	0		 0	 0	
 preadv	0		 0	 0	
