@@ -105,10 +105,10 @@
       <cat-item tags="vbmod.*.past.*"/>
       <cat-item tags="vbmod.*.prs.*"/>
       <cat-item tags="vbmod.*.pss.*"/>
-      <cat-item tags="vaux.pri.*"/>
-      <cat-item tags="vaux.past.*"/>
-      <cat-item tags="vaux.prs.*"/>
-      <cat-item tags="vaux.pss.*"/>
+      <cat-item tags="vaux.*.pri.*"/>
+      <cat-item tags="vaux.*.past.*"/>
+      <cat-item tags="vaux.*.prs.*"/>
+      <cat-item tags="vaux.*.pss.*"/>
     </def-cat>
     <def-cat n="vcop"> 					<!--copula-->
       <cat-item tags="vbser.*"/>
