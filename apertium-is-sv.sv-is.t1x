@@ -94,6 +94,8 @@
       <cat-item tags="vbhaver.past"/>
       <cat-item tags="vbmod.pres.*"/>
       <cat-item tags="vbmod.past.*"/>
+      <cat-item tags="vbmod.pres"/>
+      <cat-item tags="vbmod.past"/>
       <cat-item tags="vaux.pres.*"/>
       <cat-item tags="vaux.past.*"/>
     </def-cat>

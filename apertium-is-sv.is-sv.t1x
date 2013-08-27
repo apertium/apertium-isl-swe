@@ -101,6 +101,10 @@
       <cat-item tags="vbmod.past.*"/>
       <cat-item tags="vbmod.prs.*"/>
       <cat-item tags="vbmod.pss.*"/>
+      <cat-item tags="vbmod.*.pri.*"/>
+      <cat-item tags="vbmod.*.past.*"/>
+      <cat-item tags="vbmod.*.prs.*"/>
+      <cat-item tags="vbmod.*.pss.*"/>
       <cat-item tags="vaux.pri.*"/>
       <cat-item tags="vaux.past.*"/>
       <cat-item tags="vaux.prs.*"/>
