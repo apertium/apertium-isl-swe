@@ -256,19 +256,35 @@
   <e>       <p><l>dess</l>     <r>hans<s n="prn"/><s n="pos"/><s n="nt"/><s n="sp"/></r></p></e>
 </pardef>
 
+
+
 <pardef n="d/en__prn">
   <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="de/nna__prn">
-  <e>       <p><l>nna</l>       <r>nna<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>tta</l>       <r>nna<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ssa</l>       <r>nna<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+<pardef n="d/enna__prn">
+  <e>       <p><l>enna</l>      <r>enna<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>etta</l>      <r>enna<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>essa</l>      <r>enna<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="samm/a__prn">
+  <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>a<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
+</pardef>
 
+<pardef n="så/dan__prn">
+  <e>       <p><l>dan</l>       <r>dan<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>dant</l>       <r>dan<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>dana</l>       <r>dan<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>n</l>         <r>dan<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>nt</l>         <r>dan<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>na</l>         <r>dan<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
+</pardef>
 
 
 
@@ -286,16 +302,21 @@
   <e>       <p><l>dra</l>       <r>nan<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
+
+<pardef n="olik__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="prn"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="prn"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+  <e>       <p><l>a</l>         <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+  <e>       <p><l>a</l>         <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+  <e>       <p><l>a</l>         <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+</pardef>
+
+
 <pardef n="ing/en__prn">
   <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
   <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
   <e>       <p><l>a</l>         <r>en<s n="prn"/><s n="qnt"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
-</pardef>
-
-<pardef n="d/enna__prn">
-  <e>       <p><l>enna</l>      <r>enna<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>etta</l>      <r>enna<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>essa</l>      <r>enna<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="all__prn">
@@ -306,7 +327,7 @@
 </pardef>
 
 <pardef n="samtliga__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="qnt"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
 
@@ -323,22 +344,11 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="samm/a__prn">
-  <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="ut"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>e</l>         <r>a<s n="prn"/><s n="dem"/><s n="m"/></r></p><par n="S__case"/></e>
-</pardef>
 
 <pardef n="båda__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="olik__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>t</l>         <r><s n="prn"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="prn"/><s n="qnt"/><s n="m"/><s n="sg"/><s n="def"/></r></p></e>
-  <e>       <p><l>a</l>         <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>a</l>         <r><s n="prn"/><s n="qnt"/><s n="mfn"/><s n="sp"/><s n="def"/></r></p></e>
-</pardef>
 
 
 
@@ -346,10 +356,6 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="så/dan__prn">
-  <e>       <p><l>dan</l>       <r>dan<s n="prn"/><s n="dem"/><s n="mfn"/><s n="sg"/></r></p></e>
-  <e r="LR"><p><l>n</l>         <r>dan<s n="prn"/><s n="dem"/><s n="mfn"/><s n="sg"/></r></p></e>
-</pardef>
 
 <pardef n="mång/a__prn">
   <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="ind"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
@@ -368,14 +374,18 @@
 </pardef>
 
 <pardef n="vilk/en__prn">
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="itg"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>a</l>         <r>en<s n="prn"/><s n="itg"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="itg"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>         <r>en<s n="prn"/><s n="itg"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="v/em__prn">
-  <e>       <p><l>em</l>        <r>em<s n="prn"/><s n="itg"/><s n="ut"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>ad</l>        <r>em<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+  <e>       <p><l>em</l>        <r>em<s n="prn"/><s n="itg"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ad</l>        <r>em<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ems</l>        <r>em<s n="prn"/><s n="itg"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ems</l>        <r>em<s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e>       <p><l>ilka</l>        <r>em<s n="prn"/><s n="itg"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ilkas</l>        <r>em<s n="prn"/><s n="itg"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="varifrån__prn">
@@ -11232,15 +11242,17 @@
 <e lm="deras">           <i>deras</i><par n="deras__prn"/></e>
 <e lm="den">             <i>d</i><par n="d/en__prn"/></e>
 <e lm="den här">         <i>d</i><par n="d/en__prn"/><p><l><b/>här</l><r><g><b/>här</g></r></p></e>
-<e lm="denna">           <i>de</i><par n="de/nna__prn"/></e>
+<e lm="denna">           <i>d</i><par n="d/enna__prn"/></e>
 <e lm="samma">           <i>samm</i><par n="samm/a__prn"/></e>
 <e lm="densamma">        <i>densamm</i><par n="samm/a__prn"/></e>
 <e lm="sådan">           <i>så</i><par n="så/dan__prn"/></e>
-<e lm="olik">   		 <i>olik</i><par n="olik__prn"/></e>
 <e lm="någon">           <i>någ</i><par n="någ/on__prn"/></e>
+
+<e lm="olik">   		 <i>olik</i><par n="olik__prn"/></e>
 <e lm="ingen">           <i>ing</i><par n="ing/en__prn"/></e>
 <e lm="all">             <i>all</i><par n="all__prn"/></e>
 <e lm="samtliga">        <i>samtliga</i><par n="samtliga__prn"/></e>
+
 <e lm="annan">           <i>an</i><par n="an/nan__prn"/></e>
 <e lm="båda">            <i>båda</i><par n="båda__prn"/></e>
 <e lm="bägge">           <i>bägge</i><par n="båda__prn"/></e>

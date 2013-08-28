@@ -432,13 +432,15 @@
 	    <e><p><l>sá<s n="prn"/><s n="dem"/></l><r>denna<s n="prn"/><s n="dem"/></r></p></e>
 	    <e><p><l>þessi<s n="prn"/><s n="dem"/></l><r>den<g><b/>här</g><s n="prn"/><s n="dem"/></r></p></e>
 	    <e><p><l>hinn<s n="prn"/><s n="dem"/></l><r>den<s n="prn"/><s n="dem"/></r></p></e>
-		<e r="RL" c="v1"><p><l>sama<s n="prn"/><s n="dem"/></l><r>densamma<s n="prn"/><s n="dem"/></r></p></e>
-		<e c="v0"><p><l>sama<s n="prn"/><s n="dem"/></l><r>samma<s n="prn"/><s n="dem"/></r></p></e>
+		<e r="RL" c="v1"><p><l>sami<s n="prn"/><s n="dem"/></l><r>densamma<s n="prn"/><s n="dem"/></r></p></e>
+		<e c="v0"><p><l>sami<s n="prn"/><s n="dem"/></l><r>samma<s n="prn"/><s n="dem"/></r></p></e>
 		<e><p><l>slíkur<s n="prn"/><s n="dem"/></l><r>sådan<s n="prn"/><s n="dem"/></r></p></e>
+
 	    <e><p><l>ýmis<s n="prn"/><s n="qnt"/></l><r>olik<s n="prn"/><s n="qnt"/></r></p></e>
 	    <e><p><l>enginn<s n="prn"/><s n="qnt"/></l><r>ingen<s n="prn"/><s n="qnt"/></r></p></e>
 	    <e><p><l>allur<s n="prn"/><s n="qnt"/></l><r>all<s n="prn"/><s n="qnt"/></r></p></e>
 		<e><p><l>allir<s n="prn"/><s n="qnt"/></l><r>samtliga<s n="prn"/><s n="qnt"/></r></p></e>
+
 	    <e r="LR" c="v3"><p><l>neinn<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
 	    <e r="LR" c="v1"><p><l>nokkur<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
 		<e r="LR" c="v2"><p><l>sumur<s n="prn"/><s n="ind"/></l><r>någon<s n="prn"/><s n="ind"/></r></p></e>
@@ -458,6 +460,7 @@
 		<e c="v0"><p><l>af<b/>hverju<s n="prn"/><s n="itg"/></l><r>varför<s n="prn"/><s n="itg"/></r></p></e>
 		<e r="LR" c="v1"><p><l>hvers<b/>vegna<s n="prn"/><s n="itg"/></l><r>varför<s n="prn"/><s n="itg"/></r></p></e>
 		<e><p><l>hvernig<s n="prn"/><s n="itg"/></l><r>hur<s n="prn"/><s n="itg"/></r></p></e>
+
 	    <e><p><l>sjálfur<s n="prn"/><s n="ref"/></l><r>själv<s n="prn"/><s n="ref"/></r></p></e>
 		<e><p><l>hver<b/>annan<s n="prn"/><s n="ref"/></l><r>varandra<s n="prn"/><s n="ref"/></r></p></e>
 		
@@ -8345,7 +8348,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>herða<s n="vblex"/></l><r>förhärda<s n="vblex"/></r></p></e>
 	<e><p><l>hirða<s n="vblex"/></l><r>plocka<g><b/>upp</g><s n="vblex"/></r></p></e>
 	<e><p><l>hita<s n="vblex"/></l><r>värma<s n="vblex"/></r></p></e>
-	<e><p><l>hitna<s n="vblex"/></l><r>värma<s n="vblex"/></r></p></e>
 	<e><p><l>hjóla<s n="vblex"/></l><r>cykla<s n="vblex"/></r></p></e>
 	<e><p><l>hlakka<g><b/>til</g><s n="vblex"/></l><r>se<g><b/>fram<b/>emot</g><s n="vblex"/></r></p></e>
 	<e><p><l>hlaða<s n="vblex"/></l><r>belasta<s n="vblex"/></r></p></e>
@@ -8354,7 +8356,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>hljóta<s n="vblex"/></l><r>måsta<s n="vblex"/></r></p></e>
 	<e><p><l>hljóða<s n="vblex"/></l><r>ropa<s n="vblex"/></r></p></e>
 	<e><p><l>hlæja<s n="vblex"/></l><r>skratta<s n="vblex"/></r></p></e>
-	<e><p><l>hlýja<s n="vblex"/></l><r>uppvärma<s n="vblex"/></r></p></e>
+	<e r="LR" c="v1"><p><l>hlýja<s n="vblex"/></l><r>uppvärma<s n="vblex"/></r></p></e>
+	<e c="v0"><p><l>hitna<s n="vblex"/></l><r>uppvärma<s n="vblex"/></r></p></e>
 	<e><p><l>hneigja<s n="vblex"/></l><r>böja<s n="vblex"/></r></p></e>
 	<e><p><l>hnykkja<s n="vblex"/></l><r>nita<s n="vblex"/></r></p></e>
 

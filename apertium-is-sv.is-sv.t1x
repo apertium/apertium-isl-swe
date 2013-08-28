@@ -10,6 +10,15 @@
 	<def-cat n="prn_possessive"> 					<!--possessive pronoun-->
 	  <cat-item tags="prn.pos.*"/>
 	</def-cat>
+	<def-cat n="prn_demonstrative"> 					<!--demonstrative pronoun-->
+	  <cat-item tags="prn.dem.*"/>
+	</def-cat>
+	<def-cat n="prn_quantitative"> 					<!--quantitative pronoun-->
+	  <cat-item tags="prn.qnt.*"/>
+	</def-cat>
+	<def-cat n="prn_interrogative"> 					<!--interrogative pronoun-->
+	  <cat-item tags="prn.itg.*"/>
+	</def-cat>
     <def-cat n="nom"> 					<!--noun-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -183,6 +192,9 @@
 	</def-cat>
 	<def-cat n="prn_possessive_hans"> 					<!--possessive pronoun hans-->
 	    <cat-item lemma="hans" tags="prn.pos.*"/>
+	</def-cat>
+	<def-cat n="prn_interrogative_hvaða"> 					<!--itg pronoun hvaða-->
+	    <cat-item lemma="hvaða" tags="prn.itg.*"/>
 	</def-cat>
 
   </section-def-cats>
@@ -461,6 +473,40 @@
           <let>
             <clip pos="1" side="tl" part="nbr"/>
             <lit-tag v="sg"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
+
+
+
+    <def-macro n="conv_gender_for_quantitative_pronouns" npar="1" > 	
+      <choose>
+        <when>
+          <test>
+			<or>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	              <equal><clip pos="1" side="sl" part="defnes"/><lit-tag v="def"/></equal>
+			</or>
+		   </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
+				<and>
+	            	<or>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+	            	</or>
+          				<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+				</and>
+        	</test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
           </let>
         </when> 		
 	 </choose>
@@ -1759,6 +1805,136 @@ Not working:
 	    </out>
 	  </action>
 	</rule>
+
+	<rule comment="regla: prn_demonstrative">
+	  <pattern>
+	    <pattern-item n="prn_demonstrative"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_possessive_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="DEMONSTRATIVE_PR" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_DEMONSTRATIVE"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+	<rule comment="regla: prn_quantitative">
+	  <pattern>
+	    <pattern-item n="prn_quantitative"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_quantitative_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="QUANTITATIVE_PRN" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_QUANTITATIVE"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+	          <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="4"/>
+              <clip pos="1" side="tl" part="defnes"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+
+<!-- a rule that transfers hvaða to vilken. One of the few cases where an Icelandic word is less morphologically complex than the Swedish one. I have chosen ut.sg as the default generation.-->
+<rule comment="regla: prn_interrogative_hvaða">
+  <pattern>
+    <pattern-item n="prn_interrogative_hvaða"/>
+  </pattern>
+  <action>
+	       <call-macro n="firstWord">
+	         <with-param pos="1"/>
+	       </call-macro>
+    <out>
+      <chunk name="INTERROGATIVE_PRN" case="caseFirstWord">
+        <tags>
+          <tag><lit-tag v="PRN_INTERROGATIVE"/></tag>
+          <tag><lit-tag v="ut"/></tag>
+          <tag><lit-tag v="sg"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <lit-tag v="2"/>
+          <lit-tag v="3"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+
+	<rule comment="regla: prn_interrogative">
+	  <pattern>
+	    <pattern-item n="prn_interrogative"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_reflexive_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_case2">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="INTERROGATIVE_PRN" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_INTERROGATIVE"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	          <tag><clip pos="1" side="tl" part="cas"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="cas"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
 
 
 
