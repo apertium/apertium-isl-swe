@@ -138,6 +138,10 @@
       <cat-item lemma="geta" tags="vbmod.*"/>
   	</def-cat>
 
+  	<def-cat n="en1">  								<!-- numeral 1 -->
+      <cat-item lemma="einn" tags="num.*"/>
+  	</def-cat>
+
   <def-cat n="pp">                           <!--pas participle -->
       <cat-item tags="vblex.*.pp.*"/>
       <cat-item tags="vblex.*.pp"/>
@@ -344,6 +348,23 @@
 	  </choose>
 	</def-macro>
 
+    <def-macro n="conv_gender_for_numerals" npar="1" > 	<!-- MACRO: convert gender for the numeral einn, 
+																sing, pst: m/f => ut -->	
+      <choose>
+        <when>
+          <test>
+	            <or>
+	              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	              <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+	            </or>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
 
 
     <def-macro n="conv_gender_for_adj" npar="1" > 	<!-- MACRO: convert gender for adj, 
@@ -1389,6 +1410,37 @@ Not working:
 		     </action>
 	</rule>
 
+    <rule comment="regla: num1">
+      <pattern>
+        <pattern-item n="en1"/>
+      </pattern>
+      <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_numerals">
+		         <with-param pos="1"/>
+		       </call-macro>
+        <out>
+          <chunk name="num1" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="3"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: num">
       <pattern>
         <pattern-item n="num"/>
@@ -1417,6 +1469,9 @@ Not working:
         </out>
       </action>
     </rule>
+
+<!-- the number 1 einn -> en -->
+
 
 
 	<rule comment="regla: prn_pers">
