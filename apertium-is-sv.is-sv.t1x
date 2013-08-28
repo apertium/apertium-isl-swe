@@ -7,6 +7,9 @@
 	<def-cat n="prn_personal"> 					<!--personal pronoun-->
 	  <cat-item tags="prn.pers.*"/>
 	</def-cat>
+	<def-cat n="prn_possessive"> 					<!--possessive pronoun-->
+	  <cat-item tags="prn.pos.*"/>
+	</def-cat>
     <def-cat n="nom"> 					<!--noun-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -134,13 +137,6 @@
       <cat-item tags="vaux.*.imp.*"/>
       <cat-item tags="vaux.*.imp"/>
     </def-cat>
-  	<def-cat n="geta">
-      <cat-item lemma="geta" tags="vbmod.*"/>
-  	</def-cat>
-
-  	<def-cat n="en1">  								<!-- numeral 1 -->
-      <cat-item lemma="einn" tags="num.*"/>
-  	</def-cat>
 
   <def-cat n="pp">                           <!--pas participle -->
       <cat-item tags="vblex.*.pp.*"/>
@@ -164,6 +160,30 @@
      <cat-item tags="adv.comp"/>
      <cat-item tags="adv.sup"/>
   </def-cat>
+
+
+
+
+
+	<def-cat n="geta">
+    <cat-item lemma="geta" tags="vbmod.*"/>
+	</def-cat>
+
+	<def-cat n="en1">  								<!-- numeral 1 -->
+    <cat-item lemma="einn" tags="num.*"/>
+	</def-cat>
+	<def-cat n="prn_sig_ref"> 					<!--reflexive pronoun sig-->
+    <cat-item lemma="sig" tags="prn.ref.*"/>
+	</def-cat>
+	<def-cat n="prn_sjálfur_ref"> 					<!--reflexive pronoun sjálfur-->
+    <cat-item lemma="sjálfur" tags="prn.ref.*"/>
+	</def-cat>
+	<def-cat n="prn_annan_ref"> 					<!--reflexive pronoun hver annan-->
+    <cat-item lemma="hver annan" tags="prn.ref.*"/>
+	</def-cat>
+	<def-cat n="prn_possessive_hans"> 					<!--possessive pronoun hans-->
+	    <cat-item lemma="hans" tags="prn.pos.*"/>
+	</def-cat>
 
   </section-def-cats>
 
@@ -365,6 +385,87 @@
         </when> 		
 	 </choose>
     </def-macro>
+
+
+
+	<!-- MACRO: convert gender for pronouns (sjálfur), 
+																sing: m/f => ut 
+																pl, m, f, nt => mfn-->
+    <def-macro n="conv_gender_for_reflexive_pronouns" npar="1" > 	
+      <choose>
+        <when>
+          <test>
+				<and>
+	            	<or>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+	            	</or>
+          				<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+				</and>
+        	</test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+		   </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
+
+
+    <def-macro n="conv_gender_for_possessive_pronouns" npar="1" > 	
+      <choose>
+        <when>
+          <test>
+				<and>
+	            	<or>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+	            	</or>
+          				<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+				</and>
+        	</test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
+	              <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+		   </test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mfn"/>
+          </let>
+        </when> 		
+        <when>
+          <test>
+				<and>
+	              		<equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mfn"/></equal>
+          				<equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+				</and>
+        	</test>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="ut"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sg"/>
+          </let>
+        </when> 		
+	 </choose>
+    </def-macro>
+
 
 
     <def-macro n="conv_gender_for_adj" npar="1" > 	<!-- MACRO: convert gender for adj, 
@@ -1508,6 +1609,156 @@ Not working:
 	  </action>
 	</rule>
 
+
+	<rule comment="regla: prn_sig_ref">
+	  <pattern>
+	    <pattern-item n="prn_sig_ref"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="PRN_REF" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_REF"/></tag>
+	          <tag><clip pos="1" side="tl" part="pers"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+	<rule comment="regla: prn_sjálfur_ref">
+	  <pattern>
+	    <pattern-item n="prn_sjálfur_ref"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_reflexive_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="PRN_REF" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_REF"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+
+	<rule comment="regla: prn_annan_ref">
+	  <pattern>
+	    <pattern-item n="prn_annan_ref"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="PRN_REF" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_REF"/></tag>
+              <tag><lit-tag v="mfn"/></tag>
+              <tag><lit-tag v="pl"/></tag>
+              <tag><lit-tag v="nom"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <lit-tag v="mfn"/>
+              <lit-tag v="pl"/>
+              <lit-tag v="nom"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+
+	<rule comment="regla: prn_possesive_hans">
+	  <pattern>
+	    <pattern-item n="prn_possessive_hans"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="POSSESIVE_PR" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_POSSESSIVE"/></tag>
+	          <tag><clip pos="1" side="tl" part="cas"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
+
+	<rule comment="regla: prn_possesive">
+	  <pattern>
+	    <pattern-item n="prn_possessive"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_gender_for_possessive_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="POSSESIVE_PR" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_POSSESSIVE"/></tag>
+	          <tag><clip pos="1" side="tl" part="cas"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
 
 
 

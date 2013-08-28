@@ -245,8 +245,9 @@
 </pardef>
 
 <pardef n="deras__prn">
-  <e>       <p><l></l>         <r><s n="prn"/><s n="pos"/><s n="ut"/><s n="sp"/></r></p></e>
-  <e>       <p><l></l>         <r><s n="prn"/><s n="pos"/><s n="nt"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="prn"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="prn"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>         <r><s n="prn"/><s n="pos"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="/hans__prn">
@@ -357,8 +358,8 @@
 </pardef>
 
 <pardef n="varan/dra__prn">
-  <e>       <p><l>dra</l>       <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
-  <e r="LR"><p><l>n</l>         <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>dra</l>       <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+  <e r="LR"><p><l>n</l>         <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="var/annan__prn">
@@ -389,9 +390,9 @@
 </pardef>
 
 <pardef n="själv__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>t</l>         <r><s n="prn"/><s n="ref"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>a</l>         <r><s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="prn"/><s n="ref"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>a</l>         <r><s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="eg/en__prn">
