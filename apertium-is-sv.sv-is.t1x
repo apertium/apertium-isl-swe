@@ -3,6 +3,24 @@
 <transfer default="chunk">
 
   <section-def-cats>
+	<def-cat n="prn_personal"> 					<!--personal pronoun-->
+	  <cat-item tags="prn.pers.*"/>
+	</def-cat>
+	<def-cat n="prn_possessive"> 					<!--possessive pronoun-->
+	  <cat-item tags="prn.pos.*"/>
+	</def-cat>
+	<def-cat n="prn_demonstrative"> 					<!--demonstrative pronoun-->
+	  <cat-item tags="prn.dem.*"/>
+	</def-cat>
+	<def-cat n="prn_quantitative"> 					<!--quantitative pronoun-->
+	  <cat-item tags="prn.qnt.*"/>
+	</def-cat>
+	<def-cat n="prn_interrogative"> 					<!--interrogative pronoun-->
+	  <cat-item tags="prn.itg.*"/>
+	</def-cat>
+	<def-cat n="prn_indefinite"> 					<!--indefinite pronoun-->
+	  <cat-item tags="prn.ind.*"/>
+	</def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -171,6 +189,18 @@
   </section-def-cats>
 
   <section-def-attrs>
+	<def-attr n="a_prn"> 							<!--PRONOUN-->
+	  <attr-item tags="prn.pers"/>
+	  <attr-item tags="prn.ref"/>
+	  <attr-item tags="prn.pos"/>
+	  <attr-item tags="prn.dem"/>
+	  <attr-item tags="prn.ind"/>
+	  <attr-item tags="prn.qnt"/>
+	  <attr-item tags="prn.def"/>
+	  <attr-item tags="prn.itg"/>
+	  <attr-item tags="prn.rel"/>
+	</def-attr>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="np"/>
@@ -1499,6 +1529,40 @@ NB!!!								ha?????? NB!!!!!
           <clip pos="1" side="tl" part="temps"/>
 		  <lit-tag v="p3"/>
 		  <lit-tag v="sg"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+
+
+<rule comment="regla: prn_indefinite">
+  <pattern>
+    <pattern-item n="prn_indefinite"/>
+  </pattern>
+  <action>
+	       <call-macro n="firstWord">
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <call-macro n="conv_gender_for_pp">
+	         <with-param pos="1"/>
+	       </call-macro>
+    <out>
+      <chunk name="INDEFINITE_PRN" case="caseFirstWord">
+        <tags>
+          <tag><lit-tag v="PRN_INDEFINITE"/></tag>
+          <tag><clip pos="1" side="tl" part="gen"/></tag>
+          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+          <tag><clip pos="1" side="tl" part="cas"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="a_prn"/>
+          <clip pos="1" side="tl" part="gen"/>
+          <clip pos="1" side="tl" part="nbr"/>
+          <clip pos="1" side="tl" part="cas"/>
           <clip pos="1" side="tl" part="lemq"/>
         </lu>
       </chunk>
