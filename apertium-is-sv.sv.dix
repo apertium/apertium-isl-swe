@@ -270,7 +270,7 @@
   <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r>a<s n="prn"/><s n="dem"/><s n="mfn"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e</l>         <r>a<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
+  <e>       <p><l>e</l>         <r>a<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="så/dan__prn">
@@ -373,10 +373,6 @@
 
 
 
-<pardef n="varan/dra__prn">
-  <e>       <p><l>dra</l>       <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
-  <e r="LR"><p><l>n</l>         <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
-</pardef>
 
 <pardef n="var/annan__prn">
   <e>       <p><l>annan</l>     <r>annan<s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
@@ -409,11 +405,20 @@
   <e>       <p><l>vilkas</l>    <r>som<s n="prn"/><s n="rel"/><s n="mfn"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
+
+
 <pardef n="själv__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="prn"/><s n="ref"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r><s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p></e>
 </pardef>
+
+<pardef n="varan/dra__prn">
+  <e>       <p><l>dra</l>       <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+  <e r="LR"><p><l>n</l>         <r>dra<s n="prn"/><s n="ref"/><s n="mfn"/><s n="pl"/></r></p><par n="S__case"/></e>
+</pardef>
+
+
 
 <pardef n="eg/en__prn">
   <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -11250,6 +11255,7 @@
 <e lm="vår">             <i>vår</i><par n="vår__prn"/></e>
 <e lm="er">              <i>er</i><par n="vår__prn"/></e>
 <e lm="deras">           <i>deras</i><par n="deras__prn"/></e>
+
 <e lm="den">             <i>d</i><par n="d/en__prn"/></e>
 <e lm="den här">         <i>d</i><par n="d/en__prn"/><p><l><b/>här</l><r><g><b/>här</g></r></p></e>
 <e lm="denna">           <i>d</i><par n="d/enna__prn"/></e>

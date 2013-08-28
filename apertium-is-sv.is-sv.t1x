@@ -1636,7 +1636,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="PERS_PR" case="caseFirstWord">
+	      <chunk name="PERS_PRN" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_PERS"/></tag>
 	          <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -1790,7 +1790,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="POSSESSIVE_PR" case="caseFirstWord">
+	      <chunk name="POSSESSIVE_PRN" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_POSSESSIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -1821,7 +1821,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="DEMONSTRATIVE_PR" case="caseFirstWord">
+	      <chunk name="DEMONSTRATIVE_PRN" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_DEMONSTRATIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
