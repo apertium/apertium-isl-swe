@@ -4,6 +4,9 @@
 
 
   <section-def-cats>
+	<def-cat n="prn_personal"> 					<!--personal pronoun-->
+	  <cat-item tags="prn.pers.*"/>
+	</def-cat>
     <def-cat n="nom"> 					<!--noun-->
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -163,6 +166,17 @@
 <!--#######################################################################################-->
 
   <section-def-attrs>
+	<def-attr n="a_prn"> 							<!--PRONOUN-->
+	  <attr-item tags="prn.pers"/>
+	  <attr-item tags="prn.ref"/>
+	  <attr-item tags="prn.pos"/>
+	  <attr-item tags="prn.dem"/>
+	  <attr-item tags="prn.ind"/>
+	  <attr-item tags="prn.qnt"/>
+	  <attr-item tags="prn.def"/>
+	  <attr-item tags="prn.itg"/>
+	  <attr-item tags="prn.rel"/>
+	</def-attr>
     <def-attr n="a_adj"> 							<!--ADJECTIVE-->
       <attr-item tags="adj"/>
      <attr-item tags="adj.ord"/>
@@ -208,11 +222,19 @@
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
-    </def-attr>
+								<!--CASE  FOR PRONOUNS NOMINATIVE/OBLIQ-->
+	  <attr-item tags="subj"/>
+	  <attr-item tags="obj"/>
+	</def-attr>
     <def-attr n="grau"> 							<!--COMPARISON-->
       <attr-item tags="pst"/>
       <attr-item tags="comp"/>
       <attr-item tags="sup"/>
+    </def-attr>
+    <def-attr n="pers"> 							<!--PERSON-->
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
     </def-attr>
     <def-attr n="grau_tags">
       <attr-item tags="sint"/>
@@ -294,6 +316,34 @@
         </when>
       </choose>
     </def-macro>
+
+	<def-macro n="conv_case_for_pronouns" npar="1" > 						<!-- MACRO: subject/object -->	
+	  <choose>
+	    <when>
+	      <test>
+	        <or>
+	          <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="acc"/></equal>
+	          <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="dat"/></equal>
+	          <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+	        </or>
+	      </test>
+	      <let>
+	        <clip pos="1" side="tl" part="cas"/>
+	        <lit-tag v="obj"/>
+	      </let>
+	    </when>
+	    <when>
+	      <test>
+	          <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="nom"/></equal>
+	      </test>
+	      <let>
+	        <clip pos="1" side="tl" part="cas"/>
+	        <lit-tag v="subj"/>
+	      </let>
+	    </when>
+	  </choose>
+	</def-macro>
+
 
 
     <def-macro n="conv_gender_for_adj" npar="1" > 	<!-- MACRO: convert gender for adj, 
@@ -1367,6 +1417,42 @@ Not working:
         </out>
       </action>
     </rule>
+
+
+	<rule comment="regla: prn_pers">
+	  <pattern>
+	    <pattern-item n="prn_personal"/>
+	  </pattern>
+	  <action>
+		       <call-macro n="firstWord">
+		         <with-param pos="1"/>
+		       </call-macro>
+		       <call-macro n="conv_case_for_pronouns">
+		         <with-param pos="1"/>
+		       </call-macro>
+	    <out>
+	      <chunk name="PERS_PR" case="caseFirstWord">
+	        <tags>
+	          <tag><lit-tag v="PRN_PERS"/></tag>
+	          <tag><clip pos="1" side="tl" part="cas"/></tag>
+	          <tag><clip pos="1" side="tl" part="pers"/></tag>
+	          <tag><clip pos="1" side="tl" part="gen"/></tag>
+	          <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	        </tags>
+	        <lu>
+	          <clip pos="1" side="tl" part="lemh"/>
+	          <clip pos="1" side="tl" part="a_prn"/>
+              <clip pos="1" side="tl" part="cas"/>
+              <clip pos="1" side="tl" part="pers"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+	          <clip pos="1" side="tl" part="lemq"/>
+	        </lu>
+	      </chunk>
+	    </out>
+	  </action>
+	</rule>
+
 
 
 

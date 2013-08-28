@@ -411,11 +411,14 @@
 
 	<!-- SECTION: Pronouns -->
 		
-		<e><p><l>ég<s n="prn"/></l><r>jag<s n="prn"/></r></p></e>
-	    <e><p><l>þú<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
-	    <e><p><l>hann<s n="prn"/></l><r>han<s n="prn"/></r></p></e>
-	    <e r="LR"><p><l>vér<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
-		<e><p><l>sig<s n="prn"/></l><r>sig<s n="prn"/></r></p></e>
+		<e c="v0"><p><l>ég<s n="prn"/><s n="pers"/></l><r>jag<s n="prn"/><s n="pers"/></r></p></e>
+	    <e r="LR" c="v1"><p><l>vér<s n="prn"/><s n="pers"/></l><r>jag<s n="prn"/><s n="pers"/></r></p></e>
+
+	    <e c="v0"><p><l>þú<s n="prn"/><s n="pers"/></l><r>du<s n="prn"/><s n="pers"/></r></p></e>
+	    <e r="LR" c="v1"><p><l>þér<s n="prn"/><s n="pers"/></l><r>du<s n="prn"/><s n="pers"/></r></p></e>
+
+	    <e><p><l>hann<s n="prn"/><s n="pers"/></l><r>han<s n="prn"/><s n="pers"/></r></p></e>
+		<e><p><l>sig<s n="prn"/><s n="ref"/></l><r>sig<s n="prn"/><s n="ref"/></r></p></e>
 
 	    <e><p><l>minn<s n="prn"/><s n="pos"/></l><r>min<s n="prn"/><s n="pos"/></r></p></e>
 	    <e><p><l>þinn<s n="prn"/><s n="pos"/></l><r>din<s n="prn"/><s n="pos"/></r></p></e>
