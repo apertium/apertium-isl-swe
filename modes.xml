@@ -33,6 +33,41 @@
     </pipeline>
   </mode>
 
+  <mode name="is-sv-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="is-sv.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="is-sv.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="is-sv.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-is-sv.is-sv.t1x"/>
+        <file name="is-sv.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-is-sv.is-sv.t2x"/>
+        <file name="is-sv.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-is-sv.is-sv.t3x"/>
+        <file name="is-sv.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="is-sv.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
   <mode name="is-sv-anmor">
     <pipeline>
       <program name="lt-proc -w">
@@ -40,6 +75,19 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="is-sv-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="is-sv.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="is-sv.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="is-sv-tagger">
     <pipeline>
@@ -236,6 +284,41 @@
     </pipeline>
   </mode>
 
+  <mode name="sv-is-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="sv-is.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="sv-is.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="sv-is.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-is-sv.sv-is.t1x"/>
+        <file name="sv-is.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-is-sv.sv-is.t2x"/>
+        <file name="sv-is.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-is-sv.sv-is.t3x"/>
+        <file name="sv-is.t3x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="sv-is.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
   <mode name="sv-is-anmor">
     <pipeline>
       <program name="lt-proc -w">
@@ -243,6 +326,19 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="sv-is-disam">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="sv-is.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="sv-is.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="sv-is-tagger">
     <pipeline>
