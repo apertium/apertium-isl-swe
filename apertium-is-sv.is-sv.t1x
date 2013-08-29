@@ -870,7 +870,7 @@
 	              <clip pos="2" side="tl" part="defnes" link-to="4"/>    <!-- pos 1 or 2 here????? -->
 	              <clip pos="1" side="tl" part="lemq"/>
 	            </lu>
-	            <b pos="2"/>                                        <!-- pos 1 or 2 here????? -->
+	            <b pos="1"/>                                        <!-- pos 1 or 2 here????? -->
 	            <lu>
 	              <clip pos="2" side="tl" part="lemh"/>
 	              <clip pos="2" side="tl" part="a_nom"/>

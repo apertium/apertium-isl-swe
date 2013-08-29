@@ -866,8 +866,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>bókstaflega<s n="adv"/></l><r>bokstavligen<s n="adv"/></r></p></e>
 	<e><p><l>daglega<s n="adv"/></l><r>dagligen<s n="adv"/></r></p></e>
 	<e><p><l>eftir<s n="adv"/></l><r>kvar<s n="adv"/></r></p></e>
-	<e c="v0"><p><l>eftirá<s n="adv"/></l><r>därefter<s n="adv"/></r></p></e>
-	<e r="RL" c="v1"><p><l>eftirá<s n="adv"/></l><r>efteråt<s n="adv"/></r></p></e>
+	<e c="v0"><p><l>eftir<b/>á<s n="adv"/></l><r>därefter<s n="adv"/></r></p></e>
+	<e r="RL" c="v1"><p><l>eftir<b/>á<s n="adv"/></l><r>efteråt<s n="adv"/></r></p></e>
 	<e><p><l>einhversstaðar<s n="adv"/></l><r>någonstans<s n="adv"/></r></p></e>
 	<e c="v0"><p><l>einnig<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
 	<e r="LR" c="v1"><p><l>jafnvel<s n="adv"/></l><r>även<s n="adv"/></r></p></e>
