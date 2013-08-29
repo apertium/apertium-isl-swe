@@ -1832,7 +1832,7 @@
   <e>       <p><l>är</l>        <r>vara<s n="vbser"/><s n="pres"/></r></p></e>
   <e>       <p><l>var</l>       <r>vara<s n="vbser"/><s n="past"/></r></p></e>
   <e>       <p><l>varit</l>     <r>vara<s n="vbser"/><s n="supn"/></r></p></e>
-  <e>       <p><l>vara</l>      <r>vara<s n="vbser"/><s n="imp"/></r></p></e>
+  <e>       <p><l>var</l>      <r>vara<s n="vbser"/><s n="imp"/></r></p></e>
   <e>       <p><l>varande</l>   <r>vara<s n="vbser"/><s n="pprs"/></r></p></e>
 </pardef>
 
@@ -6433,6 +6433,7 @@
 <e lm="upphävande"><i>upphävande</i><par n="äpple__n"/></e>
 <e lm="avkastning"><i>avkastning</i><par n="bil__n"/></e>
 <e lm="avreglering"><i>avreglering</i><par n="bil__n"/></e>
+<e lm="tävling"><i>tävling</i><par n="bil__n"/></e>
 <e lm="kopia"><i>kopi</i><par n="frug/a__n"/></e>
 <e lm="likgiltighet"><i>likgiltighet</i><par n="mat__n"/></e>
 <e lm="hållning"><i>hållning</i><par n="bil__n"/></e>
@@ -8667,6 +8668,7 @@
 <e lm="bit">             <i>bit</i><par n="bil__n"/></e>
 <e lm="blockflöjt"><i>blockflöjt</i><par n="mask__n"/></e>
 <e lm="blomma">          <i>blomm</i><par n="frug/a__n"/></e>
+<e lm="resa">          <i>res</i><par n="frug/a__n"/></e>
 <e lm="blyertspenna"><i>blyertspenn</i><par n="frug/a__n"/></e>
 <e lm="blåval"><i>blåval</i><par n="bil__n"/></e>
 <e lm="bog"><i>bog</i><par n="bil__n"/></e>

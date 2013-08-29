@@ -3361,7 +3361,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e r="LR" c="v1"><p><l>fatnaður<s n="n"/><s n="m"/></l><r>kläder<s n="n"/><s n="ut"/></r></p><par n="fatnaður_kläder__n"/></e>
 <e><p><l>faðir<s n="n"/><s n="m"/></l><r>far<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>ferli<s n="n"/><s n="nt"/></l><r>process<s n="n"/><s n="ut"/></r></p></e>
-<e><p><l>ferð<s n="n"/><s n="f"/></l><r>tur<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>ferð<s n="n"/><s n="f"/></l><r>resa<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>ferðalag<s n="n"/><s n="nt"/></l><r>färd<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>ferðaáætlun<s n="n"/><s n="f"/></l><r>färdplan<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>ferðaþjónusta<s n="n"/><s n="f"/></l><r>turism<s n="n"/><s n="ut"/></r></p></e>
@@ -4051,6 +4051,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 <e><p><l>samgöngustefna<s n="n"/><s n="f"/></l><r>transportpolitik<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>samheldni<s n="n"/><s n="f"/></l><r>sammanhållning<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 <e><p><l>samkeppni<s n="n"/><s n="f"/></l><r>konkurrens<s n="n"/><s n="ut"/></r></p></e>
+<e><p><l>keppni<s n="n"/><s n="f"/></l><r>tävling<s n="n"/><s n="ut"/></r></p></e>
 <e><p><l>samkeppnishæfni<s n="n"/><s n="f"/></l><r>konkurrensförmåga<s n="n"/><s n="ut"/></r></p></e>
 <e c="v0"><p><l>samkoma<s n="n"/><s n="f"/></l><r>församling<s n="n"/><s n="ut"/></r></p></e>
 <e r="RL" c="v1"><p><l>samkoma<s n="n"/><s n="f"/></l><r>återförening<s n="n"/><s n="ut"/></r></p></e>
@@ -5623,7 +5624,7 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>heiði<s n="n"/><s n="f"/></l><r>ljung<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hellir<s n="n"/><s n="m"/></l><r>grotta<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>helvíti<s n="n"/><s n="nt"/></l><r>helvete<s n="n"/><s n="nt"/></r></p></e>
-	<e><p><l>heppni<s n="n"/><s n="f"/></l><r>tur<s n="n"/><s n="ut"/></r></p></e>
+	<e><p><l>heppni<s n="n"/><s n="f"/></l><r>tur<s n="n"/><s n="ut"/></r></p><par n="SGtantum_normal__n"/></e>
 	<e><p><l>herðar<s n="n"/><s n="f"/></l><r>skuldra<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hestur<s n="n"/><s n="m"/></l><r>häst<s n="n"/><s n="ut"/></r></p></e>
 	<e><p><l>hey<s n="n"/><s n="nt"/></l><r>hö<s n="n"/><s n="nt"/></r></p><par n="normal_SGtantum__n"/></e>
@@ -7802,7 +7803,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v2"><p><l>muna<s n="vblex"/></l><r>komma<g><b/>i<b/>håg</g><s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>muna<s n="vblex"/></l><r>komma<g><b/>ihåg</g><s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>muna<s n="vblex"/></l><r>minnas<s n="vblex"/></r></p></e>
-	<e><p><l>mynda<s n="vblex"/></l><r>forma<s n="vblex"/></r></p></e>
 	<e><p><l>myrða<s n="vblex"/></l><r>mörda<s n="vblex"/></r></p></e>
 	<e r="LR" c="v1"><p><l>má<s n="vblex"/></l><r>få<s n="vblex"/></r></p></e>
 	<e><p><l>mæla<g><b/>með</g><s n="vblex"/></l><r>rekommendera<s n="vblex"/></r></p></e>
@@ -7970,9 +7970,6 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e><p><l>standa<s n="vblex"/></l><r>stå<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>staðfesta<s n="vblex"/></l><r>bekräfta<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>staðfesta<s n="vblex"/></l><r>ratificera<s n="vblex"/></r></p></e>
-	<e r="RL" c="v2"><p><l>staðsetja<s n="vblex"/></l><r>basera<s n="vblex"/></r></p></e>
-	<e r="RL" c="v1"><p><l>staðsetja<s n="vblex"/></l><r>finna<s n="vblex"/></r></p></e>
-	<e c="v0"><p><l>staðsetja<s n="vblex"/></l><r>placera<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>stefna<g><b/>á</g><s n="vblex"/></l><r>eftersträva<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>stefna<g><b/>á</g><s n="vblex"/></l><r>sträva<g><b/>efter</g><s n="vblex"/></r></p></e>
 	<e><p><l>stilla<s n="vblex"/></l><r>justera<s n="vblex"/></r></p></e>
@@ -8108,8 +8105,15 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>vera<g><b/>til</g><s n="vblex"/></l><r>föreligga<s n="vblex"/></r></p></e>
 	<e><p><l>vera<g><b/>á<b/>eftir</g><s n="vblex"/></l><r>vara<g><b/>på<b/>efterkälken</g><s n="vblex"/></r></p></e>
 	<e><p><l>vera<g><b/>áfram</g><s n="vblex"/></l><r>återstå<s n="vblex"/></r></p></e>
-	<e r="RL" c="v1"><p><l>vera<s n="vblex"/></l><r>befinna<s n="vblex"/></r></p></e>
-	<e c="v0"><p><l>vera<s n="vblex"/></l><r>utgöra<s n="vblex"/></r></p></e>
+
+	<e r="RL" c="v2"><p><l>staðsetja<s n="vblex"/></l><r>basera<s n="vblex"/></r></p></e>
+	<e r="RL" c="v1"><p><l>staðsetja<s n="vblex"/></l><r>finna<s n="vblex"/></r></p></e>
+	<e c="v0"><p><l>staðsetja<s n="vblex"/></l><r>placera<s n="vblex"/></r></p></e>
+	<e r="RL" c="v3"><p><l>staðsetja<s n="vblex"/></l><r>befinna<s n="vblex"/></r></p></e>
+
+	<e r="RL" c="v1"><p><l>mynda<s n="vblex"/></l><r>utgöra<s n="vblex"/></r></p></e>
+	<e c="v0"><p><l>mynda<s n="vblex"/></l><r>forma<s n="vblex"/></r></p></e>
+
 	<e c="v0"><p><l>verja<s n="vblex"/></l><r>försvara<s n="vblex"/></r></p></e>
 	<e r="RL" c="v1"><p><l>verja<s n="vblex"/></l><r>plädera<s n="vblex"/></r></p></e>
 	<e c="v0"><p><l>vernda<s n="vblex"/></l><r>skydda<s n="vblex"/></r></p></e>
