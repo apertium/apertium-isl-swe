@@ -10,6 +10,10 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
+    <def-cat n="SN_GEN">
+      <cat-item tags="SN.*.gen"/>
+      <cat-item tags="SN.*.gen.*"/>
+    </def-cat>
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
@@ -17,6 +21,10 @@
     <def-cat n="SA">
       <cat-item tags="SA"/>
       <cat-item tags="SA.*"/>
+    </def-cat>
+    <def-cat n="SNUM">
+      <cat-item tags="SNUM"/>
+      <cat-item tags="SNUM.*"/>
     </def-cat>
     <def-cat n="SVCOP">
       <cat-item tags="SVCOP"/>
@@ -61,6 +69,34 @@
         </out>
       </action>
     </rule>
+
+
+<!-- 
+
+    <rule comment="REGLA: SNUM SN_GEN">     
+	      <pattern>
+	        <pattern-item n="SN"/>
+	        <pattern-item n="SN_GEN"/>
+	      </pattern>
+	      <action>
+	        <out>
+	          <chunk>
+	            <clip pos="2" part="lem"/>
+	            <clip pos="2" part="tags"/>
+	            <clip pos="2" part="chcontent"/>
+	          <b pos="1"/>
+	          <clip pos="2" part="lem"/>
+	          <clip pos="2" part="tags"/>
+	          <clip pos="2" part="chcontent"/>
+	          <b pos="2"/>
+	          <clip pos="3" part="lem"/>
+	          <clip pos="3" part="tags"/>
+	          <clip pos="3" part="chcontent"/>
+	          </chunk>
+	        </out>
+	      </action>
+	    </rule>     -->
+
 
 <!--     <rule comment="REGLA: SN SVCOP ADJ">     ???? 
       <pattern>

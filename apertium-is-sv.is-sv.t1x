@@ -38,8 +38,12 @@
     <def-cat n="nom_gen_def"> 					<!--noun, genitive, wið article - (possessor) -->
       <cat-item tags="n.*.gen.def"/>
     </def-cat>
+    <def-cat n="nom_gen_ind"> 					<!--noun, genitive, without article -->
+      <cat-item tags="n.*.gen.ind"/>
+    </def-cat>
     <def-cat n="num"> 					<!--numeral-->
       <cat-item tags="num.*"/>
+      <cat-item tags="num"/>
     </def-cat>
     <def-cat n="adj"> 					<!--adjective-->
       <cat-item tags="adj.*"/>
@@ -980,6 +984,50 @@
 	      </action>
 	</rule>
 
+
+
+    <rule comment="regla: num nom_gen (undef) | 1000 manns → 1000 menn">  
+	      <pattern>
+	        <pattern-item n="num"/>
+	        <pattern-item n="nom_gen_ind"/>
+	      </pattern>
+	      <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+	        <out>
+	          <chunk name="1000_MANNS" case="caseFirstWord">
+	            <tags>
+	              <tag><lit-tag v="SN"/></tag>
+	              <tag><clip pos="2" side="tl" part="gen"/></tag>
+	              <tag><lit-tag v="pl"/></tag>   <!-- by default -->
+	              <tag><lit-tag v="ind"/></tag>   <!-- by default -->
+	              <tag><lit-tag v="nom"/></tag>   <!-- by default -->
+	            </tags>
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_num"/>
+	              <clip pos="1" side="tl" part="gen"/>   
+	              <clip pos="2" side="tl" part="nbr"/>
+	              <clip pos="2" side="tl" part="defnes"/>     
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_nom"/>
+	              <clip pos="2" side="tl" part="gen" link-to="2"/>
+	              <clip pos="2" side="tl" part="nbr" link-to="3"/>
+	              <clip pos="2" side="tl" part="defnes" link-to="4"/>
+	              <clip pos="2" side="tl" part="cas" link-to="5"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	      </action>
+	</rule>
+
+
 <!-- er að skrifa → skriver -->
 
 
@@ -1703,7 +1751,7 @@ Not working:
         <out>
           <chunk name="num" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SN"/></tag>
+              <tag><lit-tag v="SNUM"/></tag>
               <tag><clip pos="1" side="tl" part="gen"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
               <tag><clip pos="1" side="tl" part="defnes"/></tag>
@@ -2073,6 +2121,8 @@ Not working:
 	    </out>
 	  </action>
 	</rule>
+
+
 
 
 
