@@ -557,6 +557,22 @@
 
 
 
+	<def-macro n="f_concord2" npar="2" >                                        
+
+	     <choose>
+	       <when>
+	         <test>
+	           <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+	         </test>
+	         	<let>
+					<clip pos="2" side="tl" part="gen"/><lit-tag v="mfn"/>
+				</let>
+	       </when>
+	     </choose>
+	 </def-macro>
+
+
+
 
     <def-macro n="conv_number_for_adj" npar="1" > 	<!-- MACRO: convert number for adj, 
 																pst, def = > sp
@@ -896,9 +912,10 @@
 	        <call-macro n="conv_case1">   	
 	          <with-param pos="1"/>
 	        </call-macro>
-	        <call-macro n="conv_gender_for_adj">   	
-	          <with-param pos="1"/>
-	        </call-macro>
+            <call-macro n="f_concord2">
+              <with-param pos="2"/>
+              <with-param pos="1"/>
+            </call-macro>
 	        <call-macro n="conv_case1">   	
 	          <with-param pos="2"/>
 	        </call-macro>
