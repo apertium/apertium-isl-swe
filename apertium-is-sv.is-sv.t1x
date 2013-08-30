@@ -556,6 +556,8 @@
     </def-macro>
 
 
+
+
     <def-macro n="conv_number_for_adj" npar="1" > 	<!-- MACRO: convert number for adj, 
 																pst, def = > sp
 																comp, superlatives => sp -->	
