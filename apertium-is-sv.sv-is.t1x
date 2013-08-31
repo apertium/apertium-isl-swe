@@ -1647,7 +1647,7 @@ NB!!!								ha?????? NB!!!!!
     <out>
       <chunk name="VFIN" case="caseFirstWord">
         <tags>
-          <tag><lit-tag v="IS_FIN"/></tag>
+          <tag><lit-tag v="IS.FIN"/></tag>
           <tag><clip pos="1" side="tl" part="voz"/></tag>
           <tag><clip pos="1" side="tl" part="temps"/></tag>
           <tag><clip pos="1" side="tl" part="pers"/></tag>

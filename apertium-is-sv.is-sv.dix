@@ -689,7 +689,8 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="RL" c="v1"><p><l>í<b/>kringum<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
 	<e c="v0"><p><l>nema<s n="pr"/></l><r>förutom<s n="pr"/></r></p></e>
 	<e r="RL" c="v1"><p><l>nema<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
-	<e><p><l>ofaná<s n="pr"/></l><r>ovanför<s n="pr"/></r></p></e>
+	<e c="v0"><p><l>ofaná<s n="pr"/></l><r>ovanför<s n="pr"/></r></p></e>
+	<e r="RL" c="v1"><p><l>ofaná<s n="pr"/></l><r>ovanpå<s n="pr"/></r></p></e>
 	<e><p><l>varðandi<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
 		<e><p><l>af<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
 		<e><p><l>að<s n="pr"/></l><r>åt<s n="pr"/></r></p></e>
