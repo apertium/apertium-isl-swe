@@ -217,6 +217,7 @@ REMOVE:r A IF (0 Num) (0 A) (1 ("ár")); #IceNLP 123
 SELECT:r A + Fem + Def IF (0 Nom) (1 N + Fem + Nom + Def);
 
 ###---ADVERBS---
+SELECT:r Adv IF (0 ("<þá>")) (NOT 1 Acc) ; #Þá can be a form of a dem prn or per prn in the accusative only
 
 ###---PRONOUNS---
 SELECT:r Itg IF (0 ("hver")) (1 V) ;
