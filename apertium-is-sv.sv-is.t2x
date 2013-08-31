@@ -13,6 +13,16 @@
     <def-cat n="SV">
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
+      <cat-item tags="V_IMP.*"/>
+      <cat-item tags="VERB_PP.*"/>
+      <cat-item tags="V_PPRS.*"/>
+      <cat-item tags="VERB_PASS_INF.*"/>
+      <cat-item tags="VERB_PASS_SUPN.*"/>
+      <cat-item tags="VERB_PASS_PRES.*"/>
+      <cat-item tags="VERB_PASS_PAST.*"/>
+      <cat-item tags="V_INF.*"/>
+      <cat-item tags="V_SUPN.*"/>
+      <cat-item tags="IS_FIN.*"/>
     </def-cat>
     <def-cat n="PREPGEN">
       <cat-item tags="PREPGEN"/>
@@ -266,6 +276,33 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SV SN">
+      <pattern>
+        <pattern-item n="SV"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_case_to_acc">  <!-- by default, should be implemented for verbs that govern acc and gen -->
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
 
 <!-- should this be done here?
 
