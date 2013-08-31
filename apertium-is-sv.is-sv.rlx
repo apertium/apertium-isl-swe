@@ -221,5 +221,6 @@ SELECT:r Adv IF (0 ("<þá>")) (NOT 1 Acc) ; #Þá can be a form of a dem prn or
 
 ###---PRONOUNS---
 SELECT:r Itg IF (0 ("hver")) (1 V) ;
+SELECT:r POSPRN IF (0 Pers) (-1 N) ; #mín, þín, hans
 #SELECT:r Itg IF ((1 QUESTION) OR (2 QUESTION) OR (3 QUESTION) OR (4 QUESTION) OR (5 QUESTION) OR (6 QUESTION) OR (7 QUESTION) OR (8 QUESTION) OR (9 QUESTION) OR (10 QUESTION) OR (11 QUESTION) OR (12 QUESTION) OR (13 QUESTION) OR (14 QUESTION) OR (15 QUESTION) OR (16 QUESTION) OR (17 QUESTION)) ; #this doesn't work I think.
 

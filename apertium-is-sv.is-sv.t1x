@@ -9,6 +9,7 @@
 	</def-cat>
 	<def-cat n="prn_possessive"> 					<!--possessive pronoun-->
 	  <cat-item tags="prn.pos.*"/>
+	  <cat-item tags="prn.pos"/>
 	</def-cat>
 	<def-cat n="prn_demonstrative"> 					<!--demonstrative pronoun-->
 	  <cat-item tags="prn.dem.*"/>
@@ -35,8 +36,19 @@
     <def-cat n="nom_sg_ind"> 					<!--noun, wiðout article-->
       <cat-item tags="n.*.sg.*.ind"/>
     </def-cat>
-    <def-cat n="nom_gen_def"> 					<!--noun, genitive, wið article - (possessor) -->
+    <def-cat n="possessor"> 					<!--noun, np, pos prn, genitive, wið article - (possessor) -->
       <cat-item tags="n.*.gen.def"/>
+      <cat-item tags="np.*.gen"/>
+      <cat-item tags="np.*.gen.*"/>
+      <cat-item tags="prn.pos.*"/>
+      <cat-item tags="prn.pos"/>
+    </def-cat>
+    <def-cat n="nom_gen_def"> 					<!--noun genitive, wið article - (possessor) -->
+      <cat-item tags="n.*.gen.def"/>
+    </def-cat>
+    <def-cat n="np_gen"> 					<!--noun genitive, wið article - (possessor) -->
+      <cat-item tags="np.*.gen"/>
+      <cat-item tags="np.*.gen.*"/>
     </def-cat>
     <def-cat n="nom_gen_ind"> 					<!--noun, genitive, without article -->
       <cat-item tags="n.*.gen.ind"/>
@@ -1067,6 +1079,140 @@
 	              <clip pos="2" side="tl" part="nbr"/>
 				  <lit-tag v="def"/>
 				  <lit-tag v="gen"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>              
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_nom"/>
+	              <clip pos="1" side="tl" part="gen" link-to="2"/>
+	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+				  <lit-tag v="ind"/>
+				  <lit-tag v="nom"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	     </action>
+</rule>
+
+<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | náttúra Íslands → Islands natur">   <!-- works! --> 
+	     <pattern>
+	       <pattern-item n="nom_ind"/>
+	       <pattern-item n="np_gen"/>
+	     </pattern>
+	     <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+	       <call-macro n="conv_case2"> 
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <out>
+	         <chunk name="NÁTTÚRA_ÍSLANDS" case="caseFirstWord">    
+	           <tags>
+	             <tag><lit-tag v="SN"/></tag>              
+	              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
+	              <tag><clip pos="1" side="tl" part="gen"/></tag>
+	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	              <tag><clip pos="1" side="tl" part="cas"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_nom"/>
+	              <clip pos="2" side="tl" part="gen"/>
+	              <clip pos="2" side="tl" part="nbr"/>
+				  <lit-tag v="gen"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>              
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_nom"/>
+	              <clip pos="1" side="tl" part="gen" link-to="2"/>
+	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+				  <lit-tag v="ind"/>
+				  <lit-tag v="nom"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	     </action>
+</rule>
+
+<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | bókin hans → hans bók">   <!-- works! --> 
+	     <pattern>
+	       <pattern-item n="nom_def"/>
+	       <pattern-item n="prn_possessive_hans"/>
+	     </pattern>
+	     <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+	       <call-macro n="conv_case2"> 
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <out>
+	         <chunk name="BÓKIN_HANS" case="caseFirstWord">    
+	           <tags>
+	             <tag><lit-tag v="SN"/></tag>              
+	              <tag><clip pos="1" side="tl" part="gen"/></tag>
+	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	              <tag><clip pos="1" side="tl" part="cas"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_prn"/>
+	              <clip pos="2" side="tl" part="gen"/>
+	              <clip pos="2" side="tl" part="nbr"/>
+	              <clip pos="2" side="tl" part="lemq"/>
+	            </lu>
+	            <b pos="1"/>              
+	            <lu>
+	              <clip pos="1" side="tl" part="lemh"/>
+	              <clip pos="1" side="tl" part="a_nom"/>
+	              <clip pos="1" side="tl" part="gen" link-to="2"/>
+	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+				  <lit-tag v="ind"/>
+				  <lit-tag v="nom"/>
+	              <clip pos="1" side="tl" part="lemq"/>
+	            </lu>
+	          </chunk>
+	        </out>
+	     </action>
+</rule>
+
+<rule comment="REGLA: NOUN POSSESSOR → POSSESSOR NOUN | bókin mín → minn bók">   <!-- works! --> 
+	     <pattern>
+	       <pattern-item n="nom_def"/>
+	       <pattern-item n="prn_possessive"/>
+	     </pattern>
+	     <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
+	       <call-macro n="conv_case2"> 
+	         <with-param pos="1"/>
+	       </call-macro>
+	       <call-macro n="conv_gender_for_numerals"> 
+	         <with-param pos="2"/>
+	       </call-macro>
+	       <out>
+	         <chunk name="BÓKIN_MÍN" case="caseFirstWord">    
+	           <tags>
+	             <tag><lit-tag v="SN"/></tag>              
+	              <tag><clip pos="1" side="tl" part="gen"/></tag>
+	              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="1" side="tl" part="defnes"/></tag>
+	              <tag><clip pos="1" side="tl" part="cas"/></tag>
+	            </tags>
+	            <lu>
+	              <clip pos="2" side="tl" part="lemh"/>
+	              <clip pos="2" side="tl" part="a_prn"/>
+	              <clip pos="2" side="tl" part="gen"/>
+	              <clip pos="2" side="tl" part="nbr"/>
 	              <clip pos="2" side="tl" part="lemq"/>
 	            </lu>
 	            <b pos="1"/>              
