@@ -7,11 +7,13 @@ LIST A = (adj) ;
 LIST CS = (cnjsub) ;
 LIST Adv = (adv) ;
 LIST V = (vblex) (vbser) (vbmod) ;
+LIST Vbser = (vbser)  ;
 LIST PREP = (pr) ;
 LIST Interj = (ij) ;
 LIST Pron = (prn) ;
 LIST Pcle = (part) ;
 LIST Copula = (vbser);
+LIST Itg = (itg);
 
 LIST Pers = (pers) ;
 LIST Num = (num) ;
@@ -23,6 +25,7 @@ LIST Imprt = (imp) ;
 LIST Pii = (pii) ;
 LIST Aor = (aor) ;
 LIST Prs = (pres) ;
+LIST Past = (past) ;
 
 LIST Sg = (sg) ;
 LIST Pl = (pl) ;
@@ -65,4 +68,11 @@ SECTION
 
 SELECT:r1 Def IF (0 A) (0 Pl) (1C N) (1C Def) 
 SELECT:r2 Num IF (0 ("sex")) (1 N) ;
+SELECT:r3 Vbser IF (0 ("<vara>")) (NOT -1 ("<en>")) ;
+#SELECT:r4 Itg IF (O ("<var>")) (1 V) ;
+SELECT:r4 Vbser IF (O ("<var>")) (NOT 1 V) ;
+SELECT:r5 Pers IF (O ("<det>")) (1 V) ;
+SELECT:r6 Pers IF (O ("<den>")) (1 V) ;
+SELECT:r7 Pers IF (O ("<de>")) (1 V) ;
+SELECT:r8 Past IF (O ("<var>")) ((-1 N) OR (-1 Pron));
 SELECT (n);

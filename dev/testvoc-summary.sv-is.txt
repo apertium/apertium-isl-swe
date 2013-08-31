@@ -1,5 +1,5 @@
 
-lau 31 ágú 2013 03:55:13 GMT
+lau 31 ágú 2013 05:17:18 GMT
 ===============================================
 POS	Total	Clean	With @	With #	Clean %
 n	24593		 0	 0	
@@ -7,7 +7,7 @@ vblex	17770		 0	 0
 adj	7491		 0	 0	
 np	1864		 0	 0	
 adv	472		 0	 0	
-prn	157		 0	 0	
+prn	158		 0	 0	
 pr	76		 0	 0	
 num	37		 0	 0	
 cnjsub	29		 0	 0	
