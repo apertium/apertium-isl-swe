@@ -149,6 +149,31 @@
 		<cat-item lemma="på grund av" tags="pr"/> 
     </def-cat>
 
+    <def-cat n="prdat">                      <!--prepositions that govern the dative case-->
+      	<cat-item lemma="åt" tags="pr"/>
+		<cat-item lemma="av" tags="pr"/> 
+		<cat-item lemma="från" tags="pr"/> 
+		<cat-item lemma="emot" tags="pr"/> 
+		<cat-item lemma="hos" tags="pr"/> 
+		<cat-item lemma="ur" tags="pr"/> 
+		<cat-item lemma="brevid" tags="pr"/> 
+		<cat-item lemma="på" tags="pr"/>   <!--also acc-->
+		<cat-item lemma="i" tags="pr"/>   <!--also acc-->
+		<cat-item lemma="efter" tags="pr"/>   <!--also acc-->
+		<cat-item lemma="med" tags="pr"/>   <!--also acc-->
+    </def-cat>
+
+
+    <def-cat n="pracc">                      <!--prepositions that govern the accusative case-->
+      	<cat-item lemma="om" tags="pr"/>
+		<cat-item lemma="genom" tags="pr"/> 
+		<cat-item lemma="via" tags="pr"/> 
+		<cat-item lemma="igenom" tags="pr"/> 
+		<cat-item lemma="í kringum" tags="pr"/> 
+		<cat-item lemma="fyrir utan" tags="pr"/> 
+		<cat-item lemma="fyrir" tags="pr"/>    <!--also dat-->
+    </def-cat>
+
     <def-cat n="adj_ind"> 					<!--adjective indef, strong declension-->
       <cat-item tags="adj.*.ind"/>
     </def-cat>
@@ -1042,6 +1067,48 @@ NB!!!								ha?????? NB!!!!!
          <chunk name="prep_gov_gen" case="caseFirstWord">
            <tags>
              <tag><lit-tag v="PREPGEN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
+  <rule comment="REGLA: PREP_DAT → PREP_DAT | hjá -> hos">  <!--prep that governs dat-->
+     <pattern>
+       <pattern-item n="prdat"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="prep_gov_dat" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PREPDAT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+     </action>
+  </rule>
+
+  <rule comment="REGLA: PREP_ACC → PREP_ACC | om -> um">  <!--prep that governs acc-->
+     <pattern>
+       <pattern-item n="pracc"/>
+     </pattern>
+     <action>
+       <call-macro n="firstWord">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="prep_gov_acc" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PREPACC"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>

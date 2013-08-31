@@ -18,6 +18,14 @@
       <cat-item tags="PREPGEN"/>
       <cat-item tags="PREPGEN.*"/>
     </def-cat>
+    <def-cat n="PREPDAT">
+      <cat-item tags="PREPDAT"/>
+      <cat-item tags="PREPDAT.*"/>
+    </def-cat>
+    <def-cat n="PREPACC">
+      <cat-item tags="PREPACC"/>
+      <cat-item tags="PREPACC.*"/>
+    </def-cat>
     <def-cat n="ADJ_UNSINT_COMP">
       <cat-item tags="SA.adj.unsint.comp.*"/>
     </def-cat>
@@ -102,6 +110,35 @@
     </choose>
   </def-macro>
 
+  <def-macro n="conv_case_to_dat" npar="1" > 		<!-- MACRO: convert nom to dat-->	
+    <choose>
+      <when>
+        <test>
+            <equal><clip pos="1" part="cas"/><lit-tag v="nom"/></equal>
+        </test>
+        <let>
+          <clip pos="1" part="cas"/>
+          <lit-tag v="dat"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
+  <def-macro n="conv_case_to_acc" npar="1" > 		<!-- MACRO: convert nom to acc-->	
+    <choose>
+      <when>
+        <test>
+            <equal><clip pos="1" part="cas"/><lit-tag v="nom"/></equal>
+        </test>
+        <let>
+          <clip pos="1" part="cas"/>
+          <lit-tag v="acc"/>
+        </let>
+      </when>
+    </choose>
+  </def-macro>
+
+
   <def-macro n="conv_grau_to_pst" npar="1" > 		<!-- MACRO: convert comp to pst-->	
     <choose>
       <when>
@@ -161,6 +198,57 @@
       </pattern>
       <action>
         <call-macro n="conv_case_to_gen">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PREPDAT SN">
+      <pattern>
+        <pattern-item n="PREPDAT"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_case_to_dat">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="lem"/>
+            <clip pos="1" part="tags"/>
+            <clip pos="1" part="chcontent"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="lem"/>
+            <clip pos="2" part="tags"/>
+            <clip pos="2" part="chcontent"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: PREPACC SN">
+      <pattern>
+        <pattern-item n="PREPACC"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="conv_case_to_acc">
           <with-param pos="2"/>
         </call-macro>
         <out>

@@ -200,6 +200,7 @@ SELECT:r CS IF (0 ("sem")) (NOT -1 ("<ég>")) ;#for sem choose conjunction unles
 REMOVE:r V IF (0 V) (0 N) (-1C A) ; 
 SELECT:r VHafa IF (0 ("hafa")) (0 ("hefja")) (1 Supn) ; 
 SELECT:r Supn IF (-1 ("hafa")) ; 
+SELECT:r VVera IF ((NOT -1 Sg1) OR (NOT -1 Sg1) OR (NOT -3 Sg1)) ; #sé
 
 ###---ADJECTIVES---
 REMOVE:r A IF (0 A) (0 V) (-1C N OR Pron) ; #IceNLP line 80
