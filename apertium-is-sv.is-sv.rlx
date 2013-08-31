@@ -22,6 +22,7 @@ LIST VVera = (vbser) ;
 LIST Supn = (supn) ;
 
 LIST Pers = (pers) ;
+LIST Itg = (itg) ;
 
 LIST Cog = (cog) ;		#surname
 LIST Ant = (ant) ;		#first name
@@ -56,6 +57,10 @@ LIST Fem = (f) ;
 LIST Msc = (m) ;
 LIST Neu = (nt) ;
 
+LIST Ind = (ind) ;
+LIST Def = (def) ;
+
+
 LIST NUMBER = sg pl ;
 LIST GENDER = m f nt mfn ;
 LIST PERSON = (p1 sg) (p2 sg) (p3 sg) (p1 pl) (p2 pl) (p3 pl) ;
@@ -69,6 +74,7 @@ SET REL-OR-ITG = (prn rel) OR (prn itg) ;
 SET EOS  = ("\.") OR ("?") OR ("!") OR ("¶") ;
 
 SET S-BOUNDARY  = (prn itg) OR (prn rel) OR ("\;") OR (":") OR ("-") OR ("–") OR CS OR EOS ;
+SET QUESTION  = ("?");
 
 LIST POSPRN = (prn pos) ;
 LIST DEMPRN = (prn dem) ;
@@ -165,6 +171,9 @@ SELECT:r Inf IF (0 Inf) (-1 ("að"));
 ###---prepositions
 SELECT:r Pr IF (0 ("eftir")) (0 Adv) (0 Pr) (NOT 1 S-BOUNDARY)   ;
 SELECT:r Pr IF (0 ("við")) (1 N) (1 A) ;
+SELECT:r Pr IF (0 ("<á>")) (1C Dat) ;
+SELECT:r N IF (0 ("<á>")) (-1 Pr) ;
+SELECT:r V IF (0 ("<á>")) ((-1 Pers) OR (-1 Itg + Nom) OR (-1C Nom)) ;
 
 SELECT:r Dat IF ((0 N) OR (0 Pron) OR (0 A)) (0 Dat) (-1 ("af"))   ;
 SELECT:r Dat IF ((0 N) OR (0 Pron) OR (0 A)) (0 Dat) (-1 ("hjá"));
@@ -205,9 +214,11 @@ SELECT:r Adv IF (0 (".+lega"r)) (0 A) (0 Adv) (-1C V) (NOT 1 A OR Adv OR N) ;
 REMOVE:r A IF (0 (".+lega"r)) (0 A) (0 Adv) (NOT 1 N) (NOT 1 A) ;#IceNLP 116
 REMOVE:r A IF (0 ("<eins>")) (1 ("og")) ; #IceNLP 119, although "eins og" exists as a seperate entry in is.dix
 REMOVE:r A IF (0 Num) (0 A) (1 ("ár")); #IceNLP 123
+SELECT:r A + Fem + Def IF (0 Nom) (1 N + Fem + Nom + Def);
 
 ###---ADVERBS---
 
-
-
+###---PRONOUNS---
+SELECT:r Itg IF (0 ("hver")) (1 V) ;
+#SELECT:r Itg IF ((1 QUESTION) OR (2 QUESTION) OR (3 QUESTION) OR (4 QUESTION) OR (5 QUESTION) OR (6 QUESTION) OR (7 QUESTION) OR (8 QUESTION) OR (9 QUESTION) OR (10 QUESTION) OR (11 QUESTION) OR (12 QUESTION) OR (13 QUESTION) OR (14 QUESTION) OR (15 QUESTION) OR (16 QUESTION) OR (17 QUESTION)) ; #this doesn't work I think.
 

@@ -886,6 +886,9 @@
 	        <call-macro n="conv_case1">   						<!-- only for the noun???-->
 	          <with-param pos="2"/>
 	        </call-macro>
+	       <call-macro n="conv_number_for_adj"> 
+	         <with-param pos="1"/>
+	       </call-macro>
 	        <out>
 	          <chunk name="FALLEGI_HESTURINN" case="caseFirstWord">
 	            <tags>
@@ -915,8 +918,8 @@
 	              <clip pos="1" side="tl" part="lemh"/>
 	              <clip pos="1" side="tl" part="a_adj"/>
 	              <clip pos="1" side="tl" part="grau"/>
-	              <clip pos="2" side="tl" part="gen" link-to="2"/>     <!-- pos 1 or 2 here????? -->
-	              <clip pos="1" side="tl" part="nbr" link-to="3"/>
+				  <lit-tag v="mfn"/>
+	              <clip pos="1" side="tl" part="nbr"/>
 	              <clip pos="2" side="tl" part="defnes" link-to="4"/>    <!-- pos 1 or 2 here????? -->
 	              <clip pos="1" side="tl" part="lemq"/>
 	            </lu>

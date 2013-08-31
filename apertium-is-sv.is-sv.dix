@@ -1858,8 +1858,10 @@ obs.	Isländska månaderna ska vara i mask, eller hur?
 	<e r="LR" c="v0"><p><l>lífrænn<s n="adj"/></l><r>organisk<s n="adj"/><s n="unsint"/></r></p></e>
 	<e><p><l>lífshættulegur<s n="adj"/></l><r>dödlig<s n="adj"/></r></p></e>
 
-	<e r="LR"><p><l>líkamlegur<s n="adj"/></l><r>fysisk<s n="adj"/><s n="unsint"/></r></p></e> <!--UNSINT_SINT-->
-	<e r="RL"><p><l>líkamlegur<s n="adj"/><s n="sint"/></l><r>fysisk<s n="adj"/></r></p></e>
+	<e r="LR" c="v0"><p><l>líkamlegur<s n="adj"/></l><r>fysisk<s n="adj"/><s n="unsint"/></r></p></e> <!--UNSINT_SINT-->
+	<e r="RL" c="v0"><p><l>líkamlegur<s n="adj"/><s n="sint"/></l><r>fysisk<s n="adj"/></r></p></e>
+	<e r="LR" c="v1"><p><l>eðlisfræðilegur<s n="adj"/></l><r>fysisk<s n="adj"/></r></p></e>
+
 
 	<e r="RL" c="v1"><p><l>líklegur<s n="adj"/></l><r>sannolik<s n="adj"/></r></p></e>
 	<e c="v0"><p><l>líklegur<s n="adj"/></l><r>trolig<s n="adj"/></r></p></e>
