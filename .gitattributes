@@ -29,6 +29,16 @@ dev/bidix/pending_pronouns.txt -text
 dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
+dev/eval/test_result.APERTIUM.IS-SV.txt -text
+dev/eval/test_result.APERTIUM.edited.IS-SV.txt -text
+dev/eval/test_result.APERTIUM.edited.sv-is.txt -text
+dev/eval/test_result.APERTIUM.sv-is.txt -text
+dev/eval/test_result.GOOGLE.IS-SV.txt -text
+dev/eval/test_result.GOOGLE.edited.IS-SV.txt -text
+dev/eval/test_result.GOOGLE.edited.sv-is.txt -text
+dev/eval/test_result.GOOGLE.sv-is.txt -text
+dev/eval/test_sentences.IS-SV.txt -text
+dev/eval/test_sentences.sv-is.txt -text
 dev/generation-summary.is-sv.txt -text
 dev/generation-test.is-sv.sh -text
 dev/generation-test.sv-is.sh -text
