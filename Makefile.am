@@ -1,6 +1,6 @@
 VERSION=0.1.0
-LANG1=is
-LANG2=sv
+LANG1=isl
+LANG2=swe
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
@@ -104,15 +104,15 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   $(BASENAME).$(PREFIX2).t3x \
 	   modes.xml
 
-apertium_is_svdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_is_modesdir=$(prefix)/share/apertium/modes/
+apertium_isl_swedir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_isl_modesdir=$(prefix)/share/apertium/modes/
 
 modes/$(PREFIX1).mode: modes.xml
 	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
-apertium_is_sv_DATA=$(TARGETS_COMMON) \
+apertium_isl_swe_DATA=$(TARGETS_COMMON) \
 					$(PREFIX1).prob \
 					$(PREFIX2).prob \
 					modes.xml
@@ -125,16 +125,16 @@ install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
 	rm -rf modes
 	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_is_modesdir) || mkdir $(DESTDIR)$(apertium_is_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_is_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_is_modesdir)
+	test -d $(DESTDIR)$(apertium_isl_modesdir) || mkdir $(DESTDIR)$(apertium_isl_modesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_isl_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_isl_modesdir)
 	rm $(PREFIX1).mode $(PREFIX2).mode
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_is_svdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_is_svdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_is_svdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_is_svdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_is_svdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_is_svdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_isl_swedir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_isl_swedir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_isl_swedir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_isl_swedir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_isl_swedir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_isl_swedir)
 
 
 CLEANFILES = $(TARGETS_COMMON)

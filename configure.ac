@@ -6,8 +6,8 @@ AC_PREREQ(2.52)
 m4_define([required_apertium_version], [3.2.0])
 m4_define([required_lttoolbox_version], [3.2.0])
 
-AC_INIT([apertium-is-sv], [0.1.0], [tihomir.rangelov@gmail.com])
-AM_INIT_AUTOMAKE([apertium-is-sv], [0.1.0], no-define)
+AC_INIT([apertium-isl-swe], [0.1.0], [tihomir.rangelov@gmail.com])
+AM_INIT_AUTOMAKE([apertium-isl-swe], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
