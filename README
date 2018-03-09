@@ -1,0 +1,88 @@
+Icelandic and Swedish (`apertium-isl-swe`)
+===============================================================================
+
+This is an Apertium language pair for translating between Icelandic and 
+Swedish. What you can use this language package for:
+
+* Translating between Icelandic and Swedish
+* Morphological analysis of Icelandic and Swedish
+* Part-of-speech tagging of Icelandic and Swedish
+
+For information on the latter two points, see subheading "For more 
+information" below
+
+Requirements
+===============================================================================
+
+You will need the following software installed:
+
+* lttoolbox (>= 3.1.2)
+* apertium (>= 3.1.1)
+* vislcg3 (>= 0.9.7.5129)
+
+If this does not make any sense, we recommend you look at: www.apertium.org
+
+Compiling
+===============================================================================
+
+Given the requirements being installed, you should be able to just run:
+```
+$ ./configure 
+$ make
+```
+You can use `./autogen.sh` instead of `./configure` you're compiling from
+git. If you're using a `--prefix` to `./configure`, make sure it's the
+same one you used to install apertium itself.
+
+Testing
+===============================================================================
+
+If you are in the source directory after running make, the following
+commands should work:
+```
+$ echo "Hann er á Íslandi" | apertium -d . isl-swe
+Han är på Island
+
+```
+After installing somewhere in $PATH, you should be able to do eg.
+```
+$ echo "Hann er á Íslandi" | apertium isl-swe
+Han är på Island
+```
+The following command runs tests which are on the Apertium wiki page:
+```
+$ ./regression-tests.sh 
+```
+
+Files and data
+===============================================================================
+
+* `apertium-isl-swe.mkd.dix`            - Monolingual dictionary for Icelandic
+* `apertium-isl-swe.post-mkd.dix`       - Postgeneration dictionary for Icelandic
+* `apertium-isl-swe.isl-swe.dix`        - Bilingual dictionary 
+* `apertium-isl-swe.bul.dix`            - Monolingual dictionary for Swedish
+* `apertium-isl-swe.post-bul.dix`       - Postgeneration dictionary for Swedish
+* `apertium-isl-swe.isl-swe.rlx`        - Constraint Grammar for Icelandic
+* `apertium-isl-swe.isl-swe.t1x`        - Chunker rules for translating into Swedish
+* `apertium-isl-swe.swe-isl.t1x`        - Chunker rules for translating into Icelandic
+* `isl-swe.prob`                        - Tagger model for Icelandic
+* `swe-isl.prob`                        - Tagger model for Swedish
+* `modes.xml`                           - Translation modes
+
+For more information
+===============================================================================
+
+* http://wiki.apertium.org/wiki/Installation
+* http://wiki.apertium.org/wiki/apertium-isl-swe
+* http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
+* http://wiki.apertium.org/wiki/Constraint_Grammar
+
+Help and support
+===============================================================================
+
+If you need help using this language pair or data, you can contact:
+
+* Mailing list: apertium-stuff@lists.sourceforge.net
+* IRC: `#apertium` on `irc.freenode.net`
+
+See also the file AUTHORS included in this distribution.

@@ -801,7 +801,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="GET_KOMIÐ" case="caseFirstWord">     
+	         <chunk name="get_komið" case="caseFirstWord">     
 	           <tags>
 	             <tag><lit-tag v="SV"/></tag>               
 
@@ -846,7 +846,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="FALLEGI_HESTUR_STELPUNNAR" case="caseFirstWord">    
+	         <chunk name="adj_noun_poss" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -902,7 +902,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	        <out>
-	          <chunk name="FALLEGI_HESTURINN" case="caseFirstWord">
+	          <chunk name="adj_noun" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -967,7 +967,7 @@
 	          <with-param pos="2"/>
 	        </call-macro>
 	        <out>
-	          <chunk name="FALLEGUR_HESTUR" case="caseFirstWord">
+	          <chunk name="adj_nom" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><clip pos="2" side="tl" part="gen"/></tag>
@@ -1063,7 +1063,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="HESTUR_STELPUNNAR" case="caseFirstWord">    
+	         <chunk name="noun_poss" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
@@ -1109,7 +1109,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="NÁTTÚRA_ÍSLANDS" case="caseFirstWord">    
+	         <chunk name="noun_poss" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <!-- <clip pos="1" side="tl" part="a_nom"/>    -->    <!-- ????? tag for a_nom: MAYBE-->	
@@ -1154,7 +1154,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="BÓKIN_HANS" case="caseFirstWord">    
+	         <chunk name="noun_poss" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -1200,7 +1200,7 @@
 	         <with-param pos="2"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="BÓKIN_MÍN" case="caseFirstWord">    
+	         <chunk name="noun_poss" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -1243,7 +1243,7 @@
 	         <with-param pos="1"/>
 	       </call-macro>
 	       <out>
-	         <chunk name="HESTUR" case="caseFirstWord">    
+	         <chunk name="noun" case="caseFirstWord">    
 	           <tags>
 	             <tag><lit-tag v="SN"/></tag>              
 	              <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -1341,7 +1341,7 @@
 				</and>
 	           </test>
 		       <out>
-		         <chunk name="ADJ_COMP_UNSINT" case="caseFirstWord">    <!--olämpligare - meira óviðeigandi --> 
+		         <chunk name="adj_comp_unsint" case="caseFirstWord">    <!--olämpligare - meira óviðeigandi --> 
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>     
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
@@ -1382,7 +1382,7 @@
 				</and>
 	           </test>
 		       <out>
-		         <chunk name="ADJ_SUP_UNSINT" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
+		         <chunk name="adj_sup_unsint" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>     
 		              <tag><clip pos="1" side="tl" part="grau"/></tag>
@@ -1419,7 +1419,7 @@
 				             </equal>
 				           </test>
 					       <out>
-					         <chunk name="ADJ_ORD" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
+					         <chunk name="adj_ord" case="caseFirstWord">   <!--olämpligast - mest óviðeigandi --> 
 					           <tags>
 					             <tag><lit-tag v="SA"/></tag>     
 					              <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -1446,7 +1446,7 @@
 					             </equal>
 					           </test>
 						       <out>
-						         <chunk name="ADJECTIVE_COMP" case="caseFirstWord">    
+						         <chunk name="adj_comp" case="caseFirstWord">    
 						           <tags>
 						             <tag><lit-tag v="SA"/></tag>              
 						              <tag><clip pos="1" side="tl" part="grau"/></tag>
@@ -1473,7 +1473,7 @@
 					             </equal>
 					           </test>
 						       <out>
-						         <chunk name="ADJECTIVE_SUP" case="caseFirstWord">    
+						         <chunk name="adj_sup" case="caseFirstWord">    
 						           <tags>
 						             <tag><lit-tag v="SA"/></tag>              
 						              <tag><clip pos="1" side="tl" part="grau"/></tag>
@@ -1499,7 +1499,7 @@
 	
 			<otherwise>
 		       	<out>
-		         <chunk name="ADJECTIVE" case="caseFirstWord">    
+		         <chunk name="adj" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
 		              <!-- <clip pos="1" side="tl" part="a_adj"/>    -->    <!-- ????? tag for a_adj: MAYBE-->	
@@ -1542,7 +1542,7 @@
 		         <with-param pos="2"/>
 		       </call-macro>
 		       <out>
-		         <chunk name="MEIRA_ADJECTIVE" case="caseFirstWord">    
+		         <chunk name="meira_adj" case="caseFirstWord">    
 		           <tags>
 		             <tag><lit-tag v="SA"/></tag>              
 		              <tag><clip pos="2" side="tl" part="grau"/></tag>
@@ -1575,11 +1575,14 @@
 	        <pattern-item n="vcop"/>
 	      </pattern>
 	      <action>
+	       <call-macro n="firstWord">                           
+	         <with-param pos="1"/>
+	       </call-macro>    
 	        <call-macro n="conv_temps1">
 	          <with-param pos="1"/>
 	        </call-macro>
 	        <out>
-	          <chunk name="COPULA" case="caseFirstWord">
+	          <chunk name="copula" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SVCOP"/></tag>
 	              <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1677,7 +1680,7 @@ Not working:
 	        <with-param pos="1"/>
 	      </call-macro>
         <out>
-          <chunk name="VERB_PP" case="caseFirstWord">
+          <chunk name="verb_pp" case="caseFirstWord">
             <tags>
 <!--              <tag><lit-tag v="SV.PP"/></tag>  -->
               	 <tag><lit-tag v="VERB_PP"/></tag>
@@ -1715,7 +1718,7 @@ Not working:
 	         <with-param pos="1"/>
 	    </call-macro>    
         <out>
-          <chunk name="VFIN" case="caseFirstWord">
+          <chunk name="vfin" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV.FIN"/></tag>
               <tag><clip pos="1" side="tl" part="voz"/></tag>
@@ -1751,7 +1754,7 @@ Not working:
 								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
 
 			       <out>
-			         <chunk name="VERB_INF" case="caseFirstWord">   
+			         <chunk name="verb_inf" case="caseFirstWord">   
 			           <tags>
 			             <tag><lit-tag v="V_INF"/></tag>     
 		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1784,7 +1787,7 @@ Not working:
 								needed to change the order of tags (actv.inf in Icelandic to inf.actv in Swedish)-->
 
 			       <out>
-			         <chunk name="VERB_SUPN" case="caseFirstWord">   
+			         <chunk name="verb_supn" case="caseFirstWord">   
 			           <tags>
 			             <tag><lit-tag v="V_SUPN"/></tag>     
 		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1812,7 +1815,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>    
 			       <out>
-			         <chunk name="VERB_PPRS" case="caseFirstWord">   
+			         <chunk name="verb_pprs" case="caseFirstWord">   
 			           <tags>
 			             <tag><lit-tag v="V_PPRS"/></tag>     
 		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1842,7 +1845,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>    
 			       <out>
-			         <chunk name="VERB_IMP" case="caseFirstWord">   
+			         <chunk name="verb_imp" case="caseFirstWord">   
 			           <tags>
 			             <tag><lit-tag v="V_IMP"/></tag>     
 		              	 <tag><clip pos="1" side="tl" part="temps"/></tag>
@@ -1934,7 +1937,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="PERS_PRN" case="caseFirstWord">
+	      <chunk name="prn_pers" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_PERS"/></tag>
 	          <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -1966,7 +1969,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="PRN_REF" case="caseFirstWord">
+	      <chunk name="prn_ref" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_REF"/></tag>
 	          <tag><clip pos="1" side="tl" part="pers"/></tag>
@@ -1998,7 +2001,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="PRN_REF" case="caseFirstWord">
+	      <chunk name="prn_ref" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_REF"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -2026,7 +2029,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="PRN_REF" case="caseFirstWord">
+	      <chunk name="prn_ref" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_REF"/></tag>
               <tag><lit-tag v="mfn"/></tag>
@@ -2056,7 +2059,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="POSSESIVE_PR" case="caseFirstWord">
+	      <chunk name="poss_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_POSSESSIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -2088,7 +2091,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="POSSESSIVE_PRN" case="caseFirstWord">
+	      <chunk name="poss_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_POSSESSIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="cas"/></tag>
@@ -2119,7 +2122,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="DEMONSTRATIVE_PRN" case="caseFirstWord">
+	      <chunk name="dem_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_DEMONSTRATIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -2149,7 +2152,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="QUANTITATIVE_PRN" case="caseFirstWord">
+	      <chunk name="quant_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_QUANTITATIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -2182,7 +2185,7 @@ Not working:
 	         <with-param pos="1"/>
 	       </call-macro>
     <out>
-      <chunk name="INTERROGATIVE_PRN" case="caseFirstWord">
+      <chunk name="itg_prn" case="caseFirstWord">
         <tags>
           <tag><lit-tag v="PRN_INTERROGATIVE"/></tag>
           <tag><lit-tag v="ut"/></tag>
@@ -2216,7 +2219,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="INTERROGATIVE_PRN" case="caseFirstWord">
+	      <chunk name="itg_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_INTERROGATIVE"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
@@ -2251,7 +2254,7 @@ Not working:
 		         <with-param pos="1"/>
 		       </call-macro>
 	    <out>
-	      <chunk name="INDEFINITE_PRN" case="caseFirstWord">
+	      <chunk name="indef_prn" case="caseFirstWord">
 	        <tags>
 	          <tag><lit-tag v="PRN_INDEFINITE"/></tag>
 	          <tag><clip pos="1" side="tl" part="gen"/></tag>
