@@ -1,4 +1,3 @@
-VERSION=0.1.0
 LANG1=isl
 LANG2=swe
 PREFIX1=$(LANG1)-$(LANG2)
@@ -21,6 +20,7 @@ TARGETS_COMMON= \
 		    $(PREFIX1).rlx.bin \
 		    $(PREFIX2).rlx.bin
 
+@ap_include@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -105,12 +105,6 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 	   modes.xml
 
 apertium_isl_swedir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_isl_modesdir=$(prefix)/share/apertium/modes/
-
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
 
 apertium_isl_swe_DATA=$(TARGETS_COMMON) \
 					$(PREFIX1).prob \
@@ -120,15 +114,7 @@ apertium_isl_swe_DATA=$(TARGETS_COMMON) \
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_isl_modesdir) || mkdir $(DESTDIR)$(apertium_isl_modesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_isl_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_isl_modesdir)
-	rm $(PREFIX1).mode $(PREFIX2).mode
+install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_isl_swedir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_isl_swedir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_isl_swedir)
@@ -136,7 +122,4 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_isl_swedir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_isl_swedir)
 
-
 CLEANFILES = $(TARGETS_COMMON)
-clean-local: 
-	-rm -rf modes
