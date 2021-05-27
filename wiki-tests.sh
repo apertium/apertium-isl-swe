@@ -12,9 +12,9 @@ printf "Running $1-tests with mode \"$mode\""
 if [ "$4" == "update" ]; then
     printf " with updated tests..."
     TMPHTML=`mktemp -t tmp.$SRCLANG-html.XXXXXXXXXX`;
-    wget -O $TMPHTML -q http://wiki.apertium.org/wiki/Icelandic_and_Swedish/$TESTTYPE
+    wget -O $TMPHTML -q https://wiki.apertium.org/wiki/Icelandic_and_Swedish/$TESTTYPE
     if [[ -s $TMPHTML ]]; then mv $TMPHTML $HTML;
-    else rm $TMPHTML; echo "Couldn't fetch http://wiki.apertium.org/wiki/Icelandic_and_Swedish/$TESTTYPE"; fi
+    else rm $TMPHTML; echo "Couldn't fetch https://wiki.apertium.org/wiki/Icelandic_and_Swedish/$TESTTYPE"; fi
 fi
 echo "..."
 
