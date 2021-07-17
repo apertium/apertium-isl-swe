@@ -1,0 +1,12 @@
+[TnagXa4KIK9i#0] ^adj_noun<SN><nt><sg><def><nom>{ ^Gammal<adj><pst><mfn><sp><4>$ ^språk<n><2><3><4><5>$}$
+[/TnagXa4KIK9i]
+[_UP4zSRW0vcY#0] ^noun<SN><m><sg><nom>{^Dag<np><ant><m><sg><nom>$}$
+[/_UP4zSRW0vcY]
+[nWswOVbGLc6w#0] ^Noun<SN><ut><sg><def><nom>{^dag<n><ut><sg><def><nom>$}$
+[/nWswOVbGLc6w]
+[pFNe1Zywvj3X#0] ^adj_nom<SN><nt><sg><ind><nom>{^Gammal<adj><pst><nt><sg><ind>$ ^språk<n><2><3><4><5>$}$
+[/pFNe1Zywvj3X]
+[qnmjkGdPVt9M#0] ^noun<SN><m><sg><nom>{^Dag<np><ant><m><sg><nom>$}$
+[/qnmjkGdPVt9M]
+[yAePHJ4pulpL#0] ^Noun<SN><ut><sg><def><nom>{^dag<n><ut><sg><def><nom>$}$
+[/yAePHJ4pulpL]

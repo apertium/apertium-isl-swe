@@ -1,0 +1,8 @@
+[LEQPOZUsUwjJ#0] ^Demonstrative_prn<PRN_DEMONSTRATIVE><nt><sg>{^hinn<prn><dem><nt><sg><nom>$}$ ^Adj_nom_def<SN><nt><sg><nom><def>{^gamall<adj><pst><2><3><4><5>$ ^tungumál<n><2><3><4><5>$}$
+[/LEQPOZUsUwjJ]
+[V-pTylZyTOZe#0] ^adj_nom_undef<SN><nt><sg><nom><ind>{^Gamall<adj><pst><2><3><4><5>$ ^tungumál<n><2><3><4><5>$}$
+[/V-pTylZyTOZe]
+[_UP4zSRW0vcY#0] ^nom<SN><m><sg><nom><ind>{^Dagur<n><2><3><4><5>$}$
+[/_UP4zSRW0vcY]
+[oGxXmkOI1Zjv#0] ^nom<SN><m><sg><nom><def>{^Dagur<n><2><3><4><5>$}$
+[/oGxXmkOI1Zjv]

@@ -1,0 +1,12 @@
+[TnagXa4KIK9i#0] ^Gammal<adj><pst><mfn><sp><def>$ ^språk<n><nt><sg><def><nom>$
+[/TnagXa4KIK9i]
+[_UP4zSRW0vcY#0] ^Dag<np><ant><m><sg><nom>$
+[/_UP4zSRW0vcY]
+[nWswOVbGLc6w#0] ^Dag<n><ut><sg><def><nom>$
+[/nWswOVbGLc6w]
+[pFNe1Zywvj3X#0] ^Gammal<adj><pst><nt><sg><ind>$ ^språk<n><nt><sg><ind><nom>$
+[/pFNe1Zywvj3X]
+[qnmjkGdPVt9M#0] ^Dag<np><ant><m><sg><nom>$
+[/qnmjkGdPVt9M]
+[yAePHJ4pulpL#0] ^Dag<n><ut><sg><def><nom>$
+[/yAePHJ4pulpL]

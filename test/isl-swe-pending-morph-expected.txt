@@ -1,0 +1,12 @@
+[TnagXa4KIK9i#0] ^Gamla/gamall<adj><pst><m><sg><acc><def>/gamall<adj><pst><m><sg><dat><def>/gamall<adj><pst><m><sg><gen><def>/gamall<adj><pst><m><pl><acc><ind>/gamall<adj><pst><f><sg><nom><def>/gamall<adj><pst><f><sg><acc><ind>/gamall<adj><pst><nt><sg><nom><def>/gamall<adj><pst><nt><sg><acc><def>/gamall<adj><pst><nt><sg><dat><def>/gamall<adj><pst><nt><sg><gen><def>$ ^tungumálið/tungumál<n><nt><sg><nom><def>/tungumál<n><nt><sg><acc><def>$
+[/TnagXa4KIK9i]
+[_UP4zSRW0vcY#0] ^Dag/Dagur<np><ant><m><sg><acc>/dagur<n><m><sg><acc><ind>$
+[/_UP4zSRW0vcY]
+[nWswOVbGLc6w#0] ^Daginn/dagur<n><m><sg><acc><def>$
+[/nWswOVbGLc6w]
+[pFNe1Zywvj3X#0] ^Gamalt/gamall<adj><pst><nt><sg><nom><ind>/gamall<adj><pst><nt><sg><acc><ind>$ ^tungumál/tungumál<n><nt><sg><nom><ind>/tungumál<n><nt><sg><acc><ind>/tungumál<n><nt><pl><nom><ind>/tungumál<n><nt><pl><acc><ind>$
+[/pFNe1Zywvj3X]
+[qnmjkGdPVt9M#0] ^Dagur/Dagur<np><ant><m><sg><nom>/dagur<n><m><sg><nom><ind>$
+[/qnmjkGdPVt9M]
+[yAePHJ4pulpL#0] ^Dagurinn/dagur<n><m><sg><nom><def>$
+[/yAePHJ4pulpL]

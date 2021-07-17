@@ -1,0 +1,8 @@
+[LEQPOZUsUwjJ#0] ^Den<prn><dem><nt><sg>/Hinn<prn><dem><nt><sg>$ ^gammal<adj><pst><mfn><sp><def>/gamall<adj><pst><mfn><sp><def>$ ^språk<n><nt><sg><def><nom>/tungumál<n><nt><sg><def><nom>$
+[/LEQPOZUsUwjJ]
+[V-pTylZyTOZe#0] ^Gammal<adj><pst><nt><sg><ind>/Gamall<adj><pst><nt><sg><ind>$ ^språk<n><nt><sg><ind><nom>/tungumál<n><nt><sg><ind><nom>$
+[/V-pTylZyTOZe]
+[_UP4zSRW0vcY#0] ^Dag<n><ut><sg><ind><nom>/Dagur<n><m><sg><ind><nom>$
+[/_UP4zSRW0vcY]
+[oGxXmkOI1Zjv#0] ^Dag<n><ut><sg><def><nom>/Dagur<n><m><sg><def><nom>$
+[/oGxXmkOI1Zjv]

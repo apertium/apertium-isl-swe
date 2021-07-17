@@ -1,0 +1,8 @@
+[LEQPOZUsUwjJ#0] ^Hinn<prn><dem><nt><sg><nom>$ ^Gamall<adj><pst><nt><sg><nom><def>$ ^tungumál<n><nt><sg><nom><def>$
+[/LEQPOZUsUwjJ]
+[V-pTylZyTOZe#0] ^Gamall<adj><pst><nt><sg><nom><ind>$ ^tungumál<n><nt><sg><nom><ind>$
+[/V-pTylZyTOZe]
+[_UP4zSRW0vcY#0] ^Dagur<n><m><sg><nom><ind>$
+[/_UP4zSRW0vcY]
+[oGxXmkOI1Zjv#0] ^Dagur<n><m><sg><nom><def>$
+[/oGxXmkOI1Zjv]

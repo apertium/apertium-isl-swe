@@ -1,0 +1,12 @@
+[TnagXa4KIK9i#0] ^Gamall<adj><pst><nt><sg><nom><def>$ ^tungumál<n><nt><sg><acc><def>$
+[/TnagXa4KIK9i]
+[_UP4zSRW0vcY#0] ^Dagur<np><ant><m><sg><acc>$
+[/_UP4zSRW0vcY]
+[nWswOVbGLc6w#0] ^Dagur<n><m><sg><acc><def>$
+[/nWswOVbGLc6w]
+[pFNe1Zywvj3X#0] ^Gamall<adj><pst><nt><sg><nom><ind>$ ^tungumál<n><nt><sg><acc><ind>$
+[/pFNe1Zywvj3X]
+[qnmjkGdPVt9M#0] ^Dagur<np><ant><m><sg><nom>$
+[/qnmjkGdPVt9M]
+[yAePHJ4pulpL#0] ^Dagur<n><m><sg><nom><def>$
+[/yAePHJ4pulpL]

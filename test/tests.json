@@ -1,0 +1,10 @@
+{
+    "isl-swe-pending": {
+        "input": "isl-swe-pending-input.txt",
+        "mode": "isl-swe"
+    },
+    "swe-isl-pending": {
+        "input": "swe-isl-pending-input.txt",
+        "mode": "swe-isl"
+    }
+}

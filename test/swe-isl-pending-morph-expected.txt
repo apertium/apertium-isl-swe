@@ -1,0 +1,8 @@
+[LEQPOZUsUwjJ#0] ^Det/den<prn><dem><nt><sg>/han<prn><pers><subj><p3><nt><sg>/han<prn><pers><obj><p3><nt><sg>$ ^gamla/gammal<adj><pst><mfn><pl><ind>/gammal<adj><pst><mfn><sp><def>$ ^språket/språk<n><nt><sg><def><nom>$
+[/LEQPOZUsUwjJ]
+[V-pTylZyTOZe#0] ^Gammalt/gammal<adj><pst><nt><sg><ind>$ ^språk/språk<n><nt><sg><ind><nom>/språk<n><nt><pl><ind><nom>$
+[/V-pTylZyTOZe]
+[_UP4zSRW0vcY#0] ^Dag/Dag<np><ant><m><sg><nom>/dag<n><ut><sg><ind><nom>$
+[/_UP4zSRW0vcY]
+[oGxXmkOI1Zjv#0] ^Dagen/dag<n><ut><sg><def><nom>$
+[/oGxXmkOI1Zjv]

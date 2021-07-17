@@ -12,3 +12,5 @@
 /missing
 /modes
 /sv-is.mode
+/ap_include.am
+/test/*-output.txt
